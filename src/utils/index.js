@@ -2,11 +2,12 @@ import fs from "fs";
 import path from "path";
 
 import { BASE_URL } from "../constants/index.js";
+import { match } from "assert";
 
 export const getMatchIdList = async (browser, country, league) => {
   const page = await browser.newPage();
 
-  const url = `${BASE_URL}/football/${country}/${league}/results/`;
+  const url = `${BASE_URL}/basketball/${country}/${league}/results/`;
   await page.goto(url);
 
   while (true) {
@@ -26,19 +27,19 @@ export const getMatchIdList = async (browser, country, league) => {
     return Array.from(document.querySelectorAll(".event__match.event__match--static.event__match--twoLine"))
       .map(element => element?.id?.replace("g_1_", ""));
   });
-
   await page.close();
   return matchIdList;
 }
 
 export const getMatchData = async (browser, matchId) => {
-  const page = await browser.newPage();
-
-  const url = `${BASE_URL}/match/${matchId}/#/match-summary/match-statistics/0`;
+  const page = await browser.newPage();  
+  const prefix = "g_3_";
+  const startIndex = matchId.indexOf(prefix) + prefix.length;
+  const match = matchId.substring(startIndex);
+  const url = `${BASE_URL}/match/${match}/#/match-summary/match-summary`;
   await page.goto(url);
-
+  console.log(url)
   await new Promise(resolve => setTimeout(resolve, 1500));
-
   const data = await page.evaluate(async _ => ({
     date: document.querySelector(".duelParticipant__startTime")?.outerText,
     home: {
@@ -52,17 +53,21 @@ export const getMatchData = async (browser, matchId) => {
     result: {
       home: Array.from(document.querySelectorAll(".detailScore__wrapper span:not(.detailScore__divider)"))?.[0]?.outerText,
       away: Array.from(document.querySelectorAll(".detailScore__wrapper span:not(.detailScore__divider)"))?.[1]?.outerText,
-      penalty: document.querySelector(".detailScore__fullTime")?.textContent,
-      status: document.querySelector(".fixedHeaderDuel__detailStatus")?.outerText
     },
-    statistics: Array.from(document.querySelectorAll(".section > .stat__row > .stat__category"))
-      .map(element => ({
-        categoryName: element.querySelector(".stat__categoryName")?.outerText,
-        homeValue: element.querySelector(".stat__homeValue")?.outerText,
-        awayValue: element.querySelector(".stat__awayValue")?.outerText,
-      }))
+    totalLocal: Array.from(document.querySelectorAll(".smh__home.smh__part"))?.[0]?.outerText,
+    firstLocal: Array.from(document.querySelectorAll(".smh__home.smh__part"))?.[1]?.outerText,
+    secondLocal: Array.from(document.querySelectorAll(".smh__home.smh__part"))?.[2]?.outerText,
+    thirstLocal: Array.from(document.querySelectorAll(".smh__home.smh__part"))?.[3]?.outerText,
+    fourthLocal: Array.from(document.querySelectorAll(".smh__home.smh__part"))?.[4]?.outerText,
+    extraLocal: Array.from(document.querySelectorAll(".smh__home.smh__part"))?.[5]?.outerText,
+    totalAway: Array.from(document.querySelectorAll(".smh__away.smh__part"))?.[0]?.outerText,
+    firstAway: Array.from(document.querySelectorAll(".smh__away.smh__part"))?.[1]?.outerText,
+    secondAway: Array.from(document.querySelectorAll(".smh__away.smh__part"))?.[2]?.outerText,
+    thirstAway: Array.from(document.querySelectorAll(".smh__away.smh__part"))?.[3]?.outerText,
+    fourthAway: Array.from(document.querySelectorAll(".smh__away.smh__part"))?.[4]?.outerText,
+    extraAway: Array.from(document.querySelectorAll(".smh__away.smh__part"))?.[5]?.outerText
   }));
-
+  console.log(data)
   await page.close();
   return data;
 }

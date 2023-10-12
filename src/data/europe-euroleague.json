@@ -1,0 +1,245 @@
+{
+  "g_3_hlGoPnEG": {
+    "date": "06.10.2023 20:30",
+    "home": {
+      "name": "Baskonia",
+      "image": "https://static.flashscore.com/res/image/data/fcISR1Ca-hhuZJcqF.png"
+    },
+    "away": {
+      "name": "Real Madrid",
+      "image": "https://static.flashscore.com/res/image/data/GnbCKDYA-KWnL8vxn.png"
+    },
+    "result": {
+      "home": "77",
+      "away": "79"
+    },
+    "totalLocal": "77",
+    "firstLocal": "23",
+    "secondLocal": "24",
+    "thirstLocal": "20",
+    "fourthLocal": "10",
+    "extraLocal": "",
+    "totalAway": "79",
+    "firstAway": "19",
+    "secondAway": "24",
+    "thirstAway": "19",
+    "fourthAway": "17",
+    "extraAway": ""
+  },
+  "g_3_EcHsQSbA": {
+    "date": "06.10.2023 20:30",
+    "home": {
+      "name": "Valencia",
+      "image": "https://static.flashscore.com/res/image/data/UFmsOtyB-8WaC2y8l.png"
+    },
+    "away": {
+      "name": "Monaco",
+      "image": "https://static.flashscore.com/res/image/data/hbUp8LxS-f91ulBjI.png"
+    },
+    "result": {
+      "home": "70",
+      "away": "65"
+    },
+    "totalLocal": "70",
+    "firstLocal": "17",
+    "secondLocal": "22",
+    "thirstLocal": "14",
+    "fourthLocal": "17",
+    "extraLocal": "",
+    "totalAway": "65",
+    "firstAway": "20",
+    "secondAway": "18",
+    "thirstAway": "13",
+    "fourthAway": "14",
+    "extraAway": ""
+  },
+  "g_3_dMMxR8q4": {
+    "date": "06.10.2023 20:15",
+    "home": {
+      "name": "Panathinaikos",
+      "image": "https://static.flashscore.com/res/image/data/4dK8Z7jl-SE98aMUi.png"
+    },
+    "away": {
+      "name": "Olympiacos",
+      "image": "https://static.flashscore.com/res/image/data/fuhlT5Ca-EgUjHr7n.png"
+    },
+    "result": {
+      "home": "78",
+      "away": "88"
+    },
+    "totalLocal": "78",
+    "firstLocal": "22",
+    "secondLocal": "21",
+    "thirstLocal": "16",
+    "fourthLocal": "15",
+    "extraLocal": "4",
+    "totalAway": "88",
+    "firstAway": "23",
+    "secondAway": "13",
+    "thirstAway": "16",
+    "fourthAway": "22",
+    "extraAway": "14"
+  },
+  "g_3_IVNYRlUc": {
+    "date": "06.10.2023 19:45",
+    "home": {
+      "name": "Fenerbahce",
+      "image": "https://static.flashscore.com/res/image/data/zPhuZDil-4O6TfMXl.png"
+    },
+    "away": {
+      "name": "Olimpia Milano",
+      "image": "https://static.flashscore.com/res/image/data/CQ1DkOCr-xQ4mPAxG.png"
+    },
+    "result": {
+      "home": "85",
+      "away": "82"
+    },
+    "totalLocal": "85",
+    "firstLocal": "19",
+    "secondLocal": "19",
+    "thirstLocal": "24",
+    "fourthLocal": "14",
+    "extraLocal": "9",
+    "totalAway": "82",
+    "firstAway": "23",
+    "secondAway": "12",
+    "thirstAway": "19",
+    "fourthAway": "22",
+    "extraAway": "6"
+  },
+  "g_3_O8OUSUEi": {
+    "date": "05.10.2023 20:30",
+    "home": {
+      "name": "Barcelona",
+      "image": "https://static.flashscore.com/res/image/data/Sn90D8FG-AZCWGI9F.png"
+    },
+    "away": {
+      "name": "Anadolu Efes",
+      "image": "https://static.flashscore.com/res/image/data/tE8JYyWg-YyjX4CW6.png"
+    },
+    "result": {
+      "home": "91",
+      "away": "74"
+    },
+    "totalLocal": "91",
+    "firstLocal": "22",
+    "secondLocal": "18",
+    "thirstLocal": "29",
+    "fourthLocal": "22",
+    "extraLocal": "",
+    "totalAway": "74",
+    "firstAway": "19",
+    "secondAway": "15",
+    "thirstAway": "30",
+    "fourthAway": "10",
+    "extraAway": ""
+  },
+  "g_3_QN5RTAao": {
+    "date": "05.10.2023 20:30",
+    "home": {
+      "name": "Bayern",
+      "image": "https://static.flashscore.com/res/image/data/ARzGliCa-AkHY9JFE.png"
+    },
+    "away": {
+      "name": "Alba Berlin",
+      "image": "https://static.flashscore.com/res/image/data/IRGQYqjl-OUhI7EW1.png"
+    },
+    "result": {
+      "home": "80",
+      "away": "68"
+    },
+    "totalLocal": "80",
+    "firstLocal": "19",
+    "secondLocal": "17",
+    "thirstLocal": "25",
+    "fourthLocal": "19",
+    "extraLocal": "",
+    "totalAway": "68",
+    "firstAway": "17",
+    "secondAway": "27",
+    "thirstAway": "7",
+    "fourthAway": "17",
+    "extraAway": ""
+  },
+  "g_3_MkuoLIeo": {
+    "date": "05.10.2023 20:30",
+    "home": {
+      "name": "Virtus Bologna",
+      "image": "https://static.flashscore.com/res/image/data/8CYuAxf5-8nbIunjj.png"
+    },
+    "away": {
+      "name": "Zalgiris Kaunas",
+      "image": "https://static.flashscore.com/res/image/data/EZBBZBe5-Y3hfboXk.png"
+    },
+    "result": {
+      "home": "79",
+      "away": "82"
+    },
+    "totalLocal": "79",
+    "firstLocal": "23",
+    "secondLocal": "19",
+    "thirstLocal": "23",
+    "fourthLocal": "14",
+    "extraLocal": "",
+    "totalAway": "82",
+    "firstAway": "15",
+    "secondAway": "22",
+    "thirstAway": "21",
+    "fourthAway": "24",
+    "extraAway": ""
+  },
+  "g_3_KtgJPbmU": {
+    "date": "05.10.2023 20:05",
+    "home": {
+      "name": "Maccabi Tel Aviv",
+      "image": "https://static.flashscore.com/res/image/data/t8Wmy2yS-f9Tgtd9a.png"
+    },
+    "away": {
+      "name": "Partizan",
+      "image": "https://static.flashscore.com/res/image/data/l2NNbeGG-AJpa7i8t.png"
+    },
+    "result": {
+      "home": "96",
+      "away": "81"
+    },
+    "totalLocal": "96",
+    "firstLocal": "27",
+    "secondLocal": "28",
+    "thirstLocal": "19",
+    "fourthLocal": "22",
+    "extraLocal": "",
+    "totalAway": "81",
+    "firstAway": "16",
+    "secondAway": "27",
+    "thirstAway": "15",
+    "fourthAway": "23",
+    "extraAway": ""
+  },
+  "g_3_j7lFQvYN": {
+    "date": "05.10.2023 19:00",
+    "home": {
+      "name": "Crvena zvezda",
+      "image": "https://static.flashscore.com/res/image/data/WSo4tdf5-YwJ7p7q9.png"
+    },
+    "away": {
+      "name": "Lyon-Villeurbanne",
+      "image": "https://static.flashscore.com/res/image/data/dxEkBTEa-dE1HHY1q.png"
+    },
+    "result": {
+      "home": "94",
+      "away": "73"
+    },
+    "totalLocal": "94",
+    "firstLocal": "29",
+    "secondLocal": "23",
+    "thirstLocal": "17",
+    "fourthLocal": "25",
+    "extraLocal": "",
+    "totalAway": "73",
+    "firstAway": "18",
+    "secondAway": "13",
+    "thirstAway": "24",
+    "fourthAway": "18",
+    "extraAway": ""
+  }
+}
