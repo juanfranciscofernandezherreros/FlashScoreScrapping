@@ -84,6 +84,18 @@ export const getStatsPlayer = async (browser, matchId) => {
   await page.goto(url);
   await new Promise((resolve) => setTimeout(resolve, 1500));
 
+  const playerStatsHeaders = await page.evaluate(() => {
+    const headerCells = document.querySelectorAll(".playerStatsTable__headerCell");
+    const statHeaders = [];
+
+    headerCells.forEach((cell) => {
+      const statName = cell.textContent.trim();
+      statHeaders.push(statName);
+    });
+
+    return statHeaders;
+  });
+
   const playerData = await page.evaluate(() => {
     const playerRows = document.querySelectorAll("div.playerStatsTable__row");
     const playerData = [];
@@ -106,10 +118,10 @@ export const getStatsPlayer = async (browser, matchId) => {
   await page.close();
 
   return {
+    playerStatsHeaders,
     playerData,
   };
 };
-
 
 
 export const getStatsMatch = async (browser, matchId) => {

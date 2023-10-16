@@ -27,6 +27,29 @@
     "extraAway": ""
   },
   "statsPlayer": {
+    "playerStatsHeaders": [
+      "PTS",
+      "REB",
+      "AST",
+      "MIN",
+      "FGM",
+      "FGA",
+      "2PM",
+      "2PA",
+      "3PM",
+      "3PA",
+      "FTM",
+      "FTA",
+      "+/-",
+      "OR",
+      "DR",
+      "PF",
+      "ST",
+      "TO",
+      "BS",
+      "BA",
+      "TFS"
+    ],
     "playerData": [
       {
         "name": "Yabusele G.",
