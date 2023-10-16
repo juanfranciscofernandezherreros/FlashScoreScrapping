@@ -51,7 +51,7 @@ import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsM
       statsMatch: statsMatch,
       pointByPoint: pointByPoint,
     };
-    writeMatchData(combinedData, path, `${country}-${league}`)
+    writeMatchData(combinedData, path, `${matchId}-${country}-${league}`)
     progressBar.increment();
   }
 
