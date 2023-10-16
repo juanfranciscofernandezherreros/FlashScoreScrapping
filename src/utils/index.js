@@ -99,6 +99,45 @@ export const getStatsPlayer = async (browser, matchId) => {
   return data;
 }
 
+export const getStatsMatch = async (browser, matchId) => {
+  const page = await browser.newPage();  
+  const prefix = "g_3_";
+  const startIndex = matchId.indexOf(prefix) + prefix.length;
+  const match = matchId.substring(startIndex);
+  const url = `${BASE_URL}/match/${match}/#/match-summary/match-statistics/0`;
+  await page.goto(url);
+  console.log(url)
+  await new Promise(resolve => setTimeout(resolve, 1500));
+  const data = await page.evaluate(async _ => {
+    const elements = document.querySelectorAll("div[data-testid='wcl-statistics']");
+    const result = [];
+  
+    elements.forEach(element => {
+      const category = element.querySelector("div[data-testid='wcl-statistics-category']");
+      const homeValue = element.querySelector("div[data-testid='wcl-statistics-value']._homeValue_v26p1_10");
+      const awayValue = element.querySelector("div[data-testid='wcl-statistics-value']._awayValue_v26p1_14");
+  
+      const homeChart = element.querySelector("div[data-testid='wcl-statistics-chart-home']");
+      const awayChart = element.querySelector("div[data-testid='wcl-statistics-chart-away']");
+  
+      if (category && homeValue && awayValue && homeChart && awayChart) {
+        result.push({
+          category: category.textContent,
+          homeValue: homeValue.textContent,
+          awayValue: awayValue.textContent,
+          homeChartWidth: homeChart.style.width,
+          awayChartWidth: awayChart.style.width,
+        });
+      }
+    });
+  
+    return result;
+  });
+  console.log(data);
+  await page.close();
+  return data;
+}
+
 export const writeMatchData = (data, pathW, name) => {
   const jsonData = JSON.stringify(data, null, 2);
   const filePath = path.join(pathW, `${name}.json`);
