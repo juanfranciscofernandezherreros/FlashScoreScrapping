@@ -9,6 +9,8 @@ export const getMatchIdList = async (browser, country, league) => {
 
   const url = `${BASE_URL}/basketball/${country}/${league}/results/`;
   await page.goto(url);
+  
+
 
   while (true) {
     try {
@@ -27,6 +29,7 @@ export const getMatchIdList = async (browser, country, league) => {
     return Array.from(document.querySelectorAll(".event__match.event__match--static.event__match--twoLine"))
       .map(element => element?.id?.replace("g_1_", ""));
   });
+
   await page.close();
   return matchIdList;
 }
@@ -39,7 +42,9 @@ export const getMatchData = async (browser, matchId) => {
   const url = `${BASE_URL}/match/${match}/#/match-summary/match-summary`;
   await page.goto(url);
   console.log(url)
+
   await new Promise(resolve => setTimeout(resolve, 1500));
+
   const data = await page.evaluate(async _ => ({
     date: document.querySelector(".duelParticipant__startTime")?.outerText,
     home: {
@@ -67,7 +72,29 @@ export const getMatchData = async (browser, matchId) => {
     fourthAway: Array.from(document.querySelectorAll(".smh__away.smh__part"))?.[4]?.outerText,
     extraAway: Array.from(document.querySelectorAll(".smh__away.smh__part"))?.[5]?.outerText
   }));
+
   console.log(data)
+  await page.close();
+  return data;
+}
+
+export const getStatsPlayer = async (browser, matchId) => {
+  const page = await browser.newPage();  
+  const prefix = "g_3_";
+  const startIndex = matchId.indexOf(prefix) + prefix.length;
+  const match = matchId.substring(startIndex);
+  const url = `${BASE_URL}/match/${match}/#/match-summary/player-statistics/0`;
+  await page.goto(url);
+  console.log(url)
+  await new Promise(resolve => setTimeout(resolve, 1500));
+  const data = await page.evaluate(async _ => {
+    const elements = Array.from(document.querySelectorAll("div.playerStatsTable__cell"));
+    const result = {};
+    elements.forEach((element, index) => {
+      result[`element_${index}`] = element.outerText;
+    });
+    return result;
+  });
   await page.close();
   return data;
 }

@@ -139,3 +139,6 @@ This project works for users looking for reliable information about sports resul
 | `categoryName` | `string` | Name of the statistical category.             |
 | `homeValue`    | `string` | Value of the statistic for the home team.     |
 | `awayValue`    | `string` | Value of the statistic for the away team.     |
+
+
+npm run start country=europe league=euroleague headless
