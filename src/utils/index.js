@@ -75,24 +75,42 @@ export const getMatchData = async (browser, matchId) => {
 }
 
 export const getStatsPlayer = async (browser, matchId) => {
-  const page = await browser.newPage();  
+  const page = await browser.newPage();
   const prefix = "g_3_";
   const startIndex = matchId.indexOf(prefix) + prefix.length;
   const match = matchId.substring(startIndex);
   const url = `${BASE_URL}/match/${match}/#/match-summary/player-statistics/0`;
+  console.log(url);
   await page.goto(url);
-  await new Promise(resolve => setTimeout(resolve, 1500));
-  const data = await page.evaluate(async _ => {
-    const elements = Array.from(document.querySelectorAll("div.playerStatsTable__cell"));
-    const result = {};
-    elements.forEach((element, index) => {
-      result[`element_${index}`] = element.outerText;
+  await new Promise((resolve) => setTimeout(resolve, 1500));
+
+  const playerData = await page.evaluate(() => {
+    const playerRows = document.querySelectorAll("div.playerStatsTable__row");
+    const playerData = [];
+
+    playerRows.forEach((row) => {
+      const playerName = row.querySelector("a[href*='/player/']").textContent;
+      const playerStats = Array.from(row.querySelectorAll("div.playerStatsTable__cell")).map((element) =>
+        element.textContent.trim()
+      );
+
+      playerData.push({
+        name: playerName,
+        stats: playerStats,
+      });
     });
-    return result;
+
+    return playerData;
   });
+
   await page.close();
-  return data;
-}
+
+  return {
+    playerData,
+  };
+};
+
+
 
 export const getStatsMatch = async (browser, matchId) => {
   const page = await browser.newPage();  
