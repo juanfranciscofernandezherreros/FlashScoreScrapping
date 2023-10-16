@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 import cliProgress from 'cli-progress';
 
-import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsMatch } from "./utils/index.js";
+import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsMatch, getPointByPoint } from "./utils/index.js";
 
 (async () => {
   let country = null
@@ -43,10 +43,15 @@ import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsM
     const matchData = await getMatchData(browser, matchId);
     const statsPlayer = await getStatsPlayer(browser, matchId);
     const statsMatch = await getStatsMatch(browser, matchId);
-    /*data[matchId] = matchData;*/
-    /*data[matchId] = statsPlayer;*/
-    data[matchId] = statsMatch;
-    writeMatchData(data, path, `${country}-${league}`)
+    const pointByPoint = await getPointByPoint(browser, matchId);
+
+    const combinedData = {
+      matchData: matchData,
+      statsPlayer: statsPlayer, 
+      statsMatch: statsMatch,
+      pointByPoint: pointByPoint,
+    };
+    writeMatchData(combinedData, path, `${country}-${league}`)
     progressBar.increment();
   }
 

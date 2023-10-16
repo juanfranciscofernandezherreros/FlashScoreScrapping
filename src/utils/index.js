@@ -41,8 +41,6 @@ export const getMatchData = async (browser, matchId) => {
   const match = matchId.substring(startIndex);
   const url = `${BASE_URL}/match/${match}/#/match-summary/match-summary`;
   await page.goto(url);
-  console.log(url)
-
   await new Promise(resolve => setTimeout(resolve, 1500));
 
   const data = await page.evaluate(async _ => ({
@@ -72,8 +70,6 @@ export const getMatchData = async (browser, matchId) => {
     fourthAway: Array.from(document.querySelectorAll(".smh__away.smh__part"))?.[4]?.outerText,
     extraAway: Array.from(document.querySelectorAll(".smh__away.smh__part"))?.[5]?.outerText
   }));
-
-  console.log(data)
   await page.close();
   return data;
 }
@@ -85,7 +81,6 @@ export const getStatsPlayer = async (browser, matchId) => {
   const match = matchId.substring(startIndex);
   const url = `${BASE_URL}/match/${match}/#/match-summary/player-statistics/0`;
   await page.goto(url);
-  console.log(url)
   await new Promise(resolve => setTimeout(resolve, 1500));
   const data = await page.evaluate(async _ => {
     const elements = Array.from(document.querySelectorAll("div.playerStatsTable__cell"));
@@ -106,7 +101,6 @@ export const getStatsMatch = async (browser, matchId) => {
   const match = matchId.substring(startIndex);
   const url = `${BASE_URL}/match/${match}/#/match-summary/match-statistics/0`;
   await page.goto(url);
-  console.log(url)
   await new Promise(resolve => setTimeout(resolve, 1500));
   const data = await page.evaluate(async _ => {
     const elements = document.querySelectorAll("div[data-testid='wcl-statistics']");
@@ -133,10 +127,37 @@ export const getStatsMatch = async (browser, matchId) => {
   
     return result;
   });
-  console.log(data);
   await page.close();
   return data;
 }
+
+export const getPointByPoint = async (browser, matchId) => {
+  const page = await browser.newPage();
+  const prefix = "g_3_";
+  const startIndex = matchId.indexOf(prefix) + prefix.length;
+  const match = matchId.substring(startIndex);
+  const url = `${BASE_URL}/match/${match}/#/match-summary/point-by-point/0`;
+  await page.goto(url);
+  await new Promise(resolve => setTimeout(resolve, 1500));
+  // Use page.evaluate to interact with the page and extract data.
+   const matchHistoryRows = await page.evaluate(() => {
+    const rows = document.querySelectorAll('.matchHistoryRow');
+    const matchHistory = [];
+
+    rows.forEach((row) => {
+      const homeScore = row.querySelector('.matchHistoryRow__scoreBox .matchHistoryRow__bold').textContent.trim();
+      const awayScore = row.querySelector('.matchHistoryRow__scoreBox .matchHistoryRow__score').textContent.trim();
+
+      matchHistory.push({ homeScore, awayScore });
+    });
+
+    return matchHistory;
+  });
+
+  console.log(matchHistoryRows);
+  return matchHistoryRows;
+};
+
 
 export const writeMatchData = (data, pathW, name) => {
   const jsonData = JSON.stringify(data, null, 2);
