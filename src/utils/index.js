@@ -84,21 +84,17 @@ export const getStatsPlayer = async (browser, matchId) => {
   await page.goto(url);
   await new Promise((resolve) => setTimeout(resolve, 1500));
 
-  const playerStatsHeaders = await page.evaluate(() => {
-    const headerCells = document.querySelectorAll(".playerStatsTable__headerCell");
-    const statHeaders = ["TEAM"]; // Agregar "TEAM" como primer encabezado
-
-    headerCells.forEach((cell) => {
-      const statName = cell.textContent.trim();
-      statHeaders.push(statName);
-    });
-
-    return statHeaders;
-  });
-
   const playerData = await page.evaluate(() => {
     const playerRows = document.querySelectorAll("div.playerStatsTable__row");
     const playerData = [];
+
+    const headerCells = document.querySelectorAll(".playerStatsTable__headerCell");
+    const statHeaders = [];
+
+    statHeaders.push("TEAM");
+    headerCells.forEach((cell) => {      
+      statHeaders.push(cell.textContent.trim());
+    });
 
     playerRows.forEach((row) => {
       const playerName = row.querySelector("a[href*='/player/']").textContent;
@@ -106,26 +102,25 @@ export const getStatsPlayer = async (browser, matchId) => {
         element.textContent.trim()
       );
 
+      // Crear un objeto con todas las estadísticas del jugador
+      const playerStatsObject = {};
+
+      // Recorrer todas las estadísticas y agregarlas al objeto
+      statHeaders.forEach((header, index) => {
+        playerStatsObject[header] = playerStats[index];
+      });
+
       playerData.push({
         name: playerName,
-        stats: playerStats,
+        stats: playerStatsObject,
       });
     });
 
     return playerData;
   });
 
-  // Remover el encabezado "TEAM" de las estadísticas de los jugadores
-  playerStatsHeaders.shift();
-
-  await page.close();
-
-  return {
-    playerStatsHeaders,
-    playerData,
-  };
+  return playerData;
 };
-
 
 export const getStatsMatch = async (browser, matchId) => {
   const page = await browser.newPage();  
