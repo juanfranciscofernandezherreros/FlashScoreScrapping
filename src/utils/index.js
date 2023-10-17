@@ -86,7 +86,7 @@ export const getStatsPlayer = async (browser, matchId) => {
 
   const playerStatsHeaders = await page.evaluate(() => {
     const headerCells = document.querySelectorAll(".playerStatsTable__headerCell");
-    const statHeaders = [];
+    const statHeaders = ["TEAM"]; // Agregar "TEAM" como primer encabezado
 
     headerCells.forEach((cell) => {
       const statName = cell.textContent.trim();
@@ -114,6 +114,9 @@ export const getStatsPlayer = async (browser, matchId) => {
 
     return playerData;
   });
+
+  // Remover el encabezado "TEAM" de las estadísticas de los jugadores
+  playerStatsHeaders.shift();
 
   await page.close();
 
