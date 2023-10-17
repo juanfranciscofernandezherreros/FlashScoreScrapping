@@ -80,10 +80,8 @@ export const getStatsPlayer = async (browser, matchId) => {
   const startIndex = matchId.indexOf(prefix) + prefix.length;
   const match = matchId.substring(startIndex);
   const url = `${BASE_URL}/match/${match}/#/match-summary/player-statistics/0`;
-  console.log(url);
   await page.goto(url);
   await new Promise((resolve) => setTimeout(resolve, 1500));
-
   const playerData = await page.evaluate(() => {
     const playerRows = document.querySelectorAll("div.playerStatsTable__row");
     const playerData = [];
@@ -122,13 +120,14 @@ export const getStatsPlayer = async (browser, matchId) => {
   return playerData;
 };
 
-export const getStatsMatch = async (browser, matchId) => {
+export const getStatsMatch = async (browser, matchId, playerIndex) => {
   const page = await browser.newPage();  
   const prefix = "g_3_";
   const startIndex = matchId.indexOf(prefix) + prefix.length;
   const match = matchId.substring(startIndex);
-  const url = `${BASE_URL}/match/${match}/#/match-summary/match-statistics/0`;
+  const url = `${BASE_URL}/match/${match}/#/match-summary/match-statistics/${playerIndex}`;
   await page.goto(url);
+  console.log(url);
   await new Promise(resolve => setTimeout(resolve, 1500));
   const data = await page.evaluate(async _ => {
     const elements = document.querySelectorAll("div[data-testid='wcl-statistics']");
@@ -181,8 +180,6 @@ export const getPointByPoint = async (browser, matchId) => {
 
     return matchHistory;
   });
-
-  console.log(matchHistoryRows);
   return matchHistoryRows;
 };
 

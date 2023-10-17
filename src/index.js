@@ -42,13 +42,22 @@ import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsM
   for (const matchId of matchIdList) {
     const matchData = await getMatchData(browser, matchId);
     const statsPlayer = await getStatsPlayer(browser, matchId);
-    const statsMatch = await getStatsMatch(browser, matchId);
+    const statsMatch_all = await getStatsMatch(browser, matchId,0);
+    const statsMatch_first = await getStatsMatch(browser, matchId,1);
+    const statsMatch_second = await getStatsMatch(browser, matchId,2);
+    const statsMtach_thirst = await getStatsMatch(browser, matchId,3);
+    const statsMtach_four = await getStatsMatch(browser, matchId,4);
+    const statsMtach_extra = await getStatsMatch(browser, matchId,5);
+
     const pointByPoint = await getPointByPoint(browser, matchId);
 
     const combinedData = {
       matchData: matchData,
       statsPlayer: statsPlayer, 
-      statsMatch: statsMatch,
+      statsMatch_all: statsMatch_all,
+      statsMatch_first: statsMatch_first,
+      statsMatch_second: statsMatch_second,
+      statsMtach_thirst: statsMtach_thirst,
       pointByPoint: pointByPoint,
     };
     writeMatchData(combinedData, path, `${matchId}-${country}-${league}`)
