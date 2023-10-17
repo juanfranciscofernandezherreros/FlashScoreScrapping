@@ -9,8 +9,6 @@ export const getMatchIdList = async (browser, country, league) => {
 
   const url = `${BASE_URL}/basketball/${country}/${league}/results/`;
   await page.goto(url);
-  
-
 
   while (true) {
     try {
@@ -127,7 +125,6 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
   const match = matchId.substring(startIndex);
   const url = `${BASE_URL}/match/${match}/#/match-summary/match-statistics/${playerIndex}`;
   await page.goto(url);
-  console.log(url);
   await new Promise(resolve => setTimeout(resolve, 1500));
   const data = await page.evaluate(async _ => {
     const elements = document.querySelectorAll("div[data-testid='wcl-statistics']");
@@ -158,13 +155,14 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
   return data;
 }
 
-export const getPointByPoint = async (browser, matchId) => {
+export const getPointByPoint = async (browser, matchId,playerIndex) => {
   const page = await browser.newPage();
   const prefix = "g_3_";
   const startIndex = matchId.indexOf(prefix) + prefix.length;
   const match = matchId.substring(startIndex);
-  const url = `${BASE_URL}/match/${match}/#/match-summary/point-by-point/0`;
+  const url = `${BASE_URL}/match/${match}/#/match-summary/point-by-point/${playerIndex}`;
   await page.goto(url);
+  console.log(url);
   await new Promise(resolve => setTimeout(resolve, 1500));
   // Use page.evaluate to interact with the page and extract data.
    const matchHistoryRows = await page.evaluate(() => {
@@ -172,10 +170,8 @@ export const getPointByPoint = async (browser, matchId) => {
     const matchHistory = [];
 
     rows.forEach((row) => {
-      const homeScore = row.querySelector('.matchHistoryRow__scoreBox .matchHistoryRow__bold').textContent.trim();
-      const awayScore = row.querySelector('.matchHistoryRow__scoreBox .matchHistoryRow__score').textContent.trim();
-
-      matchHistory.push({ homeScore, awayScore });
+      const score = row.querySelector('.matchHistoryRow__scoreBox').textContent.trim();
+      matchHistory.push({ score });
     });
 
     return matchHistory;

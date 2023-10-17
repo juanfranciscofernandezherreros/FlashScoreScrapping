@@ -47,9 +47,12 @@ import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsM
     const statsMatch_second = await getStatsMatch(browser, matchId,2);
     const statsMtach_thirst = await getStatsMatch(browser, matchId,3);
     const statsMtach_four = await getStatsMatch(browser, matchId,4);
-    const statsMtach_extra = await getStatsMatch(browser, matchId,5);
-
-    const pointByPoint = await getPointByPoint(browser, matchId);
+    /*const statsMtach_extra = await getStatsMatch(browser, matchId,5);*/
+    const pointByPoint = await getPointByPoint(browser, matchId,0);
+    const pointByPoint_first = await getPointByPoint(browser, matchId,1);
+    const pointByPoint_second = await getPointByPoint(browser, matchId,2);
+    const pointByPoint_thirst = await getPointByPoint(browser, matchId,3);
+    /*const pointByPoint_four = await getPointByPoint(browser, matchId,4);*/
 
     const combinedData = {
       matchData: matchData,
@@ -58,7 +61,13 @@ import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsM
       statsMatch_first: statsMatch_first,
       statsMatch_second: statsMatch_second,
       statsMtach_thirst: statsMtach_thirst,
+      statsMtach_four: statsMtach_four,
+      /*statsMtach_extra: statsMtach_extra,*/
       pointByPoint: pointByPoint,
+      pointByPoint_first: pointByPoint_first,
+      pointByPoint_second: pointByPoint_second,
+      pointByPoint_thirst: pointByPoint_thirst,
+      /*pointByPoint_four: pointByPoint_four,*/
     };
     writeMatchData(combinedData, path, `${matchId}-${country}-${league}`)
     progressBar.increment();
