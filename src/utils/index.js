@@ -162,7 +162,6 @@ export const getPointByPoint = async (browser, matchId,playerIndex) => {
   const match = matchId.substring(startIndex);
   const url = `${BASE_URL}/match/${match}/#/match-summary/point-by-point/${playerIndex}`;
   await page.goto(url);
-  console.log(url);
   await new Promise(resolve => setTimeout(resolve, 1500));
   // Use page.evaluate to interact with the page and extract data.
    const matchHistoryRows = await page.evaluate(() => {
