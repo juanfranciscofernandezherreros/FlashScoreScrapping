@@ -140,5 +140,6 @@ This project works for users looking for reliable information about sports resul
 | `homeValue`    | `string` | Value of the statistic for the home team.     |
 | `awayValue`    | `string` | Value of the statistic for the away team.     |
 
+npm run start country=europe league=euroleague-2015-2016 headless
 
 npm run start country=europe league=euroleague headless

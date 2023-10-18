@@ -178,7 +178,6 @@ export const getPointByPoint = async (browser, matchId,playerIndex) => {
   return matchHistoryRows;
 };
 
-
 export const writeMatchData = (data, pathW, name) => {
   const jsonData = JSON.stringify(data, null, 2);
   const filePath = path.join(pathW, `${name}.json`);
@@ -194,4 +193,19 @@ export const writeMatchData = (data, pathW, name) => {
       });
     }
   });
+}
+
+export const existData = (matchIdLists, pathW,league) => {
+  for (const matchId of matchIdLists) {
+    // Crea el nombre del archivo JSON basado en el ID
+    const jsonFileName = `${matchId}-${league}.json`;
+    const jsonFilePath = path.join(pathW, jsonFileName);   
+    if (fs.existsSync(jsonFilePath)) {
+      console.log(`El archivo ${jsonFileName} existe para el ID ${matchId}`);
+      // Realiza aquí las acciones que deseas con el archivo JSON si existe
+    } else {
+      console.log(`El archivo ${jsonFileName} no existe para el ID ${matchId}`);
+    }
+  }
+
 }
