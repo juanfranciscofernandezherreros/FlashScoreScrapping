@@ -32,6 +32,64 @@ export const getMatchIdList = async (browser, country, league) => {
   return matchIdList;
 }
 
+export const getFixtures = async (browser, country, league) => {
+  const page = await browser.newPage();
+
+  const url = `${BASE_URL}/basketball/${country}/${league}/fixtures/`;
+  await page.goto(url);
+
+  while (true) {
+    try {
+      await page.evaluate(async () => {
+        await new Promise(resolve => setTimeout(resolve, 1500));
+        const element = document.querySelector('a.event__more.event__more--static');
+        element.scrollIntoView();
+        element.click();
+      });
+    } catch (error) {
+      break;
+    }
+  }
+
+  const matchIdList = await page.evaluate(() => {
+    return Array.from(document.querySelectorAll(".event__match--static"))
+      .map(element => element?.id?.replace("g_1_", ""));
+  });
+
+  // Use Puppeteer to extract the event__time values
+  const eventTimes = await page.evaluate(() => {
+    const eventTimeElements = Array.from(document.querySelectorAll('.event__time'));
+    return eventTimeElements.map(element => element.textContent);
+  });
+
+  // Use Puppeteer to extract the event__time values
+  const eventHome = await page.evaluate(() => {
+    const eventTimeElements = Array.from(document.querySelectorAll('.event__participant--home'));
+    return eventTimeElements.map(element => element.textContent);
+  });
+
+  // Use Puppeteer to extract the event__time values
+  const eventAway = await page.evaluate(() => {
+    const eventTimeElements = Array.from(document.querySelectorAll('.event__participant--away'));
+    return eventTimeElements.map(element => element.textContent);
+  });
+
+  await page.close();
+
+  // Combina todas las listas en un solo array
+  const combinedData = [];
+  for (let i = 0; i < matchIdList.length; i++) {
+    combinedData.push({
+      matchId: matchIdList[i],
+      eventTime: eventTimes[i],
+      homeTeam: eventHome[i],
+      awayTeam: eventAway[i],
+    });
+  }
+
+  return combinedData;
+};
+
 export const getMatchData = async (browser, matchId) => {
   const page = await browser.newPage();  
   const prefix = "g_3_";
@@ -105,7 +163,6 @@ export const getStatsPlayer = async (browser, matchId) => {
         playerStatsObject[header] = playerStats[index];
       });
 
-      console.log(statHeaders["stats"]);
 
       playerData.push({
         name: playerName,

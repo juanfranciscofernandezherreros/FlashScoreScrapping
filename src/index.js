@@ -1,14 +1,14 @@
 import puppeteer from "puppeteer";
 import cliProgress from 'cli-progress';
 
-import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsMatch, getPointByPoint, existData } from "./utils/index.js";
+import { getMatchIdList, getFixtures, getMatchData, writeMatchData, getStatsPlayer, getStatsMatch, getPointByPoint, existData } from "./utils/index.js";
 
 (async () => {
   let country = null
   let league = null
   let headless = false
   let path = "./src/data"
-
+  let pathfixtures = "./src/data-fixtures"
   process.argv?.slice(2)?.map(arg => {
     if (arg.includes("country="))
       country = arg.split("country=")?.[1] ?? country;
@@ -29,6 +29,7 @@ import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsM
   const browser = await puppeteer.launch({ headless });
 
   const matchIdList = await getMatchIdList(browser, country, league);
+  
   let totalIds = matchIdList.length;
   const matchIds = existData(matchIdList, path, `${country}-${league}`);
   const progressBar = new cliProgress.SingleBar({
@@ -37,9 +38,13 @@ import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsM
     barIncompleteChar: '\u2591',
     hideCursor: true
   });
-  progressBar.start(matchIds.length, 0);
-  const data = {}
-  for (const matchId of matchIds) {
+  progressBar.start(matchIds.length, 0);  
+
+  // Obtener los datos de combinedData
+  const combinedData = await getFixtures(browser, country, league);
+  writeMatchData(combinedData, path, `calendar-${country}-${league}`)
+
+  /*for (const matchId of matchIds) {
     const matchData = await getMatchData(browser, matchId);
     const statsPlayer = await getStatsPlayer(browser, matchId);
     const statsMatch_all = await getStatsMatch(browser, matchId,0);
@@ -75,7 +80,7 @@ import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsM
     };
     writeMatchData(combinedData, path, `${matchId}-${country}-${league}`)
     progressBar.increment();
-  }
+  }*/
 
   progressBar.stop();
 
