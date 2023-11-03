@@ -1,0 +1,1734 @@
+{
+  "matchData": {
+    "date": "20.10.2023 20:15",
+    "home": {
+      "name": "Panathinaikos",
+      "image": "https://static.flashscore.com/res/image/data/4dK8Z7jl-SE98aMUi.png"
+    },
+    "away": {
+      "name": "Maccabi Tel Aviv",
+      "image": "https://static.flashscore.com/res/image/data/t8Wmy2yS-f9Tgtd9a.png"
+    },
+    "result": {
+      "home": "81",
+      "away": "86"
+    },
+    "totalLocal": "81",
+    "firstLocal": "15",
+    "secondLocal": "9",
+    "thirstLocal": "25",
+    "fourthLocal": "23",
+    "extraLocal": "9",
+    "totalAway": "86",
+    "firstAway": "20",
+    "secondAway": "19",
+    "thirstAway": "18",
+    "fourthAway": "15",
+    "extraAway": "14"
+  },
+  "statsPlayer": [
+    {
+      "name": "Colson B.",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "21",
+        "REB": "8",
+        "AST": "-",
+        "MIN": "35:58",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "7",
+        "2PA": "11",
+        "3PM": "1",
+        "3PA": "5",
+        "FTM": "4",
+        "FTA": "4",
+        "+/-": "-",
+        "OR": "2",
+        "DR": "6",
+        "PF": "2",
+        "ST": "2",
+        "TO": "1",
+        "BS": "-",
+        "BA": "1",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Dibartolomeo J.",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "15",
+        "REB": "9",
+        "AST": "3",
+        "MIN": "26:03",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "-",
+        "2PA": "2",
+        "3PM": "5",
+        "3PA": "7",
+        "FTM": "-",
+        "FTA": "-",
+        "+/-": "-1",
+        "OR": "2",
+        "DR": "7",
+        "PF": "5",
+        "ST": "1",
+        "TO": "3",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Vildoza L.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "15",
+        "REB": "3",
+        "AST": "4",
+        "MIN": "27:48",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "1",
+        "2PA": "1",
+        "3PM": "4",
+        "3PA": "8",
+        "FTM": "1",
+        "FTA": "1",
+        "+/-": "-9",
+        "OR": "1",
+        "DR": "2",
+        "PF": "-",
+        "ST": "3",
+        "TO": "5",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Grigonis M.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "13",
+        "REB": "5",
+        "AST": "-",
+        "MIN": "34:25",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "2",
+        "2PA": "3",
+        "3PM": "3",
+        "3PA": "7",
+        "FTM": "-",
+        "FTA": "-",
+        "+/-": "6",
+        "OR": "-",
+        "DR": "5",
+        "PF": "4",
+        "ST": "-",
+        "TO": "-",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Blatt T.",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "12",
+        "REB": "1",
+        "AST": "4",
+        "MIN": "22:24",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "-",
+        "2PA": "-",
+        "3PM": "3",
+        "3PA": "5",
+        "FTM": "3",
+        "FTA": "3",
+        "+/-": "2",
+        "OR": "-",
+        "DR": "1",
+        "PF": "3",
+        "ST": "3",
+        "TO": "2",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Brown L.",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "12",
+        "REB": "3",
+        "AST": "12",
+        "MIN": "36:28",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "3",
+        "2PA": "6",
+        "3PM": "1",
+        "3PA": "7",
+        "FTM": "3",
+        "FTA": "3",
+        "+/-": "4",
+        "OR": "-",
+        "DR": "3",
+        "PF": "3",
+        "ST": "5",
+        "TO": "5",
+        "BS": "-",
+        "BA": "1",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Lessort M.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "12",
+        "REB": "4",
+        "AST": "-",
+        "MIN": "24:03",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "3",
+        "2PA": "8",
+        "3PM": "-",
+        "3PA": "-",
+        "FTM": "6",
+        "FTA": "10",
+        "+/-": "-2",
+        "OR": "2",
+        "DR": "2",
+        "PF": "2",
+        "ST": "2",
+        "TO": "3",
+        "BS": "1",
+        "BA": "1",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Nebo J.",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "12",
+        "REB": "8",
+        "AST": "-",
+        "MIN": "28:50",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "5",
+        "2PA": "9",
+        "3PM": "-",
+        "3PA": "-",
+        "FTM": "2",
+        "FTA": "4",
+        "+/-": "9",
+        "OR": "2",
+        "DR": "6",
+        "PF": "1",
+        "ST": "-",
+        "TO": "2",
+        "BS": "1",
+        "BA": "2",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Mitoglou K.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "11",
+        "REB": "5",
+        "AST": "-",
+        "MIN": "26:04",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "3",
+        "2PA": "6",
+        "3PM": "1",
+        "3PA": "2",
+        "FTM": "2",
+        "FTA": "4",
+        "+/-": "8",
+        "OR": "2",
+        "DR": "3",
+        "PF": "3",
+        "ST": "1",
+        "TO": "-",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Antetokounmpo K.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "10",
+        "REB": "1",
+        "AST": "-",
+        "MIN": "12:29",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "3",
+        "2PA": "4",
+        "3PM": "-",
+        "3PA": "-",
+        "FTM": "4",
+        "FTA": "6",
+        "+/-": "-2",
+        "OR": "-",
+        "DR": "1",
+        "PF": "2",
+        "ST": "1",
+        "TO": "1",
+        "BS": "3",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Sloukas K.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "9",
+        "REB": "5",
+        "AST": "8",
+        "MIN": "32:08",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "1",
+        "2PA": "5",
+        "3PM": "1",
+        "3PA": "6",
+        "FTM": "4",
+        "FTA": "7",
+        "+/-": "-6",
+        "OR": "-",
+        "DR": "5",
+        "PF": "1",
+        "ST": "2",
+        "TO": "2",
+        "BS": "-",
+        "BA": "2",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Grant J.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "8",
+        "REB": "3",
+        "AST": "1",
+        "MIN": "21:16",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "1",
+        "2PA": "2",
+        "3PM": "1",
+        "3PA": "1",
+        "FTM": "3",
+        "FTA": "3",
+        "+/-": "1",
+        "OR": "-",
+        "DR": "3",
+        "PF": "2",
+        "ST": "2",
+        "TO": "1",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Cleveland A.",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "7",
+        "REB": "2",
+        "AST": "1",
+        "MIN": "15:13",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "3",
+        "2PA": "4",
+        "3PM": "-",
+        "3PA": "-",
+        "FTM": "1",
+        "FTA": "2",
+        "+/-": "7",
+        "OR": "1",
+        "DR": "1",
+        "PF": "4",
+        "ST": "1",
+        "TO": "-",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Sorkin R.",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "4",
+        "REB": "3",
+        "AST": "-",
+        "MIN": "14:36",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "2",
+        "2PA": "5",
+        "3PM": "-",
+        "3PA": "1",
+        "FTM": "-",
+        "FTA": "2",
+        "+/-": "-8",
+        "OR": "2",
+        "DR": "1",
+        "PF": "3",
+        "ST": "-",
+        "TO": "3",
+        "BS": "1",
+        "BA": "1",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Cohen J.",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "3",
+        "REB": "2",
+        "AST": "1",
+        "MIN": "18:02",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "-",
+        "2PA": "-",
+        "3PM": "1",
+        "3PA": "3",
+        "FTM": "-",
+        "FTA": "-",
+        "+/-": "-",
+        "OR": "1",
+        "DR": "1",
+        "PF": "3",
+        "ST": "-",
+        "TO": "-",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Kalaitzakis P.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "2",
+        "REB": "-",
+        "AST": "1",
+        "MIN": "09:42",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "1",
+        "2PA": "1",
+        "3PM": "-",
+        "3PA": "-",
+        "FTM": "-",
+        "FTA": "-",
+        "+/-": "5",
+        "OR": "-",
+        "DR": "-",
+        "PF": "1",
+        "ST": "2",
+        "TO": "-",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Hernangomez J.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "1",
+        "REB": "4",
+        "AST": "2",
+        "MIN": "14:43",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "-",
+        "2PA": "1",
+        "3PM": "-",
+        "3PA": "3",
+        "FTM": "1",
+        "FTA": "2",
+        "+/-": "-11",
+        "OR": "2",
+        "DR": "2",
+        "PF": "-",
+        "ST": "-",
+        "TO": "2",
+        "BS": "1",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Balcerowski A.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "-",
+        "REB": "1",
+        "AST": "-",
+        "MIN": "08:29",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "-",
+        "2PA": "1",
+        "3PM": "-",
+        "3PA": "-",
+        "FTM": "-",
+        "FTA": "-",
+        "+/-": "-1",
+        "OR": "1",
+        "DR": "-",
+        "PF": "1",
+        "ST": "-",
+        "TO": "1",
+        "BS": "1",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Guy K.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "-",
+        "REB": "-",
+        "AST": "2",
+        "MIN": "05:34",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "-",
+        "2PA": "-",
+        "3PM": "-",
+        "3PA": "1",
+        "FTM": "-",
+        "FTA": "-",
+        "+/-": "-6",
+        "OR": "-",
+        "DR": "-",
+        "PF": "1",
+        "ST": "-",
+        "TO": "1",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Mantzoukas L.",
+      "stats": {
+        "TEAM": "PAT",
+        "PTS": "-",
+        "REB": "3",
+        "AST": "-",
+        "MIN": "08:19",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "-",
+        "2PA": "-",
+        "3PM": "-",
+        "3PA": "1",
+        "FTM": "-",
+        "FTA": "-",
+        "+/-": "-8",
+        "OR": "2",
+        "DR": "1",
+        "PF": "1",
+        "ST": "-",
+        "TO": "-",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Menco R.",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "-",
+        "REB": "1",
+        "AST": "-",
+        "MIN": "06:47",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "-",
+        "2PA": "-",
+        "3PM": "-",
+        "3PA": "-",
+        "FTM": "-",
+        "FTA": "-",
+        "+/-": "2",
+        "OR": "-",
+        "DR": "1",
+        "PF": "2",
+        "ST": "-",
+        "TO": "1",
+        "BS": "1",
+        "BA": "-",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Rivero J.",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "-",
+        "REB": "2",
+        "AST": "3",
+        "MIN": "15:53",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "-",
+        "2PA": "3",
+        "3PM": "-",
+        "3PA": "-",
+        "FTM": "-",
+        "FTA": "-",
+        "+/-": "5",
+        "OR": "1",
+        "DR": "1",
+        "PF": "2",
+        "ST": "1",
+        "TO": "1",
+        "BS": "-",
+        "BA": "1",
+        "TFS": "-"
+      }
+    },
+    {
+      "name": "Webb J. III",
+      "stats": {
+        "TEAM": "MAC",
+        "PTS": "-",
+        "REB": "-",
+        "AST": "-",
+        "MIN": "04:46",
+        "FGM": "-",
+        "FGA": "-",
+        "2PM": "-",
+        "2PA": "-",
+        "3PM": "-",
+        "3PA": "-",
+        "FTM": "-",
+        "FTA": "-",
+        "+/-": "5",
+        "OR": "-",
+        "DR": "-",
+        "PF": "1",
+        "ST": "-",
+        "TO": "-",
+        "BS": "-",
+        "BA": "-",
+        "TFS": "-"
+      }
+    }
+  ],
+  "statsMatch_all": [
+    {
+      "category": "Field Goals Attempted ",
+      "homeValue": "61",
+      "awayValue": "68",
+      "homeChartWidth": "47%",
+      "awayChartWidth": "53%"
+    },
+    {
+      "category": "Field Goals Made ",
+      "homeValue": "25",
+      "awayValue": "31",
+      "homeChartWidth": "44%",
+      "awayChartWidth": "56%"
+    },
+    {
+      "category": "Field Goals % ",
+      "homeValue": "41%",
+      "awayValue": "45.6%",
+      "homeChartWidth": "47%",
+      "awayChartWidth": "53%"
+    },
+    {
+      "category": "2-Point Field G. Attempted ",
+      "homeValue": "32",
+      "awayValue": "40",
+      "homeChartWidth": "44%",
+      "awayChartWidth": "56%"
+    },
+    {
+      "category": "2-Point Field Goals Made ",
+      "homeValue": "15",
+      "awayValue": "20",
+      "homeChartWidth": "42%",
+      "awayChartWidth": "58%"
+    },
+    {
+      "category": "2-Point Field Goals % ",
+      "homeValue": "46.9%",
+      "awayValue": "50%",
+      "homeChartWidth": "48%",
+      "awayChartWidth": "52%"
+    },
+    {
+      "category": "3-Point Field G. Attempted ",
+      "homeValue": "29",
+      "awayValue": "28",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "3-Point Field Goals Made ",
+      "homeValue": "10",
+      "awayValue": "11",
+      "homeChartWidth": "47%",
+      "awayChartWidth": "53%"
+    },
+    {
+      "category": "3-Point Field Goals % ",
+      "homeValue": "34.5%",
+      "awayValue": "39.3%",
+      "homeChartWidth": "46%",
+      "awayChartWidth": "54%"
+    },
+    {
+      "category": "Free Throws Attempted ",
+      "homeValue": "33",
+      "awayValue": "18",
+      "homeChartWidth": "64%",
+      "awayChartWidth": "36%"
+    },
+    {
+      "category": "Free Throws Made ",
+      "homeValue": "21",
+      "awayValue": "13",
+      "homeChartWidth": "61%",
+      "awayChartWidth": "39%"
+    },
+    {
+      "category": "Free Throws % ",
+      "homeValue": "63.6%",
+      "awayValue": "72.2%",
+      "homeChartWidth": "46%",
+      "awayChartWidth": "54%"
+    },
+    {
+      "category": "Offensive Rebounds ",
+      "homeValue": "13",
+      "awayValue": "12",
+      "homeChartWidth": "52%",
+      "awayChartWidth": "48%"
+    },
+    {
+      "category": "Defensive Rebounds ",
+      "homeValue": "26",
+      "awayValue": "30",
+      "homeChartWidth": "46%",
+      "awayChartWidth": "54%"
+    },
+    {
+      "category": "Total Rebounds ",
+      "homeValue": "39",
+      "awayValue": "42",
+      "homeChartWidth": "48%",
+      "awayChartWidth": "52%"
+    },
+    {
+      "category": "Assists ",
+      "homeValue": "18",
+      "awayValue": "24",
+      "homeChartWidth": "42%",
+      "awayChartWidth": "58%"
+    },
+    {
+      "category": "Blocks ",
+      "homeValue": "6",
+      "awayValue": "3",
+      "homeChartWidth": "66%",
+      "awayChartWidth": "34%"
+    },
+    {
+      "category": "Turnovers ",
+      "homeValue": "18",
+      "awayValue": "19",
+      "homeChartWidth": "48%",
+      "awayChartWidth": "52%"
+    },
+    {
+      "category": "Steals ",
+      "homeValue": "13",
+      "awayValue": "13",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "Personal Fouls ",
+      "homeValue": "18",
+      "awayValue": "29",
+      "homeChartWidth": "38%",
+      "awayChartWidth": "62%"
+    }
+  ],
+  "statsMatch_first": [
+    {
+      "category": "Field Goals Attempted ",
+      "homeValue": "16",
+      "awayValue": "14",
+      "homeChartWidth": "53%",
+      "awayChartWidth": "47%"
+    },
+    {
+      "category": "Field Goals Made ",
+      "homeValue": "5",
+      "awayValue": "7",
+      "homeChartWidth": "41%",
+      "awayChartWidth": "59%"
+    },
+    {
+      "category": "Field Goals % ",
+      "homeValue": "31.3%",
+      "awayValue": "50%",
+      "homeChartWidth": "38%",
+      "awayChartWidth": "62%"
+    },
+    {
+      "category": "2-Point Field G. Attempted ",
+      "homeValue": "8",
+      "awayValue": "7",
+      "homeChartWidth": "53%",
+      "awayChartWidth": "47%"
+    },
+    {
+      "category": "2-Point Field Goals Made ",
+      "homeValue": "2",
+      "awayValue": "3",
+      "homeChartWidth": "40%",
+      "awayChartWidth": "60%"
+    },
+    {
+      "category": "2-Point Field Goals % ",
+      "homeValue": "25%",
+      "awayValue": "42.9%",
+      "homeChartWidth": "36%",
+      "awayChartWidth": "64%"
+    },
+    {
+      "category": "3-Point Field G. Attempted ",
+      "homeValue": "8",
+      "awayValue": "7",
+      "homeChartWidth": "53%",
+      "awayChartWidth": "47%"
+    },
+    {
+      "category": "3-Point Field Goals Made ",
+      "homeValue": "3",
+      "awayValue": "4",
+      "homeChartWidth": "42%",
+      "awayChartWidth": "58%"
+    },
+    {
+      "category": "3-Point Field Goals % ",
+      "homeValue": "37.5%",
+      "awayValue": "57.1%",
+      "homeChartWidth": "39%",
+      "awayChartWidth": "61%"
+    },
+    {
+      "category": "Free Throws Attempted ",
+      "homeValue": "9",
+      "awayValue": "2",
+      "homeChartWidth": "81%",
+      "awayChartWidth": "19%"
+    },
+    {
+      "category": "Free Throws Made ",
+      "homeValue": "5",
+      "awayValue": "2",
+      "homeChartWidth": "71%",
+      "awayChartWidth": "29%"
+    },
+    {
+      "category": "Free Throws % ",
+      "homeValue": "55.6%",
+      "awayValue": "100%",
+      "homeChartWidth": "35%",
+      "awayChartWidth": "65%"
+    },
+    {
+      "category": "Offensive Rebounds ",
+      "homeValue": "7",
+      "awayValue": "3",
+      "homeChartWidth": "70%",
+      "awayChartWidth": "30%"
+    },
+    {
+      "category": "Defensive Rebounds ",
+      "homeValue": "4",
+      "awayValue": "7",
+      "homeChartWidth": "36%",
+      "awayChartWidth": "64%"
+    },
+    {
+      "category": "Total Rebounds ",
+      "homeValue": "11",
+      "awayValue": "10",
+      "homeChartWidth": "52%",
+      "awayChartWidth": "48%"
+    },
+    {
+      "category": "Assists ",
+      "homeValue": "4",
+      "awayValue": "5",
+      "homeChartWidth": "44%",
+      "awayChartWidth": "56%"
+    },
+    {
+      "category": "Blocks ",
+      "homeValue": "1",
+      "awayValue": "1",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "Turnovers ",
+      "homeValue": "3",
+      "awayValue": "2",
+      "homeChartWidth": "60%",
+      "awayChartWidth": "40%"
+    },
+    {
+      "category": "Steals ",
+      "homeValue": "1",
+      "awayValue": "1",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "Personal Fouls ",
+      "homeValue": "3",
+      "awayValue": "7",
+      "homeChartWidth": "30%",
+      "awayChartWidth": "70%"
+    }
+  ],
+  "statsMatch_second": [
+    {
+      "category": "Field Goals Attempted ",
+      "homeValue": "14",
+      "awayValue": "17",
+      "homeChartWidth": "45%",
+      "awayChartWidth": "55%"
+    },
+    {
+      "category": "Field Goals Made ",
+      "homeValue": "5",
+      "awayValue": "7",
+      "homeChartWidth": "41%",
+      "awayChartWidth": "59%"
+    },
+    {
+      "category": "Field Goals % ",
+      "homeValue": "35.7%",
+      "awayValue": "41.2%",
+      "homeChartWidth": "46%",
+      "awayChartWidth": "54%"
+    },
+    {
+      "category": "2-Point Field G. Attempted ",
+      "homeValue": "9",
+      "awayValue": "11",
+      "homeChartWidth": "45%",
+      "awayChartWidth": "55%"
+    },
+    {
+      "category": "2-Point Field Goals Made ",
+      "homeValue": "5",
+      "awayValue": "4",
+      "homeChartWidth": "55%",
+      "awayChartWidth": "45%"
+    },
+    {
+      "category": "2-Point Field Goals % ",
+      "homeValue": "55.6%",
+      "awayValue": "36.4%",
+      "homeChartWidth": "60%",
+      "awayChartWidth": "40%"
+    },
+    {
+      "category": "3-Point Field G. Attempted ",
+      "homeValue": "5",
+      "awayValue": "6",
+      "homeChartWidth": "45%",
+      "awayChartWidth": "55%"
+    },
+    {
+      "category": "3-Point Field Goals Made ",
+      "homeValue": "0",
+      "awayValue": "3",
+      "homeChartWidth": "0%",
+      "awayChartWidth": "100%"
+    },
+    {
+      "category": "3-Point Field Goals % ",
+      "homeValue": "0%",
+      "awayValue": "50%",
+      "homeChartWidth": "0%",
+      "awayChartWidth": "100%"
+    },
+    {
+      "category": "Free Throws Attempted ",
+      "homeValue": "2",
+      "awayValue": "3",
+      "homeChartWidth": "40%",
+      "awayChartWidth": "60%"
+    },
+    {
+      "category": "Free Throws Made ",
+      "homeValue": "1",
+      "awayValue": "2",
+      "homeChartWidth": "33%",
+      "awayChartWidth": "67%"
+    },
+    {
+      "category": "Free Throws % ",
+      "homeValue": "50%",
+      "awayValue": "66.7%",
+      "homeChartWidth": "42%",
+      "awayChartWidth": "58%"
+    },
+    {
+      "category": "Offensive Rebounds ",
+      "homeValue": "3",
+      "awayValue": "3",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "Defensive Rebounds ",
+      "homeValue": "7",
+      "awayValue": "8",
+      "homeChartWidth": "46%",
+      "awayChartWidth": "54%"
+    },
+    {
+      "category": "Total Rebounds ",
+      "homeValue": "10",
+      "awayValue": "11",
+      "homeChartWidth": "47%",
+      "awayChartWidth": "53%"
+    },
+    {
+      "category": "Assists ",
+      "homeValue": "4",
+      "awayValue": "6",
+      "homeChartWidth": "40%",
+      "awayChartWidth": "60%"
+    },
+    {
+      "category": "Blocks ",
+      "homeValue": "3",
+      "awayValue": "1",
+      "homeChartWidth": "75%",
+      "awayChartWidth": "25%"
+    },
+    {
+      "category": "Turnovers ",
+      "homeValue": "5",
+      "awayValue": "4",
+      "homeChartWidth": "55%",
+      "awayChartWidth": "45%"
+    },
+    {
+      "category": "Steals ",
+      "homeValue": "3",
+      "awayValue": "4",
+      "homeChartWidth": "42%",
+      "awayChartWidth": "58%"
+    },
+    {
+      "category": "Personal Fouls ",
+      "homeValue": "3",
+      "awayValue": "4",
+      "homeChartWidth": "42%",
+      "awayChartWidth": "58%"
+    }
+  ],
+  "statsMtach_thirst": [
+    {
+      "category": "Field Goals Attempted ",
+      "homeValue": "15",
+      "awayValue": "15",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "Field Goals Made ",
+      "homeValue": "6",
+      "awayValue": "7",
+      "homeChartWidth": "46%",
+      "awayChartWidth": "54%"
+    },
+    {
+      "category": "Field Goals % ",
+      "homeValue": "40%",
+      "awayValue": "46.7%",
+      "homeChartWidth": "46%",
+      "awayChartWidth": "54%"
+    },
+    {
+      "category": "2-Point Field G. Attempted ",
+      "homeValue": "7",
+      "awayValue": "6",
+      "homeChartWidth": "53%",
+      "awayChartWidth": "47%"
+    },
+    {
+      "category": "2-Point Field Goals Made ",
+      "homeValue": "3",
+      "awayValue": "4",
+      "homeChartWidth": "42%",
+      "awayChartWidth": "58%"
+    },
+    {
+      "category": "2-Point Field Goals % ",
+      "homeValue": "42.9%",
+      "awayValue": "66.7%",
+      "homeChartWidth": "39%",
+      "awayChartWidth": "61%"
+    },
+    {
+      "category": "3-Point Field G. Attempted ",
+      "homeValue": "8",
+      "awayValue": "9",
+      "homeChartWidth": "47%",
+      "awayChartWidth": "53%"
+    },
+    {
+      "category": "3-Point Field Goals Made ",
+      "homeValue": "3",
+      "awayValue": "3",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "3-Point Field Goals % ",
+      "homeValue": "37.5%",
+      "awayValue": "33.3%",
+      "homeChartWidth": "52%",
+      "awayChartWidth": "48%"
+    },
+    {
+      "category": "Free Throws Attempted ",
+      "homeValue": "8",
+      "awayValue": "3",
+      "homeChartWidth": "72%",
+      "awayChartWidth": "28%"
+    },
+    {
+      "category": "Free Throws Made ",
+      "homeValue": "5",
+      "awayValue": "3",
+      "homeChartWidth": "62%",
+      "awayChartWidth": "38%"
+    },
+    {
+      "category": "Free Throws % ",
+      "homeValue": "62.5%",
+      "awayValue": "100%",
+      "homeChartWidth": "38%",
+      "awayChartWidth": "62%"
+    },
+    {
+      "category": "Offensive Rebounds ",
+      "homeValue": "2",
+      "awayValue": "2",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "Defensive Rebounds ",
+      "homeValue": "4",
+      "awayValue": "5",
+      "homeChartWidth": "44%",
+      "awayChartWidth": "56%"
+    },
+    {
+      "category": "Total Rebounds ",
+      "homeValue": "6",
+      "awayValue": "7",
+      "homeChartWidth": "46%",
+      "awayChartWidth": "54%"
+    },
+    {
+      "category": "Assists ",
+      "homeValue": "8",
+      "awayValue": "7",
+      "homeChartWidth": "53%",
+      "awayChartWidth": "47%"
+    },
+    {
+      "category": "Blocks ",
+      "homeValue": "1",
+      "awayValue": "0",
+      "homeChartWidth": "100%",
+      "awayChartWidth": "0%"
+    },
+    {
+      "category": "Turnovers ",
+      "homeValue": "4",
+      "awayValue": "7",
+      "homeChartWidth": "36%",
+      "awayChartWidth": "64%"
+    },
+    {
+      "category": "Steals ",
+      "homeValue": "5",
+      "awayValue": "3",
+      "homeChartWidth": "62%",
+      "awayChartWidth": "38%"
+    },
+    {
+      "category": "Personal Fouls ",
+      "homeValue": "5",
+      "awayValue": "10",
+      "homeChartWidth": "33%",
+      "awayChartWidth": "67%"
+    }
+  ],
+  "statsMtach_four": [
+    {
+      "category": "Field Goals Attempted ",
+      "homeValue": "10",
+      "awayValue": "10",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "Field Goals Made ",
+      "homeValue": "7",
+      "awayValue": "5",
+      "homeChartWidth": "58%",
+      "awayChartWidth": "42%"
+    },
+    {
+      "category": "Field Goals % ",
+      "homeValue": "70%",
+      "awayValue": "50%",
+      "homeChartWidth": "58%",
+      "awayChartWidth": "42%"
+    },
+    {
+      "category": "2-Point Field G. Attempted ",
+      "homeValue": "4",
+      "awayValue": "7",
+      "homeChartWidth": "36%",
+      "awayChartWidth": "64%"
+    },
+    {
+      "category": "2-Point Field Goals Made ",
+      "homeValue": "3",
+      "awayValue": "4",
+      "homeChartWidth": "42%",
+      "awayChartWidth": "58%"
+    },
+    {
+      "category": "2-Point Field Goals % ",
+      "homeValue": "75%",
+      "awayValue": "57.1%",
+      "homeChartWidth": "56%",
+      "awayChartWidth": "44%"
+    },
+    {
+      "category": "3-Point Field G. Attempted ",
+      "homeValue": "6",
+      "awayValue": "3",
+      "homeChartWidth": "66%",
+      "awayChartWidth": "34%"
+    },
+    {
+      "category": "3-Point Field Goals Made ",
+      "homeValue": "4",
+      "awayValue": "1",
+      "homeChartWidth": "80%",
+      "awayChartWidth": "20%"
+    },
+    {
+      "category": "3-Point Field Goals % ",
+      "homeValue": "66.7%",
+      "awayValue": "33.3%",
+      "homeChartWidth": "66%",
+      "awayChartWidth": "34%"
+    },
+    {
+      "category": "Free Throws Attempted ",
+      "homeValue": "7",
+      "awayValue": "4",
+      "homeChartWidth": "63%",
+      "awayChartWidth": "37%"
+    },
+    {
+      "category": "Free Throws Made ",
+      "homeValue": "5",
+      "awayValue": "2",
+      "homeChartWidth": "71%",
+      "awayChartWidth": "29%"
+    },
+    {
+      "category": "Free Throws % ",
+      "homeValue": "71.4%",
+      "awayValue": "50%",
+      "homeChartWidth": "58%",
+      "awayChartWidth": "42%"
+    },
+    {
+      "category": "Offensive Rebounds ",
+      "homeValue": "1",
+      "awayValue": "3",
+      "homeChartWidth": "25%",
+      "awayChartWidth": "75%"
+    },
+    {
+      "category": "Defensive Rebounds ",
+      "homeValue": "5",
+      "awayValue": "6",
+      "homeChartWidth": "45%",
+      "awayChartWidth": "55%"
+    },
+    {
+      "category": "Total Rebounds ",
+      "homeValue": "6",
+      "awayValue": "9",
+      "homeChartWidth": "40%",
+      "awayChartWidth": "60%"
+    },
+    {
+      "category": "Assists ",
+      "homeValue": "1",
+      "awayValue": "4",
+      "homeChartWidth": "20%",
+      "awayChartWidth": "80%"
+    },
+    {
+      "category": "Blocks ",
+      "homeValue": "0",
+      "awayValue": "1",
+      "homeChartWidth": "0%",
+      "awayChartWidth": "100%"
+    },
+    {
+      "category": "Turnovers ",
+      "homeValue": "2",
+      "awayValue": "6",
+      "homeChartWidth": "25%",
+      "awayChartWidth": "75%"
+    },
+    {
+      "category": "Steals ",
+      "homeValue": "4",
+      "awayValue": "2",
+      "homeChartWidth": "66%",
+      "awayChartWidth": "34%"
+    },
+    {
+      "category": "Personal Fouls ",
+      "homeValue": "4",
+      "awayValue": "5",
+      "homeChartWidth": "44%",
+      "awayChartWidth": "56%"
+    }
+  ],
+  "statsMtach_five": [
+    {
+      "category": "Field Goals Attempted ",
+      "homeValue": "6",
+      "awayValue": "12",
+      "homeChartWidth": "33%",
+      "awayChartWidth": "67%"
+    },
+    {
+      "category": "Field Goals Made ",
+      "homeValue": "2",
+      "awayValue": "5",
+      "homeChartWidth": "28%",
+      "awayChartWidth": "72%"
+    },
+    {
+      "category": "Field Goals % ",
+      "homeValue": "33.3%",
+      "awayValue": "41.7%",
+      "homeChartWidth": "44%",
+      "awayChartWidth": "56%"
+    },
+    {
+      "category": "2-Point Field G. Attempted ",
+      "homeValue": "4",
+      "awayValue": "9",
+      "homeChartWidth": "30%",
+      "awayChartWidth": "70%"
+    },
+    {
+      "category": "2-Point Field Goals Made ",
+      "homeValue": "2",
+      "awayValue": "5",
+      "homeChartWidth": "28%",
+      "awayChartWidth": "72%"
+    },
+    {
+      "category": "2-Point Field Goals % ",
+      "homeValue": "50%",
+      "awayValue": "55.6%",
+      "homeChartWidth": "47%",
+      "awayChartWidth": "53%"
+    },
+    {
+      "category": "3-Point Field G. Attempted ",
+      "homeValue": "2",
+      "awayValue": "3",
+      "homeChartWidth": "40%",
+      "awayChartWidth": "60%"
+    },
+    {
+      "category": "3-Point Field Goals Made ",
+      "homeValue": "0",
+      "awayValue": "0",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "3-Point Field Goals % ",
+      "homeValue": "0%",
+      "awayValue": "0%",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    },
+    {
+      "category": "Free Throws Attempted ",
+      "homeValue": "7",
+      "awayValue": "6",
+      "homeChartWidth": "53%",
+      "awayChartWidth": "47%"
+    },
+    {
+      "category": "Free Throws Made ",
+      "homeValue": "5",
+      "awayValue": "4",
+      "homeChartWidth": "55%",
+      "awayChartWidth": "45%"
+    },
+    {
+      "category": "Free Throws % ",
+      "homeValue": "71.4%",
+      "awayValue": "66.7%",
+      "homeChartWidth": "51%",
+      "awayChartWidth": "49%"
+    },
+    {
+      "category": "Offensive Rebounds ",
+      "homeValue": "0",
+      "awayValue": "1",
+      "homeChartWidth": "0%",
+      "awayChartWidth": "100%"
+    },
+    {
+      "category": "Defensive Rebounds ",
+      "homeValue": "6",
+      "awayValue": "4",
+      "homeChartWidth": "60%",
+      "awayChartWidth": "40%"
+    },
+    {
+      "category": "Total Rebounds ",
+      "homeValue": "6",
+      "awayValue": "5",
+      "homeChartWidth": "54%",
+      "awayChartWidth": "46%"
+    },
+    {
+      "category": "Assists ",
+      "homeValue": "1",
+      "awayValue": "2",
+      "homeChartWidth": "33%",
+      "awayChartWidth": "67%"
+    },
+    {
+      "category": "Blocks ",
+      "homeValue": "1",
+      "awayValue": "0",
+      "homeChartWidth": "100%",
+      "awayChartWidth": "0%"
+    },
+    {
+      "category": "Turnovers ",
+      "homeValue": "4",
+      "awayValue": "0",
+      "homeChartWidth": "100%",
+      "awayChartWidth": "0%"
+    },
+    {
+      "category": "Steals ",
+      "homeValue": "0",
+      "awayValue": "3",
+      "homeChartWidth": "0%",
+      "awayChartWidth": "100%"
+    },
+    {
+      "category": "Personal Fouls ",
+      "homeValue": "3",
+      "awayValue": "3",
+      "homeChartWidth": "50%",
+      "awayChartWidth": "50%"
+    }
+  ],
+  "pointByPoint": [
+    {
+      "score": "1-0"
+    },
+    {
+      "score": "2-0"
+    },
+    {
+      "score": "3-0"
+    },
+    {
+      "score": "3-2"
+    },
+    {
+      "score": "3-5"
+    },
+    {
+      "score": "6-5"
+    },
+    {
+      "score": "6-7"
+    },
+    {
+      "score": "9-7"
+    },
+    {
+      "score": "9-10"
+    },
+    {
+      "score": "9-11"
+    },
+    {
+      "score": "9-12"
+    },
+    {
+      "score": "9-15"
+    },
+    {
+      "score": "11-15"
+    },
+    {
+      "score": "12-15"
+    },
+    {
+      "score": "12-17"
+    },
+    {
+      "score": "12-20"
+    },
+    {
+      "score": "13-20"
+    },
+    {
+      "score": "15-20"
+    }
+  ],
+  "pointByPoint_first": [
+    {
+      "score": "15-23"
+    },
+    {
+      "score": "16-23"
+    },
+    {
+      "score": "18-23"
+    },
+    {
+      "score": "18-24"
+    },
+    {
+      "score": "20-24"
+    },
+    {
+      "score": "20-26"
+    },
+    {
+      "score": "20-29"
+    },
+    {
+      "score": "20-31"
+    },
+    {
+      "score": "22-31"
+    },
+    {
+      "score": "22-33"
+    },
+    {
+      "score": "24-33"
+    },
+    {
+      "score": "24-35"
+    },
+    {
+      "score": "24-36"
+    },
+    {
+      "score": "24-39"
+    }
+  ],
+  "pointByPoint_second": [
+    {
+      "score": "27-39"
+    },
+    {
+      "score": "27-41"
+    },
+    {
+      "score": "30-41"
+    },
+    {
+      "score": "30-44"
+    },
+    {
+      "score": "31-44"
+    },
+    {
+      "score": "33-44"
+    },
+    {
+      "score": "33-45"
+    },
+    {
+      "score": "35-45"
+    },
+    {
+      "score": "35-47"
+    },
+    {
+      "score": "38-47"
+    },
+    {
+      "score": "39-47"
+    },
+    {
+      "score": "41-47"
+    },
+    {
+      "score": "42-47"
+    },
+    {
+      "score": "42-48"
+    },
+    {
+      "score": "42-49"
+    },
+    {
+      "score": "44-49"
+    },
+    {
+      "score": "44-52"
+    },
+    {
+      "score": "47-52"
+    },
+    {
+      "score": "47-54"
+    },
+    {
+      "score": "48-54"
+    },
+    {
+      "score": "49-54"
+    },
+    {
+      "score": "49-57"
+    }
+  ],
+  "pointByPoint_thirst": [
+    {
+      "score": "52-57"
+    },
+    {
+      "score": "52-59"
+    },
+    {
+      "score": "52-62"
+    },
+    {
+      "score": "53-62"
+    },
+    {
+      "score": "54-62"
+    },
+    {
+      "score": "56-62"
+    },
+    {
+      "score": "59-62"
+    },
+    {
+      "score": "59-64"
+    },
+    {
+      "score": "62-64"
+    },
+    {
+      "score": "62-65"
+    },
+    {
+      "score": "62-66"
+    },
+    {
+      "score": "64-66"
+    },
+    {
+      "score": "65-66"
+    },
+    {
+      "score": "67-66"
+    },
+    {
+      "score": "67-68"
+    },
+    {
+      "score": "70-68"
+    },
+    {
+      "score": "70-70"
+    },
+    {
+      "score": "71-70"
+    },
+    {
+      "score": "72-70"
+    },
+    {
+      "score": "72-72"
+    }
+  ]
+}

@@ -24,23 +24,22 @@ import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsM
     console.log("ERROR: You did not define a country or league flags.");
     console.log("Documentation can be found at https://github.com/gustavofariaa/FlashscoreScraping");
     return;
-  }
+  } 
 
   const browser = await puppeteer.launch({ headless });
 
-  const matchIdList = await getMatchIdList(browser, country, league)
-  existData(matchIdList, path, `${country}-${league}`);
-
+  const matchIdList = await getMatchIdList(browser, country, league);
+  let totalIds = matchIdList.length;
+  const matchIds = existData(matchIdList, path, `${country}-${league}`);
   const progressBar = new cliProgress.SingleBar({
     format: 'Progress {bar} {percentage}% | {value}/{total}',
     barCompleteChar: '\u2588',
     barIncompleteChar: '\u2591',
     hideCursor: true
   });
-  progressBar.start(matchIdList.length, 0);
-
+  progressBar.start(matchIds.length, 0);
   const data = {}
-  for (const matchId of matchIdList) {
+  for (const matchId of matchIds) {
     const matchData = await getMatchData(browser, matchId);
     const statsPlayer = await getStatsPlayer(browser, matchId);
     const statsMatch_all = await getStatsMatch(browser, matchId,0);
@@ -54,6 +53,7 @@ import { getMatchIdList, getMatchData, writeMatchData, getStatsPlayer, getStatsM
     const pointByPoint_first = await getPointByPoint(browser, matchId,1);
     const pointByPoint_second = await getPointByPoint(browser, matchId,2);
     const pointByPoint_thirst = await getPointByPoint(browser, matchId,3);
+
     if (matchData.extraLocal !== '' && matchData.extraAway !== '') {
       statsMtach_five = await getStatsMatch(browser, matchId, 5);
       pointByPoint_four = await getPointByPoint(browser, matchId, 4);

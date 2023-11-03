@@ -97,7 +97,6 @@ export const getStatsPlayer = async (browser, matchId) => {
       const playerStats = Array.from(row.querySelectorAll("div.playerStatsTable__cell")).map((element) =>
         element.textContent.trim()
       );
-
       // Crear un objeto con todas las estadísticas del jugador
       const playerStatsObject = {};
 
@@ -105,6 +104,8 @@ export const getStatsPlayer = async (browser, matchId) => {
       statHeaders.forEach((header, index) => {
         playerStatsObject[header] = playerStats[index];
       });
+
+      console.log(statHeaders["stats"]);
 
       playerData.push({
         name: playerName,
