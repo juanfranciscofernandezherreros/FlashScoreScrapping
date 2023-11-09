@@ -1,0 +1,1304 @@
+[
+  {
+    "matchId": "g_3_rPaDgjKG",
+    "eventTime": "11.11. 16:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_4Y09fW4A",
+    "eventTime": "11.11. 18:30",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_M9B4eCk4",
+    "eventTime": "11.11. 18:30",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_z13HZUSp",
+    "eventTime": "11.11. 18:30",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_zg9hbE5o",
+    "eventTime": "11.11. 18:30",
+    "homeTeam": "Roanne",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_Eq8dcYKi",
+    "eventTime": "11.11. 21:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_fFauuo6G",
+    "eventTime": "12.11. 14:30",
+    "homeTeam": "Monaco",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_Y5bqv5LM",
+    "eventTime": "12.11. 16:30",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_8670dhzb",
+    "eventTime": "12.11. 19:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_vkb1Kw6q",
+    "eventTime": "15.11. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_fHbin8Cj",
+    "eventTime": "18.11. 16:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_nBowAB4c",
+    "eventTime": "18.11. 18:30",
+    "homeTeam": "Dijon",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_4ntr9VJ3",
+    "eventTime": "18.11. 18:30",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_jk3LiUlT",
+    "eventTime": "18.11. 18:30",
+    "homeTeam": "Roanne",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_Cb4HhAZM",
+    "eventTime": "18.11. 18:30",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_dWulmlcp",
+    "eventTime": "18.11. 21:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_8KnZAiki",
+    "eventTime": "19.11. 14:30",
+    "homeTeam": "Limoges",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_2u3mwPzT",
+    "eventTime": "19.11. 16:30",
+    "homeTeam": "Monaco",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_4lkFYrqp",
+    "eventTime": "19.11. 19:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_x0vj79lG",
+    "eventTime": "25.11. 16:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_AieSmLme",
+    "eventTime": "25.11. 18:30",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_lx7JksJr",
+    "eventTime": "25.11. 18:30",
+    "homeTeam": "Paris",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_W0dOl1Yl",
+    "eventTime": "25.11. 18:30",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_IHfWnu31",
+    "eventTime": "25.11. 21:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_d8gznaI7",
+    "eventTime": "26.11. 14:30",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_rwun8kZ9",
+    "eventTime": "26.11. 16:30",
+    "homeTeam": "Nancy",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_nDvKX2bj",
+    "eventTime": "26.11. 19:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_4AQkoMSk",
+    "eventTime": "28.11. 18:30",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_0GrOWMDd",
+    "eventTime": "28.11. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_QNHc30mr",
+    "eventTime": "28.11. 21:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_4EG12K2l",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_byG51vIf",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_pUZU7tuR",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_hAV9fQ53",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_EJW5e6jc",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_6wyR8MPK",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_CGyN92AE",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Roanne",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_bDXIAre8",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_Kt10NLvE",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_hz9EaIn7",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_tdk9La9Q",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_bXa4MufK",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_IHtyHJHs",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_CCoBh4zG",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_ABJ90bX0",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_YLn7gpL9",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Paris",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_WQ7Ibx2D",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_6DizzaOJ",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_drAqDyH6",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_48DiBFoJ",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_IiBuEH10",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_j59mCeWC",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_KxkJjr5S",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_6ZpFiOkM",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_CvtuGwXm",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_jVvqFcnf",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_QJRon2Dq",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_AozJRzWa",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_p4jvZIwQ",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_xdr6Uxns",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_raYQPE0C",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_GnsATd1m",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Paris",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_bBWESGGg",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Roanne",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_48ZMQfo6",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_0ddjkjoL",
+    "eventTime": "28.12. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_IXjelA0R",
+    "eventTime": "28.12. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_M5cnjWVE",
+    "eventTime": "28.12. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_dbnR8j01",
+    "eventTime": "28.12. 20:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_zkoV7AF7",
+    "eventTime": "28.12. 20:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_CzUcq0c2",
+    "eventTime": "28.12. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_EZdM9Wpe",
+    "eventTime": "28.12. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_SrbriCG8",
+    "eventTime": "28.12. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_G8fvhh12",
+    "eventTime": "28.12. 20:00",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_S6tVs8we",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_tUWO3k0E",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_2wYK4Vp8",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_lMUwtn87",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_2ewHVD7E",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_AVVZtSh1",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_KtwNqU8r",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_O4vDWgh8",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Paris",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_E3xRrlOl",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_bNWPTixR",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_OhMT29FK",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_Ug5CfoN0",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_j368eR7f",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_OG4Gg5x7",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_YRB3d7hl",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_pKSLUXMK",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_fyDacmwr",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Paris",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_xdQX1TUQ",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Roanne",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_xdn3H8UD",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_EL9Watat",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_reEza0En",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_G2JiPBpr",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_zi8KhPiD",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_fgIeOVal",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_MoDvbKTh",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_4A2qcvqa",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Roanne",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_ID6mdbb5",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_nkd2DaTu",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_0h06CJrn",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_Cz6ieIDB",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_rHkBBwbh",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_EeYdM9U0",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_ATKdhGcU",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_z5ZhNkFf",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_WxMhgdrO",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_jR4efxTH",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_M7lFAcDb",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_jsgJ9HS4",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_UXiN8yrB",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_MLy5KmaD",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_8IX0LTq7",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_CdsS7ecH",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_As0V6FCN",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Paris",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_44aZ5ZRT",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Roanne",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_6Do11gzo",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_bRK8KYtN",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_j1L4LERG",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_CAM0MfCA",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_OQFmqXyE",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_GrTiOGsb",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_UoXeNzc4",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_2HEiriiK",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_MLTmPdSi",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_rVUqQxDo",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_Ya5NxVEs",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_raduFC4p",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_WjJesB6Q",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_xIJCJhdT",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_d20qEWJj",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_A5lRxGdi",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_ldmVyzCc",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_6XszyfR3",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Roanne",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_pOtvzEtA",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_rJOQQ93d",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_YqZjXBQS",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_4SPMRklj",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_zgLISVYq",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_pO29kgtc",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_E9DVz9qf",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_GOfSykUm",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_jLqnYiBM",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_votrZXeG",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Paris",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_ri2gSMv1",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_zRboUrAl",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_UmbkT2Pf",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_dz0sVOfr",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_Wv5LniQF",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_bR6DlDe3",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Paris",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_hl6HmXA9",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Roanne",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_8WCZZSb0",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_nNBwZnE6",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_46j2Q09D",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_lUOKrrPs",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_EyYhmOGQ",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_riOOs2vl",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_hMqpkpnE",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_WCrll41K",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_QFibRtf7",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_rk5nXQrJ",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_4b6rY6TC",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_fRHguOzt",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_MsNStMgf",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_8ULcvrjn",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_vJHXut90",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_I9Gyu0O6",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_CWFuvKwD",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_QZJqwvgJ",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Paris",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_SvbS1NVJ",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Roanne",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_6VdW0soQ",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_2LUNjcNI",
+    "eventTime": "20.04. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_6gyFhJh6",
+    "eventTime": "20.04. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_xEqbd1gs",
+    "eventTime": "20.04. 20:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_fFH9E0FP",
+    "eventTime": "20.04. 20:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_bTX6fuOg",
+    "eventTime": "20.04. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_G4r2eL8m",
+    "eventTime": "20.04. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_CWyBgaw0",
+    "eventTime": "20.04. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_tCTRkHxP",
+    "eventTime": "20.04. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_ppzJiw8C",
+    "eventTime": "20.04. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_Ew782fMU",
+    "eventTime": "23.04. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_zm843z7O",
+    "eventTime": "23.04. 20:00",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_tQ804GiI",
+    "eventTime": "23.04. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_pbFi6xN5",
+    "eventTime": "23.04. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_SM4d5dxC",
+    "eventTime": "23.04. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_GINzAKNt",
+    "eventTime": "23.04. 20:00",
+    "homeTeam": "Paris",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_67Gm7I7a",
+    "eventTime": "23.04. 20:00",
+    "homeTeam": "Roanne",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_bsDu9vwm",
+    "eventTime": "23.04. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_xYBq8bhg",
+    "eventTime": "23.04. 20:00",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_hn5cpGHq",
+    "eventTime": "30.04. 20:00",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Strasbourg"
+  },
+  {
+    "matchId": "g_3_QXlH4p3b",
+    "eventTime": "30.04. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_GMsU1rmH",
+    "eventTime": "30.04. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_nmwQ2OXA",
+    "eventTime": "30.04. 20:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_zBf2qzXk",
+    "eventTime": "30.04. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_8dvM34I4",
+    "eventTime": "30.04. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_vHn57nJu",
+    "eventTime": "30.04. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_CUpD5Qmh",
+    "eventTime": "30.04. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_I7o966Yo",
+    "eventTime": "30.04. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_dGuc5Hg9",
+    "eventTime": "04.05. 20:00",
+    "homeTeam": "Chalon/Saone",
+    "awayTeam": "Saint Quentin"
+  },
+  {
+    "matchId": "g_3_rXs92FwS",
+    "eventTime": "04.05. 20:00",
+    "homeTeam": "Gravelines-Dunkerque",
+    "awayTeam": "Boulogne-Levallois"
+  },
+  {
+    "matchId": "g_3_lEKybZoq",
+    "eventTime": "04.05. 20:00",
+    "homeTeam": "JL Bourg",
+    "awayTeam": "Nancy"
+  },
+  {
+    "matchId": "g_3_UTw53eOL",
+    "eventTime": "04.05. 20:00",
+    "homeTeam": "Le Mans",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_S4Jucg1k",
+    "eventTime": "04.05. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Le Portel"
+  },
+  {
+    "matchId": "g_3_z7v14y9F",
+    "eventTime": "04.05. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Cholet"
+  },
+  {
+    "matchId": "g_3_nob6rfnd",
+    "eventTime": "04.05. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Dijon"
+  },
+  {
+    "matchId": "g_3_vuoh6cv3",
+    "eventTime": "04.05. 20:00",
+    "homeTeam": "Paris",
+    "awayTeam": "Roanne"
+  },
+  {
+    "matchId": "g_3_0lnl7wPd",
+    "eventTime": "04.05. 20:00",
+    "homeTeam": "Strasbourg",
+    "awayTeam": "Ada Blois"
+  },
+  {
+    "matchId": "g_3_2agIACVl",
+    "eventTime": "11.05. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_8xfEBhGr",
+    "eventTime": "11.05. 20:00",
+    "homeTeam": "Boulogne-Levallois",
+    "awayTeam": "Nanterre"
+  },
+  {
+    "matchId": "g_3_6T7nGY7R",
+    "eventTime": "11.05. 20:00",
+    "homeTeam": "Cholet",
+    "awayTeam": "Chalon/Saone"
+  },
+  {
+    "matchId": "g_3_A1EwIfwF",
+    "eventTime": "11.05. 20:00",
+    "homeTeam": "Dijon",
+    "awayTeam": "Le Mans"
+  },
+  {
+    "matchId": "g_3_lhDsHEhL",
+    "eventTime": "11.05. 20:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Paris"
+  },
+  {
+    "matchId": "g_3_MuYrdDGe",
+    "eventTime": "11.05. 20:00",
+    "homeTeam": "Limoges",
+    "awayTeam": "JL Bourg"
+  },
+  {
+    "matchId": "g_3_GvFZIzO8",
+    "eventTime": "11.05. 20:00",
+    "homeTeam": "Nancy",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_2yBVJG82",
+    "eventTime": "11.05. 20:00",
+    "homeTeam": "Roanne",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_0WWneXV1",
+    "eventTime": "11.05. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Strasbourg"
+  }
+]

@@ -1,0 +1,1016 @@
+[
+  {
+    "matchId": "g_3_EZ6pwvFK",
+    "eventTime": "11.11. 17:00",
+    "homeTeam": "Urania Milano",
+    "awayTeam": "Luiss Roma"
+  },
+  {
+    "matchId": "g_3_hQ5lxbUQ",
+    "eventTime": "11.11. 20:30",
+    "homeTeam": "Trapani",
+    "awayTeam": "Basket Torino"
+  },
+  {
+    "matchId": "g_3_l6rzAl4H",
+    "eventTime": "11.11. 20:30",
+    "homeTeam": "Udine",
+    "awayTeam": "Orzinuovi"
+  },
+  {
+    "matchId": "g_3_bHkNCjKb",
+    "eventTime": "12.11. 18:00",
+    "homeTeam": "Assigeco Piacenza",
+    "awayTeam": "Verona"
+  },
+  {
+    "matchId": "g_3_A5hGXHxr",
+    "eventTime": "12.11. 18:00",
+    "homeTeam": "Cantu",
+    "awayTeam": "Sebastiani Rieti"
+  },
+  {
+    "matchId": "g_3_nsnJDW4h",
+    "eventTime": "12.11. 18:00",
+    "homeTeam": "Chiusi",
+    "awayTeam": "Forli"
+  },
+  {
+    "matchId": "g_3_hvkRBAZ4",
+    "eventTime": "12.11. 18:00",
+    "homeTeam": "Fortitudo Bologna",
+    "awayTeam": "Cento"
+  },
+  {
+    "matchId": "g_3_O8dKWyhl",
+    "eventTime": "12.11. 18:00",
+    "homeTeam": "Monferrato",
+    "awayTeam": "Latina"
+  },
+  {
+    "matchId": "g_3_WUmVAUlB",
+    "eventTime": "12.11. 18:00",
+    "homeTeam": "Pallacanestro Nardo",
+    "awayTeam": "Rimini"
+  },
+  {
+    "matchId": "g_3_pOpTUFM0",
+    "eventTime": "12.11. 18:00",
+    "homeTeam": "Treviglio",
+    "awayTeam": "JuVi Cremona"
+  },
+  {
+    "matchId": "g_3_4IdEECkn",
+    "eventTime": "12.11. 18:00",
+    "homeTeam": "Trieste",
+    "awayTeam": "Cividale"
+  },
+  {
+    "matchId": "g_3_6XoPVe7f",
+    "eventTime": "12.11. 18:00",
+    "homeTeam": "Vigevano",
+    "awayTeam": "Agrigento"
+  },
+  {
+    "matchId": "g_3_jeYpDaEs",
+    "eventTime": "15.11. 20:30",
+    "homeTeam": "Udine",
+    "awayTeam": "Fortitudo Bologna"
+  },
+  {
+    "matchId": "g_3_YqNJiwUD",
+    "eventTime": "17.11. 20:45",
+    "homeTeam": "Urania Milano",
+    "awayTeam": "Basket Torino"
+  },
+  {
+    "matchId": "g_3_WvqyTgiD",
+    "eventTime": "18.11. 18:30",
+    "homeTeam": "Luiss Roma",
+    "awayTeam": "Trapani"
+  },
+  {
+    "matchId": "g_3_Sdsv98JN",
+    "eventTime": "18.11. 20:00",
+    "homeTeam": "Cividale",
+    "awayTeam": "Fortitudo Bologna"
+  },
+  {
+    "matchId": "g_3_hlpXTZy7",
+    "eventTime": "19.11. 12:00",
+    "homeTeam": "JuVi Cremona",
+    "awayTeam": "Agrigento"
+  },
+  {
+    "matchId": "g_3_pMkmzBbt",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Cantu",
+    "awayTeam": "Monferrato"
+  },
+  {
+    "matchId": "g_3_YBPaQ9lb",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Chiusi",
+    "awayTeam": "Assigeco Piacenza"
+  },
+  {
+    "matchId": "g_3_buY93nso",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Forli",
+    "awayTeam": "Udine"
+  },
+  {
+    "matchId": "g_3_vqkiZUDn",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Latina",
+    "awayTeam": "Treviglio"
+  },
+  {
+    "matchId": "g_3_0pChSVJo",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Orzinuovi",
+    "awayTeam": "Cento"
+  },
+  {
+    "matchId": "g_3_vyBdRkZi",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Rimini",
+    "awayTeam": "Trieste"
+  },
+  {
+    "matchId": "g_3_IZmeYlTh",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Sebastiani Rieti",
+    "awayTeam": "Vigevano"
+  },
+  {
+    "matchId": "g_3_MJtr8SYT",
+    "eventTime": "20.11. 20:30",
+    "homeTeam": "Verona",
+    "awayTeam": "Pallacanestro Nardo"
+  },
+  {
+    "matchId": "g_3_lYlGTQsO",
+    "eventTime": "26.11. 17:00",
+    "homeTeam": "Treviglio",
+    "awayTeam": "Luiss Roma"
+  },
+  {
+    "matchId": "g_3_69aBU6SH",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Agrigento",
+    "awayTeam": "Latina"
+  },
+  {
+    "matchId": "g_3_8UHCN7YG",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Assigeco Piacenza",
+    "awayTeam": "Orzinuovi"
+  },
+  {
+    "matchId": "g_3_8Ot8VnDB",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Basket Torino",
+    "awayTeam": "JuVi Cremona"
+  },
+  {
+    "matchId": "g_3_2iHGMRmN",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Cento",
+    "awayTeam": "Cividale"
+  },
+  {
+    "matchId": "g_3_fRD8OmJA",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Fortitudo Bologna",
+    "awayTeam": "Verona"
+  },
+  {
+    "matchId": "g_3_E1s4WSc5",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Monferrato",
+    "awayTeam": "Urania Milano"
+  },
+  {
+    "matchId": "g_3_MybmH5Bp",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Pallacanestro Nardo",
+    "awayTeam": "Chiusi"
+  },
+  {
+    "matchId": "g_3_SOmKSpcU",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Trapani",
+    "awayTeam": "Sebastiani Rieti"
+  },
+  {
+    "matchId": "g_3_C2O3PT34",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Trieste",
+    "awayTeam": "Forli"
+  },
+  {
+    "matchId": "g_3_trGKLo3T",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Udine",
+    "awayTeam": "Rimini"
+  },
+  {
+    "matchId": "g_3_zBr0X8ra",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Vigevano",
+    "awayTeam": "Cantu"
+  },
+  {
+    "matchId": "g_3_0SdiGPQj",
+    "eventTime": "01.12. 20:45",
+    "homeTeam": "Verona",
+    "awayTeam": "Cividale"
+  },
+  {
+    "matchId": "g_3_vcUPmUSu",
+    "eventTime": "02.12. 18:30",
+    "homeTeam": "Luiss Roma",
+    "awayTeam": "Monferrato"
+  },
+  {
+    "matchId": "g_3_EFMxoSCb",
+    "eventTime": "02.12. 19:00",
+    "homeTeam": "Latina",
+    "awayTeam": "Basket Torino"
+  },
+  {
+    "matchId": "g_3_nTKpq6sB",
+    "eventTime": "02.12. 20:30",
+    "homeTeam": "Trapani",
+    "awayTeam": "Vigevano"
+  },
+  {
+    "matchId": "g_3_GfsjyR2G",
+    "eventTime": "02.12. 20:30",
+    "homeTeam": "Udine",
+    "awayTeam": "Pallacanestro Nardo"
+  },
+  {
+    "matchId": "g_3_ImTTnlrn",
+    "eventTime": "02.12. 20:30",
+    "homeTeam": "Urania Milano",
+    "awayTeam": "Treviglio"
+  },
+  {
+    "matchId": "g_3_0CIYo8ch",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Cantu",
+    "awayTeam": "JuVi Cremona"
+  },
+  {
+    "matchId": "g_3_Q5lwvTIc",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Chiusi",
+    "awayTeam": "Fortitudo Bologna"
+  },
+  {
+    "matchId": "g_3_8UwrwmY3",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Forli",
+    "awayTeam": "Cento"
+  },
+  {
+    "matchId": "g_3_nLxnx7mA",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Orzinuovi",
+    "awayTeam": "Trieste"
+  },
+  {
+    "matchId": "g_3_EVpZv93i",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Rimini",
+    "awayTeam": "Assigeco Piacenza"
+  },
+  {
+    "matchId": "g_3_8xMtpnS4",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Sebastiani Rieti",
+    "awayTeam": "Agrigento"
+  },
+  {
+    "matchId": "g_3_fotfzoIM",
+    "eventTime": "06.12. 20:00",
+    "homeTeam": "Cividale",
+    "awayTeam": "Orzinuovi"
+  },
+  {
+    "matchId": "g_3_vJ5007Co",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Agrigento",
+    "awayTeam": "Urania Milano"
+  },
+  {
+    "matchId": "g_3_EVMQUOup",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Assigeco Piacenza",
+    "awayTeam": "Udine"
+  },
+  {
+    "matchId": "g_3_6VznspCN",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Basket Torino",
+    "awayTeam": "Sebastiani Rieti"
+  },
+  {
+    "matchId": "g_3_xAVbZ4XS",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Cento",
+    "awayTeam": "Verona"
+  },
+  {
+    "matchId": "g_3_8hMUTrej",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Fortitudo Bologna",
+    "awayTeam": "Rimini"
+  },
+  {
+    "matchId": "g_3_0hzjt4RT",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "JuVi Cremona",
+    "awayTeam": "Latina"
+  },
+  {
+    "matchId": "g_3_xERHyOZp",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Monferrato",
+    "awayTeam": "Trapani"
+  },
+  {
+    "matchId": "g_3_SvxrrQdH",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Treviglio",
+    "awayTeam": "Cantu"
+  },
+  {
+    "matchId": "g_3_nqLYS2Ad",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Trieste",
+    "awayTeam": "Chiusi"
+  },
+  {
+    "matchId": "g_3_nyR9inmc",
+    "eventTime": "06.12. 20:45",
+    "homeTeam": "Pallacanestro Nardo",
+    "awayTeam": "Forli"
+  },
+  {
+    "matchId": "g_3_I944aRRi",
+    "eventTime": "06.12. 21:00",
+    "homeTeam": "Vigevano",
+    "awayTeam": "Luiss Roma"
+  },
+  {
+    "matchId": "g_3_QZ7Cc5d4",
+    "eventTime": "09.12. 18:30",
+    "homeTeam": "Luiss Roma",
+    "awayTeam": "JuVi Cremona"
+  },
+  {
+    "matchId": "g_3_YiTLlpXF",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Assigeco Piacenza",
+    "awayTeam": "Cento"
+  },
+  {
+    "matchId": "g_3_nq98bosb",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Basket Torino",
+    "awayTeam": "Agrigento"
+  },
+  {
+    "matchId": "g_3_na9drrAq",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Chiusi",
+    "awayTeam": "Cividale"
+  },
+  {
+    "matchId": "g_3_KlPHkQH9",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Forli",
+    "awayTeam": "Fortitudo Bologna"
+  },
+  {
+    "matchId": "g_3_Ee0Pf3tN",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Monferrato",
+    "awayTeam": "Vigevano"
+  },
+  {
+    "matchId": "g_3_GGIQm4nM",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Pallacanestro Nardo",
+    "awayTeam": "Trieste"
+  },
+  {
+    "matchId": "g_3_f7HUnO1S",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Rimini",
+    "awayTeam": "Orzinuovi"
+  },
+  {
+    "matchId": "g_3_8bcHdPBA",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Sebastiani Rieti",
+    "awayTeam": "Treviglio"
+  },
+  {
+    "matchId": "g_3_KY0LeqRG",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Trapani",
+    "awayTeam": "Urania Milano"
+  },
+  {
+    "matchId": "g_3_QRPDj623",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Udine",
+    "awayTeam": "Verona"
+  },
+  {
+    "matchId": "g_3_hnaTgNeT",
+    "eventTime": "10.12. 20:30",
+    "homeTeam": "Cantu",
+    "awayTeam": "Latina"
+  },
+  {
+    "matchId": "g_3_Yusdks4p",
+    "eventTime": "16.12. 18:00",
+    "homeTeam": "JuVi Cremona",
+    "awayTeam": "Trapani"
+  },
+  {
+    "matchId": "g_3_CWu0l1Jj",
+    "eventTime": "16.12. 18:30",
+    "homeTeam": "Luiss Roma",
+    "awayTeam": "Cantu"
+  },
+  {
+    "matchId": "g_3_Qk80s2Pk",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Cividale",
+    "awayTeam": "Assigeco Piacenza"
+  },
+  {
+    "matchId": "g_3_QZTsDpdi",
+    "eventTime": "16.12. 20:30",
+    "homeTeam": "Urania Milano",
+    "awayTeam": "Vigevano"
+  },
+  {
+    "matchId": "g_3_GUca231F",
+    "eventTime": "16.12. 20:30",
+    "homeTeam": "Verona",
+    "awayTeam": "Rimini"
+  },
+  {
+    "matchId": "g_3_vwYoC4Bc",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Agrigento",
+    "awayTeam": "Monferrato"
+  },
+  {
+    "matchId": "g_3_8Ec5tMvd",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Chiusi",
+    "awayTeam": "Udine"
+  },
+  {
+    "matchId": "g_3_0hMfArtA",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Latina",
+    "awayTeam": "Sebastiani Rieti"
+  },
+  {
+    "matchId": "g_3_6aG8utf2",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Orzinuovi",
+    "awayTeam": "Forli"
+  },
+  {
+    "matchId": "g_3_K24j4PW2",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Trieste",
+    "awayTeam": "Cento"
+  },
+  {
+    "matchId": "g_3_M1NjBOQ3",
+    "eventTime": "17.12. 18:30",
+    "homeTeam": "Treviglio",
+    "awayTeam": "Basket Torino"
+  },
+  {
+    "matchId": "g_3_bg3f3qn9",
+    "eventTime": "17.12. 20:30",
+    "homeTeam": "Fortitudo Bologna",
+    "awayTeam": "Pallacanestro Nardo"
+  },
+  {
+    "matchId": "g_3_fTzb92eG",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Basket Torino",
+    "awayTeam": "Luiss Roma"
+  },
+  {
+    "matchId": "g_3_nHKWqeol",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Verona",
+    "awayTeam": "Orzinuovi"
+  },
+  {
+    "matchId": "g_3_MZCqsgV6",
+    "eventTime": "23.12. 17:00",
+    "homeTeam": "Assigeco Piacenza",
+    "awayTeam": "Pallacanestro Nardo"
+  },
+  {
+    "matchId": "g_3_GrP67tQS",
+    "eventTime": "23.12. 19:00",
+    "homeTeam": "Latina",
+    "awayTeam": "Urania Milano"
+  },
+  {
+    "matchId": "g_3_hfLSpyWs",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Cividale",
+    "awayTeam": "Udine"
+  },
+  {
+    "matchId": "g_3_h4GY20Yq",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "Cantu",
+    "awayTeam": "Trapani"
+  },
+  {
+    "matchId": "g_3_0KOzqF0f",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "Cento",
+    "awayTeam": "Chiusi"
+  },
+  {
+    "matchId": "g_3_rqEurZF0",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "Fortitudo Bologna",
+    "awayTeam": "Trieste"
+  },
+  {
+    "matchId": "g_3_UaCmtDpD",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "Rimini",
+    "awayTeam": "Forli"
+  },
+  {
+    "matchId": "g_3_QHEt1v3d",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "Sebastiani Rieti",
+    "awayTeam": "Monferrato"
+  },
+  {
+    "matchId": "g_3_YJZ18MAM",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "Treviglio",
+    "awayTeam": "Agrigento"
+  },
+  {
+    "matchId": "g_3_nRFx2Kmj",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "Vigevano",
+    "awayTeam": "JuVi Cremona"
+  },
+  {
+    "matchId": "g_3_2ZcPPNuc",
+    "eventTime": "29.12. 20:30",
+    "homeTeam": "JuVi Cremona",
+    "awayTeam": "Sebastiani Rieti"
+  },
+  {
+    "matchId": "g_3_tQdTOse3",
+    "eventTime": "30.12. 18:30",
+    "homeTeam": "Luiss Roma",
+    "awayTeam": "Agrigento"
+  },
+  {
+    "matchId": "g_3_nNayNLPF",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Cantu",
+    "awayTeam": "Urania Milano"
+  },
+  {
+    "matchId": "g_3_8jBiuXaJ",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Chiusi",
+    "awayTeam": "Rimini"
+  },
+  {
+    "matchId": "g_3_QRuxmqJP",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Forli",
+    "awayTeam": "Assigeco Piacenza"
+  },
+  {
+    "matchId": "g_3_6BC94D9l",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Monferrato",
+    "awayTeam": "Treviglio"
+  },
+  {
+    "matchId": "g_3_COyYmP3J",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Orzinuovi",
+    "awayTeam": "Fortitudo Bologna"
+  },
+  {
+    "matchId": "g_3_SKD55gfr",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Trapani",
+    "awayTeam": "Latina"
+  },
+  {
+    "matchId": "g_3_r7S3r3Rt",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Trieste",
+    "awayTeam": "Verona"
+  },
+  {
+    "matchId": "g_3_vZLCtsdg",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Udine",
+    "awayTeam": "Cento"
+  },
+  {
+    "matchId": "g_3_zmdXN1A9",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Vigevano",
+    "awayTeam": "Basket Torino"
+  },
+  {
+    "matchId": "g_3_McR7sNtm",
+    "eventTime": "30.12. 20:45",
+    "homeTeam": "Pallacanestro Nardo",
+    "awayTeam": "Cividale"
+  },
+  {
+    "matchId": "g_3_zoHD3XOf",
+    "eventTime": "06.01. 18:00",
+    "homeTeam": "Basket Torino",
+    "awayTeam": "Cantu"
+  },
+  {
+    "matchId": "g_3_6oDTxaeI",
+    "eventTime": "06.01. 18:00",
+    "homeTeam": "Fortitudo Bologna",
+    "awayTeam": "Udine"
+  },
+  {
+    "matchId": "g_3_EyGH2iv1",
+    "eventTime": "06.01. 18:00",
+    "homeTeam": "JuVi Cremona",
+    "awayTeam": "Monferrato"
+  },
+  {
+    "matchId": "g_3_O6c8PEoE",
+    "eventTime": "06.01. 18:00",
+    "homeTeam": "Treviglio",
+    "awayTeam": "Vigevano"
+  },
+  {
+    "matchId": "g_3_IPKGu1Ba",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "Cividale",
+    "awayTeam": "Forli"
+  },
+  {
+    "matchId": "g_3_d05M1Bg7",
+    "eventTime": "06.01. 20:30",
+    "homeTeam": "Urania Milano",
+    "awayTeam": "Sebastiani Rieti"
+  },
+  {
+    "matchId": "g_3_CnKKvLQ5",
+    "eventTime": "07.01. 17:00",
+    "homeTeam": "Orzinuovi",
+    "awayTeam": "Pallacanestro Nardo"
+  },
+  {
+    "matchId": "g_3_2cdCOY0K",
+    "eventTime": "07.01. 18:00",
+    "homeTeam": "Agrigento",
+    "awayTeam": "Trapani"
+  },
+  {
+    "matchId": "g_3_OMNOwutC",
+    "eventTime": "07.01. 18:00",
+    "homeTeam": "Cento",
+    "awayTeam": "Rimini"
+  },
+  {
+    "matchId": "g_3_A39Q0V8D",
+    "eventTime": "07.01. 18:00",
+    "homeTeam": "Latina",
+    "awayTeam": "Luiss Roma"
+  },
+  {
+    "matchId": "g_3_Yi5F02mP",
+    "eventTime": "07.01. 18:00",
+    "homeTeam": "Trieste",
+    "awayTeam": "Assigeco Piacenza"
+  },
+  {
+    "matchId": "g_3_pxCXyJAO",
+    "eventTime": "07.01. 18:00",
+    "homeTeam": "Verona",
+    "awayTeam": "Chiusi"
+  },
+  {
+    "matchId": "g_3_W2FfibAB",
+    "eventTime": "13.01. 20:30",
+    "homeTeam": "Forli",
+    "awayTeam": "Verona"
+  },
+  {
+    "matchId": "g_3_vuauIWwl",
+    "eventTime": "13.01. 20:30",
+    "homeTeam": "Trapani",
+    "awayTeam": "Treviglio"
+  },
+  {
+    "matchId": "g_3_r9D9NhGQ",
+    "eventTime": "13.01. 20:30",
+    "homeTeam": "Urania Milano",
+    "awayTeam": "JuVi Cremona"
+  },
+  {
+    "matchId": "g_3_EcihFUN6",
+    "eventTime": "14.01. 12:00",
+    "homeTeam": "Cantu",
+    "awayTeam": "Agrigento"
+  },
+  {
+    "matchId": "g_3_z1isdMet",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Assigeco Piacenza",
+    "awayTeam": "Fortitudo Bologna"
+  },
+  {
+    "matchId": "g_3_IPtnetBn",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Chiusi",
+    "awayTeam": "Orzinuovi"
+  },
+  {
+    "matchId": "g_3_pIayJCOs",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Monferrato",
+    "awayTeam": "Basket Torino"
+  },
+  {
+    "matchId": "g_3_4tqbhve5",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Pallacanestro Nardo",
+    "awayTeam": "Cento"
+  },
+  {
+    "matchId": "g_3_QkpfgKua",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Rimini",
+    "awayTeam": "Cividale"
+  },
+  {
+    "matchId": "g_3_z7hlGA80",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Sebastiani Rieti",
+    "awayTeam": "Luiss Roma"
+  },
+  {
+    "matchId": "g_3_WSpjf0Qh",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Udine",
+    "awayTeam": "Trieste"
+  },
+  {
+    "matchId": "g_3_hr3qHjgf",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Vigevano",
+    "awayTeam": "Latina"
+  },
+  {
+    "matchId": "g_3_MNf0D8hJ",
+    "eventTime": "20.01. 18:00",
+    "homeTeam": "JuVi Cremona",
+    "awayTeam": "Treviglio"
+  },
+  {
+    "matchId": "g_3_OSYrxhVJ",
+    "eventTime": "20.01. 18:30",
+    "homeTeam": "Luiss Roma",
+    "awayTeam": "Urania Milano"
+  },
+  {
+    "matchId": "g_3_AgEbjIPH",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Cividale",
+    "awayTeam": "Trieste"
+  },
+  {
+    "matchId": "g_3_MDinyCpQ",
+    "eventTime": "21.01. 16:00",
+    "homeTeam": "Sebastiani Rieti",
+    "awayTeam": "Cantu"
+  },
+  {
+    "matchId": "g_3_IqwIVk8m",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Agrigento",
+    "awayTeam": "Vigevano"
+  },
+  {
+    "matchId": "g_3_rXedElwD",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Basket Torino",
+    "awayTeam": "Trapani"
+  },
+  {
+    "matchId": "g_3_rsqD9uQu",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Cento",
+    "awayTeam": "Fortitudo Bologna"
+  },
+  {
+    "matchId": "g_3_j7nL7Jfh",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Forli",
+    "awayTeam": "Chiusi"
+  },
+  {
+    "matchId": "g_3_vgvEWVhs",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Latina",
+    "awayTeam": "Monferrato"
+  },
+  {
+    "matchId": "g_3_4GD2kxuO",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Orzinuovi",
+    "awayTeam": "Udine"
+  },
+  {
+    "matchId": "g_3_MXsH8aun",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Rimini",
+    "awayTeam": "Pallacanestro Nardo"
+  },
+  {
+    "matchId": "g_3_IJH6ldfU",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Verona",
+    "awayTeam": "Assigeco Piacenza"
+  },
+  {
+    "matchId": "g_3_EBWQTTx0",
+    "eventTime": "27.01. 20:30",
+    "homeTeam": "Monferrato",
+    "awayTeam": "Cantu"
+  },
+  {
+    "matchId": "g_3_riOsQoxP",
+    "eventTime": "28.01. 12:00",
+    "homeTeam": "Agrigento",
+    "awayTeam": "JuVi Cremona"
+  },
+  {
+    "matchId": "g_3_EoXp2FOT",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Assigeco Piacenza",
+    "awayTeam": "Chiusi"
+  },
+  {
+    "matchId": "g_3_zLXMU9Ng",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Basket Torino",
+    "awayTeam": "Urania Milano"
+  },
+  {
+    "matchId": "g_3_dAxt3e9N",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Cento",
+    "awayTeam": "Orzinuovi"
+  },
+  {
+    "matchId": "g_3_CMzU5cP4",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Fortitudo Bologna",
+    "awayTeam": "Cividale"
+  },
+  {
+    "matchId": "g_3_OdvY4HvB",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Pallacanestro Nardo",
+    "awayTeam": "Verona"
+  },
+  {
+    "matchId": "g_3_8YVUSmh6",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Trapani",
+    "awayTeam": "Luiss Roma"
+  },
+  {
+    "matchId": "g_3_40PwRRMI",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Treviglio",
+    "awayTeam": "Latina"
+  },
+  {
+    "matchId": "g_3_IJwx4yfH",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Trieste",
+    "awayTeam": "Rimini"
+  },
+  {
+    "matchId": "g_3_UcoP6wAb",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Udine",
+    "awayTeam": "Forli"
+  },
+  {
+    "matchId": "g_3_MyzZR77C",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Vigevano",
+    "awayTeam": "Sebastiani Rieti"
+  },
+  {
+    "matchId": "g_3_2ei4sm7a",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Cantu",
+    "awayTeam": "Vigevano"
+  },
+  {
+    "matchId": "g_3_CtaBIz9A",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Chiusi",
+    "awayTeam": "Pallacanestro Nardo"
+  },
+  {
+    "matchId": "g_3_r1BbLxPi",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Cividale",
+    "awayTeam": "Cento"
+  },
+  {
+    "matchId": "g_3_GfJCcZWp",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Forli",
+    "awayTeam": "Trieste"
+  },
+  {
+    "matchId": "g_3_fVmdq9xm",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "JuVi Cremona",
+    "awayTeam": "Basket Torino"
+  },
+  {
+    "matchId": "g_3_tnj8t7M5",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Latina",
+    "awayTeam": "Agrigento"
+  },
+  {
+    "matchId": "g_3_AcCPlVEP",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Luiss Roma",
+    "awayTeam": "Treviglio"
+  },
+  {
+    "matchId": "g_3_4Ga7JGg4",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Orzinuovi",
+    "awayTeam": "Assigeco Piacenza"
+  },
+  {
+    "matchId": "g_3_Uc7fMI9o",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Rimini",
+    "awayTeam": "Udine"
+  },
+  {
+    "matchId": "g_3_8Yi0rTig",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Sebastiani Rieti",
+    "awayTeam": "Trapani"
+  },
+  {
+    "matchId": "g_3_C6bipkNt",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Urania Milano",
+    "awayTeam": "Monferrato"
+  },
+  {
+    "matchId": "g_3_QP03Kdvb",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Verona",
+    "awayTeam": "Fortitudo Bologna"
+  }
+]

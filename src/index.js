@@ -2,16 +2,15 @@ import puppeteer from "puppeteer";
 import cliProgress from 'cli-progress';
 
 import { getMatchIdList, getFixtures, getMatchData, writeMatchData, getStatsPlayer, getStatsMatch, getPointByPoint, existData } from "./utils/index.js";
-import { getUrls} from "./urls.js";
-
+import { getUrls } from './urls.js';
 
 (async () => {
-  let country = null
-  let league = null
-  let headless = false
-  let path = "./src/data"
-  let pathfixtures = "./src/data-fixtures"
-  let action = "results"; // Por defecto, establece la acción en "fixtures
+  let country = null;
+  let league = null;
+  let headless = false;
+  let path = "./src/data";
+  let pathfixtures = "./src/data-fixtures";
+  let action = "results"; // Por defecto, establece la acción en "fixtures"
   process.argv?.slice(2)?.map(arg => {
     if (arg.includes("country="))
       country = arg.split("country=")?.[1] ?? country;
@@ -23,26 +22,22 @@ import { getUrls} from "./urls.js";
       path = arg.split("path=")?.[1] ?? path;
     if (arg.includes("action=")) // Nuevo argumento "action"
       action = arg.split("action=")?.[1] ?? action;
-    if (arg === "urls") {
-      getUrls()
-    }
   })
 
   if (!country || !league) {
-    console.log("ERROR: You did not define a country or league flags.");
+    console.log("ERROR: You did not define country or league flags.");
     console.log("Documentation can be found at https://github.com/gustavofariaa/FlashscoreScraping");
     return;
-  }  
+  }
+
   // Obtener los datos de combinedData
   if (action === "fixtures") {
-
-    const browser = await puppeteer.launch({ headless });    
+    const browser = await puppeteer.launch({ headless });
     const combinedData = await getFixtures(browser, country, league);
-    writeMatchData(combinedData, pathfixtures, `calendar-${country}-${league}`)
-  
+    writeMatchData(combinedData, pathfixtures, `calendar-${country}-${league}`);
+    await browser.close(); // Cerrar el navegador después de las operaciones
   } else if (action === "results") {
-  
-    const browser = await puppeteer.launch({ headless });    
+    const browser = await puppeteer.launch({ headless });
     const matchIdList = await getMatchIdList(browser, country, league);
     let totalIds = matchIdList.length;
     const matchIds = existData(matchIdList, path, `${country}-${league}`);
@@ -52,7 +47,8 @@ import { getUrls} from "./urls.js";
       barIncompleteChar: '\u2591',
       hideCursor: true
     });
-    progressBar.start(matchIds.length, 0);  
+    progressBar.start(matchIds.length, 0);
+
     for (const matchId of matchIds) {
       const matchData = await getMatchData(browser, matchId);
       const statsPlayer = await getStatsPlayer(browser, matchId);
@@ -93,5 +89,8 @@ import { getUrls} from "./urls.js";
       await browser.close();
       
   }
+
+    progressBar.stop();
+    await browser.close(); // Cerrar el navegador después de las operaciones en el bucle
   }
-})()
+})();

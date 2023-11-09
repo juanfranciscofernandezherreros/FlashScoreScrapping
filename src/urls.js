@@ -101,20 +101,24 @@ async function checkUrlExists(url, connection) {
     );
   }
   
-async function extractHrefs(url) {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  await page.goto(url);
-  const hrefs = await page.evaluate(() => {
-    const links = Array.from(document.querySelectorAll('a'));
-    return links.map(link => link.href);
-  });
-  await browser.close();
-
-  const filteredHrefs = hrefs.filter(href => /basketball/i.test(href) && href.split('/').length >= 5 && href.split('/').length <= 7 && !/news/i.test(href));
-
-  return filteredHrefs;
-}
+  async function extractHrefs(url) {
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    try {
+      await page.goto(url);
+      const hrefs = await page.evaluate(() => {
+        const links = Array.from(document.querySelectorAll('a'));
+        return links.map(link => link.href);
+      });
+  
+      const filteredHrefs = hrefs.filter(href => /basketball/i.test(href) && href.split('/').length >= 5 && href.split('/').length <= 7 && !/news/i.test(href));
+  
+      return filteredHrefs;
+    } finally {
+      await browser.close();
+    }
+  }
+  
 
 async function updateUrl(url, connection) {
     const [rows, fields] = await connection.execute(
@@ -123,17 +127,10 @@ async function updateUrl(url, connection) {
     );
   }
   
-
-
-  
-// Ejecución de la función principal
-async function run() {
+export const getUrls = async (browser, country, league) => {
   const connection = await mysql.createConnection(dbConfig);
   await createUrlsTable(connection);
-  const url = process.argv[2] || null;
+  const url = "https://www.flashscore.com/basketball";
   await main(url, connection);
-  await connection.end(); // Cierre de la conexión al finalizar
+  await connection.end();
 }
-
-
-run();

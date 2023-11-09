@@ -1,0 +1,1502 @@
+[
+  {
+    "matchId": "g_3_GngNCCPn",
+    "eventTime": "09.11. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_noAY9A95",
+    "eventTime": "09.11. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_l0iVAjfa",
+    "eventTime": "09.11. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_U9aw9UOB",
+    "eventTime": "09.11. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_z9RAjM8p",
+    "eventTime": "10.11. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_EaQEktOj",
+    "eventTime": "10.11. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_80bs8lvI",
+    "eventTime": "10.11. 21:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_G44cEP0i",
+    "eventTime": "14.11. 19:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_U781DqGc",
+    "eventTime": "14.11. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_2L69BNpA",
+    "eventTime": "14.11. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_OU75C3V3",
+    "eventTime": "14.11. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_rXN6As0G",
+    "eventTime": "14.11. 20:45",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_MNMA91FM",
+    "eventTime": "15.11. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_GpME8LUS",
+    "eventTime": "15.11. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_h6Dt4uwp",
+    "eventTime": "15.11. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_zV2o3ahj",
+    "eventTime": "15.11. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_EL1k2J7d",
+    "eventTime": "16.11. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_2yeXQ2pc",
+    "eventTime": "16.11. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_tSgyQMa3",
+    "eventTime": "16.11. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_OjqtPtF9",
+    "eventTime": "16.11. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_zRnpO0UF",
+    "eventTime": "17.11. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_UmnlNKqM",
+    "eventTime": "17.11. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_8vohMvaS",
+    "eventTime": "17.11. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_lYSKHb7q",
+    "eventTime": "17.11. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_SOROGIMk",
+    "eventTime": "17.11. 20:45",
+    "homeTeam": "Partizan",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_MoRSFxxd",
+    "eventTime": "23.11. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_zkVWEdi2",
+    "eventTime": "23.11. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_xf9FwtU2",
+    "eventTime": "23.11. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_Gp8Jx0q9",
+    "eventTime": "23.11. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_ALMMyKbF",
+    "eventTime": "23.11. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_lCLQzvEL",
+    "eventTime": "24.11. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_WzBVZcTR",
+    "eventTime": "24.11. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_8d2cVHyq",
+    "eventTime": "24.11. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_2J11Uyik",
+    "eventTime": "24.11. 20:30",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_tA05Te6e",
+    "eventTime": "30.11. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_boeASFL1",
+    "eventTime": "30.11. 19:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_xxfERZz8",
+    "eventTime": "30.11. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_jurdjJD8",
+    "eventTime": "30.11. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_fDQvreLl",
+    "eventTime": "30.11. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_2Fo0kwTE",
+    "eventTime": "30.11. 20:45",
+    "homeTeam": "Partizan",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_pvy5lcrL",
+    "eventTime": "01.12. 20:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_GMRzqy6r",
+    "eventTime": "01.12. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_OUZ8mHcR",
+    "eventTime": "01.12. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_xxGqsFze",
+    "eventTime": "05.12. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_juKmtZk1",
+    "eventTime": "05.12. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_p2Jiug57",
+    "eventTime": "05.12. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_KGLtuyLD",
+    "eventTime": "05.12. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_OhIevDKD",
+    "eventTime": "05.12. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_dtqAN8kt",
+    "eventTime": "06.12. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_nVyNK6Zb",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_46nILnKh",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_j3rEMS4n",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_QLzRJQl5",
+    "eventTime": "07.12. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_feuVIp4B",
+    "eventTime": "07.12. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_YovZH4JH",
+    "eventTime": "07.12. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_GATwHOYN",
+    "eventTime": "08.12. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_jHNnySJu",
+    "eventTime": "08.12. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_QZFaYP3b",
+    "eventTime": "08.12. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_nqHeZ5lh",
+    "eventTime": "08.12. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_U7MjznZo",
+    "eventTime": "08.12. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_EensGrlU",
+    "eventTime": "08.12. 21:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_KdF3XqJ4",
+    "eventTime": "14.12. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_6gXUm53o",
+    "eventTime": "14.12. 19:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_YaJ7W3YA",
+    "eventTime": "14.12. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_fF7GUs3N",
+    "eventTime": "14.12. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_2u7KT1IT",
+    "eventTime": "14.12. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_GO8CVNmH",
+    "eventTime": "14.12. 21:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_4lgnPLQp",
+    "eventTime": "15.12. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_KdyZnPIi",
+    "eventTime": "15.12. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_EJzwnqYc",
+    "eventTime": "15.12. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_hAZto3m4",
+    "eventTime": "19.12. 19:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_AoUopN2A",
+    "eventTime": "19.12. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_lxTkqsIG",
+    "eventTime": "19.12. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_raSgr1XM",
+    "eventTime": "19.12. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_fZVcsLnT",
+    "eventTime": "19.12. 21:00",
+    "homeTeam": "Valencia",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_0G8Qxuep",
+    "eventTime": "20.12. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_v77UyaAj",
+    "eventTime": "20.12. 19:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_SM0C0rmi",
+    "eventTime": "20.12. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_6DaGa22c",
+    "eventTime": "20.12. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_lxkLbMH3",
+    "eventTime": "21.12. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_2ugPctX9",
+    "eventTime": "21.12. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_d2hTd0nG",
+    "eventTime": "21.12. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_zgiXeK1M",
+    "eventTime": "22.12. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_2FNTfvHS",
+    "eventTime": "22.12. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_4O9ejbPq",
+    "eventTime": "22.12. 19:45",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_bo9akIvj",
+    "eventTime": "22.12. 20:15",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_ClD3lxfd",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_EginDLWd",
+    "eventTime": "22.12. 20:45",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_hpjjCun3",
+    "eventTime": "28.12. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_MN2mlTaD",
+    "eventTime": "28.12. 18:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_MJffBa19",
+    "eventTime": "28.12. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_0AgbAJGF",
+    "eventTime": "28.12. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_t87Shior",
+    "eventTime": "28.12. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_n5AziVFf",
+    "eventTime": "28.12. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_hrBWiB0l",
+    "eventTime": "28.12. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_rX3qk9p7",
+    "eventTime": "29.12. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_Qe9vjkV0",
+    "eventTime": "29.12. 21:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_Y1W56AFs",
+    "eventTime": "02.01. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_tSV95UUm",
+    "eventTime": "02.01. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_KIUD4lpf",
+    "eventTime": "02.01. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_2sKI38a0",
+    "eventTime": "02.01. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_GpOM2SE6",
+    "eventTime": "02.01. 20:45",
+    "homeTeam": "Partizan",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_464HO9yQ",
+    "eventTime": "03.01. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_QF5DPkMJ",
+    "eventTime": "03.01. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_lbMU06qJ",
+    "eventTime": "03.01. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_A7NQ1nUC",
+    "eventTime": "03.01. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_KW9nJmam",
+    "eventTime": "04.01. 20:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_MoiqKTqs",
+    "eventTime": "04.01. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_2eaiI7Eg",
+    "eventTime": "04.01. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_tnbeHRTa",
+    "eventTime": "04.01. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_AL2aGoq6",
+    "eventTime": "05.01. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_Wzi8EPDI",
+    "eventTime": "05.01. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_pveCDqTO",
+    "eventTime": "05.01. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_lC13F5bC",
+    "eventTime": "05.01. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_bsqfxT5P",
+    "eventTime": "05.01. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_0jVLXnEt",
+    "eventTime": "09.01. 18:30",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_t2nJW6Tn",
+    "eventTime": "09.01. 19:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_KhoNVQrg",
+    "eventTime": "09.01. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_EFpRUpba",
+    "eventTime": "09.01. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_lYxvSrrI",
+    "eventTime": "09.01. 20:30",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_SIlVT4D5",
+    "eventTime": "09.01. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_AsvzTOSB",
+    "eventTime": "09.01. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_I7srR2cO",
+    "eventTime": "10.01. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_dbtnQMCU",
+    "eventTime": "10.01. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_ML7ho6rt",
+    "eventTime": "11.01. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_YeBdpQcn",
+    "eventTime": "11.01. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_SIA0qpDh",
+    "eventTime": "11.01. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_6994r4Sb",
+    "eventTime": "11.01. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_Op49sOs5",
+    "eventTime": "12.01. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_jaKkNgdj",
+    "eventTime": "12.01. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_8zVpOZtp",
+    "eventTime": "12.01. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_db2Hu2CH",
+    "eventTime": "12.01. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_2y3DtrcB",
+    "eventTime": "12.01. 21:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_UkJgMDBd",
+    "eventTime": "18.01. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_r7Mzoclc",
+    "eventTime": "18.01. 19:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_McLvpH33",
+    "eventTime": "18.01. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_4MAqqyJ9",
+    "eventTime": "18.01. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_IPEmreYF",
+    "eventTime": "18.01. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_CnEisFmM",
+    "eventTime": "19.01. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_jwDetZ2S",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_WWfOygBq",
+    "eventTime": "19.01. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_ANgSzDQk",
+    "eventTime": "19.01. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_4pgWZWud",
+    "eventTime": "25.01. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_GKdzZje2",
+    "eventTime": "25.01. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_KhNGsqa2",
+    "eventTime": "25.01. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_bqMKt3E8",
+    "eventTime": "25.01. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_SIQOuNTE",
+    "eventTime": "25.01. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_69PSvsqL",
+    "eventTime": "26.01. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_lYEXw1bR",
+    "eventTime": "26.01. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_KG53YvMl",
+    "eventTime": "26.01. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_Qg6aZK6r",
+    "eventTime": "26.01. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_vJL4WIj1",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_b747Xbye",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_I9K8Vx67",
+    "eventTime": "30.01. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_WC8jfMr8",
+    "eventTime": "30.01. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_pGCfgtbE",
+    "eventTime": "30.01. 20:30",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_6V03iKSQ",
+    "eventTime": "31.01. 19:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_Sv2ah0DK",
+    "eventTime": "31.01. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_bNhVnvyr",
+    "eventTime": "31.01. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_xEiZobjl",
+    "eventTime": "31.01. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_KxsvoI5f",
+    "eventTime": "01.02. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_INaspxL0",
+    "eventTime": "01.02. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_Cpaoqdz7",
+    "eventTime": "01.02. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_jybkrGkD",
+    "eventTime": "01.02. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_ShsY6aSD",
+    "eventTime": "02.02. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_6qtx6JsK",
+    "eventTime": "02.02. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_06ut5wcQ",
+    "eventTime": "02.02. 20:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_KjMCaHKm",
+    "eventTime": "02.02. 20:30",
+    "homeTeam": "Monaco",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_xSW70c5s",
+    "eventTime": "02.02. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_bsLGbyzf",
+    "eventTime": "08.02. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_67KKcek0",
+    "eventTime": "08.02. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_tQCXfgZI",
+    "eventTime": "08.02. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_pbJOdF46",
+    "eventTime": "08.02. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_SM8TeZJC",
+    "eventTime": "08.02. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_h2Pv3jRu",
+    "eventTime": "09.02. 20:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_WhOr2Atn",
+    "eventTime": "09.02. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_SKHi0lBb",
+    "eventTime": "09.02. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_lUIm1Ueh",
+    "eventTime": "09.02. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_MsHea8Q4",
+    "eventTime": "29.02. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_GtA4cneH",
+    "eventTime": "29.02. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_YHKabSuB",
+    "eventTime": "29.02. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_fX88d6AN",
+    "eventTime": "29.02. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_O6DCeQPT",
+    "eventTime": "01.03. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_QFavipYp",
+    "eventTime": "01.03. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_SKwNFTAo",
+    "eventTime": "01.03. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_zosVD7ub",
+    "eventTime": "01.03. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_tOsREmQi",
+    "eventTime": "01.03. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_EytZCRf4",
+    "eventTime": "07.03. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_tbCVBoAA",
+    "eventTime": "07.03. 19:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_KlBZA5PG",
+    "eventTime": "07.03. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_EBAwAPvN",
+    "eventTime": "07.03. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_SEEs9qfT",
+    "eventTime": "07.03. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_YeiA432p",
+    "eventTime": "07.03. 20:45",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_CnjE3NHj",
+    "eventTime": "08.03. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_02qdS6fi",
+    "eventTime": "08.03. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_vgr0RQ9c",
+    "eventTime": "08.03. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_MHX4QpP3",
+    "eventTime": "14.03. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_Yiy9P4vA",
+    "eventTime": "14.03. 19:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_SEzDOOgG",
+    "eventTime": "14.03. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_65ZGNr9M",
+    "eventTime": "14.03. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_QkGmIMWq",
+    "eventTime": "14.03. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_OtULM2OS",
+    "eventTime": "14.03. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_KCFiHtnj",
+    "eventTime": "15.03. 20:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_YFJeG01d",
+    "eventTime": "15.03. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_zLcvupvc",
+    "eventTime": "15.03. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_EBdrv4g3",
+    "eventTime": "19.03. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_MydnwO89",
+    "eventTime": "19.03. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_0SfjxrOF",
+    "eventTime": "19.03. 20:00",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_ripey2wM",
+    "eventTime": "19.03. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_dflazMhS",
+    "eventTime": "19.03. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_EZzRVu1q",
+    "eventTime": "20.03. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_hQZUUaGk",
+    "eventTime": "20.03. 19:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_A1UZTJVe",
+    "eventTime": "20.03. 20:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_lhTwTwo2",
+    "eventTime": "20.03. 20:30",
+    "homeTeam": "Valencia",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_2eHLiNN2",
+    "eventTime": "21.03. 18:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_0tzPjsw9",
+    "eventTime": "21.03. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_r5PTk1hF",
+    "eventTime": "21.03. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_KUncYYMs",
+    "eventTime": "21.03. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_l4i1Xhxl",
+    "eventTime": "22.03. 19:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_Sfj5WCif",
+    "eventTime": "22.03. 19:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_AJuAVW60",
+    "eventTime": "22.03. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_OMqEUjM6",
+    "eventTime": "22.03. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_IqqITAyD",
+    "eventTime": "22.03. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_dzrMSUjJ",
+    "eventTime": "28.03. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_lQSypWLg",
+    "eventTime": "28.03. 20:30",
+    "homeTeam": "Baskonia",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_zJn1jYrQ",
+    "eventTime": "28.03. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Barcelona"
+  },
+  {
+    "matchId": "g_3_61wXpC6m",
+    "eventTime": "28.03. 20:30",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_hbZSohis",
+    "eventTime": "28.03. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_dSmciETJ",
+    "eventTime": "28.03. 21:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Monaco"
+  },
+  {
+    "matchId": "g_3_SGRuqjy0",
+    "eventTime": "29.03. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_zsVmsU5C",
+    "eventTime": "29.03. 20:30",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_djWqrAj6",
+    "eventTime": "29.03. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_I5KhtlLI",
+    "eventTime": "04.04. 19:00",
+    "homeTeam": "Crvena zvezda",
+    "awayTeam": "Olympiacos"
+  },
+  {
+    "matchId": "g_3_UuOdu8zP",
+    "eventTime": "04.04. 19:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Zalgiris Kaunas"
+  },
+  {
+    "matchId": "g_3_phb6aBLt",
+    "eventTime": "04.04. 20:30",
+    "homeTeam": "Alba Berlin",
+    "awayTeam": "Partizan"
+  },
+  {
+    "matchId": "g_3_rqCv4iDP",
+    "eventTime": "04.04. 20:30",
+    "homeTeam": "Barcelona",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
+    "matchId": "g_3_2ThBbVzm",
+    "eventTime": "04.04. 20:45",
+    "homeTeam": "Valencia",
+    "awayTeam": "Lyon-Villeurbanne"
+  },
+  {
+    "matchId": "g_3_tKiFckjg",
+    "eventTime": "05.04. 19:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Anadolu Efes"
+  },
+  {
+    "matchId": "g_3_zsiJd95a",
+    "eventTime": "05.04. 20:30",
+    "homeTeam": "Bayern",
+    "awayTeam": "Panathinaikos"
+  },
+  {
+    "matchId": "g_3_lpeNeTK5",
+    "eventTime": "05.04. 20:30",
+    "homeTeam": "Olimpia Milano",
+    "awayTeam": "Virtus Bologna"
+  },
+  {
+    "matchId": "g_3_W8pSfmzC",
+    "eventTime": "05.04. 20:30",
+    "homeTeam": "Real Madrid",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_4zbZhR4O",
+    "eventTime": "11.04. 19:00",
+    "homeTeam": "Monaco",
+    "awayTeam": "Bayern"
+  },
+  {
+    "matchId": "g_3_AaqWg7kI",
+    "eventTime": "11.04. 19:00",
+    "homeTeam": "Zalgiris Kaunas",
+    "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_rRdwhoKU",
+    "eventTime": "11.04. 19:30",
+    "homeTeam": "Anadolu Efes",
+    "awayTeam": "Crvena zvezda"
+  },
+  {
+    "matchId": "g_3_AHAscwHu",
+    "eventTime": "11.04. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_OKEodcWo",
+    "eventTime": "11.04. 20:15",
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Alba Berlin"
+  },
+  {
+    "matchId": "g_3_dYCgfy1b",
+    "eventTime": "12.04. 20:15",
+    "homeTeam": "Olympiacos",
+    "awayTeam": "Fenerbahce"
+  },
+  {
+    "matchId": "g_3_E97bgeG4",
+    "eventTime": "12.04. 20:30",
+    "homeTeam": "Partizan",
+    "awayTeam": "Valencia"
+  },
+  {
+    "matchId": "g_3_h062hFVA",
+    "eventTime": "12.04. 20:30",
+    "homeTeam": "Virtus Bologna",
+    "awayTeam": "Baskonia"
+  },
+  {
+    "matchId": "g_3_IsEkeHoh",
+    "eventTime": "12.04. 21:00",
+    "homeTeam": "Lyon-Villeurbanne",
+    "awayTeam": "Barcelona"
+  }
+]

@@ -143,3 +143,9 @@ This project works for users looking for reliable information about sports resul
 npm run start country=europe league=euroleague-2015-2016 headless
 
 npm run start country=europe league=euroleague headless
+
+npm run start country=europe league=euroleague action=fixtures headless
+
+npm install mysql2
+
+npm run start urls
