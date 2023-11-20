@@ -17,8 +17,6 @@ import { getUrls } from './urls.js';
       country = arg.split("country=")?.[1] ?? country;
     if (arg.includes("league="))
       league = arg.split("league=")?.[1] ?? league;
-	if (arg.includes("url=")) // New condition for the "url" argument
-      getUrls()
     if (arg.includes("headless"))
       headless = "new";
     if (arg.includes("path="))
@@ -27,10 +25,9 @@ import { getUrls } from './urls.js';
       action = arg.split("action=")?.[1] ?? action;
   })
 
-  if (!country || !league) {
-    console.log("ERROR: You did not define country or league flags.");
-    console.log("Documentation can be found at https://github.com/gustavofariaa/FlashscoreScraping");
-    return;
+  if (country===null && league===null && action === "urls") {
+	getUrls()
+	return 
   }
 
   // Obtener los datos de combinedData

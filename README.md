@@ -145,10 +145,4 @@ npm run start country=europe league=euroleague-2015-2016 headless
 npm run start country=europe league=euroleague headless
 
 npm run start country=europe league=euroleague action=fixtures headless
-
-npm install mysql2
-
-npm run start urls action=url
-
-npm run start -- --country=yourCountry --league=yourLeague --url=http://example.com
-npm run start -- --country=yourCountry --league=yourLeague --url=http://example.com
+npm run start action=urls headless

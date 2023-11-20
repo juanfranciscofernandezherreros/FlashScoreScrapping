@@ -1,155 +1,5 @@
 [
   {
-    "matchId": "g_3_GngNCCPn",
-    "eventTime": "09.11. 20:05",
-    "homeTeam": "Maccabi Tel Aviv",
-    "awayTeam": "Bayern"
-  },
-  {
-    "matchId": "g_3_noAY9A95",
-    "eventTime": "09.11. 20:30",
-    "homeTeam": "Olimpia Milano",
-    "awayTeam": "Valencia"
-  },
-  {
-    "matchId": "g_3_l0iVAjfa",
-    "eventTime": "09.11. 20:30",
-    "homeTeam": "Partizan",
-    "awayTeam": "Fenerbahce"
-  },
-  {
-    "matchId": "g_3_U9aw9UOB",
-    "eventTime": "09.11. 20:45",
-    "homeTeam": "Real Madrid",
-    "awayTeam": "Virtus Bologna"
-  },
-  {
-    "matchId": "g_3_z9RAjM8p",
-    "eventTime": "10.11. 20:00",
-    "homeTeam": "Alba Berlin",
-    "awayTeam": "Panathinaikos"
-  },
-  {
-    "matchId": "g_3_EaQEktOj",
-    "eventTime": "10.11. 20:30",
-    "homeTeam": "Barcelona",
-    "awayTeam": "Crvena zvezda"
-  },
-  {
-    "matchId": "g_3_80bs8lvI",
-    "eventTime": "10.11. 21:00",
-    "homeTeam": "Monaco",
-    "awayTeam": "Lyon-Villeurbanne"
-  },
-  {
-    "matchId": "g_3_G44cEP0i",
-    "eventTime": "14.11. 19:00",
-    "homeTeam": "Monaco",
-    "awayTeam": "Anadolu Efes"
-  },
-  {
-    "matchId": "g_3_U781DqGc",
-    "eventTime": "14.11. 20:05",
-    "homeTeam": "Maccabi Tel Aviv",
-    "awayTeam": "Olympiacos"
-  },
-  {
-    "matchId": "g_3_2L69BNpA",
-    "eventTime": "14.11. 20:30",
-    "homeTeam": "Valencia",
-    "awayTeam": "Real Madrid"
-  },
-  {
-    "matchId": "g_3_OU75C3V3",
-    "eventTime": "14.11. 20:30",
-    "homeTeam": "Virtus Bologna",
-    "awayTeam": "Olimpia Milano"
-  },
-  {
-    "matchId": "g_3_rXN6As0G",
-    "eventTime": "14.11. 20:45",
-    "homeTeam": "Crvena zvezda",
-    "awayTeam": "Fenerbahce"
-  },
-  {
-    "matchId": "g_3_MNMA91FM",
-    "eventTime": "15.11. 20:00",
-    "homeTeam": "Alba Berlin",
-    "awayTeam": "Lyon-Villeurbanne"
-  },
-  {
-    "matchId": "g_3_GpME8LUS",
-    "eventTime": "15.11. 20:15",
-    "homeTeam": "Panathinaikos",
-    "awayTeam": "Zalgiris Kaunas"
-  },
-  {
-    "matchId": "g_3_h6Dt4uwp",
-    "eventTime": "15.11. 20:30",
-    "homeTeam": "Baskonia",
-    "awayTeam": "Barcelona"
-  },
-  {
-    "matchId": "g_3_zV2o3ahj",
-    "eventTime": "15.11. 20:30",
-    "homeTeam": "Bayern",
-    "awayTeam": "Partizan"
-  },
-  {
-    "matchId": "g_3_EL1k2J7d",
-    "eventTime": "16.11. 18:45",
-    "homeTeam": "Fenerbahce",
-    "awayTeam": "Maccabi Tel Aviv"
-  },
-  {
-    "matchId": "g_3_2yeXQ2pc",
-    "eventTime": "16.11. 20:15",
-    "homeTeam": "Olympiacos",
-    "awayTeam": "Crvena zvezda"
-  },
-  {
-    "matchId": "g_3_tSgyQMa3",
-    "eventTime": "16.11. 20:30",
-    "homeTeam": "Olimpia Milano",
-    "awayTeam": "Anadolu Efes"
-  },
-  {
-    "matchId": "g_3_OjqtPtF9",
-    "eventTime": "16.11. 20:45",
-    "homeTeam": "Real Madrid",
-    "awayTeam": "Monaco"
-  },
-  {
-    "matchId": "g_3_zRnpO0UF",
-    "eventTime": "17.11. 19:00",
-    "homeTeam": "Zalgiris Kaunas",
-    "awayTeam": "Bayern"
-  },
-  {
-    "matchId": "g_3_UmnlNKqM",
-    "eventTime": "17.11. 20:00",
-    "homeTeam": "Lyon-Villeurbanne",
-    "awayTeam": "Baskonia"
-  },
-  {
-    "matchId": "g_3_8vohMvaS",
-    "eventTime": "17.11. 20:15",
-    "homeTeam": "Panathinaikos",
-    "awayTeam": "Virtus Bologna"
-  },
-  {
-    "matchId": "g_3_lYSKHb7q",
-    "eventTime": "17.11. 20:30",
-    "homeTeam": "Barcelona",
-    "awayTeam": "Valencia"
-  },
-  {
-    "matchId": "g_3_SOROGIMk",
-    "eventTime": "17.11. 20:45",
-    "homeTeam": "Partizan",
-    "awayTeam": "Alba Berlin"
-  },
-  {
     "matchId": "g_3_MoRSFxxd",
     "eventTime": "23.11. 20:00",
     "homeTeam": "Lyon-Villeurbanne",
@@ -202,6 +52,12 @@
     "eventTime": "24.11. 20:30",
     "homeTeam": "Crvena zvezda",
     "awayTeam": "Olimpia Milano"
+  },
+  {
+    "matchId": "g_3_0GWicXPa",
+    "eventTime": "28.11. 20:05",
+    "homeTeam": "Maccabi Tel Aviv",
+    "awayTeam": "Real Madrid"
   },
   {
     "matchId": "g_3_tA05Te6e",
@@ -636,6 +492,12 @@
     "awayTeam": "Bayern"
   },
   {
+    "matchId": "g_3_2eaiI7Eg",
+    "eventTime": "04.01. 18:45",
+    "homeTeam": "Fenerbahce",
+    "awayTeam": "Maccabi Tel Aviv"
+  },
+  {
     "matchId": "g_3_KW9nJmam",
     "eventTime": "04.01. 20:00",
     "homeTeam": "Crvena zvezda",
@@ -646,12 +508,6 @@
     "eventTime": "04.01. 20:00",
     "homeTeam": "Lyon-Villeurbanne",
     "awayTeam": "Zalgiris Kaunas"
-  },
-  {
-    "matchId": "g_3_2eaiI7Eg",
-    "eventTime": "04.01. 20:05",
-    "homeTeam": "Maccabi Tel Aviv",
-    "awayTeam": "Fenerbahce"
   },
   {
     "matchId": "g_3_tnbeHRTa",
