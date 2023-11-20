@@ -4,8 +4,7 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "urls": "node src/urls.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "cli-progress": "^3.12.0",
