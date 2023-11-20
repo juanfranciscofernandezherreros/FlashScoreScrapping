@@ -1,0 +1,722 @@
+[
+  {
+    "matchId": "g_3_GMcI3V9A",
+    "eventTime": "16.11. 20:30",
+    "homeTeam": "Campobasso W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_0l6kq4SQ",
+    "eventTime": "17.11. 20:30",
+    "homeTeam": "Faenza W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_Mc7oppDK",
+    "eventTime": "19.11. 16:00",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "Oxygen Roma W"
+  },
+  {
+    "matchId": "g_3_IThHvOzr",
+    "eventTime": "19.11. 17:00",
+    "homeTeam": "Sanga Milano W",
+    "awayTeam": "Sassari W"
+  },
+  {
+    "matchId": "g_3_WWdLwrjl",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Brixia W",
+    "awayTeam": "Ragusa W"
+  },
+  {
+    "matchId": "g_3_QVDxn6r8",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "San Martino W",
+    "awayTeam": "Battipaglia W"
+  },
+  {
+    "matchId": "g_3_4MCtoQcE",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Venezia W",
+    "awayTeam": "Campobasso W"
+  },
+  {
+    "matchId": "g_3_fBROc3sK",
+    "eventTime": "25.11. 19:30",
+    "homeTeam": "Schio W",
+    "awayTeam": "Brixia W"
+  },
+  {
+    "matchId": "g_3_hnoUyMK0",
+    "eventTime": "25.11. 20:45",
+    "homeTeam": "Oxygen Roma W",
+    "awayTeam": "Sanga Milano W"
+  },
+  {
+    "matchId": "g_3_EenQx25f",
+    "eventTime": "26.11. 15:30",
+    "homeTeam": "Sassari W",
+    "awayTeam": "Battipaglia W"
+  },
+  {
+    "matchId": "g_3_t8NKbqSD",
+    "eventTime": "26.11. 17:00",
+    "homeTeam": "Ragusa W",
+    "awayTeam": "San Martino W"
+  },
+  {
+    "matchId": "g_3_v3qxz0kD",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Campobasso W",
+    "awayTeam": "Faenza W"
+  },
+  {
+    "matchId": "g_3_0CpYztz7",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "San Giovanni W",
+    "awayTeam": "Venezia W"
+  },
+  {
+    "matchId": "g_3_n963jLZg",
+    "eventTime": "03.12. 16:00",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "Venezia W"
+  },
+  {
+    "matchId": "g_3_8I7ai1Km",
+    "eventTime": "03.12. 17:00",
+    "homeTeam": "Ragusa W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_tW57kuk0",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Battipaglia W",
+    "awayTeam": "Campobasso W"
+  },
+  {
+    "matchId": "g_3_jsDfhs5s",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Brixia W",
+    "awayTeam": "Sassari W"
+  },
+  {
+    "matchId": "g_3_lYQSdNdQ",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Faenza W",
+    "awayTeam": "San Giovanni W"
+  },
+  {
+    "matchId": "g_3_vHOAla46",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "San Martino W",
+    "awayTeam": "Oxygen Roma W"
+  },
+  {
+    "matchId": "g_3_MuEFmJJC",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Sassari W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_Sx55AtRP",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Campobasso W",
+    "awayTeam": "Brixia W"
+  },
+  {
+    "matchId": "g_3_ln61BMBJ",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Oxygen Roma W",
+    "awayTeam": "Faenza W"
+  },
+  {
+    "matchId": "g_3_YJsY50Zt",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "San Giovanni W",
+    "awayTeam": "Sanga Milano W"
+  },
+  {
+    "matchId": "g_3_nNox5Klm",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Schio W",
+    "awayTeam": "San Martino W"
+  },
+  {
+    "matchId": "g_3_0WCJnwZI",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Venezia W",
+    "awayTeam": "Ragusa W"
+  },
+  {
+    "matchId": "g_3_Yaak0d3I",
+    "eventTime": "16.12. 16:00",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "San Giovanni W"
+  },
+  {
+    "matchId": "g_3_tpot4v4g",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Battipaglia W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_0n1s2IY5",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Brixia W",
+    "awayTeam": "Oxygen Roma W"
+  },
+  {
+    "matchId": "g_3_vw0o1xlC",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Faenza W",
+    "awayTeam": "Sassari W"
+  },
+  {
+    "matchId": "g_3_Kzpp3bJa",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "San Martino W",
+    "awayTeam": "Campobasso W"
+  },
+  {
+    "matchId": "g_3_pxSIrUXp",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Sanga Milano W",
+    "awayTeam": "Ragusa W"
+  },
+  {
+    "matchId": "g_3_0hMjO2j1",
+    "eventTime": "20.12. 20:30",
+    "homeTeam": "Ragusa W",
+    "awayTeam": "Faenza W"
+  },
+  {
+    "matchId": "g_3_QX456XPi",
+    "eventTime": "23.12. 18:30",
+    "homeTeam": "Oxygen Roma W",
+    "awayTeam": "Venezia W"
+  },
+  {
+    "matchId": "g_3_ns617DAo",
+    "eventTime": "23.12. 19:30",
+    "homeTeam": "Schio W",
+    "awayTeam": "Sanga Milano W"
+  },
+  {
+    "matchId": "g_3_f7995iub",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Sassari W",
+    "awayTeam": "San Martino W"
+  },
+  {
+    "matchId": "g_3_Yc8D4Bf4",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "Ragusa W",
+    "awayTeam": "Battipaglia W"
+  },
+  {
+    "matchId": "g_3_Sd1M2kPG",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "San Giovanni W",
+    "awayTeam": "Brixia W"
+  },
+  {
+    "matchId": "g_3_A3TwR46r",
+    "eventTime": "27.12. 20:00",
+    "homeTeam": "Schio W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_vwYsQOLl",
+    "eventTime": "29.12. 17:00",
+    "homeTeam": "Battipaglia W",
+    "awayTeam": "Brixia W"
+  },
+  {
+    "matchId": "g_3_CSPfNM57",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Campobasso W",
+    "awayTeam": "Sanga Milano W"
+  },
+  {
+    "matchId": "g_3_ITWoPrye",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "Oxygen Roma W",
+    "awayTeam": "San Giovanni W"
+  },
+  {
+    "matchId": "g_3_8fsCVpbR",
+    "eventTime": "30.12. 20:30",
+    "homeTeam": "San Martino W",
+    "awayTeam": "Venezia W"
+  },
+  {
+    "matchId": "g_3_YcUrKjfi",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Campobasso W",
+    "awayTeam": "Sassari W"
+  },
+  {
+    "matchId": "g_3_Kft1e7Hj",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "San Giovanni W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_MJ0Q19vN",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Sanga Milano W",
+    "awayTeam": "San Martino W"
+  },
+  {
+    "matchId": "g_3_t4scdm2p",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Venezia W",
+    "awayTeam": "Battipaglia W"
+  },
+  {
+    "matchId": "g_3_0AaU0TgT",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "Ragusa W"
+  },
+  {
+    "matchId": "g_3_n1YnJA9c",
+    "eventTime": "14.01. 20:30",
+    "homeTeam": "Faenza W",
+    "awayTeam": "Brixia W"
+  },
+  {
+    "matchId": "g_3_0SGZ96Wq",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Battipaglia W",
+    "awayTeam": "Sanga Milano W"
+  },
+  {
+    "matchId": "g_3_UPNiIUO3",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Sassari W",
+    "awayTeam": "San Giovanni W"
+  },
+  {
+    "matchId": "g_3_O6P7EnOS",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Brixia W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_2iyaG8gG",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Oxygen Roma W",
+    "awayTeam": "Campobasso W"
+  },
+  {
+    "matchId": "g_3_8GMeHlvA",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "San Martino W",
+    "awayTeam": "Faenza W"
+  },
+  {
+    "matchId": "g_3_trz3FS8M",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Schio W",
+    "awayTeam": "Venezia W"
+  },
+  {
+    "matchId": "g_3_rBdYU789",
+    "eventTime": "27.01. 18:00",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "Battipaglia W"
+  },
+  {
+    "matchId": "g_3_llcUVmg3",
+    "eventTime": "27.01. 20:30",
+    "homeTeam": "Campobasso W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_fkGw9Qoj",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Faenza W",
+    "awayTeam": "Sanga Milano W"
+  },
+  {
+    "matchId": "g_3_AcbQWTwc",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Oxygen Roma W",
+    "awayTeam": "Sassari W"
+  },
+  {
+    "matchId": "g_3_YuFs8p1d",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "San Giovanni W",
+    "awayTeam": "Ragusa W"
+  },
+  {
+    "matchId": "g_3_fo0xURNF",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Venezia W",
+    "awayTeam": "Brixia W"
+  },
+  {
+    "matchId": "g_3_rBYPKNp2",
+    "eventTime": "03.02. 20:30",
+    "homeTeam": "Battipaglia W",
+    "awayTeam": "Oxygen Roma W"
+  },
+  {
+    "matchId": "g_3_8htDNP0q",
+    "eventTime": "03.02. 20:30",
+    "homeTeam": "Faenza W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_U7ULL3Ve",
+    "eventTime": "03.02. 20:30",
+    "homeTeam": "Ragusa W",
+    "awayTeam": "Campobasso W"
+  },
+  {
+    "matchId": "g_3_nquHMqGk",
+    "eventTime": "03.02. 20:30",
+    "homeTeam": "San Martino W",
+    "awayTeam": "San Giovanni W"
+  },
+  {
+    "matchId": "g_3_xAksTowM",
+    "eventTime": "03.02. 20:30",
+    "homeTeam": "Sanga Milano W",
+    "awayTeam": "Venezia W"
+  },
+  {
+    "matchId": "g_3_G0loS5hS",
+    "eventTime": "03.02. 20:30",
+    "homeTeam": "Schio W",
+    "awayTeam": "Sassari W"
+  },
+  {
+    "matchId": "g_3_dEM7q7N2",
+    "eventTime": "17.02. 20:00",
+    "homeTeam": "Sassari W",
+    "awayTeam": "Ragusa W"
+  },
+  {
+    "matchId": "g_3_z5LBrRx9",
+    "eventTime": "17.02. 20:30",
+    "homeTeam": "Brixia W",
+    "awayTeam": "Sanga Milano W"
+  },
+  {
+    "matchId": "g_3_f7yDt57L",
+    "eventTime": "17.02. 20:30",
+    "homeTeam": "Oxygen Roma W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_lUzHuPMR",
+    "eventTime": "17.02. 20:30",
+    "homeTeam": "San Giovanni W",
+    "awayTeam": "Battipaglia W"
+  },
+  {
+    "matchId": "g_3_GGx9sohF",
+    "eventTime": "17.02. 20:30",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "San Martino W"
+  },
+  {
+    "matchId": "g_3_QkSryqVr",
+    "eventTime": "18.02. 18:00",
+    "homeTeam": "Venezia W",
+    "awayTeam": "Faenza W"
+  },
+  {
+    "matchId": "g_3_fLGoe4ME",
+    "eventTime": "01.03. 21:15",
+    "homeTeam": "Ragusa W",
+    "awayTeam": "Oxygen Roma W"
+  },
+  {
+    "matchId": "g_3_8EHmz3pk",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Sassari W",
+    "awayTeam": "Venezia W"
+  },
+  {
+    "matchId": "g_3_GvLeYtF1",
+    "eventTime": "03.03. 18:00",
+    "homeTeam": "Battipaglia W",
+    "awayTeam": "Faenza W"
+  },
+  {
+    "matchId": "g_3_n5GiZMae",
+    "eventTime": "03.03. 18:00",
+    "homeTeam": "Campobasso W",
+    "awayTeam": "San Giovanni W"
+  },
+  {
+    "matchId": "g_3_fVJaX0U7",
+    "eventTime": "03.03. 18:00",
+    "homeTeam": "San Martino W",
+    "awayTeam": "Brixia W"
+  },
+  {
+    "matchId": "g_3_dzbrdp78",
+    "eventTime": "03.03. 18:00",
+    "homeTeam": "Sanga Milano W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_GdWVZgj6",
+    "eventTime": "09.03. 19:30",
+    "homeTeam": "Venezia W",
+    "awayTeam": "San Martino W"
+  },
+  {
+    "matchId": "g_3_nHvFwxis",
+    "eventTime": "09.03. 20:30",
+    "homeTeam": "Brixia W",
+    "awayTeam": "Battipaglia W"
+  },
+  {
+    "matchId": "g_3_Q7wJxd6m",
+    "eventTime": "10.03. 18:00",
+    "homeTeam": "Faenza W",
+    "awayTeam": "Ragusa W"
+  },
+  {
+    "matchId": "g_3_MZWRzzy0",
+    "eventTime": "10.03. 18:00",
+    "homeTeam": "San Giovanni W",
+    "awayTeam": "Oxygen Roma W"
+  },
+  {
+    "matchId": "g_3_UazzZD5C",
+    "eventTime": "10.03. 18:00",
+    "homeTeam": "Sanga Milano W",
+    "awayTeam": "Campobasso W"
+  },
+  {
+    "matchId": "g_3_rqYNyGLg",
+    "eventTime": "10.03. 18:00",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_COPvYXKI",
+    "eventTime": "16.03. 20:00",
+    "homeTeam": "Sassari W",
+    "awayTeam": "Sanga Milano W"
+  },
+  {
+    "matchId": "g_3_KUbhieLt",
+    "eventTime": "17.03. 18:00",
+    "homeTeam": "Battipaglia W",
+    "awayTeam": "San Martino W"
+  },
+  {
+    "matchId": "g_3_Gdh1kZkg",
+    "eventTime": "17.03. 18:00",
+    "homeTeam": "Campobasso W",
+    "awayTeam": "Venezia W"
+  },
+  {
+    "matchId": "g_3_2glcjFzm",
+    "eventTime": "17.03. 18:00",
+    "homeTeam": "Oxygen Roma W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_ILCQeyDP",
+    "eventTime": "17.03. 18:00",
+    "homeTeam": "Ragusa W",
+    "awayTeam": "Brixia W"
+  },
+  {
+    "matchId": "g_3_jFOrXizP",
+    "eventTime": "17.03. 18:00",
+    "homeTeam": "Schio W",
+    "awayTeam": "Faenza W"
+  },
+  {
+    "matchId": "g_3_jZnQqVJU",
+    "eventTime": "23.03. 20:30",
+    "homeTeam": "Brixia W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_lAj9mDK5",
+    "eventTime": "23.03. 20:30",
+    "homeTeam": "Faenza W",
+    "awayTeam": "Campobasso W"
+  },
+  {
+    "matchId": "g_3_pxpIoikI",
+    "eventTime": "24.03. 18:00",
+    "homeTeam": "Battipaglia W",
+    "awayTeam": "Sassari W"
+  },
+  {
+    "matchId": "g_3_vaqMpB4O",
+    "eventTime": "24.03. 18:00",
+    "homeTeam": "San Martino W",
+    "awayTeam": "Ragusa W"
+  },
+  {
+    "matchId": "g_3_AJi5lg5a",
+    "eventTime": "24.03. 18:00",
+    "homeTeam": "Sanga Milano W",
+    "awayTeam": "Oxygen Roma W"
+  },
+  {
+    "matchId": "g_3_6ooEnXZB",
+    "eventTime": "24.03. 18:00",
+    "homeTeam": "Venezia W",
+    "awayTeam": "San Giovanni W"
+  },
+  {
+    "matchId": "g_3_08dkpaVA",
+    "eventTime": "30.03. 19:30",
+    "homeTeam": "Venezia W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_IP0UlNGu",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Sassari W",
+    "awayTeam": "Brixia W"
+  },
+  {
+    "matchId": "g_3_dGaYmsWo",
+    "eventTime": "30.03. 20:30",
+    "homeTeam": "Campobasso W",
+    "awayTeam": "Battipaglia W"
+  },
+  {
+    "matchId": "g_3_n5hoouG4",
+    "eventTime": "30.03. 20:30",
+    "homeTeam": "Oxygen Roma W",
+    "awayTeam": "San Martino W"
+  },
+  {
+    "matchId": "g_3_4t3tnL0b",
+    "eventTime": "30.03. 20:30",
+    "homeTeam": "San Giovanni W",
+    "awayTeam": "Faenza W"
+  },
+  {
+    "matchId": "g_3_Qk4xm1oh",
+    "eventTime": "30.03. 20:30",
+    "homeTeam": "Schio W",
+    "awayTeam": "Ragusa W"
+  },
+  {
+    "matchId": "g_3_0rRgscFT",
+    "eventTime": "06.04. 18:00",
+    "homeTeam": "Sanga Milano W",
+    "awayTeam": "San Giovanni W"
+  },
+  {
+    "matchId": "g_3_fVegqJpH",
+    "eventTime": "06.04. 20:30",
+    "homeTeam": "Brixia W",
+    "awayTeam": "Campobasso W"
+  },
+  {
+    "matchId": "g_3_Gf13100o",
+    "eventTime": "06.04. 20:30",
+    "homeTeam": "Faenza W",
+    "awayTeam": "Oxygen Roma W"
+  },
+  {
+    "matchId": "g_3_2iDLxHNp",
+    "eventTime": "07.04. 18:00",
+    "homeTeam": "Ragusa W",
+    "awayTeam": "Venezia W"
+  },
+  {
+    "matchId": "g_3_YLfcrw0N",
+    "eventTime": "07.04. 18:00",
+    "homeTeam": "San Martino W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_Uc570KFi",
+    "eventTime": "07.04. 18:00",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "Sassari W"
+  },
+  {
+    "matchId": "g_3_KnbKcIaA",
+    "eventTime": "14.04. 18:00",
+    "homeTeam": "Campobasso W",
+    "awayTeam": "San Martino W"
+  },
+  {
+    "matchId": "g_3_hxjXfGqT",
+    "eventTime": "14.04. 18:00",
+    "homeTeam": "Oxygen Roma W",
+    "awayTeam": "Brixia W"
+  },
+  {
+    "matchId": "g_3_jDgGbbp4",
+    "eventTime": "14.04. 18:00",
+    "homeTeam": "Ragusa W",
+    "awayTeam": "Sanga Milano W"
+  },
+  {
+    "matchId": "g_3_bwcOdxFG",
+    "eventTime": "14.04. 18:00",
+    "homeTeam": "San Giovanni W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_CMfCavVc",
+    "eventTime": "14.04. 18:00",
+    "homeTeam": "Sassari W",
+    "awayTeam": "Faenza W"
+  },
+  {
+    "matchId": "g_3_t2nTedUM",
+    "eventTime": "14.04. 18:00",
+    "homeTeam": "Schio W",
+    "awayTeam": "Battipaglia W"
+  },
+  {
+    "matchId": "g_3_bwJgCHE3",
+    "eventTime": "20.04. 20:30",
+    "homeTeam": "Battipaglia W",
+    "awayTeam": "Ragusa W"
+  },
+  {
+    "matchId": "g_3_QPKoEwpi",
+    "eventTime": "20.04. 20:30",
+    "homeTeam": "Brixia W",
+    "awayTeam": "San Giovanni W"
+  },
+  {
+    "matchId": "g_3_AHxajzhp",
+    "eventTime": "20.04. 20:30",
+    "homeTeam": "San Martino W",
+    "awayTeam": "Sassari W"
+  },
+  {
+    "matchId": "g_3_l8y3kf7j",
+    "eventTime": "20.04. 20:30",
+    "homeTeam": "Sanga Milano W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_4GJkDcac",
+    "eventTime": "20.04. 20:30",
+    "homeTeam": "Venezia W",
+    "awayTeam": "Oxygen Roma W"
+  },
+  {
+    "matchId": "g_3_CtNcByU9",
+    "eventTime": "20.04. 20:30",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "Campobasso W"
+  }
+]

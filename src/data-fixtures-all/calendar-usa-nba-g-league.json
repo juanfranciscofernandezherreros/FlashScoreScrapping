@@ -1,0 +1,4214 @@
+[
+  {
+    "matchId": "g_3_b34vS8Z5",
+    "eventTime": "17.11. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_Aw8rRSlC",
+    "eventTime": "17.11. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_407nQn4I",
+    "eventTime": "17.11. 01:30FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_ri6jP6JO",
+    "eventTime": "17.11. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_Y5ILjMnm",
+    "eventTime": "18.11. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_K8kZmjdP",
+    "eventTime": "18.11. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_MHy1qA4t",
+    "eventTime": "18.11. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_Gvy5rUJn",
+    "eventTime": "18.11. 02:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_Usu9slZh",
+    "eventTime": "18.11. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_C6UDt8la",
+    "eventTime": "18.11. 21:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_jcTHuS35",
+    "eventTime": "19.11. 00:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_xERPw6YH",
+    "eventTime": "19.11. 00:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_bNSLvnJB",
+    "eventTime": "19.11. 00:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_KxHUxQmO",
+    "eventTime": "19.11. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_GU7Qkt2g",
+    "eventTime": "19.11. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_YuLYyp3U",
+    "eventTime": "19.11. 02:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_A1dvcTYu",
+    "eventTime": "19.11. 19:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_lherdmln",
+    "eventTime": "19.11. 20:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_fL6Ul0Ha",
+    "eventTime": "19.11. 20:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_6Tkme73h",
+    "eventTime": "19.11. 22:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_dGJWZdXq",
+    "eventTime": "19.11. 23:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_xS6bh5mB",
+    "eventTime": "19.11. 23:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_pKlifRIb",
+    "eventTime": "19.11. 23:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_vslegoY4",
+    "eventTime": "20.11. 00:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_Kjd3iP2H",
+    "eventTime": "20.11. 00:30FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_2o6YmKW5",
+    "eventTime": "21.11. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_QkOzZGnj",
+    "eventTime": "21.11. 02:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_tx5xmvnC",
+    "eventTime": "21.11. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_4tNvYz2d",
+    "eventTime": "21.11. 03:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_6o1NdKvc",
+    "eventTime": "22.11. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_Kl5Revf3",
+    "eventTime": "22.11. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_EB4Vfb99",
+    "eventTime": "22.11. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_h23ZgIOF",
+    "eventTime": "22.11. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_YDKWhxvM",
+    "eventTime": "22.11. 18:30FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_C4JzhdgS",
+    "eventTime": "23.11. 01:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_Uq62mG1q",
+    "eventTime": "23.11. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_rmA6nzHk",
+    "eventTime": "23.11. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_QBaBofWe",
+    "eventTime": "23.11. 02:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_42bFpEo2",
+    "eventTime": "23.11. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_hIic9cO2",
+    "eventTime": "24.11. 20:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_W8j18Hw9",
+    "eventTime": "24.11. 21:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_EXu67ygF",
+    "eventTime": "25.11. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_Q7qA6e8L",
+    "eventTime": "25.11. 02:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_KUrE5FNR",
+    "eventTime": "25.11. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_O0fsnb1I",
+    "eventTime": "25.11. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_MwVu1ZVr",
+    "eventTime": "25.11. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_zwNAUVVp",
+    "eventTime": "25.11. 20:00FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_vFPp0gok",
+    "eventTime": "26.11. 00:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_I5OlaD0e",
+    "eventTime": "26.11. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_CSNhbXF1",
+    "eventTime": "26.11. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_QVRdciV7",
+    "eventTime": "26.11. 02:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_Sz6uMz88",
+    "eventTime": "26.11. 02:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_6R4qLfNE",
+    "eventTime": "26.11. 02:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_02JnKExL",
+    "eventTime": "26.11. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_ltBhgF8o",
+    "eventTime": "26.11. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_vgIjJYiR",
+    "eventTime": "26.11. 22:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_pzeJEh0r",
+    "eventTime": "26.11. 22:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_bwaNDCFl",
+    "eventTime": "26.11. 23:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_h0bRCWUf",
+    "eventTime": "27.11. 00:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_WjcVBjp1",
+    "eventTime": "27.11. 02:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_lSizBAa7",
+    "eventTime": "27.11. 19:30FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_SIjvAUED",
+    "eventTime": "28.11. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_SW9dhZNi",
+    "eventTime": "28.11. 01:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_tMvMYDiE",
+    "eventTime": "29.11. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_hdrQXX6K",
+    "eventTime": "29.11. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_zLXUWiMQ",
+    "eventTime": "29.11. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_xUJdSBUs",
+    "eventTime": "29.11. 02:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_63O0RVql",
+    "eventTime": "29.11. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_pfN4Qkaf",
+    "eventTime": "29.11. 18:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_SIC9P9E0",
+    "eventTime": "30.11. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_tMGDOTT6",
+    "eventTime": "30.11. 01:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_zqGHNmqD",
+    "eventTime": "30.11. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_EZELM7bJ",
+    "eventTime": "30.11. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_ETVJEDHu",
+    "eventTime": "01.12. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_hKUNDXWo",
+    "eventTime": "01.12. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_p841igwb",
+    "eventTime": "01.12. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_nsURCinh",
+    "eventTime": "01.12. 17:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_Ob35jDh4",
+    "eventTime": "01.12. 17:00FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_0pYVBB1b",
+    "eventTime": "02.12. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_r9NzBVG4",
+    "eventTime": "02.12. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_MaMvAkWA",
+    "eventTime": "02.12. 02:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_IL29kX7A",
+    "eventTime": "02.12. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_jZQr99oH",
+    "eventTime": "02.12. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_UPPn8T0N",
+    "eventTime": "02.12. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_ClFi7mGT",
+    "eventTime": "02.12. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_YiLI27Op",
+    "eventTime": "02.12. 22:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_ne90Rj1o",
+    "eventTime": "03.12. 00:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_Qo84QAGi",
+    "eventTime": "03.12. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_rN29PUVc",
+    "eventTime": "03.12. 02:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_MD1DOlo4",
+    "eventTime": "03.12. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_Gz1HN80A",
+    "eventTime": "03.12. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_Uw5LMSFG",
+    "eventTime": "03.12. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_C2fQLnVM",
+    "eventTime": "03.12. 20:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_jggUK6pT",
+    "eventTime": "03.12. 21:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_MytdGQhp",
+    "eventTime": "03.12. 21:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_0Sv0Fp8j",
+    "eventTime": "03.12. 21:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_2XIrvUpi",
+    "eventTime": "03.12. 22:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_Ue6DliNG",
+    "eventTime": "03.12. 23:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_GzNnwl0c",
+    "eventTime": "05.12. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_AcMjx8F3",
+    "eventTime": "05.12. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_llLfySU9",
+    "eventTime": "05.12. 17:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_6PFaznpG",
+    "eventTime": "05.12. 19:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_pGE3Z5aM",
+    "eventTime": "06.12. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_vwE7YPES",
+    "eventTime": "06.12. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_EV4ZTqNq",
+    "eventTime": "06.12. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_dffvT3xj",
+    "eventTime": "06.12. 01:30FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_CKeImBxN",
+    "eventTime": "06.12. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_zogrSNid",
+    "eventTime": "06.12. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_O0nQj7Ud",
+    "eventTime": "06.12. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_jBfMnViT",
+    "eventTime": "06.12. 17:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_2ioUkRq3",
+    "eventTime": "06.12. 19:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_pGzZloa9",
+    "eventTime": "07.12. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_bJvwl5EF",
+    "eventTime": "07.12. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_htvsmPTL",
+    "eventTime": "07.12. 01:30FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_WWxonqqS",
+    "eventTime": "08.12. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_MBd5s3iq",
+    "eventTime": "08.12. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_r3nlrk0p",
+    "eventTime": "08.12. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_02e9tN6k",
+    "eventTime": "08.12. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_fPfDusMe",
+    "eventTime": "08.12. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_8SbHv1y2",
+    "eventTime": "08.12. 03:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_AXx03pE2",
+    "eventTime": "08.12. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_lOy424T8",
+    "eventTime": "08.12. 18:30FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_Ict81OrF",
+    "eventTime": "08.12. 19:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_fN3ypdDs",
+    "eventTime": "09.12. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_xngtqGSm",
+    "eventTime": "09.12. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_lMdprzrf",
+    "eventTime": "10.12. 00:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_MZfhtEC6",
+    "eventTime": "10.12. 00:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_rqdlsfc0",
+    "eventTime": "10.12. 00:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_vBkcuYRC",
+    "eventTime": "10.12. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_I1l1vhsJ",
+    "eventTime": "10.12. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_W4xq3yKJ",
+    "eventTime": "10.12. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_Mgohs9Fj",
+    "eventTime": "10.12. 19:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_p8tm2eZP",
+    "eventTime": "10.12. 19:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_jkJFcFss",
+    "eventTime": "10.12. 21:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_UuIJdZdm",
+    "eventTime": "10.12. 22:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_ObPz6hhi",
+    "eventTime": "10.12. 23:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_x6HNegCg",
+    "eventTime": "10.12. 23:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_bL5WgXt6",
+    "eventTime": "11.12. 00:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_GdGRfDRa",
+    "eventTime": "11.12. 00:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_CO9zgidC",
+    "eventTime": "12.12. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_6o9vhBBI",
+    "eventTime": "12.12. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_px8riVQO",
+    "eventTime": "12.12. 17:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_MgiRFE3P",
+    "eventTime": "12.12. 18:00FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_O2wgBYBt",
+    "eventTime": "12.12. 19:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_IPxcAhRn",
+    "eventTime": "13.12. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_x2Tv5C7c",
+    "eventTime": "13.12. 01:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_GAe09Ctg",
+    "eventTime": "13.12. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_bZp58Wea",
+    "eventTime": "13.12. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_xQq97jB5",
+    "eventTime": "13.12. 16:30FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_6alD6AQB",
+    "eventTime": "14.12. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_pjmH5UuI",
+    "eventTime": "14.12. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_SExM4leO",
+    "eventTime": "14.12. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_WOSr4WM3",
+    "eventTime": "14.12. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_AFRn3jxA",
+    "eventTime": "15.12. 01:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_tItQ38AU",
+    "eventTime": "15.12. 02:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_IwIVOitt",
+    "eventTime": "15.12. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_dUGZNBen",
+    "eventTime": "15.12. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_xtYWMVAh",
+    "eventTime": "15.12. 18:30FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_GWWzMkQb",
+    "eventTime": "16.12. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_AgWvL9u5",
+    "eventTime": "16.12. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_OdzqKTfB",
+    "eventTime": "16.12. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_6LPmJmAH",
+    "eventTime": "16.12. 02:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_pCOiI7PN",
+    "eventTime": "16.12. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_EoTeHRvU",
+    "eventTime": "16.12. 02:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_GfFNComo",
+    "eventTime": "16.12. 02:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_Iag6yVPo",
+    "eventTime": "17.12. 00:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_UZdAzkuh",
+    "eventTime": "17.12. 00:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_OddEZ8fb",
+    "eventTime": "17.12. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_xxbq2AiG",
+    "eventTime": "17.12. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_2meIYS94",
+    "eventTime": "17.12. 02:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_KOkNXnPA",
+    "eventTime": "17.12. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_bFlRW6vH",
+    "eventTime": "17.12. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_4EGbEbOk",
+    "eventTime": "17.12. 23:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_jBCfFv9q",
+    "eventTime": "17.12. 23:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_nw63DIwd",
+    "eventTime": "18.12. 00:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_QT47Cxg2",
+    "eventTime": "27.12. 19:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_vo8lyMV2",
+    "eventTime": "27.12. 23:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_Iy7hzto9",
+    "eventTime": "28.12. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_00dcZa0F",
+    "eventTime": "28.12. 01:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_E301YJFL",
+    "eventTime": "28.12. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_8Qa5XwVR",
+    "eventTime": "28.12. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_GSdm1U6M",
+    "eventTime": "28.12. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_Akdi0lMS",
+    "eventTime": "28.12. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_nBmJe8Uq",
+    "eventTime": "29.12. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_AZoXScwq",
+    "eventTime": "29.12. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_SAtxSHhk",
+    "eventTime": "29.12. 02:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_61utRy8e",
+    "eventTime": "29.12. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_UZxOfSqj",
+    "eventTime": "29.12. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_0OvpQeN1",
+    "eventTime": "29.12. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_CbrlPFx8",
+    "eventTime": "29.12. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_GW8UX7t8",
+    "eventTime": "29.12. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_fN7YWReE",
+    "eventTime": "29.12. 23:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_OdCxWoBK",
+    "eventTime": "30.12. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_2mBtV5QQ",
+    "eventTime": "30.12. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_8Um9QPYs",
+    "eventTime": "30.12. 02:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_MXiDPqll",
+    "eventTime": "30.12. 02:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_GfiHO33f",
+    "eventTime": "30.12. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_fojLNNI0",
+    "eventTime": "30.12. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_zc7IMsY6",
+    "eventTime": "30.12. 19:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_8QySgnad",
+    "eventTime": "30.12. 20:00FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_Em6ML1mD",
+    "eventTime": "31.12. 00:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_Sjf4poQD",
+    "eventTime": "31.12. 00:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_tfb8q5uK",
+    "eventTime": "31.12. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_OImDrPfQ",
+    "eventTime": "31.12. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_QRZvvq3s",
+    "eventTime": "31.12. 02:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_f1vqw3Im",
+    "eventTime": "31.12. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_YiwmxNXg",
+    "eventTime": "31.12. 16:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_GGSiysm0",
+    "eventTime": "31.12. 19:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_dtV9IVyc",
+    "eventTime": "31.12. 21:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_IeJIG969",
+    "eventTime": "31.12. 22:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_zXTDHki3",
+    "eventTime": "31.12. 22:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_UVMMFTLF",
+    "eventTime": "01.01. 21:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_OhMQEmyM",
+    "eventTime": "02.01. 19:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_2qLUD7jS",
+    "eventTime": "03.01. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_rw3c9Rbq",
+    "eventTime": "03.01. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_MT118oEk",
+    "eventTime": "03.01. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_Gj1575Te",
+    "eventTime": "03.01. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_Ug596Pr2",
+    "eventTime": "03.01. 01:30FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_WbqhV8L2",
+    "eventTime": "03.01. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_AkrdUSz9",
+    "eventTime": "04.01. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_IFs0TnjF",
+    "eventTime": "04.01. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_d6t4S65L",
+    "eventTime": "04.01. 02:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_vVV8RQKR",
+    "eventTime": "04.01. 02:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_GjNzNpTr",
+    "eventTime": "05.01. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_pfNWb8Gt",
+    "eventTime": "05.01. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_ADMvM4rk",
+    "eventTime": "05.01. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_l4LrLOce",
+    "eventTime": "05.01. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_6uGmKrD1",
+    "eventTime": "06.01. 01:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_pWEiJ2S7",
+    "eventTime": "06.01. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_bZ2Zsn58",
+    "eventTime": "06.01. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_dKLxs6KE",
+    "eventTime": "06.01. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_xIZ6Pwks",
+    "eventTime": "06.01. 02:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_G8YAOc4m",
+    "eventTime": "06.01. 02:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_prwFNHJg",
+    "eventTime": "06.01. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_OYyJMyZa",
+    "eventTime": "06.01. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_6cRNLel6",
+    "eventTime": "07.01. 00:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_2VHybSVn",
+    "eventTime": "07.01. 00:30FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_K0VRKF3C",
+    "eventTime": "07.01. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_tMGucnog",
+    "eventTime": "07.01. 01:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_ENUVJZII",
+    "eventTime": "07.01. 02:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_hETZIgYO",
+    "eventTime": "07.01. 02:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_h6ZAswBP",
+    "eventTime": "07.01. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_fFLxwcJt",
+    "eventTime": "07.01. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_lxLtxHYn",
+    "eventTime": "07.01. 21:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_2uPpyylg",
+    "eventTime": "07.01. 22:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_zqGqd60a",
+    "eventTime": "07.01. 23:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_p4Ekze3a",
+    "eventTime": "08.01. 00:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_OfDgZEI5",
+    "eventTime": "08.01. 00:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_hUHcYYXB",
+    "eventTime": "09.01. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_WKG1XhmI",
+    "eventTime": "09.01. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_Eq66WC2O",
+    "eventTime": "09.01. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_QJ9AVWHU",
+    "eventTime": "09.01. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_2uoGjGmt",
+    "eventTime": "10.01. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_lnKmeQF5",
+    "eventTime": "10.01. 01:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_tWqKkz3n",
+    "eventTime": "10.01. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_b7vPlfIh",
+    "eventTime": "10.01. 02:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_xbwTmEXb",
+    "eventTime": "10.01. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_WKxXnYn5",
+    "eventTime": "10.01. 18:30FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_pOtynh2B",
+    "eventTime": "10.01. 20:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_SnWuoCHH",
+    "eventTime": "11.01. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_6wVqpWWN",
+    "eventTime": "11.01. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_0EqmqjnU",
+    "eventTime": "11.01. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_WA9hfpVB",
+    "eventTime": "11.01. 01:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_2NVEvAfo",
+    "eventTime": "11.01. 02:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_A18dg4pI",
+    "eventTime": "11.01. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_6edem2bo",
+    "eventTime": "11.01. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_Kb0anMDi",
+    "eventTime": "12.01. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_ELa3otTc",
+    "eventTime": "12.01. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_hCb7p0r4",
+    "eventTime": "12.01. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_AmgCqKcA",
+    "eventTime": "13.01. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_lvhGrvDG",
+    "eventTime": "13.01. 02:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_r1iKsbSM",
+    "eventTime": "13.01. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_IR70hOaO",
+    "eventTime": "13.01. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_fyeOtIsT",
+    "eventTime": "13.01. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_0IXjxxjp",
+    "eventTime": "13.01. 19:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_v9Wfyd5j",
+    "eventTime": "14.01. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_SOPx0uri",
+    "eventTime": "14.01. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_dI64irFU",
+    "eventTime": "14.01. 01:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_6FOtaacc",
+    "eventTime": "14.01. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_MuYACRpt",
+    "eventTime": "14.01. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_lvEobJC3",
+    "eventTime": "14.01. 02:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_d4HgdcsG",
+    "eventTime": "14.01. 02:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_2sIkcwS9",
+    "eventTime": "14.01. 02:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_YTvNvVBr",
+    "eventTime": "14.01. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_EudKwkRl",
+    "eventTime": "14.01. 19:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_hWfOx9te",
+    "eventTime": "14.01. 20:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_ngfSyTe1",
+    "eventTime": "14.01. 21:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_0dbWzmB7",
+    "eventTime": "14.01. 22:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_21xFaWm8",
+    "eventTime": "15.01. 00:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_zqxFBo0n",
+    "eventTime": "15.01. 18:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_thyJbj3E",
+    "eventTime": "15.01. 18:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_ARuNcAIK",
+    "eventTime": "15.01. 19:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_faHghltr",
+    "eventTime": "15.01. 19:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_lIvRdUXQ",
+    "eventTime": "15.01. 19:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_hpzci8el",
+    "eventTime": "15.01. 20:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_n7Z0jSAf",
+    "eventTime": "15.01. 21:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_QcY4knQ0",
+    "eventTime": "15.01. 22:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_rZS9l6u7",
+    "eventTime": "15.01. 22:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_U5yJA5Fh",
+    "eventTime": "15.01. 23:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_MPRDmQfD",
+    "eventTime": "15.01. 23:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_zTFeC9XD",
+    "eventTime": "16.01. 00:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_lWJaBTnK",
+    "eventTime": "17.01. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_Wf94Am2Q",
+    "eventTime": "17.01. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_Y3eW57As",
+    "eventTime": "17.01. 17:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_KKgv4ouf",
+    "eventTime": "17.01. 18:30FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_tUfz5RPm",
+    "eventTime": "17.01. 18:30FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_8dzN9PUb",
+    "eventTime": "18.01. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_2qqq35f0",
+    "eventTime": "18.01. 02:00FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_QXUR8qp5",
+    "eventTime": "18.01. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_Gnmm2P96",
+    "eventTime": "18.01. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_A9ni1qPC",
+    "eventTime": "19.01. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_l0oe03vJ",
+    "eventTime": "19.01. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_QHUwPnHJ",
+    "eventTime": "19.01. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_48TsO6WP",
+    "eventTime": "19.01. 02:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_MmG9JQvs",
+    "eventTime": "19.01. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_YNJDIpfm",
+    "eventTime": "20.01. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_Gn9IH49g",
+    "eventTime": "20.01. 02:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_fw8MGOOa",
+    "eventTime": "20.01. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_OCCQFrv6",
+    "eventTime": "20.01. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_4OTV73aB",
+    "eventTime": "20.01. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_23BUE2gC",
+    "eventTime": "20.01. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_boTZ6NEH",
+    "eventTime": "20.01. 20:00FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_pS0ZDM8I",
+    "eventTime": "20.01. 23:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_bV4wDtOO",
+    "eventTime": "21.01. 02:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_CYhLyQ0P",
+    "eventTime": "21.01. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_EsumXq9t",
+    "eventTime": "21.01. 02:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_EH9iUsga",
+    "eventTime": "21.01. 02:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_t4BqW3On",
+    "eventTime": "21.01. 02:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_KfAmVNwg",
+    "eventTime": "21.01. 02:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_SKDeT185",
+    "eventTime": "21.01. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_Aq30SLNB",
+    "eventTime": "21.01. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_lz24RuwI",
+    "eventTime": "21.01. 19:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_f5A2keqp",
+    "eventTime": "21.01. 21:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_GrVX9D7p",
+    "eventTime": "23.01. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_fZTy9XMj",
+    "eventTime": "23.01. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_8EBOWzFc",
+    "eventTime": "23.01. 03:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_dv8KXGai",
+    "eventTime": "23.01. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_2yBSVfU3",
+    "eventTime": "23.01. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_tS9WUEqA",
+    "eventTime": "23.01. 18:30FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_b34yUYbG",
+    "eventTime": "24.01. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_xf3uThEM",
+    "eventTime": "24.01. 02:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_WG2qSCTS",
+    "eventTime": "24.01. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_8xfBNWyp",
+    "eventTime": "24.01. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_xUa7lFbj",
+    "eventTime": "24.01. 17:00FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_GKbBmZDd",
+    "eventTime": "24.01. 18:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_j1qGMjij",
+    "eventTime": "25.01. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_UirKLA6d",
+    "eventTime": "25.01. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_dbW1pfqc",
+    "eventTime": "25.01. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_zkV5qEb3",
+    "eventTime": "25.01. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_IDKArYD9",
+    "eventTime": "25.01. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_WGOEshTF",
+    "eventTime": "25.01. 03:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_QwOItCrM",
+    "eventTime": "25.01. 20:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_4UMMuWcS",
+    "eventTime": "26.01. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_pO4kyj6q",
+    "eventTime": "26.01. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_OE3gzALk",
+    "eventTime": "26.01. 02:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_Iy3cZTzd",
+    "eventTime": "27.01. 01:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_GML0Ymj2",
+    "eventTime": "27.01. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_IRaqcXS2",
+    "eventTime": "27.01. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_dIbmdir9",
+    "eventTime": "27.01. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_Qi3ieBcF",
+    "eventTime": "27.01. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_4zhgCIjc",
+    "eventTime": "27.01. 20:00FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_4r2efVCL",
+    "eventTime": "28.01. 00:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_n7i0gkSR",
+    "eventTime": "28.01. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_OSrSl9zq",
+    "eventTime": "28.01. 00:30FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_IkrWmTkk",
+    "eventTime": "28.01. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_dtszmm5e",
+    "eventTime": "28.01. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_xhbXo7K1",
+    "eventTime": "28.01. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_GrcyoRZ7",
+    "eventTime": "28.01. 02:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_UooJ9AC8",
+    "eventTime": "28.01. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_rkkN8URE",
+    "eventTime": "28.01. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_QDvS7lsL",
+    "eventTime": "28.01. 22:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_44wW68dR",
+    "eventTime": "30.01. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_ddVc2S4r",
+    "eventTime": "30.01. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_zmU11nKl",
+    "eventTime": "30.01. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_IBJ606Zf",
+    "eventTime": "30.01. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_UoNAaQl1",
+    "eventTime": "30.01. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_O8MEbp47",
+    "eventTime": "30.01. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_rRjcBx63",
+    "eventTime": "31.01. 01:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_2aLIc4JD",
+    "eventTime": "31.01. 01:30FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_tpia6dND",
+    "eventTime": "31.01. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_I9ESlUit",
+    "eventTime": "31.01. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_CWDWml7n",
+    "eventTime": "01.02. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_QZHzm8Mh",
+    "eventTime": "01.02. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_8b7unSya",
+    "eventTime": "01.02. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_Qkt2AdL9",
+    "eventTime": "01.02. 01:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_nk6qoni5",
+    "eventTime": "01.02. 02:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_tQKnp66B",
+    "eventTime": "01.02. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_KGJjqQLH",
+    "eventTime": "02.02. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_2u9erpyO",
+    "eventTime": "02.02. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_GrDas4jU",
+    "eventTime": "02.02. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_h4l52mMu",
+    "eventTime": "02.02. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_Wfm917yn",
+    "eventTime": "02.02. 01:30FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_lWsE0Rjh",
+    "eventTime": "03.02. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_SMtIao6b",
+    "eventTime": "03.02. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_MqtMb5L4",
+    "eventTime": "03.02. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_YJqQcPzB",
+    "eventTime": "03.02. 02:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_GrZUdqjH",
+    "eventTime": "03.02. 04:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_fZXYe35N",
+    "eventTime": "03.02. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_vgp69GzG",
+    "eventTime": "03.02. 20:00FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_O8xweNKT",
+    "eventTime": "04.02. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_QHO4jsTp",
+    "eventTime": "04.02. 02:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_SM2mFQ5o",
+    "eventTime": "04.02. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_tQ6iEpLi",
+    "eventTime": "04.02. 02:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_zm6eD4zb",
+    "eventTime": "04.02. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_Ew5aCOk4",
+    "eventTime": "04.02. 02:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_fkMdBr5A",
+    "eventTime": "04.02. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_YuL0A2KG",
+    "eventTime": "04.02. 21:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_S2K49MZM",
+    "eventTime": "04.02. 21:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_t6O88tkT",
+    "eventTime": "04.02. 22:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_nm1y40cp",
+    "eventTime": "04.02. 23:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_YFqA8zjM",
+    "eventTime": "04.02. 23:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_Qw0u3KCj",
+    "eventTime": "05.02. 02:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_C6rE7f5S",
+    "eventTime": "06.02. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_GzmZ2EDq",
+    "eventTime": "06.02. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_EggNR3ki",
+    "eventTime": "06.02. 17:30FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_hphRQN4c",
+    "eventTime": "06.02. 18:30FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_z9sWPsK3",
+    "eventTime": "07.02. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_Yg0ZO1Z9",
+    "eventTime": "07.02. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_SGawOLlG",
+    "eventTime": "07.02. 02:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_67bsNu4M",
+    "eventTime": "07.02. 17:30FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_OrgnMaJS",
+    "eventTime": "08.02. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_QiuEHJRq",
+    "eventTime": "08.02. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_KEvIGwsj",
+    "eventTime": "08.02. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_YHrMFcdd",
+    "eventTime": "08.02. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_zNM4vsZd",
+    "eventTime": "08.02. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_EDL8w1l3",
+    "eventTime": "08.02. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_MwLCxL39",
+    "eventTime": "08.02. 17:30FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_0UJGyuJF",
+    "eventTime": "08.02. 18:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_tSXpKCmr",
+    "eventTime": "09.02. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_fVykJW2l",
+    "eventTime": "09.02. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_lhygIjIf",
+    "eventTime": "09.02. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_SrzcHAX0",
+    "eventTime": "09.02. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_pKU1GUn7",
+    "eventTime": "10.02. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_OAT5Fl2D",
+    "eventTime": "10.02. 01:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_xEHmvYvE",
+    "eventTime": "10.02. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_llLiwhfK",
+    "eventTime": "10.02. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_WCAdxC9Q",
+    "eventTime": "10.02. 02:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_YLdOXVHs",
+    "eventTime": "10.02. 02:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_2e1SWkXm",
+    "eventTime": "10.02. 02:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_tn0WV9nf",
+    "eventTime": "10.02. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_OAkyVT10",
+    "eventTime": "10.02. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_xEguUmH6",
+    "eventTime": "10.02. 19:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_WzgqT7WC",
+    "eventTime": "11.02. 00:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_ARimSRoJ",
+    "eventTime": "11.02. 00:30FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_dUCNjBOJ",
+    "eventTime": "11.02. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_zLBRkVwQ",
+    "eventTime": "11.02. 02:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_h0bgokns",
+    "eventTime": "11.02. 02:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_632cp91m",
+    "eventTime": "11.02. 02:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_lSi2qTGg",
+    "eventTime": "11.02. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_SIj6rmWa",
+    "eventTime": "11.02. 19:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_dheAs7o6",
+    "eventTime": "11.02. 20:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_fRow2YSk",
+    "eventTime": "11.02. 21:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_llos1hrd",
+    "eventTime": "11.02. 23:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_zqfEtR0C",
+    "eventTime": "13.02. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_I7qJuoGI",
+    "eventTime": "13.02. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_UsmNv5VO",
+    "eventTime": "14.02. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_roy53l8P",
+    "eventTime": "14.02. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_2iko0Cc2",
+    "eventTime": "14.02. 01:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_6PFR8412",
+    "eventTime": "14.02. 02:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_lvdbZFpP",
+    "eventTime": "14.02. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_EkJZ6rWE",
+    "eventTime": "14.02. 03:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_pGEV7OG8",
+    "eventTime": "14.02. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_htIw62oL",
+    "eventTime": "14.02. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_z57r5M0R",
+    "eventTime": "15.02. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_AcbA0t9r",
+    "eventTime": "15.02. 01:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_4KcEa0Ol",
+    "eventTime": "15.02. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_rBdIbKwe",
+    "eventTime": "15.02. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_0niNcvg1",
+    "eventTime": "15.02. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_jmrQUZht",
+    "eventTime": "15.02. 17:00FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_vwjRdb87",
+    "eventTime": "16.02. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_htv9Lso8",
+    "eventTime": "16.02. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_6qrDK10E",
+    "eventTime": "22.02. 17:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_l8XHJLFK",
+    "eventTime": "22.02. 18:30FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_WbaNTg8n",
+    "eventTime": "23.02. 00:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_SbWLIuVQ",
+    "eventTime": "23.02. 01:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_phYnEawr",
+    "eventTime": "23.02. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_OrXjDJhl",
+    "eventTime": "23.02. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_67MeCw8f",
+    "eventTime": "23.02. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_KAQaBcN0",
+    "eventTime": "23.02. 19:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_EXP3AHx7",
+    "eventTime": "24.02. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_hOO79yhD",
+    "eventTime": "24.02. 01:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_Uu8jYKUD",
+    "eventTime": "24.02. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_8W6fXvpK",
+    "eventTime": "24.02. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_2g6bWbaQ",
+    "eventTime": "24.02. 02:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_xncQRI7s",
+    "eventTime": "24.02. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_KAnVQxNm",
+    "eventTime": "24.02. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_b1oZPdxf",
+    "eventTime": "24.02. 04:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_AkbRSDNh",
+    "eventTime": "24.02. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_4CcVRXxa",
+    "eventTime": "24.02. 23:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_SzjwPGi0",
+    "eventTime": "25.02. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_6RlsOz76",
+    "eventTime": "25.02. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_ljvnNfMC",
+    "eventTime": "25.02. 02:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_2grjMEyJ",
+    "eventTime": "25.02. 02:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_EVfcUBTu",
+    "eventTime": "25.02. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_IF1ZQih5",
+    "eventTime": "25.02. 04:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_hMg1TVrn",
+    "eventTime": "25.02. 19:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_YXAbSkbh",
+    "eventTime": "25.02. 20:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_CO92R9Db",
+    "eventTime": "25.02. 21:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_6o96QTS4",
+    "eventTime": "26.02. 00:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_KlDAPmrB",
+    "eventTime": "26.02. 00:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_0vivQB7B",
+    "eventTime": "27.02. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_2D2FO7cH",
+    "eventTime": "27.02. 02:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_t41JNRCN",
+    "eventTime": "27.02. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_Aw6NMoST",
+    "eventTime": "28.02. 00:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_CnhkI5zo",
+    "eventTime": "28.02. 02:00FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_vVkrPVMH",
+    "eventTime": "28.02. 03:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_EiWXtkDo",
+    "eventTime": "28.02. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_Cxkyt9Si",
+    "eventTime": "28.02. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_6aluuTsb",
+    "eventTime": "28.02. 18:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_pjmqvmc4",
+    "eventTime": "28.02. 20:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_2Rslw7CA",
+    "eventTime": "29.02. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_tIthxRRG",
+    "eventTime": "29.02. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_zutdyosN",
+    "eventTime": "29.02. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_lrp0z5dT",
+    "eventTime": "29.02. 02:00FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_84fnOkxO",
+    "eventTime": "29.02. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_fPMSVO4p",
+    "eventTime": "29.02. 18:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_YFLWUrKj",
+    "eventTime": "29.02. 20:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_0M9EgSdi",
+    "eventTime": "01.03. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_vD8IhnCc",
+    "eventTime": "01.03. 01:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_negjN9iU",
+    "eventTime": "01.03. 01:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_MybNi6R3",
+    "eventTime": "01.03. 02:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_CIKdrgNu",
+    "eventTime": "01.03. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_zu2RjQtA",
+    "eventTime": "02.03. 01:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_U11VkpdG",
+    "eventTime": "02.03. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_8h0Zl4BM",
+    "eventTime": "02.03. 01:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_QTfvlOQS",
+    "eventTime": "02.03. 01:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_Sxs6qrZq",
+    "eventTime": "02.03. 02:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_MatAr2lj",
+    "eventTime": "02.03. 03:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_YZqEsM3d",
+    "eventTime": "02.03. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_zuOd65tc",
+    "eventTime": "02.03. 21:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_r5R44qB9",
+    "eventTime": "03.03. 02:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_EVM05Pe3",
+    "eventTime": "03.03. 02:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_MeQ833QF",
+    "eventTime": "03.03. 02:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_4KFD2NuM",
+    "eventTime": "03.03. 19:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_z36qc13q",
+    "eventTime": "03.03. 20:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_INJH1seS",
+    "eventTime": "03.03. 20:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_Eg5mdLIk",
+    "eventTime": "03.03. 21:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_tGypeuYe",
+    "eventTime": "03.03. 21:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_K6zlfam2",
+    "eventTime": "03.03. 21:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_OhO0sDxn",
+    "eventTime": "03.03. 23:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_Y9OVIrQ2",
+    "eventTime": "04.03. 00:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_IFN4tXih",
+    "eventTime": "05.03. 03:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_nDSZH2u9",
+    "eventTime": "05.03. 03:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_UyIvHMfF",
+    "eventTime": "05.03. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_61u8afPs",
+    "eventTime": "05.03. 17:30FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_zypCbEvl",
+    "eventTime": "05.03. 18:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_ERrGcYgf",
+    "eventTime": "06.03. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_djYKdh90",
+    "eventTime": "06.03. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_8QyPeCO6",
+    "eventTime": "06.03. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_2myTfWwD",
+    "eventTime": "06.03. 01:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_tvzXgjgJ",
+    "eventTime": "06.03. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_IeJFIZVJ",
+    "eventTime": "06.03. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_dnIJHgoQ",
+    "eventTime": "07.03. 01:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_ER4oDDgs",
+    "eventTime": "07.03. 02:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_SU8kCX8m",
+    "eventTime": "07.03. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_d6M8ui7b",
+    "eventTime": "08.03. 01:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_AgbfBiOg",
+    "eventTime": "08.03. 03:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_lpcbABw0",
+    "eventTime": "08.03. 04:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_dAd29Vh6",
+    "eventTime": "08.03. 04:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_EsHDvBM4",
+    "eventTime": "08.03. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_z1e68k8C",
+    "eventTime": "08.03. 19:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_IPpB79NI",
+    "eventTime": "09.03. 01:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_hYFHwVyB",
+    "eventTime": "09.03. 01:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_WSlF6TxP",
+    "eventTime": "09.03. 02:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_pWxcVCFP",
+    "eventTime": "09.03. 02:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_neFLxkiH",
+    "eventTime": "09.03. 04:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_nuPOQWNt",
+    "eventTime": "10.03. 00:30FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_4GJTPjwm",
+    "eventTime": "10.03. 01:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_r7IXOAhg",
+    "eventTime": "10.03. 01:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_xUHyOU7a",
+    "eventTime": "10.03. 02:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_zFzuNlN5",
+    "eventTime": "10.03. 20:30FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_dUOmLSiI",
+    "eventTime": "10.03. 21:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_Q3TiKn7O",
+    "eventTime": "10.03. 21:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_IwQqM8xC",
+    "eventTime": "10.03. 21:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_4fSeJ6MU",
+    "eventTime": "10.03. 21:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_Wpt0ObJu",
+    "eventTime": "10.03. 22:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_plp4NIYo",
+    "eventTime": "10.03. 23:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_vBq8Mxlh",
+    "eventTime": "10.03. 23:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_I1rCLd3b",
+    "eventTime": "12.03. 00:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_0bJPy96N",
+    "eventTime": "12.03. 00:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_bDa9KGI4",
+    "eventTime": "12.03. 03:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_x4bDJzYA",
+    "eventTime": "12.03. 16:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_WQcHIfmH",
+    "eventTime": "12.03. 17:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_pU1LHE2N",
+    "eventTime": "12.03. 17:30FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_ShiQGYHT",
+    "eventTime": "12.03. 18:30FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_U1whChQp",
+    "eventTime": "12.03. 23:00FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_rN8UzTLT",
+    "eventTime": "13.03. 00:30FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_IHWZzx3o",
+    "eventTime": "13.03. 01:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_d8VwzdIi",
+    "eventTime": "13.03. 01:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_vXKrZFXc",
+    "eventTime": "13.03. 02:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_j7OnYZn4",
+    "eventTime": "13.03. 03:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_pUNjXg2A",
+    "eventTime": "14.03. 00:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_pWfdWnUp",
+    "eventTime": "14.03. 00:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_OKMfWDHG",
+    "eventTime": "14.03. 01:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_vVuPEonq",
+    "eventTime": "14.03. 03:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_ILvTD51k",
+    "eventTime": "15.03. 00:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_bmbweW6o",
+    "eventTime": "15.03. 00:30FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_CrvXCPGe",
+    "eventTime": "15.03. 01:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_QoryCqW1",
+    "eventTime": "15.03. 01:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_SjMJzT82",
+    "eventTime": "15.03. 01:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_xvcsfjMi",
+    "eventTime": "16.03. 00:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_6sLNZnO8",
+    "eventTime": "16.03. 00:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_0IZQY6wF",
+    "eventTime": "16.03. 00:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_v9YUXQhL",
+    "eventTime": "16.03. 01:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_MXNZWp8R",
+    "eventTime": "16.03. 01:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_bgF1S4Gr",
+    "eventTime": "16.03. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_hGE5ROVl",
+    "eventTime": "16.03. 02:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_W6D9Qroe",
+    "eventTime": "16.03. 03:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_SY6IOMF7",
+    "eventTime": "16.03. 17:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_lr8EP201",
+    "eventTime": "16.03. 22:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_txe0m6h8",
+    "eventTime": "16.03. 23:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_hCb4nQ7E",
+    "eventTime": "17.03. 00:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_K2nngAyb",
+    "eventTime": "17.03. 01:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_zyl9opNK",
+    "eventTime": "17.03. 01:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_ERnDp4xR",
+    "eventTime": "17.03. 01:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_6JvutOpr",
+    "eventTime": "17.03. 03:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_pAwqur0l",
+    "eventTime": "17.03. 18:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_SYSmv2Ff",
+    "eventTime": "17.03. 19:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_txXiwMU0",
+    "eventTime": "17.03. 20:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_Y5jjhUj4",
+    "eventTime": "17.03. 21:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Raptors 905"
+  },
+  {
+    "matchId": "g_3_SSkfil6A",
+    "eventTime": "17.03. 21:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_zaWextp7",
+    "eventTime": "17.03. 21:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "College Park Skyhawks"
+  },
+  {
+    "matchId": "g_3_EkVay0aD",
+    "eventTime": "17.03. 22:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_Esyy0qxE",
+    "eventTime": "18.03. 17:30FRO",
+    "homeTeam": "Indiana Mad Ants",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_hYZva3iK",
+    "eventTime": "19.03. 01:00FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_neZrbN6Q",
+    "eventTime": "20.03. 00:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_6Jlbj8LG",
+    "eventTime": "20.03. 00:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_OGQAgsFs",
+    "eventTime": "20.03. 01:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_6uGFh1Um",
+    "eventTime": "20.03. 01:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Sioux Falls Skyforce"
+  },
+  {
+    "matchId": "g_3_pWEJiLqf",
+    "eventTime": "20.03. 01:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_E5JNjua0",
+    "eventTime": "20.03. 03:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_hdIRkaE6",
+    "eventTime": "20.03. 16:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_zL7WlJTC",
+    "eventTime": "21.03. 00:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_Y5QZmwqJ",
+    "eventTime": "22.03. 00:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_n9EHCMLJ",
+    "eventTime": "22.03. 00:00FRO",
+    "homeTeam": "Maine Celtics",
+    "awayTeam": "Westchester"
+  },
+  {
+    "matchId": "g_3_QaDLBtyQ",
+    "eventTime": "22.03. 00:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Delaware Blue Coats"
+  },
+  {
+    "matchId": "g_3_Ofq3kSzN",
+    "eventTime": "22.03. 01:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_6gel70qs",
+    "eventTime": "22.03. 01:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Osceola Magic"
+  },
+  {
+    "matchId": "g_3_ppfh6Kbm",
+    "eventTime": "22.03. 01:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_v7gd5vEg",
+    "eventTime": "22.03. 01:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_hAc04bTa",
+    "eventTime": "22.03. 03:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_zZn53Ir6",
+    "eventTime": "22.03. 03:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_EPo92xbC",
+    "eventTime": "23.03. 00:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_MkoD1dDI",
+    "eventTime": "23.03. 00:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_bF8tpUso",
+    "eventTime": "23.03. 03:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_2or7lnjT",
+    "eventTime": "23.03. 19:00FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_0KnP8DKo",
+    "eventTime": "24.03. 00:00FRO",
+    "homeTeam": "Greensboro Swarm",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_ENjT7XZi",
+    "eventTime": "24.03. 00:00FRO",
+    "homeTeam": "Motor City Cruise",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_8pjX6ikb",
+    "eventTime": "24.03. 01:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_nyky6B44",
+    "eventTime": "24.03. 01:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_4Cqt5VJA",
+    "eventTime": "24.03. 01:00FRO",
+    "homeTeam": "Stockton Kings",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_r3rp4kZG",
+    "eventTime": "24.03. 01:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_xQsl39lN",
+    "eventTime": "24.03. 01:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_l0oh2T3T",
+    "eventTime": "24.03. 03:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_fsOKcmCp",
+    "eventTime": "24.03. 20:00FRO",
+    "homeTeam": "Capital City Go-Go",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_YXMOd7Rj",
+    "eventTime": "24.03. 20:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_MmG6Lj4i",
+    "eventTime": "24.03. 21:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_0vFAKAJc",
+    "eventTime": "24.03. 21:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Ontario Clippers"
+  },
+  {
+    "matchId": "g_3_r34FJUY3",
+    "eventTime": "24.03. 22:00FRO",
+    "homeTeam": "Austin Toros Spurs",
+    "awayTeam": "Rip City Remix"
+  },
+  {
+    "matchId": "g_3_d68JIllA",
+    "eventTime": "26.03. 00:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_jT7NH83G",
+    "eventTime": "26.03. 00:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_KQUYq6bp",
+    "eventTime": "26.03. 02:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_UJ6RGSIM",
+    "eventTime": "26.03. 03:00FRO",
+    "homeTeam": "G League Ignite",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_dtwOFnYS",
+    "eventTime": "27.03. 00:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_bkPkB6tp",
+    "eventTime": "27.03. 00:00FRO",
+    "homeTeam": "Long Island Nets",
+    "awayTeam": "Grand Rapids Gold"
+  },
+  {
+    "matchId": "g_3_hCOgAQej",
+    "eventTime": "27.03. 01:00FRO",
+    "homeTeam": "Memphis Hustle",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_6FSc9pBd",
+    "eventTime": "27.03. 02:00FRO",
+    "homeTeam": "Salt Lake City Stars",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_8K6tYTmc",
+    "eventTime": "27.03. 16:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_W0YxqQDj",
+    "eventTime": "27.03. 16:00FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_nB5pXm33",
+    "eventTime": "27.03. 16:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Greensboro Swarm"
+  },
+  {
+    "matchId": "g_3_GpAlW7I9",
+    "eventTime": "27.03. 18:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Birmingham Squadron"
+  },
+  {
+    "matchId": "g_3_fy9hVRXF",
+    "eventTime": "28.03. 00:00FRO",
+    "homeTeam": "Cleveland Charge",
+    "awayTeam": "Windy City Bulls"
+  },
+  {
+    "matchId": "g_3_x0bcUomM",
+    "eventTime": "28.03. 00:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Iowa Wolves"
+  },
+  {
+    "matchId": "g_3_lz21T52S",
+    "eventTime": "28.03. 00:00FRO",
+    "homeTeam": "Wisconsin Herd",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_Y5CL79ji",
+    "eventTime": "28.03. 02:00FRO",
+    "homeTeam": "Mexico City Capitanes",
+    "awayTeam": "Rio Grande Valley Vipers"
+  },
+  {
+    "matchId": "g_3_6FlTOPAq",
+    "eventTime": "28.03. 03:00FRO",
+    "homeTeam": "Santa Cruz Warriors",
+    "awayTeam": "South Bay Lakers"
+  },
+  {
+    "matchId": "g_3_p6mXNqQk",
+    "eventTime": "29.03. 00:00FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Maine Celtics"
+  },
+  {
+    "matchId": "g_3_2srxN3ud",
+    "eventTime": "29.03. 00:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_tYttMNf2",
+    "eventTime": "29.03. 01:00FRO",
+    "homeTeam": "Oklahoma City Blue",
+    "awayTeam": "Texas Legends"
+  },
+  {
+    "matchId": "g_3_fyVNp7X2",
+    "eventTime": "29.03. 03:00FRO",
+    "homeTeam": "Ontario Clippers",
+    "awayTeam": "G League Ignite"
+  },
+  {
+    "matchId": "g_3_8vZRqRn9",
+    "eventTime": "30.03. 00:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_j3OWro2F",
+    "eventTime": "30.03. 00:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_CdBP6T5c",
+    "eventTime": "30.03. 00:30FRO",
+    "homeTeam": "Raptors 905",
+    "awayTeam": "Motor City Cruise"
+  },
+  {
+    "matchId": "g_3_UgNzr5HL",
+    "eventTime": "30.03. 01:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_xKMvsPWR",
+    "eventTime": "30.03. 01:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_vT86xquq",
+    "eventTime": "30.03. 01:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_MibBy3fk",
+    "eventTime": "30.03. 01:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_ze2FzN9e",
+    "eventTime": "30.03. 02:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_tWFT5mL3",
+    "eventTime": "30.03. 03:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_UH1JZtP1",
+    "eventTime": "30.03. 23:00FRO",
+    "homeTeam": "Delaware Blue Coats",
+    "awayTeam": "Oklahoma City Blue"
+  },
+  {
+    "matchId": "g_3_880NY0v8",
+    "eventTime": "30.03. 23:00FRO",
+    "homeTeam": "Rip City Remix",
+    "awayTeam": "Santa Cruz Warriors"
+  },
+  {
+    "matchId": "g_3_tdsGZOv8",
+    "eventTime": "30.03. 23:30FRO",
+    "homeTeam": "College Park Skyhawks",
+    "awayTeam": "Long Island Nets"
+  },
+  {
+    "matchId": "g_3_KntKYrfE",
+    "eventTime": "31.03. 00:00FRO",
+    "homeTeam": "Grand Rapids Gold",
+    "awayTeam": "Capital City Go-Go"
+  },
+  {
+    "matchId": "g_3_Cr4mHGOt",
+    "eventTime": "31.03. 00:00FRO",
+    "homeTeam": "Osceola Magic",
+    "awayTeam": "Indiana Mad Ants"
+  },
+  {
+    "matchId": "g_3_ATMjGzvm",
+    "eventTime": "31.03. 00:00FRO",
+    "homeTeam": "Westchester",
+    "awayTeam": "Memphis Hustle"
+  },
+  {
+    "matchId": "g_3_hhCeFfgg",
+    "eventTime": "31.03. 01:00FRO",
+    "homeTeam": "Birmingham Squadron",
+    "awayTeam": "Cleveland Charge"
+  },
+  {
+    "matchId": "g_3_WrBaEE8a",
+    "eventTime": "31.03. 01:00FRO",
+    "homeTeam": "Iowa Wolves",
+    "awayTeam": "Austin Toros Spurs"
+  },
+  {
+    "matchId": "g_3_0IF3DYN5",
+    "eventTime": "31.03. 01:00FRO",
+    "homeTeam": "Sioux Falls Skyforce",
+    "awayTeam": "Stockton Kings"
+  },
+  {
+    "matchId": "g_3_KMEX47zA",
+    "eventTime": "31.03. 01:00FRO",
+    "homeTeam": "South Bay Lakers",
+    "awayTeam": "Mexico City Capitanes"
+  },
+  {
+    "matchId": "g_3_v9E7ChwC",
+    "eventTime": "31.03. 01:00FRO",
+    "homeTeam": "Windy City Bulls",
+    "awayTeam": "Wisconsin Herd"
+  },
+  {
+    "matchId": "g_3_MX3CBChI",
+    "eventTime": "31.03. 01:30FRO",
+    "homeTeam": "Rio Grande Valley Vipers",
+    "awayTeam": "Salt Lake City Stars"
+  },
+  {
+    "matchId": "g_3_zy8GAW7O",
+    "eventTime": "31.03. 01:30FRO",
+    "homeTeam": "Texas Legends",
+    "awayTeam": "Maine Celtics"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "matchId": "g_3_IDQspvtk",
+    "eventTime": "21.11. 19:00",
+    "homeTeam": "Le Portel",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_QFo3iMmF",
+    "eventTime": "21.11. 20:00",
+    "homeTeam": "Antibes",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_zkywoKQr",
+    "eventTime": "21.11. 20:00",
+    "homeTeam": "Saint Quentin",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_UmUoqbee",
+    "eventTime": "21.11. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_46p7jt3L",
+    "eventTime": "22.11. 20:00",
+    "homeTeam": "Nanterre",
+    "awayTeam": "Limoges"
+  },
+  {
+    "matchId": "g_3_UmhfgrJ2",
+    "eventTime": "19.12. 20:00",
+    "homeTeam": "Ada Blois",
+    "awayTeam": "Gravelines-Dunkerque"
+  },
+  {
+    "matchId": "g_3_YukBk0IR",
+    "eventTime": "06.01. 17:00",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_ridbh2Y8",
+    "eventTime": "07.01. 18:00",
+    "homeTeam": "Rennes",
+    "awayTeam": "Nancy"
+  }
+]

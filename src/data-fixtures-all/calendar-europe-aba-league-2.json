@@ -1,0 +1,404 @@
+[
+  {
+    "matchId": "g_3_QkYVGCGc",
+    "eventTime": "16.11. 18:00",
+    "homeTeam": "Cedevita Junior",
+    "awayTeam": "Zlatibor"
+  },
+  {
+    "matchId": "g_3_naZRHh1i",
+    "eventTime": "16.11. 21:00",
+    "homeTeam": "GKK Sibenka",
+    "awayTeam": "Siroki Brijeg"
+  },
+  {
+    "matchId": "g_3_KM0RsL55",
+    "eventTime": "17.11. 15:00",
+    "homeTeam": "Helios Domzale",
+    "awayTeam": "Vojvodina Novi Sad"
+  },
+  {
+    "matchId": "g_3_rRSzGWV3",
+    "eventTime": "17.11. 18:00",
+    "homeTeam": "Pelister",
+    "awayTeam": "TFT Skopje"
+  },
+  {
+    "matchId": "g_3_Cn6J78wp",
+    "eventTime": "17.11. 21:00",
+    "homeTeam": "Sencur",
+    "awayTeam": "Podgorica"
+  },
+  {
+    "matchId": "g_3_tMAN6Shj",
+    "eventTime": "18.11. 12:00",
+    "homeTeam": "MZT Skopje",
+    "awayTeam": "Borac Banja Luka"
+  },
+  {
+    "matchId": "g_3_zLiETk03",
+    "eventTime": "18.11. 15:00",
+    "homeTeam": "Siroki Brijeg",
+    "awayTeam": "Cedevita Junior"
+  },
+  {
+    "matchId": "g_3_AwKiClVS",
+    "eventTime": "18.11. 18:00",
+    "homeTeam": "Subotica",
+    "awayTeam": "GKK Sibenka"
+  },
+  {
+    "matchId": "g_3_ld5VtuLB",
+    "eventTime": "19.11. 12:00",
+    "homeTeam": "Vojvodina Novi Sad",
+    "awayTeam": "Sutjeska"
+  },
+  {
+    "matchId": "g_3_KC9R5n8d",
+    "eventTime": "19.11. 15:00",
+    "homeTeam": "TFT Skopje",
+    "awayTeam": "Helios Domzale"
+  },
+  {
+    "matchId": "g_3_MHmAUVpc",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Zlatibor",
+    "awayTeam": "Pelister"
+  },
+  {
+    "matchId": "g_3_WQ7lLR7q",
+    "eventTime": "18.12. 15:00",
+    "homeTeam": "Podgorica",
+    "awayTeam": "MZT Skopje"
+  },
+  {
+    "matchId": "g_3_Sn4ZuazI",
+    "eventTime": "18.12. 18:00",
+    "homeTeam": "Borac Banja Luka",
+    "awayTeam": "Vojvodina Novi Sad"
+  },
+  {
+    "matchId": "g_3_pUBhKoNk",
+    "eventTime": "18.12. 21:00",
+    "homeTeam": "Subotica",
+    "awayTeam": "Sencur"
+  },
+  {
+    "matchId": "g_3_EoLMP7aS",
+    "eventTime": "19.12. 15:00",
+    "homeTeam": "Sutjeska",
+    "awayTeam": "TFT Skopje"
+  },
+  {
+    "matchId": "g_3_UsiIS9F9",
+    "eventTime": "19.12. 18:00",
+    "homeTeam": "GKK Sibenka",
+    "awayTeam": "Cedevita Junior"
+  },
+  {
+    "matchId": "g_3_zeMIQmpM",
+    "eventTime": "19.12. 21:00",
+    "homeTeam": "Helios Domzale",
+    "awayTeam": "Zlatibor"
+  },
+  {
+    "matchId": "g_3_8YkMRTUF",
+    "eventTime": "20.12. 15:00",
+    "homeTeam": "Pelister",
+    "awayTeam": "Siroki Brijeg"
+  },
+  {
+    "matchId": "g_3_ABgvuJkO",
+    "eventTime": "20.12. 18:00",
+    "homeTeam": "Vojvodina Novi Sad",
+    "awayTeam": "Podgorica"
+  },
+  {
+    "matchId": "g_3_6q01IPi2",
+    "eventTime": "20.12. 21:00",
+    "homeTeam": "MZT Skopje",
+    "awayTeam": "Subotica"
+  },
+  {
+    "matchId": "g_3_YkhmtTq9",
+    "eventTime": "21.12. 15:00",
+    "homeTeam": "Zlatibor",
+    "awayTeam": "Sutjeska"
+  },
+  {
+    "matchId": "g_3_Sh1cJ5xd",
+    "eventTime": "21.12. 18:00",
+    "homeTeam": "Sencur",
+    "awayTeam": "GKK Sibenka"
+  },
+  {
+    "matchId": "g_3_fagqs9U2",
+    "eventTime": "21.12. 21:00",
+    "homeTeam": "TFT Skopje",
+    "awayTeam": "Borac Banja Luka"
+  },
+  {
+    "matchId": "g_3_GEshumaF",
+    "eventTime": "22.12. 15:00",
+    "homeTeam": "Siroki Brijeg",
+    "awayTeam": "Helios Domzale"
+  },
+  {
+    "matchId": "g_3_Slodv7EL",
+    "eventTime": "22.12. 18:00",
+    "homeTeam": "Cedevita Junior",
+    "awayTeam": "Pelister"
+  },
+  {
+    "matchId": "g_3_KnQzXO6e",
+    "eventTime": "29.01. 15:00",
+    "homeTeam": "Borac Banja Luka",
+    "awayTeam": "Zlatibor"
+  },
+  {
+    "matchId": "g_3_Mocrvw5U",
+    "eventTime": "29.01. 18:00",
+    "homeTeam": "Subotica",
+    "awayTeam": "Vojvodina Novi Sad"
+  },
+  {
+    "matchId": "g_3_E9PvWrM1",
+    "eventTime": "29.01. 21:00",
+    "homeTeam": "Podgorica",
+    "awayTeam": "TFT Skopje"
+  },
+  {
+    "matchId": "g_3_OKWRYpxq",
+    "eventTime": "30.01. 15:00",
+    "homeTeam": "Helios Domzale",
+    "awayTeam": "Cedevita Junior"
+  },
+  {
+    "matchId": "g_3_tdRWX4ik",
+    "eventTime": "30.01. 18:00",
+    "homeTeam": "Sutjeska",
+    "awayTeam": "Siroki Brijeg"
+  },
+  {
+    "matchId": "g_3_SCTrV2y8",
+    "eventTime": "30.01. 21:00",
+    "homeTeam": "Sencur",
+    "awayTeam": "MZT Skopje"
+  },
+  {
+    "matchId": "g_3_MBp0wRTR",
+    "eventTime": "31.01. 15:00",
+    "homeTeam": "GKK Sibenka",
+    "awayTeam": "Pelister"
+  },
+  {
+    "matchId": "g_3_AygTxFfE",
+    "eventTime": "31.01. 18:00",
+    "homeTeam": "TFT Skopje",
+    "awayTeam": "Subotica"
+  },
+  {
+    "matchId": "g_3_I1hXyZ9K",
+    "eventTime": "31.01. 21:00",
+    "homeTeam": "Zlatibor",
+    "awayTeam": "Podgorica"
+  },
+  {
+    "matchId": "g_3_dhiyygPQ",
+    "eventTime": "01.02. 15:00",
+    "homeTeam": "Siroki Brijeg",
+    "awayTeam": "Borac Banja Luka"
+  },
+  {
+    "matchId": "g_3_b7YmaMzt",
+    "eventTime": "01.02. 18:00",
+    "homeTeam": "Vojvodina Novi Sad",
+    "awayTeam": "Sencur"
+  },
+  {
+    "matchId": "g_3_2ZT3WCXs",
+    "eventTime": "01.02. 21:00",
+    "homeTeam": "Cedevita Junior",
+    "awayTeam": "Sutjeska"
+  },
+  {
+    "matchId": "g_3_GxY7VWnl",
+    "eventTime": "02.02. 15:00",
+    "homeTeam": "Pelister",
+    "awayTeam": "Helios Domzale"
+  },
+  {
+    "matchId": "g_3_WpfPweu8",
+    "eventTime": "02.02. 18:00",
+    "homeTeam": "MZT Skopje",
+    "awayTeam": "GKK Sibenka"
+  },
+  {
+    "matchId": "g_3_bLD6jYOD",
+    "eventTime": "02.02. 21:00",
+    "homeTeam": "Subotica",
+    "awayTeam": "Zlatibor"
+  },
+  {
+    "matchId": "g_3_fueZY5gt",
+    "eventTime": "03.02. 12:00",
+    "homeTeam": "Sencur",
+    "awayTeam": "TFT Skopje"
+  },
+  {
+    "matchId": "g_3_6RQKSUW6",
+    "eventTime": "03.02. 15:00",
+    "homeTeam": "Borac Banja Luka",
+    "awayTeam": "Cedevita Junior"
+  },
+  {
+    "matchId": "g_3_pIPORlnD",
+    "eventTime": "03.02. 18:00",
+    "homeTeam": "Podgorica",
+    "awayTeam": "Siroki Brijeg"
+  },
+  {
+    "matchId": "g_3_ljWFTAH0",
+    "eventTime": "04.02. 12:00",
+    "homeTeam": "Sutjeska",
+    "awayTeam": "Pelister"
+  },
+  {
+    "matchId": "g_3_AaXBUj2f",
+    "eventTime": "04.02. 15:00",
+    "homeTeam": "GKK Sibenka",
+    "awayTeam": "Helios Domzale"
+  },
+  {
+    "matchId": "g_3_xbXibtjn",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "MZT Skopje",
+    "awayTeam": "Vojvodina Novi Sad"
+  },
+  {
+    "matchId": "g_3_6qxeUs8B",
+    "eventTime": "18.03. 15:00",
+    "homeTeam": "Pelister",
+    "awayTeam": "Borac Banja Luka"
+  },
+  {
+    "matchId": "g_3_KntaT1NH",
+    "eventTime": "18.03. 18:00",
+    "homeTeam": "Helios Domzale",
+    "awayTeam": "Sutjeska"
+  },
+  {
+    "matchId": "g_3_fZRdc05h",
+    "eventTime": "18.03. 21:00",
+    "homeTeam": "Vojvodina Novi Sad",
+    "awayTeam": "GKK Sibenka"
+  },
+  {
+    "matchId": "g_3_OKnjVNh5",
+    "eventTime": "19.03. 15:00",
+    "homeTeam": "Cedevita Junior",
+    "awayTeam": "Podgorica"
+  },
+  {
+    "matchId": "g_3_pUmnW3wa",
+    "eventTime": "19.03. 18:00",
+    "homeTeam": "Siroki Brijeg",
+    "awayTeam": "Subotica"
+  },
+  {
+    "matchId": "g_3_x4pvYP8n",
+    "eventTime": "19.03. 21:00",
+    "homeTeam": "TFT Skopje",
+    "awayTeam": "MZT Skopje"
+  },
+  {
+    "matchId": "g_3_GfqrXqOh",
+    "eventTime": "20.03. 15:00",
+    "homeTeam": "Zlatibor",
+    "awayTeam": "Sencur"
+  },
+  {
+    "matchId": "g_3_h0v7RuhU",
+    "eventTime": "20.03. 18:00",
+    "homeTeam": "Borac Banja Luka",
+    "awayTeam": "Helios Domzale"
+  },
+  {
+    "matchId": "g_3_E9u3SLxO",
+    "eventTime": "20.03. 21:00",
+    "homeTeam": "GKK Sibenka",
+    "awayTeam": "Sutjeska"
+  },
+  {
+    "matchId": "g_3_f1W9oqwn",
+    "eventTime": "21.03. 15:00",
+    "homeTeam": "Subotica",
+    "awayTeam": "Cedevita Junior"
+  },
+  {
+    "matchId": "g_3_GAX5nPNu",
+    "eventTime": "21.03. 18:00",
+    "homeTeam": "Podgorica",
+    "awayTeam": "Pelister"
+  },
+  {
+    "matchId": "g_3_YPQ0dKKb",
+    "eventTime": "21.03. 21:00",
+    "homeTeam": "Vojvodina Novi Sad",
+    "awayTeam": "TFT Skopje"
+  },
+  {
+    "matchId": "g_3_2RZHqN7b",
+    "eventTime": "22.03. 15:00",
+    "homeTeam": "MZT Skopje",
+    "awayTeam": "Zlatibor"
+  },
+  {
+    "matchId": "g_3_lOVDp3hh",
+    "eventTime": "22.03. 18:00",
+    "homeTeam": "Sencur",
+    "awayTeam": "Siroki Brijeg"
+  },
+  {
+    "matchId": "g_3_lO75zJUp",
+    "eventTime": "22.03. 21:00",
+    "homeTeam": "Sutjeska",
+    "awayTeam": "Borac Banja Luka"
+  },
+  {
+    "matchId": "g_3_W6RYuu7N",
+    "eventTime": "23.03. 12:00",
+    "homeTeam": "Pelister",
+    "awayTeam": "Subotica"
+  },
+  {
+    "matchId": "g_3_EVGwuaMT",
+    "eventTime": "23.03. 15:00",
+    "homeTeam": "Helios Domzale",
+    "awayTeam": "Podgorica"
+  },
+  {
+    "matchId": "g_3_pjPMrsN4",
+    "eventTime": "23.03. 18:00",
+    "homeTeam": "TFT Skopje",
+    "awayTeam": "GKK Sibenka"
+  },
+  {
+    "matchId": "g_3_SnQ4evz5",
+    "eventTime": "24.03. 12:00",
+    "homeTeam": "Zlatibor",
+    "awayTeam": "Vojvodina Novi Sad"
+  },
+  {
+    "matchId": "g_3_hGSUtLiH",
+    "eventTime": "24.03. 15:00",
+    "homeTeam": "Cedevita Junior",
+    "awayTeam": "Sencur"
+  },
+  {
+    "matchId": "g_3_OtOQs1xB",
+    "eventTime": "24.03. 18:00",
+    "homeTeam": "Siroki Brijeg",
+    "awayTeam": "MZT Skopje"
+  }
+]

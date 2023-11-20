@@ -1,0 +1,578 @@
+[
+  {
+    "matchId": "g_3_8UZK2zQC",
+    "eventTime": "22.02. 18:00",
+    "homeTeam": "Germany",
+    "awayTeam": "Montenegro"
+  },
+  {
+    "matchId": "g_3_zs787bBs",
+    "eventTime": "22.02. 18:00",
+    "homeTeam": "Iceland",
+    "awayTeam": "Hungary"
+  },
+  {
+    "matchId": "g_3_U36C6IQm",
+    "eventTime": "22.02. 18:00",
+    "homeTeam": "Italy",
+    "awayTeam": "Turkey"
+  },
+  {
+    "matchId": "g_3_GdQyDKmK",
+    "eventTime": "22.02. 18:00",
+    "homeTeam": "Portugal",
+    "awayTeam": "Israel"
+  },
+  {
+    "matchId": "g_3_8f5G5xtf",
+    "eventTime": "22.02. 18:00",
+    "homeTeam": "Slovakia",
+    "awayTeam": "Belgium"
+  },
+  {
+    "matchId": "g_3_bLFtCv3Q",
+    "eventTime": "22.02. 18:00",
+    "homeTeam": "Slovenia",
+    "awayTeam": "Ukraine"
+  },
+  {
+    "matchId": "g_3_zHyD4de0",
+    "eventTime": "22.02. 18:00",
+    "homeTeam": "Spain",
+    "awayTeam": "Latvia"
+  },
+  {
+    "matchId": "g_3_E7zH3GA6",
+    "eventTime": "22.02. 18:00",
+    "homeTeam": "Sweden",
+    "awayTeam": "Bulgaria"
+  },
+  {
+    "matchId": "g_3_MXwP1fuJ",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Cyprus",
+    "awayTeam": "Bosnia & Herzegovina"
+  },
+  {
+    "matchId": "g_3_YB7sKyem",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Denmark",
+    "awayTeam": "Georgia"
+  },
+  {
+    "matchId": "g_3_OxI7QwIJ",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "France",
+    "awayTeam": "Croatia"
+  },
+  {
+    "matchId": "g_3_2TGBPcXP",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Great Britain",
+    "awayTeam": "Netherlands"
+  },
+  {
+    "matchId": "g_3_fL8wLHus",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Greece",
+    "awayTeam": "Czech Republic"
+  },
+  {
+    "matchId": "g_3_MXafHZv6",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Lithuania",
+    "awayTeam": "Poland"
+  },
+  {
+    "matchId": "g_3_SA0jIFPa",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "North Macedonia",
+    "awayTeam": "Estonia"
+  },
+  {
+    "matchId": "g_3_GzcnJeAg",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Serbia",
+    "awayTeam": "Finland"
+  },
+  {
+    "matchId": "g_3_4fbNK8ob",
+    "eventTime": "25.02. 18:00",
+    "homeTeam": "Belgium",
+    "awayTeam": "Spain"
+  },
+  {
+    "matchId": "g_3_jBdVInGA",
+    "eventTime": "25.02. 18:00",
+    "homeTeam": "Bulgaria",
+    "awayTeam": "Germany"
+  },
+  {
+    "matchId": "g_3_8S4EMUGo",
+    "eventTime": "25.02. 18:00",
+    "homeTeam": "Hungary",
+    "awayTeam": "Italy"
+  },
+  {
+    "matchId": "g_3_Iag3FD9I",
+    "eventTime": "25.02. 18:00",
+    "homeTeam": "Israel",
+    "awayTeam": "Slovenia"
+  },
+  {
+    "matchId": "g_3_MV8ILlWi",
+    "eventTime": "25.02. 18:00",
+    "homeTeam": "Latvia",
+    "awayTeam": "Slovakia"
+  },
+  {
+    "matchId": "g_3_rocRJS04",
+    "eventTime": "25.02. 18:00",
+    "homeTeam": "Montenegro",
+    "awayTeam": "Sweden"
+  },
+  {
+    "matchId": "g_3_fPGWcovo",
+    "eventTime": "25.02. 18:00",
+    "homeTeam": "Turkey",
+    "awayTeam": "Iceland"
+  },
+  {
+    "matchId": "g_3_0ObbGgfC",
+    "eventTime": "25.02. 18:00",
+    "homeTeam": "Ukraine",
+    "awayTeam": "Portugal"
+  },
+  {
+    "matchId": "g_3_CQpvHQpN",
+    "eventTime": "26.02. 18:00",
+    "homeTeam": "Bosnia & Herzegovina",
+    "awayTeam": "France"
+  },
+  {
+    "matchId": "g_3_U1eZH6VG",
+    "eventTime": "26.02. 18:00",
+    "homeTeam": "Croatia",
+    "awayTeam": "Cyprus"
+  },
+  {
+    "matchId": "g_3_QTlrGp0T",
+    "eventTime": "26.02. 18:00",
+    "homeTeam": "Czech Republic",
+    "awayTeam": "Great Britain"
+  },
+  {
+    "matchId": "g_3_WUH4XoV3",
+    "eventTime": "26.02. 18:00",
+    "homeTeam": "Estonia",
+    "awayTeam": "Lithuania"
+  },
+  {
+    "matchId": "g_3_MazEAONj",
+    "eventTime": "26.02. 18:00",
+    "homeTeam": "Finland",
+    "awayTeam": "Denmark"
+  },
+  {
+    "matchId": "g_3_bHJdZ70i",
+    "eventTime": "26.02. 18:00",
+    "homeTeam": "Georgia",
+    "awayTeam": "Serbia"
+  },
+  {
+    "matchId": "g_3_r9yAB48p",
+    "eventTime": "26.02. 18:00",
+    "homeTeam": "Netherlands",
+    "awayTeam": "Greece"
+  },
+  {
+    "matchId": "g_3_x8I0YRFc",
+    "eventTime": "26.02. 18:00",
+    "homeTeam": "Poland",
+    "awayTeam": "North Macedonia"
+  },
+  {
+    "matchId": "g_3_CvQCVPaG",
+    "eventTime": "21.11. 18:00",
+    "homeTeam": "Croatia",
+    "awayTeam": "Bosnia & Herzegovina"
+  },
+  {
+    "matchId": "g_3_UFz8W5pA",
+    "eventTime": "21.11. 18:00",
+    "homeTeam": "Cyprus",
+    "awayTeam": "France"
+  },
+  {
+    "matchId": "g_3_K4TKT3US",
+    "eventTime": "21.11. 18:00",
+    "homeTeam": "Czech Republic",
+    "awayTeam": "Netherlands"
+  },
+  {
+    "matchId": "g_3_MDFnPNxp",
+    "eventTime": "21.11. 18:00",
+    "homeTeam": "Denmark",
+    "awayTeam": "Serbia"
+  },
+  {
+    "matchId": "g_3_4x5iOshj",
+    "eventTime": "21.11. 18:00",
+    "homeTeam": "Finland",
+    "awayTeam": "Georgia"
+  },
+  {
+    "matchId": "g_3_jVOGUqFM",
+    "eventTime": "21.11. 18:00",
+    "homeTeam": "Great Britain",
+    "awayTeam": "Greece"
+  },
+  {
+    "matchId": "g_3_Iu9eN17d",
+    "eventTime": "21.11. 18:00",
+    "homeTeam": "North Macedonia",
+    "awayTeam": "Lithuania"
+  },
+  {
+    "matchId": "g_3_Wrcwnopc",
+    "eventTime": "21.11. 18:00",
+    "homeTeam": "Poland",
+    "awayTeam": "Estonia"
+  },
+  {
+    "matchId": "g_3_UyCrqqUF",
+    "eventTime": "22.11. 18:00",
+    "homeTeam": "Iceland",
+    "awayTeam": "Italy"
+  },
+  {
+    "matchId": "g_3_rqhJxs7q",
+    "eventTime": "22.11. 18:00",
+    "homeTeam": "Latvia",
+    "awayTeam": "Belgium"
+  },
+  {
+    "matchId": "g_3_j9eRzLyd",
+    "eventTime": "22.11. 18:00",
+    "homeTeam": "Montenegro",
+    "awayTeam": "Bulgaria"
+  },
+  {
+    "matchId": "g_3_AZeso5a3",
+    "eventTime": "22.11. 18:00",
+    "homeTeam": "Portugal",
+    "awayTeam": "Slovenia"
+  },
+  {
+    "matchId": "g_3_x2FjsNbS",
+    "eventTime": "22.11. 18:00",
+    "homeTeam": "Slovakia",
+    "awayTeam": "Spain"
+  },
+  {
+    "matchId": "g_3_MZjNy1Mk",
+    "eventTime": "22.11. 18:00",
+    "homeTeam": "Sweden",
+    "awayTeam": "Germany"
+  },
+  {
+    "matchId": "g_3_ObBnr3qM",
+    "eventTime": "22.11. 18:00",
+    "homeTeam": "Turkey",
+    "awayTeam": "Hungary"
+  },
+  {
+    "matchId": "g_3_joDvpPE9",
+    "eventTime": "22.11. 18:00",
+    "homeTeam": "Ukraine",
+    "awayTeam": "Israel"
+  },
+  {
+    "matchId": "g_3_W4YDbOT2",
+    "eventTime": "24.11. 18:00",
+    "homeTeam": "Bosnia & Herzegovina",
+    "awayTeam": "Croatia"
+  },
+  {
+    "matchId": "g_3_UaG0kKjk",
+    "eventTime": "24.11. 18:00",
+    "homeTeam": "Estonia",
+    "awayTeam": "Poland"
+  },
+  {
+    "matchId": "g_3_UafVZvi2",
+    "eventTime": "24.11. 18:00",
+    "homeTeam": "France",
+    "awayTeam": "Cyprus"
+  },
+  {
+    "matchId": "g_3_YTUUftTR",
+    "eventTime": "24.11. 18:00",
+    "homeTeam": "Georgia",
+    "awayTeam": "Finland"
+  },
+  {
+    "matchId": "g_3_ruxIcrq9",
+    "eventTime": "24.11. 18:00",
+    "homeTeam": "Greece",
+    "awayTeam": "Great Britain"
+  },
+  {
+    "matchId": "g_3_zwHdj0yq",
+    "eventTime": "24.11. 18:00",
+    "homeTeam": "Lithuania",
+    "awayTeam": "North Macedonia"
+  },
+  {
+    "matchId": "g_3_x2yMd2bF",
+    "eventTime": "24.11. 18:00",
+    "homeTeam": "Netherlands",
+    "awayTeam": "Czech Republic"
+  },
+  {
+    "matchId": "g_3_GhzQeMDL",
+    "eventTime": "24.11. 18:00",
+    "homeTeam": "Serbia",
+    "awayTeam": "Denmark"
+  },
+  {
+    "matchId": "g_3_xOOShgcs",
+    "eventTime": "25.11. 18:00",
+    "homeTeam": "Belgium",
+    "awayTeam": "Latvia"
+  },
+  {
+    "matchId": "g_3_plSziXRg",
+    "eventTime": "25.11. 18:00",
+    "homeTeam": "Bulgaria",
+    "awayTeam": "Montenegro"
+  },
+  {
+    "matchId": "g_3_jRSWiDCm",
+    "eventTime": "25.11. 18:00",
+    "homeTeam": "Germany",
+    "awayTeam": "Sweden"
+  },
+  {
+    "matchId": "g_3_IZBfB1D8",
+    "eventTime": "25.11. 18:00",
+    "homeTeam": "Hungary",
+    "awayTeam": "Turkey"
+  },
+  {
+    "matchId": "g_3_QR99mbL1",
+    "eventTime": "25.11. 18:00",
+    "homeTeam": "Israel",
+    "awayTeam": "Ukraine"
+  },
+  {
+    "matchId": "g_3_4I8DnIz8",
+    "eventTime": "25.11. 18:00",
+    "homeTeam": "Italy",
+    "awayTeam": "Iceland"
+  },
+  {
+    "matchId": "g_3_r3K4lv6e",
+    "eventTime": "25.11. 18:00",
+    "homeTeam": "Slovenia",
+    "awayTeam": "Portugal"
+  },
+  {
+    "matchId": "g_3_dQAbALSE",
+    "eventTime": "25.11. 18:00",
+    "homeTeam": "Spain",
+    "awayTeam": "Slovakia"
+  },
+  {
+    "matchId": "g_3_Uylxe1pP",
+    "eventTime": "20.02. 18:00",
+    "homeTeam": "Belgium",
+    "awayTeam": "Slovakia"
+  },
+  {
+    "matchId": "g_3_0Kv8ku8n",
+    "eventTime": "20.02. 18:00",
+    "homeTeam": "Bulgaria",
+    "awayTeam": "Sweden"
+  },
+  {
+    "matchId": "g_3_ETJimkRI",
+    "eventTime": "20.02. 18:00",
+    "homeTeam": "Hungary",
+    "awayTeam": "Iceland"
+  },
+  {
+    "matchId": "g_3_tGLqkBd6",
+    "eventTime": "20.02. 18:00",
+    "homeTeam": "Israel",
+    "awayTeam": "Portugal"
+  },
+  {
+    "matchId": "g_3_Q3Nen9tP",
+    "eventTime": "20.02. 18:00",
+    "homeTeam": "Latvia",
+    "awayTeam": "Spain"
+  },
+  {
+    "matchId": "g_3_Wpz4jLht",
+    "eventTime": "20.02. 18:00",
+    "homeTeam": "Montenegro",
+    "awayTeam": "Germany"
+  },
+  {
+    "matchId": "g_3_K6KmlVBC",
+    "eventTime": "20.02. 18:00",
+    "homeTeam": "Turkey",
+    "awayTeam": "Italy"
+  },
+  {
+    "matchId": "g_3_OvRvjis0",
+    "eventTime": "20.02. 18:00",
+    "homeTeam": "Ukraine",
+    "awayTeam": "Slovenia"
+  },
+  {
+    "matchId": "g_3_MZSGmJxa",
+    "eventTime": "21.02. 18:00",
+    "homeTeam": "Bosnia & Herzegovina",
+    "awayTeam": "Cyprus"
+  },
+  {
+    "matchId": "g_3_vBwClaNh",
+    "eventTime": "21.02. 18:00",
+    "homeTeam": "Croatia",
+    "awayTeam": "France"
+  },
+  {
+    "matchId": "g_3_zwXKnwh5",
+    "eventTime": "21.02. 18:00",
+    "homeTeam": "Czech Republic",
+    "awayTeam": "Greece"
+  },
+  {
+    "matchId": "g_3_4EMZ3vNu",
+    "eventTime": "21.02. 18:00",
+    "homeTeam": "Estonia",
+    "awayTeam": "North Macedonia"
+  },
+  {
+    "matchId": "g_3_8jVSpHMH",
+    "eventTime": "21.02. 18:00",
+    "homeTeam": "Finland",
+    "awayTeam": "Serbia"
+  },
+  {
+    "matchId": "g_3_l2nQqyxO",
+    "eventTime": "21.02. 18:00",
+    "homeTeam": "Georgia",
+    "awayTeam": "Denmark"
+  },
+  {
+    "matchId": "g_3_UaWOoc7B",
+    "eventTime": "21.02. 18:00",
+    "homeTeam": "Netherlands",
+    "awayTeam": "Great Britain"
+  },
+  {
+    "matchId": "g_3_ShoUreiU",
+    "eventTime": "21.02. 18:00",
+    "homeTeam": "Poland",
+    "awayTeam": "Lithuania"
+  },
+  {
+    "matchId": "g_3_MTP6dELT",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Germany",
+    "awayTeam": "Bulgaria"
+  },
+  {
+    "matchId": "g_3_vXEn1x7b",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Iceland",
+    "awayTeam": "Turkey"
+  },
+  {
+    "matchId": "g_3_86Jj0dM4",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Italy",
+    "awayTeam": "Hungary"
+  },
+  {
+    "matchId": "g_3_IHQw3bxn",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Portugal",
+    "awayTeam": "Ukraine"
+  },
+  {
+    "matchId": "g_3_ncIfaGyB",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Slovakia",
+    "awayTeam": "Latvia"
+  },
+  {
+    "matchId": "g_3_0tGr2Iih",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Slovenia",
+    "awayTeam": "Israel"
+  },
+  {
+    "matchId": "g_3_UL7abziH",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Spain",
+    "awayTeam": "Belgium"
+  },
+  {
+    "matchId": "g_3_S6Q2cf6N",
+    "eventTime": "23.02. 18:00",
+    "homeTeam": "Sweden",
+    "awayTeam": "Montenegro"
+  },
+  {
+    "matchId": "g_3_OxCYiYTp",
+    "eventTime": "24.02. 18:00",
+    "homeTeam": "Cyprus",
+    "awayTeam": "Croatia"
+  },
+  {
+    "matchId": "g_3_nBcTDFj4",
+    "eventTime": "24.02. 18:00",
+    "homeTeam": "Denmark",
+    "awayTeam": "Finland"
+  },
+  {
+    "matchId": "g_3_0feHGH6o",
+    "eventTime": "24.02. 18:00",
+    "homeTeam": "France",
+    "awayTeam": "Bosnia & Herzegovina"
+  },
+  {
+    "matchId": "g_3_vofLFyMi",
+    "eventTime": "24.02. 18:00",
+    "homeTeam": "Great Britain",
+    "awayTeam": "Czech Republic"
+  },
+  {
+    "matchId": "g_3_Y7gPEeyb",
+    "eventTime": "24.02. 18:00",
+    "homeTeam": "Greece",
+    "awayTeam": "Netherlands"
+  },
+  {
+    "matchId": "g_3_GjotBDzN",
+    "eventTime": "24.02. 18:00",
+    "homeTeam": "Lithuania",
+    "awayTeam": "Estonia"
+  },
+  {
+    "matchId": "g_3_8QoxCgLG",
+    "eventTime": "24.02. 18:00",
+    "homeTeam": "North Macedonia",
+    "awayTeam": "Poland"
+  },
+  {
+    "matchId": "g_3_UZnYCZ5A",
+    "eventTime": "24.02. 18:00",
+    "homeTeam": "Serbia",
+    "awayTeam": "Georgia"
+  }
+]

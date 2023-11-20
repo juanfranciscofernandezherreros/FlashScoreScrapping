@@ -148,4 +148,7 @@ npm run start country=europe league=euroleague action=fixtures headless
 
 npm install mysql2
 
-npm run start urls
+npm run start urls action=url
+
+npm run start -- --country=yourCountry --league=yourLeague --url=http://example.com
+npm run start -- --country=yourCountry --league=yourLeague --url=http://example.com

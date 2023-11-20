@@ -1,0 +1,44 @@
+[
+  {
+    "matchId": "g_3_thLdEKKL",
+    "eventTime": "21.11. 18:00",
+    "homeTeam": "AEL",
+    "awayTeam": "Pljevlja"
+  },
+  {
+    "matchId": "g_3_feP0DvzS",
+    "eventTime": "22.11. 18:00",
+    "homeTeam": "Lovcen Cetinje",
+    "awayTeam": "Sigal Prishtina"
+  },
+  {
+    "matchId": "g_3_WxST6xDe",
+    "eventTime": "28.11. 18:00",
+    "homeTeam": "Pljevlja",
+    "awayTeam": "AEL"
+  },
+  {
+    "matchId": "g_3_jRAW7Ick",
+    "eventTime": "30.11. 18:00",
+    "homeTeam": "Lovcen Cetinje",
+    "awayTeam": "AEL"
+  },
+  {
+    "matchId": "g_3_ATQX5dS1",
+    "eventTime": "05.12. 18:00",
+    "homeTeam": "Sigal Prishtina",
+    "awayTeam": "Lovcen Cetinje"
+  },
+  {
+    "matchId": "g_3_CzCS8brq",
+    "eventTime": "12.12. 18:00",
+    "homeTeam": "Sigal Prishtina",
+    "awayTeam": "Pljevlja"
+  },
+  {
+    "matchId": "g_3_OWEFUu52",
+    "eventTime": "18.12. 18:00",
+    "homeTeam": "AEL",
+    "awayTeam": "Lovcen Cetinje"
+  }
+]

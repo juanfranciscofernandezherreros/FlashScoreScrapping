@@ -1,0 +1,614 @@
+[
+  {
+    "matchId": "g_3_QoAcpvVE",
+    "eventTime": "18.11. 18:00",
+    "homeTeam": "Aulnoye AS W",
+    "awayTeam": "Mondeville W"
+  },
+  {
+    "matchId": "g_3_OWS0qbpL",
+    "eventTime": "18.11. 20:00",
+    "homeTeam": "Avenir Chartres W",
+    "awayTeam": "Tronche Meylan W"
+  },
+  {
+    "matchId": "g_3_844Xwx8r",
+    "eventTime": "18.11. 20:00",
+    "homeTeam": "Feytiat W",
+    "awayTeam": "Montbrison W"
+  },
+  {
+    "matchId": "g_3_6eI5rIaR",
+    "eventTime": "18.11. 20:00",
+    "homeTeam": "Graffenstaden W",
+    "awayTeam": "Champagne W"
+  },
+  {
+    "matchId": "g_3_WOAgoKF8",
+    "eventTime": "18.11. 20:00",
+    "homeTeam": "Nice W",
+    "awayTeam": "Toulouse W"
+  },
+  {
+    "matchId": "g_3_xv9ywdNl",
+    "eventTime": "18.11. 20:00",
+    "homeTeam": "Pays Voironnais W",
+    "awayTeam": "Centre Federal BB W"
+  },
+  {
+    "matchId": "g_3_GU7uxGxe",
+    "eventTime": "24.11. 17:30",
+    "homeTeam": "Centre Federal BB W",
+    "awayTeam": "Toulouse W"
+  },
+  {
+    "matchId": "g_3_Cd1lzf77",
+    "eventTime": "25.11. 20:00",
+    "homeTeam": "Champagne W",
+    "awayTeam": "Tronche Meylan W"
+  },
+  {
+    "matchId": "g_3_p25XdHEK",
+    "eventTime": "25.11. 20:00",
+    "homeTeam": "Feytiat W",
+    "awayTeam": "Graffenstaden W"
+  },
+  {
+    "matchId": "g_3_bgcpyzh1",
+    "eventTime": "25.11. 20:00",
+    "homeTeam": "Montbrison W",
+    "awayTeam": "Mondeville W"
+  },
+  {
+    "matchId": "g_3_QakWbwp8",
+    "eventTime": "25.11. 20:00",
+    "homeTeam": "Nice W",
+    "awayTeam": "Aulnoye AS W"
+  },
+  {
+    "matchId": "g_3_4jlzbcaE",
+    "eventTime": "25.11. 20:00",
+    "homeTeam": "Pays Voironnais W",
+    "awayTeam": "Avenir Chartres W"
+  },
+  {
+    "matchId": "g_3_x0pCkZ6f",
+    "eventTime": "02.12. 18:00",
+    "homeTeam": "Aulnoye AS W",
+    "awayTeam": "Pays Voironnais W"
+  },
+  {
+    "matchId": "g_3_GjqGlgM0",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Avenir Chartres W",
+    "awayTeam": "Feytiat W"
+  },
+  {
+    "matchId": "g_3_pQmKmDy7",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Graffenstaden W",
+    "awayTeam": "Nice W"
+  },
+  {
+    "matchId": "g_3_tYj3iexr",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Mondeville W",
+    "awayTeam": "Champagne W"
+  },
+  {
+    "matchId": "g_3_Oh4ydyUQ",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Toulouse W",
+    "awayTeam": "Montbrison W"
+  },
+  {
+    "matchId": "g_3_fye7jFil",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Tronche Meylan W",
+    "awayTeam": "Centre Federal BB W"
+  },
+  {
+    "matchId": "g_3_OGnOnXjD",
+    "eventTime": "08.12. 20:00",
+    "homeTeam": "Champagne W",
+    "awayTeam": "Toulouse W"
+  },
+  {
+    "matchId": "g_3_xdUAAzqK",
+    "eventTime": "09.12. 16:00",
+    "homeTeam": "Centre Federal BB W",
+    "awayTeam": "Montbrison W"
+  },
+  {
+    "matchId": "g_3_WITE9fbQ",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Feytiat W",
+    "awayTeam": "Aulnoye AS W"
+  },
+  {
+    "matchId": "g_3_YRFt5E6s",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Graffenstaden W",
+    "awayTeam": "Avenir Chartres W"
+  },
+  {
+    "matchId": "g_3_j3Ao4YLm",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Nice W",
+    "awayTeam": "Pays Voironnais W"
+  },
+  {
+    "matchId": "g_3_QLQ6BGTD",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Tronche Meylan W",
+    "awayTeam": "Mondeville W"
+  },
+  {
+    "matchId": "g_3_OG8g2Cj0",
+    "eventTime": "13.12. 20:00",
+    "homeTeam": "Mondeville W",
+    "awayTeam": "Centre Federal BB W"
+  },
+  {
+    "matchId": "g_3_Kr220jLC",
+    "eventTime": "16.12. 18:00",
+    "homeTeam": "Aulnoye AS W",
+    "awayTeam": "Graffenstaden W"
+  },
+  {
+    "matchId": "g_3_bZ06aAzJ",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Avenir Chartres W",
+    "awayTeam": "Nice W"
+  },
+  {
+    "matchId": "g_3_xKCc1W56",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Montbrison W",
+    "awayTeam": "Champagne W"
+  },
+  {
+    "matchId": "g_3_Cj4mOgDJ",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Pays Voironnais W",
+    "awayTeam": "Feytiat W"
+  },
+  {
+    "matchId": "g_3_Ug9k3hyf",
+    "eventTime": "16.12. 20:00",
+    "homeTeam": "Toulouse W",
+    "awayTeam": "Tronche Meylan W"
+  },
+  {
+    "matchId": "g_3_ARqOHijm",
+    "eventTime": "22.12. 19:00",
+    "homeTeam": "Centre Federal BB W",
+    "awayTeam": "Champagne W"
+  },
+  {
+    "matchId": "g_3_4lqSGB5g",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "Avenir Chartres W",
+    "awayTeam": "Aulnoye AS W"
+  },
+  {
+    "matchId": "g_3_0GxyFkz6",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "Feytiat W",
+    "awayTeam": "Nice W"
+  },
+  {
+    "matchId": "g_3_rurWFVKa",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "Graffenstaden W",
+    "awayTeam": "Pays Voironnais W"
+  },
+  {
+    "matchId": "g_3_js3iNDSP",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "Mondeville W",
+    "awayTeam": "Toulouse W"
+  },
+  {
+    "matchId": "g_3_dOuKIXzs",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "Tronche Meylan W",
+    "awayTeam": "Montbrison W"
+  },
+  {
+    "matchId": "g_3_v7yuE9kC",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Aulnoye AS W",
+    "awayTeam": "Toulouse W"
+  },
+  {
+    "matchId": "g_3_YTzqDT4I",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Avenir Chartres W",
+    "awayTeam": "Mondeville W"
+  },
+  {
+    "matchId": "g_3_prseKpCo",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Feytiat W",
+    "awayTeam": "Champagne W"
+  },
+  {
+    "matchId": "g_3_rw3Ce1Zp",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Graffenstaden W",
+    "awayTeam": "Tronche Meylan W"
+  },
+  {
+    "matchId": "g_3_h8p3IOtb",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Nice W",
+    "awayTeam": "Centre Federal BB W"
+  },
+  {
+    "matchId": "g_3_OYuaJ4Ri",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Pays Voironnais W",
+    "awayTeam": "Montbrison W"
+  },
+  {
+    "matchId": "g_3_48uq9K3p",
+    "eventTime": "19.01. 16:00",
+    "homeTeam": "Centre Federal BB W",
+    "awayTeam": "Aulnoye AS W"
+  },
+  {
+    "matchId": "g_3_MmxKEttN",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "Champagne W",
+    "awayTeam": "Pays Voironnais W"
+  },
+  {
+    "matchId": "g_3_ENYBG2BA",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "Mondeville W",
+    "awayTeam": "Graffenstaden W"
+  },
+  {
+    "matchId": "g_3_Wbq7Hrd4",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "Toulouse W",
+    "awayTeam": "Avenir Chartres W"
+  },
+  {
+    "matchId": "g_3_SQxGFMQG",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "Tronche Meylan W",
+    "awayTeam": "Feytiat W"
+  },
+  {
+    "matchId": "g_3_0vyOD0eT",
+    "eventTime": "20.01. 20:00",
+    "homeTeam": "Montbrison W",
+    "awayTeam": "Nice W"
+  },
+  {
+    "matchId": "g_3_WKKsULuA",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Aulnoye AS W",
+    "awayTeam": "Montbrison W"
+  },
+  {
+    "matchId": "g_3_0fPoTueG",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Avenir Chartres W",
+    "awayTeam": "Centre Federal BB W"
+  },
+  {
+    "matchId": "g_3_d2SUWNei",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Feytiat W",
+    "awayTeam": "Mondeville W"
+  },
+  {
+    "matchId": "g_3_ravm8vJj",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Graffenstaden W",
+    "awayTeam": "Toulouse W"
+  },
+  {
+    "matchId": "g_3_hULwV1Q3",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Nice W",
+    "awayTeam": "Champagne W"
+  },
+  {
+    "matchId": "g_3_A5WYVsBc",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Pays Voironnais W",
+    "awayTeam": "Tronche Meylan W"
+  },
+  {
+    "matchId": "g_3_hr1Cq1uc",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Centre Federal BB W",
+    "awayTeam": "Graffenstaden W"
+  },
+  {
+    "matchId": "g_3_xzJPLcmj",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Champagne W",
+    "awayTeam": "Aulnoye AS W"
+  },
+  {
+    "matchId": "g_3_M9DfRJPS",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Mondeville W",
+    "awayTeam": "Pays Voironnais W"
+  },
+  {
+    "matchId": "g_3_GQHTKH2d",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Montbrison W",
+    "awayTeam": "Avenir Chartres W"
+  },
+  {
+    "matchId": "g_3_voOkSaAM",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Toulouse W",
+    "awayTeam": "Feytiat W"
+  },
+  {
+    "matchId": "g_3_rDJLMwYq",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Tronche Meylan W",
+    "awayTeam": "Nice W"
+  },
+  {
+    "matchId": "g_3_Wdvazc2q",
+    "eventTime": "16.02. 20:00",
+    "homeTeam": "Feytiat W",
+    "awayTeam": "Centre Federal BB W"
+  },
+  {
+    "matchId": "g_3_va3OtaPF",
+    "eventTime": "17.02. 18:00",
+    "homeTeam": "Aulnoye AS W",
+    "awayTeam": "Tronche Meylan W"
+  },
+  {
+    "matchId": "g_3_MNhTuJvM",
+    "eventTime": "17.02. 20:00",
+    "homeTeam": "Avenir Chartres W",
+    "awayTeam": "Champagne W"
+  },
+  {
+    "matchId": "g_3_0EiXvwfS",
+    "eventTime": "17.02. 20:00",
+    "homeTeam": "Graffenstaden W",
+    "awayTeam": "Montbrison W"
+  },
+  {
+    "matchId": "g_3_QeaKsuA9",
+    "eventTime": "17.02. 20:00",
+    "homeTeam": "Nice W",
+    "awayTeam": "Mondeville W"
+  },
+  {
+    "matchId": "g_3_WYaGrLf3",
+    "eventTime": "17.02. 20:00",
+    "homeTeam": "Pays Voironnais W",
+    "awayTeam": "Toulouse W"
+  },
+  {
+    "matchId": "g_3_KIKgdvP2",
+    "eventTime": "23.02. 20:00",
+    "homeTeam": "Champagne W",
+    "awayTeam": "Graffenstaden W"
+  },
+  {
+    "matchId": "g_3_GpE2fIgF",
+    "eventTime": "24.02. 16:00",
+    "homeTeam": "Centre Federal BB W",
+    "awayTeam": "Pays Voironnais W"
+  },
+  {
+    "matchId": "g_3_hCS7YzXe",
+    "eventTime": "24.02. 20:00",
+    "homeTeam": "Mondeville W",
+    "awayTeam": "Aulnoye AS W"
+  },
+  {
+    "matchId": "g_3_b9Jcebv9",
+    "eventTime": "24.02. 20:00",
+    "homeTeam": "Montbrison W",
+    "awayTeam": "Feytiat W"
+  },
+  {
+    "matchId": "g_3_Amw3ZGHk",
+    "eventTime": "24.02. 20:00",
+    "homeTeam": "Toulouse W",
+    "awayTeam": "Nice W"
+  },
+  {
+    "matchId": "g_3_6FWBXfn2",
+    "eventTime": "24.02. 20:00",
+    "homeTeam": "Tronche Meylan W",
+    "awayTeam": "Avenir Chartres W"
+  },
+  {
+    "matchId": "g_3_6Fhsmznk",
+    "eventTime": "02.03. 18:00",
+    "homeTeam": "Aulnoye AS W",
+    "awayTeam": "Nice W"
+  },
+  {
+    "matchId": "g_3_p6ionf1e",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Avenir Chartres W",
+    "awayTeam": "Pays Voironnais W"
+  },
+  {
+    "matchId": "g_3_EudkoEG1",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Graffenstaden W",
+    "awayTeam": "Feytiat W"
+  },
+  {
+    "matchId": "g_3_lbCAhdOR",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Mondeville W",
+    "awayTeam": "Montbrison W"
+  },
+  {
+    "matchId": "g_3_fyD6gx9L",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Toulouse W",
+    "awayTeam": "Centre Federal BB W"
+  },
+  {
+    "matchId": "g_3_Oj3xlGWr",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Tronche Meylan W",
+    "awayTeam": "Champagne W"
+  },
+  {
+    "matchId": "g_3_8vwt8yOE",
+    "eventTime": "08.03. 20:00",
+    "homeTeam": "Centre Federal BB W",
+    "awayTeam": "Tronche Meylan W"
+  },
+  {
+    "matchId": "g_3_vRaDkT7m",
+    "eventTime": "08.03. 20:00",
+    "homeTeam": "Feytiat W",
+    "awayTeam": "Avenir Chartres W"
+  },
+  {
+    "matchId": "g_3_0z19j9hs",
+    "eventTime": "08.03. 20:00",
+    "homeTeam": "Pays Voironnais W",
+    "awayTeam": "Aulnoye AS W"
+  },
+  {
+    "matchId": "g_3_fyZy9H88",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Champagne W",
+    "awayTeam": "Mondeville W"
+  },
+  {
+    "matchId": "g_3_hWfgpYV7",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Montbrison W",
+    "awayTeam": "Toulouse W"
+  },
+  {
+    "matchId": "g_3_6mW9lmNg",
+    "eventTime": "09.03. 20:00",
+    "homeTeam": "Nice W",
+    "awayTeam": "Graffenstaden W"
+  },
+  {
+    "matchId": "g_3_zTNQp5MI",
+    "eventTime": "16.03. 18:00",
+    "homeTeam": "Aulnoye AS W",
+    "awayTeam": "Feytiat W"
+  },
+  {
+    "matchId": "g_3_EJMUqPyP",
+    "eventTime": "16.03. 20:00",
+    "homeTeam": "Avenir Chartres W",
+    "awayTeam": "Graffenstaden W"
+  },
+  {
+    "matchId": "g_3_v1UHnRi6",
+    "eventTime": "16.03. 20:00",
+    "homeTeam": "Mondeville W",
+    "awayTeam": "Tronche Meylan W"
+  },
+  {
+    "matchId": "g_3_h4YLoo7C",
+    "eventTime": "16.03. 20:00",
+    "homeTeam": "Montbrison W",
+    "awayTeam": "Centre Federal BB W"
+  },
+  {
+    "matchId": "g_3_2ZFC88EP",
+    "eventTime": "16.03. 20:00",
+    "homeTeam": "Pays Voironnais W",
+    "awayTeam": "Nice W"
+  },
+  {
+    "matchId": "g_3_pvVDm7x0",
+    "eventTime": "16.03. 20:00",
+    "homeTeam": "Toulouse W",
+    "awayTeam": "Champagne W"
+  },
+  {
+    "matchId": "g_3_n7iq3nxm",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Centre Federal BB W",
+    "awayTeam": "Mondeville W"
+  },
+  {
+    "matchId": "g_3_bsem26ig",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Champagne W",
+    "awayTeam": "Montbrison W"
+  },
+  {
+    "matchId": "g_3_lWm0a4yC",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Feytiat W",
+    "awayTeam": "Pays Voironnais W"
+  },
+  {
+    "matchId": "g_3_h4fi1Q6a",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Graffenstaden W",
+    "awayTeam": "Aulnoye AS W"
+  },
+  {
+    "matchId": "g_3_Wfge0pM5",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Nice W",
+    "awayTeam": "Avenir Chartres W"
+  },
+  {
+    "matchId": "g_3_4r2v4SMt",
+    "eventTime": "23.03. 20:00",
+    "homeTeam": "Tronche Meylan W",
+    "awayTeam": "Toulouse W"
+  },
+  {
+    "matchId": "g_3_2w4G1fIu",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Aulnoye AS W",
+    "awayTeam": "Avenir Chartres W"
+  },
+  {
+    "matchId": "g_3_zmjCd2LU",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Champagne W",
+    "awayTeam": "Centre Federal BB W"
+  },
+  {
+    "matchId": "g_3_Mqn8cr6O",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Montbrison W",
+    "awayTeam": "Tronche Meylan W"
+  },
+  {
+    "matchId": "g_3_lf2OaYnh",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Nice W",
+    "awayTeam": "Feytiat W"
+  },
+  {
+    "matchId": "g_3_tU2K0EXo",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Pays Voironnais W",
+    "awayTeam": "Graffenstaden W"
+  },
+  {
+    "matchId": "g_3_SMn4bOjI",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Toulouse W",
+    "awayTeam": "Mondeville W"
+  }
+]

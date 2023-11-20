@@ -1,0 +1,1520 @@
+[
+  {
+    "matchId": "g_3_z1a52UeI",
+    "eventTime": "17.11. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_Eib91lBO",
+    "eventTime": "17.11. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_fkr83AtC",
+    "eventTime": "17.11. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_f5WVIkta",
+    "eventTime": "17.11. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_SfniQXmP",
+    "eventTime": "17.11. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_YeVZH9e5",
+    "eventTime": "17.11. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_4GwJLidt",
+    "eventTime": "17.11. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_nuTNKBBn",
+    "eventTime": "17.11. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_QVRRJVQh",
+    "eventTime": "19.11. 15:15",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_MHNnF7uO",
+    "eventTime": "24.11. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_Yei5Xleh",
+    "eventTime": "24.11. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_GKKvHTAB",
+    "eventTime": "24.11. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_0rgcZAQu",
+    "eventTime": "24.11. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_vZi1YUun",
+    "eventTime": "24.11. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_nae9W8Ab",
+    "eventTime": "24.11. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_SfOrGmQH",
+    "eventTime": "24.11. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_08MjERfU",
+    "eventTime": "24.11. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_UNpEVSP4",
+    "eventTime": "24.11. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_8Yud6Cdg",
+    "eventTime": "28.11. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_8EqIUnuB",
+    "eventTime": "01.12. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_0QwdN4Xp",
+    "eventTime": "01.12. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_O4nURpPT",
+    "eventTime": "01.12. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_lnKjqnf4",
+    "eventTime": "01.12. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_ETRwnlAo",
+    "eventTime": "01.12. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_ttcPSQ9N",
+    "eventTime": "01.12. 20:30",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_AeLnpSvb",
+    "eventTime": "01.12. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_2kbLT6fH",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_hKQso8Pi",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_WSKVqJpF",
+    "eventTime": "08.12. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_x6LRpaV8",
+    "eventTime": "08.12. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_McwuNew2",
+    "eventTime": "08.12. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_O2HNouG2",
+    "eventTime": "08.12. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_r9Jfr69A",
+    "eventTime": "08.12. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_EXZWOH8k",
+    "eventTime": "08.12. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_r7vyOyOe",
+    "eventTime": "08.12. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_fqNbsQOG",
+    "eventTime": "08.12. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_zsyTPcgq",
+    "eventTime": "08.12. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_AJJZrw0L",
+    "eventTime": "15.12. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_04Q6yehe",
+    "eventTime": "15.12. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_hvNbwHNr",
+    "eventTime": "15.12. 20:00",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_n1M2xywk",
+    "eventTime": "15.12. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_rTFBzF71",
+    "eventTime": "15.12. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_MJEFZYM7",
+    "eventTime": "15.12. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_AZ7cbIa8",
+    "eventTime": "15.12. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_jVzXscFR",
+    "eventTime": "15.12. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_lQ61cxFE",
+    "eventTime": "15.12. 20:30",
+    "homeTeam": "Orleans",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_Wld6ddUK",
+    "eventTime": "19.12. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_W2yuBeqE",
+    "eventTime": "19.12. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_UZE9eGqR",
+    "eventTime": "19.12. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_MXgllYy1",
+    "eventTime": "19.12. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_rsepkEMf",
+    "eventTime": "19.12. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_UccdnC6D",
+    "eventTime": "19.12. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_Gfghmhi7",
+    "eventTime": "19.12. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_nF1yizhr",
+    "eventTime": "19.12. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_Q50ujf7l",
+    "eventTime": "19.12. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_KSLE4gMs",
+    "eventTime": "22.12. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_l8DV0BL6",
+    "eventTime": "22.12. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_AgzqAFbK",
+    "eventTime": "22.12. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_pz7vakjJ",
+    "eventTime": "22.12. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_6q8z0VzD",
+    "eventTime": "22.12. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_2iBJ3Dyl",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_AHER1i60",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_IJZn9ZDQ",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_GfFN2Xjf",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_ADbQMhrQ",
+    "eventTime": "27.12. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_GfygICjs",
+    "eventTime": "27.12. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_bwXDDl5C",
+    "eventTime": "27.12. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_fozcHW5m",
+    "eventTime": "27.12. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_OKv1GjLg",
+    "eventTime": "27.12. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_2Bw5FAz0",
+    "eventTime": "27.12. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_pzT9EUk6",
+    "eventTime": "27.12. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_h0WHC8KI",
+    "eventTime": "27.12. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_bweMNYSJ",
+    "eventTime": "27.12. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_p86xGsRA",
+    "eventTime": "12.01. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_Ob5tF1tH",
+    "eventTime": "12.01. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_GSELJPRo",
+    "eventTime": "12.01. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_2qHXGNB4",
+    "eventTime": "12.01. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_fJDPIqsh",
+    "eventTime": "12.01. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_WO8lDuBT",
+    "eventTime": "12.01. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_UPgoetko",
+    "eventTime": "12.01. 20:30",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_ltDTH3db",
+    "eventTime": "12.01. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_hY9pELeN",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_WOUJSKAG",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_x2VFT0eA",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_bBWBUtt4",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_SjOSQbuT",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_ltkL7JYj",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_tzx7VMQc",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_pSYNRvQM",
+    "eventTime": "19.01. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_x6oH8aJp",
+    "eventTime": "19.01. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_2qw3W2Bi",
+    "eventTime": "21.01. 15:15",
+    "homeTeam": "Orleans",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_xQ9bLx3j",
+    "eventTime": "26.01. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_08n7II2F",
+    "eventTime": "26.01. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_GG82KdId",
+    "eventTime": "26.01. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_EipeLKId",
+    "eventTime": "26.01. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_IqsCHxIL",
+    "eventTime": "26.01. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_UaAfMImp",
+    "eventTime": "26.01. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_SflaKvY2",
+    "eventTime": "26.01. 20:30",
+    "homeTeam": "Orleans",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_MHm3Jbm9",
+    "eventTime": "26.01. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_dztGGdXR",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_jBKhUF1R",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_YFZg9EP1",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_dlLlVenL",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_EFSsCGuq",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_fPzjAfAe",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_MVSyYc22",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_roHpWyXE",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_C0ooBzek",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_0MRuXHH8",
+    "eventTime": "30.01. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_CMMLNDve",
+    "eventTime": "02.02. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_YVNHOgPl",
+    "eventTime": "02.02. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_6qMPMXg1",
+    "eventTime": "02.02. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_KnQTLi97",
+    "eventTime": "02.02. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_6sVmRnom",
+    "eventTime": "02.02. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_Mi4Cpyn8",
+    "eventTime": "02.02. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_0r3Gqe1E",
+    "eventTime": "02.02. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_hK6KPZ9r",
+    "eventTime": "02.02. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_SjWqSSVt",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_0tOdPQFa",
+    "eventTime": "06.02. 20:00",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_rP3epSiP",
+    "eventTime": "06.02. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_f3N0OpV5",
+    "eventTime": "06.02. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_ULFDLrFO",
+    "eventTime": "06.02. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_29pSv6Fn",
+    "eventTime": "06.02. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_KpeNun0t",
+    "eventTime": "06.02. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_YgM4N4pC",
+    "eventTime": "06.02. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_jVG9MOaI",
+    "eventTime": "06.02. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_4GkjZ1qO",
+    "eventTime": "09.02. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_djnryOEB",
+    "eventTime": "09.02. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_r7lfYLbU",
+    "eventTime": "09.02. 20:00",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_zybZxppa",
+    "eventTime": "09.02. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_AgjnzrUH",
+    "eventTime": "09.02. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_ERdwx4a5",
+    "eventTime": "09.02. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_MXJ4hPqn",
+    "eventTime": "09.02. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_t0qWwQUh",
+    "eventTime": "09.02. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_rsL0g5Uu",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_l6KhQ60g",
+    "eventTime": "13.02. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_Ucqr6rEo",
+    "eventTime": "01.03. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_lpBLlsqB",
+    "eventTime": "01.03. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_IJFPm1bH",
+    "eventTime": "01.03. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_Gfe0sayo",
+    "eventTime": "01.03. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_GfJ8iqah",
+    "eventTime": "01.03. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_SUMCj3Eb",
+    "eventTime": "01.03. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_AgCHkNT4",
+    "eventTime": "01.03. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_dAETnLDN",
+    "eventTime": "01.03. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_vZ3YouTT",
+    "eventTime": "02.03. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_8lrn52Ti",
+    "eventTime": "08.03. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_Iui00vrN",
+    "eventTime": "08.03. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_Sjbm3tb4",
+    "eventTime": "08.03. 20:00",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_MDci20DA",
+    "eventTime": "08.03. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_zH1e1KSG",
+    "eventTime": "08.03. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_dWk4abcT",
+    "eventTime": "08.03. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_l0aq4Mrb",
+    "eventTime": "08.03. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_lOsWfI5p",
+    "eventTime": "08.03. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_SEtzfxLj",
+    "eventTime": "08.03. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_S4wMHuDc",
+    "eventTime": "15.03. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_UJKIILci",
+    "eventTime": "15.03. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_p8nFf9B1",
+    "eventTime": "15.03. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_2qcAekde",
+    "eventTime": "15.03. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_fJg2cBRr",
+    "eventTime": "15.03. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_IgWYEwcG",
+    "eventTime": "15.03. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_0IyUFJsA",
+    "eventTime": "15.03. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_MRxQGaS3",
+    "eventTime": "16.03. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_ltg6dVtk",
+    "eventTime": "16.03. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_vV7l98Qf",
+    "eventTime": "22.03. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_IL6h8Su1",
+    "eventTime": "22.03. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_UeY4HWIE",
+    "eventTime": "22.03. 20:00",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_j5Z0IC38",
+    "eventTime": "22.03. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_MgDqAlBl",
+    "eventTime": "22.03. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_OboJgTQ7",
+    "eventTime": "22.03. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_CKN9GjYK",
+    "eventTime": "22.03. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_QNRDFAmR",
+    "eventTime": "22.03. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_r3EuBUer",
+    "eventTime": "22.03. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_zcwJOmQs",
+    "eventTime": "26.03. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_YmiiTTHQ",
+    "eventTime": "26.03. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_WOWRMRff",
+    "eventTime": "26.03. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_QoWVLoA0",
+    "eventTime": "26.03. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_QNmqVkmE",
+    "eventTime": "26.03. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_Cr6d7ne7",
+    "eventTime": "26.03. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_4EnmU92K",
+    "eventTime": "26.03. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_OI9066AD",
+    "eventTime": "26.03. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_ILSNN7ul",
+    "eventTime": "26.03. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_UgX0Z4v0",
+    "eventTime": "29.03. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_Ak0zJqfJ",
+    "eventTime": "29.03. 20:00",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_OhlIsTWJ",
+    "eventTime": "29.03. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_xdhMtmnQ",
+    "eventTime": "29.03. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_rwVlx7fs",
+    "eventTime": "29.03. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_j3YdzoPg",
+    "eventTime": "29.03. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_4xVZK5P6",
+    "eventTime": "29.03. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_MTThyR9m",
+    "eventTime": "29.03. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_Wb1WJPvD",
+    "eventTime": "30.03. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_SlZxXWZb",
+    "eventTime": "05.04. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_IFPDW2OI",
+    "eventTime": "05.04. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_CIM5YOg6",
+    "eventTime": "05.04. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_OhQ9Xr9C",
+    "eventTime": "05.04. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_WMuUYh5n",
+    "eventTime": "05.04. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_pQqYXCKh",
+    "eventTime": "05.04. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_x0tQZYkt",
+    "eventTime": "05.04. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_d6OHVMwP",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_zifbvFsP",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_YgpJC2lp",
+    "eventTime": "09.04. 20:00",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_nclNBM3j",
+    "eventTime": "09.04. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_viy9ZPec",
+    "eventTime": "09.04. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_00x5z6ti",
+    "eventTime": "09.04. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_E5XpVA4B",
+    "eventTime": "09.04. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_6uYtWjk5",
+    "eventTime": "09.04. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_zJUHX3Q9",
+    "eventTime": "09.04. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_hdWlUUJH",
+    "eventTime": "09.04. 20:30",
+    "homeTeam": "Antibes",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_dSVDYqB3",
+    "eventTime": "09.04. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_AkxUU1AS",
+    "eventTime": "12.04. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_Ug9foNf9",
+    "eventTime": "12.04. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_SQnPVseM",
+    "eventTime": "12.04. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_MT5nmqQd",
+    "eventTime": "12.04. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_UuULWNuG",
+    "eventTime": "12.04. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_zX9jn3u3",
+    "eventTime": "12.04. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_CbOeQLIq",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_tYSaPuYk",
+    "eventTime": "13.04. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_KOR3Oamd",
+    "eventTime": "13.04. 20:30",
+    "homeTeam": "Vichy",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_SnOarLvS",
+    "eventTime": "19.04. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_pSARwumq",
+    "eventTime": "19.04. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_bVEVxa2k",
+    "eventTime": "19.04. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_tf4zxJHe",
+    "eventTime": "19.04. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_Kp3vywX1",
+    "eventTime": "19.04. 20:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_ldPeq1PL",
+    "eventTime": "19.04. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_nieQbtP8",
+    "eventTime": "19.04. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_80dMaM92",
+    "eventTime": "19.04. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_8p8bpsAF",
+    "eventTime": "20.04. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_SASHld11",
+    "eventTime": "28.04. 17:00",
+    "homeTeam": "Antibes",
+    "awayTeam": "Rouen"
+  },
+  {
+    "matchId": "g_3_zDmwdv9R",
+    "eventTime": "28.04. 17:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_YmTDkxne",
+    "eventTime": "28.04. 17:00",
+    "homeTeam": "Boulazac",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_fcU9jIWl",
+    "eventTime": "28.04. 17:00",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_UFpVc0vF",
+    "eventTime": "28.04. 17:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Orleans"
+  },
+  {
+    "matchId": "g_3_xMZ4ibHr",
+    "eventTime": "28.04. 17:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_tjlZdKgL",
+    "eventTime": "28.04. 17:00",
+    "homeTeam": "Lille",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_rJA4Cag8",
+    "eventTime": "28.04. 17:00",
+    "homeTeam": "Nantes",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_tEWLmGG7",
+    "eventTime": "28.04. 17:00",
+    "homeTeam": "Vichy",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_r1e30g0D",
+    "eventTime": "03.05. 20:00",
+    "homeTeam": "Aix Maurienne",
+    "awayTeam": "Fos-sur-Mer"
+  },
+  {
+    "matchId": "g_3_fyNF9cwR",
+    "eventTime": "03.05. 20:00",
+    "homeTeam": "Angers",
+    "awayTeam": "Antibes"
+  },
+  {
+    "matchId": "g_3_EL3n4y1l",
+    "eventTime": "03.05. 20:00",
+    "homeTeam": "ASA",
+    "awayTeam": "Evreux"
+  },
+  {
+    "matchId": "g_3_8r3j3eGf",
+    "eventTime": "03.05. 20:00",
+    "homeTeam": "La Rochelle",
+    "awayTeam": "Nantes"
+  },
+  {
+    "matchId": "g_3_GpOBAwOK",
+    "eventTime": "03.05. 20:00",
+    "homeTeam": "Poitiers",
+    "awayTeam": "Pau-Orthez"
+  },
+  {
+    "matchId": "g_3_4Ada1Zp7",
+    "eventTime": "03.05. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Lille"
+  },
+  {
+    "matchId": "g_3_0Iar5Hor",
+    "eventTime": "03.05. 20:30",
+    "homeTeam": "Chalons-Reims",
+    "awayTeam": "Vichy"
+  },
+  {
+    "matchId": "g_3_M998BJ8E",
+    "eventTime": "03.05. 20:30",
+    "homeTeam": "St. Chamond",
+    "awayTeam": "Denain-Voltaire"
+  },
+  {
+    "matchId": "g_3_nZ1f2FV0",
+    "eventTime": "04.05. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_WKdv26yI",
+    "eventTime": "10.05. 20:00",
+    "homeTeam": "Antibes",
+    "awayTeam": "Boulazac"
+  },
+  {
+    "matchId": "g_3_IHhz3nMB",
+    "eventTime": "10.05. 20:00",
+    "homeTeam": "Denain-Voltaire",
+    "awayTeam": "ASA"
+  },
+  {
+    "matchId": "g_3_zg3V3S65",
+    "eventTime": "10.05. 20:00",
+    "homeTeam": "Evreux",
+    "awayTeam": "Poitiers"
+  },
+  {
+    "matchId": "g_3_SSaN5lxg",
+    "eventTime": "10.05. 20:00",
+    "homeTeam": "Fos-sur-Mer",
+    "awayTeam": "Angers"
+  },
+  {
+    "matchId": "g_3_d24R48ia",
+    "eventTime": "10.05. 20:00",
+    "homeTeam": "Lille",
+    "awayTeam": "St. Chamond"
+  },
+  {
+    "matchId": "g_3_d4qoPxwE",
+    "eventTime": "10.05. 20:00",
+    "homeTeam": "Orleans",
+    "awayTeam": "Aix Maurienne"
+  },
+  {
+    "matchId": "g_3_6DBE7A7t",
+    "eventTime": "10.05. 20:00",
+    "homeTeam": "Pau-Orthez",
+    "awayTeam": "La Rochelle"
+  },
+  {
+    "matchId": "g_3_Qsdr1QjO",
+    "eventTime": "10.05. 20:00",
+    "homeTeam": "Rouen",
+    "awayTeam": "Chalons-Reims"
+  },
+  {
+    "matchId": "g_3_lx1J6UMn",
+    "eventTime": "10.05. 20:00",
+    "homeTeam": "Vichy",
+    "awayTeam": "Nantes"
+  }
+]

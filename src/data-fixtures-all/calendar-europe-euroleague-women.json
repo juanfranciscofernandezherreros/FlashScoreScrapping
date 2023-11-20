@@ -1,0 +1,434 @@
+[
+  {
+    "matchId": "g_3_pnmpMDVo",
+    "eventTime": "22.11. 17:00",
+    "homeTeam": "Fenerbahce W",
+    "awayTeam": "Sepsi S. W"
+  },
+  {
+    "matchId": "g_3_nV1BUDVG",
+    "eventTime": "22.11. 17:30",
+    "homeTeam": "CBK Mersin W",
+    "awayTeam": "UNI Gyor W"
+  },
+  {
+    "matchId": "g_3_UF4uS0n1",
+    "eventTime": "22.11. 18:00",
+    "homeTeam": "DVTK W",
+    "awayTeam": "Valencia W"
+  },
+  {
+    "matchId": "g_3_UgiGTXpN",
+    "eventTime": "22.11. 20:00",
+    "homeTeam": "ESB Villeneuve W",
+    "awayTeam": "Landes W"
+  },
+  {
+    "matchId": "g_3_SSuO24t7",
+    "eventTime": "22.11. 20:00",
+    "homeTeam": "Lyon W",
+    "awayTeam": "Lublin W"
+  },
+  {
+    "matchId": "g_3_p4jJ3pR0",
+    "eventTime": "22.11. 20:00",
+    "homeTeam": "Zaragoza W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_0dIsV8EG",
+    "eventTime": "22.11. 20:30",
+    "homeTeam": "Perfumerias Avenida W",
+    "awayTeam": "Polkowice W"
+  },
+  {
+    "matchId": "g_3_tUfKSi0T",
+    "eventTime": "22.11. 20:30",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "USK Prague W"
+  },
+  {
+    "matchId": "g_3_lIKtQvHD",
+    "eventTime": "29.11. 18:00",
+    "homeTeam": "DVTK W",
+    "awayTeam": "Fenerbahce W"
+  },
+  {
+    "matchId": "g_3_v9nlLXph",
+    "eventTime": "29.11. 18:00",
+    "homeTeam": "Sepsi S. W",
+    "awayTeam": "Lyon W"
+  },
+  {
+    "matchId": "g_3_b9snOB8p",
+    "eventTime": "29.11. 18:00",
+    "homeTeam": "UNI Gyor W",
+    "awayTeam": "Perfumerias Avenida W"
+  },
+  {
+    "matchId": "g_3_rL7nUSTM",
+    "eventTime": "29.11. 19:00",
+    "homeTeam": "Polkowice W",
+    "awayTeam": "ESB Villeneuve W"
+  },
+  {
+    "matchId": "g_3_x0tjNVNj",
+    "eventTime": "29.11. 19:00",
+    "homeTeam": "USK Prague W",
+    "awayTeam": "CBK Mersin W"
+  },
+  {
+    "matchId": "g_3_EHPYoF0i",
+    "eventTime": "29.11. 19:30",
+    "homeTeam": "Landes W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_6JvS1OeD",
+    "eventTime": "29.11. 20:00",
+    "homeTeam": "Lublin W",
+    "awayTeam": "Zaragoza W"
+  },
+  {
+    "matchId": "g_3_YPS9Q7YD",
+    "eventTime": "29.11. 20:00",
+    "homeTeam": "Schio W",
+    "awayTeam": "Valencia W"
+  },
+  {
+    "matchId": "g_3_fuHIOo3Q",
+    "eventTime": "05.12. 19:15",
+    "homeTeam": "Valencia W",
+    "awayTeam": "Fenerbahce W"
+  },
+  {
+    "matchId": "g_3_2L8OlOgE",
+    "eventTime": "06.12. 18:00",
+    "homeTeam": "DVTK W",
+    "awayTeam": "Lyon W"
+  },
+  {
+    "matchId": "g_3_hCjhKi0b",
+    "eventTime": "06.12. 18:00",
+    "homeTeam": "Sepsi S. W",
+    "awayTeam": "Zaragoza W"
+  },
+  {
+    "matchId": "g_3_h8OxoZFc",
+    "eventTime": "06.12. 18:00",
+    "homeTeam": "UNI Gyor W",
+    "awayTeam": "ESB Villeneuve W"
+  },
+  {
+    "matchId": "g_3_MB6jTnqT",
+    "eventTime": "06.12. 19:00",
+    "homeTeam": "Polkowice W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_nVNtpgV3",
+    "eventTime": "06.12. 19:30",
+    "homeTeam": "Landes W",
+    "awayTeam": "USK Prague W"
+  },
+  {
+    "matchId": "g_3_CGRDPRmK",
+    "eventTime": "06.12. 20:00",
+    "homeTeam": "Lublin W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_0YRpqDpA",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Perfumerias Avenida W",
+    "awayTeam": "CBK Mersin W"
+  },
+  {
+    "matchId": "g_3_QN7lJPQm",
+    "eventTime": "12.12. 20:00",
+    "homeTeam": "Lyon W",
+    "awayTeam": "Fenerbahce W"
+  },
+  {
+    "matchId": "g_3_E3bIO6ip",
+    "eventTime": "13.12. 19:00",
+    "homeTeam": "USK Prague W",
+    "awayTeam": "Polkowice W"
+  },
+  {
+    "matchId": "g_3_rcHkrXaG",
+    "eventTime": "13.12. 19:30",
+    "homeTeam": "Landes W",
+    "awayTeam": "CBK Mersin W"
+  },
+  {
+    "matchId": "g_3_MmGgsiFM",
+    "eventTime": "13.12. 20:00",
+    "homeTeam": "ESB Villeneuve W",
+    "awayTeam": "Perfumerias Avenida W"
+  },
+  {
+    "matchId": "g_3_W08pK5Bs",
+    "eventTime": "13.12. 20:00",
+    "homeTeam": "Lublin W",
+    "awayTeam": "Valencia W"
+  },
+  {
+    "matchId": "g_3_zytcJBF4",
+    "eventTime": "13.12. 20:00",
+    "homeTeam": "Schio W",
+    "awayTeam": "Sepsi S. W"
+  },
+  {
+    "matchId": "g_3_GOCSmr9K",
+    "eventTime": "13.12. 20:00",
+    "homeTeam": "Zaragoza W",
+    "awayTeam": "DVTK W"
+  },
+  {
+    "matchId": "g_3_UDFctBUS",
+    "eventTime": "13.12. 20:30",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "UNI Gyor W"
+  },
+  {
+    "matchId": "g_3_WM1PyVxp",
+    "eventTime": "20.12. 17:00",
+    "homeTeam": "CBK Mersin W",
+    "awayTeam": "ESB Villeneuve W"
+  },
+  {
+    "matchId": "g_3_4E6hIqtf",
+    "eventTime": "20.12. 17:00",
+    "homeTeam": "Fenerbahce W",
+    "awayTeam": "Zaragoza W"
+  },
+  {
+    "matchId": "g_3_bm2Xn2OQ",
+    "eventTime": "20.12. 18:00",
+    "homeTeam": "DVTK W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_ERv1IVUA",
+    "eventTime": "20.12. 18:00",
+    "homeTeam": "Sepsi S. W",
+    "awayTeam": "Lublin W"
+  },
+  {
+    "matchId": "g_3_hfcMNQ6j",
+    "eventTime": "20.12. 19:00",
+    "homeTeam": "Polkowice W",
+    "awayTeam": "Landes W"
+  },
+  {
+    "matchId": "g_3_EoiUzkhj",
+    "eventTime": "20.12. 19:00",
+    "homeTeam": "USK Prague W",
+    "awayTeam": "UNI Gyor W"
+  },
+  {
+    "matchId": "g_3_Mk1cH3e0",
+    "eventTime": "20.12. 19:15",
+    "homeTeam": "Valencia W",
+    "awayTeam": "Lyon W"
+  },
+  {
+    "matchId": "g_3_SleYZ87d",
+    "eventTime": "20.12. 20:30",
+    "homeTeam": "Perfumerias Avenida W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_82g4HkpH",
+    "eventTime": "10.01. 18:00",
+    "homeTeam": "Sepsi S. W",
+    "awayTeam": "Valencia W"
+  },
+  {
+    "matchId": "g_3_0dlarMWs",
+    "eventTime": "10.01. 19:00",
+    "homeTeam": "Lublin W",
+    "awayTeam": "DVTK W"
+  },
+  {
+    "matchId": "g_3_fay5nAqi",
+    "eventTime": "10.01. 19:00",
+    "homeTeam": "Polkowice W",
+    "awayTeam": "CBK Mersin W"
+  },
+  {
+    "matchId": "g_3_thqGbhpc",
+    "eventTime": "10.01. 19:00",
+    "homeTeam": "USK Prague W",
+    "awayTeam": "Perfumerias Avenida W"
+  },
+  {
+    "matchId": "g_3_KrrKcCa3",
+    "eventTime": "10.01. 19:30",
+    "homeTeam": "Landes W",
+    "awayTeam": "UNI Gyor W"
+  },
+  {
+    "matchId": "g_3_0t01GNA6",
+    "eventTime": "10.01. 20:00",
+    "homeTeam": "Zaragoza W",
+    "awayTeam": "Lyon W"
+  },
+  {
+    "matchId": "g_3_xKxPdWE9",
+    "eventTime": "10.01. 20:30",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "ESB Villeneuve W"
+  },
+  {
+    "matchId": "g_3_f3a5FsQC",
+    "eventTime": "11.01. 20:00",
+    "homeTeam": "Schio W",
+    "awayTeam": "Fenerbahce W"
+  },
+  {
+    "matchId": "g_3_GAyTejUF",
+    "eventTime": "17.01. 17:00",
+    "homeTeam": "CBK Mersin W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_6w39E1uJ",
+    "eventTime": "17.01. 17:00",
+    "homeTeam": "Fenerbahce W",
+    "awayTeam": "Lublin W"
+  },
+  {
+    "matchId": "g_3_82u9oUbc",
+    "eventTime": "17.01. 18:00",
+    "homeTeam": "UNI Gyor W",
+    "awayTeam": "Polkowice W"
+  },
+  {
+    "matchId": "g_3_p84LLInn",
+    "eventTime": "17.01. 19:15",
+    "homeTeam": "Valencia W",
+    "awayTeam": "Zaragoza W"
+  },
+  {
+    "matchId": "g_3_AXzXfAqM",
+    "eventTime": "17.01. 20:00",
+    "homeTeam": "ESB Villeneuve W",
+    "awayTeam": "USK Prague W"
+  },
+  {
+    "matchId": "g_3_6H5HMbXu",
+    "eventTime": "17.01. 20:00",
+    "homeTeam": "Lyon W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_8IgzfUbS",
+    "eventTime": "17.01. 20:30",
+    "homeTeam": "Perfumerias Avenida W",
+    "awayTeam": "Landes W"
+  },
+  {
+    "matchId": "g_3_UVh3stnl",
+    "eventTime": "18.01. 18:00",
+    "homeTeam": "DVTK W",
+    "awayTeam": "Sepsi S. W"
+  },
+  {
+    "matchId": "g_3_8Mi7t01f",
+    "eventTime": "24.01. 18:00",
+    "homeTeam": "DVTK W",
+    "awayTeam": "Valencia W"
+  },
+  {
+    "matchId": "g_3_UHsDFTET",
+    "eventTime": "24.01. 18:00",
+    "homeTeam": "Sepsi S. W",
+    "awayTeam": "Fenerbahce W"
+  },
+  {
+    "matchId": "g_3_EaW2kl7q",
+    "eventTime": "24.01. 18:00",
+    "homeTeam": "UNI Gyor W",
+    "awayTeam": "CBK Mersin W"
+  },
+  {
+    "matchId": "g_3_Es9PKx2h",
+    "eventTime": "24.01. 19:00",
+    "homeTeam": "Lublin W",
+    "awayTeam": "Lyon W"
+  },
+  {
+    "matchId": "g_3_2PvDplE3",
+    "eventTime": "24.01. 19:00",
+    "homeTeam": "Polkowice W",
+    "awayTeam": "Perfumerias Avenida W"
+  },
+  {
+    "matchId": "g_3_hjV6l8Mk",
+    "eventTime": "24.01. 19:00",
+    "homeTeam": "USK Prague W",
+    "awayTeam": "Virtus Bologna W"
+  },
+  {
+    "matchId": "g_3_MPZAmSyd",
+    "eventTime": "24.01. 19:30",
+    "homeTeam": "Landes W",
+    "awayTeam": "ESB Villeneuve W"
+  },
+  {
+    "matchId": "g_3_hY7TJdHb",
+    "eventTime": "24.01. 20:00",
+    "homeTeam": "Schio W",
+    "awayTeam": "Zaragoza W"
+  },
+  {
+    "matchId": "g_3_josCuKG0",
+    "eventTime": "30.01. 17:00",
+    "homeTeam": "Fenerbahce W",
+    "awayTeam": "DVTK W"
+  },
+  {
+    "matchId": "g_3_0GYEnni2",
+    "eventTime": "30.01. 18:00",
+    "homeTeam": "CBK Mersin W",
+    "awayTeam": "USK Prague W"
+  },
+  {
+    "matchId": "g_3_tGwHq8T9",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "ESB Villeneuve W",
+    "awayTeam": "Polkowice W"
+  },
+  {
+    "matchId": "g_3_6wZvBmNp",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Lyon W",
+    "awayTeam": "Sepsi S. W"
+  },
+  {
+    "matchId": "g_3_SMfWj1rl",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Valencia W",
+    "awayTeam": "Schio W"
+  },
+  {
+    "matchId": "g_3_nBwZisTs",
+    "eventTime": "30.01. 20:00",
+    "homeTeam": "Zaragoza W",
+    "awayTeam": "Lublin W"
+  },
+  {
+    "matchId": "g_3_2LCcBVT2",
+    "eventTime": "30.01. 20:30",
+    "homeTeam": "Perfumerias Avenida W",
+    "awayTeam": "UNI Gyor W"
+  },
+  {
+    "matchId": "g_3_zgoinwcJ",
+    "eventTime": "30.01. 20:30",
+    "homeTeam": "Virtus Bologna W",
+    "awayTeam": "Landes W"
+  }
+]

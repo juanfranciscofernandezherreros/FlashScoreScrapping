@@ -1,0 +1,644 @@
+[
+  {
+    "matchId": "g_3_db2IfM9A",
+    "eventTime": "17.11. 20:30",
+    "homeTeam": "Limburg",
+    "awayTeam": "Antwerp Giants"
+  },
+  {
+    "matchId": "g_3_zk1MgtPG",
+    "eventTime": "17.11. 20:30",
+    "homeTeam": "Spirou Charleroi",
+    "awayTeam": "Circus Brussels"
+  },
+  {
+    "matchId": "g_3_OhIdgXH6",
+    "eventTime": "18.11. 19:30",
+    "homeTeam": "Den Helder",
+    "awayTeam": "Den Bosch"
+  },
+  {
+    "matchId": "g_3_IFH0hiXC",
+    "eventTime": "18.11. 20:00",
+    "homeTeam": "BAL Weert",
+    "awayTeam": "Feyenoord"
+  },
+  {
+    "matchId": "g_3_UkL4iBnJ",
+    "eventTime": "18.11. 20:00",
+    "homeTeam": "LWD Basket",
+    "awayTeam": "Yoast Utd"
+  },
+  {
+    "matchId": "g_3_ldscmv2p",
+    "eventTime": "18.11. 20:30",
+    "homeTeam": "Mechelen",
+    "awayTeam": "Liege"
+  },
+  {
+    "matchId": "g_3_rF4UiKgT",
+    "eventTime": "18.11. 20:30",
+    "homeTeam": "Oostende",
+    "awayTeam": "Belfius Mons"
+  },
+  {
+    "matchId": "g_3_4O5Qh0vN",
+    "eventTime": "19.11. 14:00",
+    "homeTeam": "Kortrijk",
+    "awayTeam": "Leuven Bears"
+  },
+  {
+    "matchId": "g_3_WfamGfPJ",
+    "eventTime": "19.11. 14:30",
+    "homeTeam": "Leiden",
+    "awayTeam": "Donar Groningen"
+  },
+  {
+    "matchId": "g_3_0plrBsfi",
+    "eventTime": "24.11. 20:30",
+    "homeTeam": "Kortrijk",
+    "awayTeam": "Mechelen"
+  },
+  {
+    "matchId": "g_3_ns00nbHj",
+    "eventTime": "24.11. 20:30",
+    "homeTeam": "Spirou Charleroi",
+    "awayTeam": "Oostende"
+  },
+  {
+    "matchId": "g_3_2wjJAYns",
+    "eventTime": "25.11. 20:00",
+    "homeTeam": "BAL Weert",
+    "awayTeam": "Den Helder"
+  },
+  {
+    "matchId": "g_3_AobiFEvQ",
+    "eventTime": "25.11. 20:00",
+    "homeTeam": "Yoast Utd",
+    "awayTeam": "Den Bosch"
+  },
+  {
+    "matchId": "g_3_dCsi9LO3",
+    "eventTime": "25.11. 20:30",
+    "homeTeam": "Belfius Mons",
+    "awayTeam": "Liege"
+  },
+  {
+    "matchId": "g_3_vymnA19c",
+    "eventTime": "25.11. 20:30",
+    "homeTeam": "Okapi Aalst",
+    "awayTeam": "Antwerp Giants"
+  },
+  {
+    "matchId": "g_3_tUlN9h2m",
+    "eventTime": "26.11. 14:30",
+    "homeTeam": "Feyenoord",
+    "awayTeam": "Zwolle"
+  },
+  {
+    "matchId": "g_3_z3te8uvA",
+    "eventTime": "26.11. 15:00",
+    "homeTeam": "Circus Brussels",
+    "awayTeam": "Leuven Bears"
+  },
+  {
+    "matchId": "g_3_p2JhfD20",
+    "eventTime": "29.11. 20:00",
+    "homeTeam": "Den Bosch",
+    "awayTeam": "BAL Weert"
+  },
+  {
+    "matchId": "g_3_UPua7agG",
+    "eventTime": "29.11. 20:30",
+    "homeTeam": "Spirou Charleroi",
+    "awayTeam": "Belfius Mons"
+  },
+  {
+    "matchId": "g_3_rTq36J8M",
+    "eventTime": "01.12. 20:00",
+    "homeTeam": "Liege",
+    "awayTeam": "Kortrijk"
+  },
+  {
+    "matchId": "g_3_QiZ75wOS",
+    "eventTime": "01.12. 20:30",
+    "homeTeam": "Circus Brussels",
+    "awayTeam": "Mechelen"
+  },
+  {
+    "matchId": "g_3_S0LZ0cWq",
+    "eventTime": "02.12. 20:00",
+    "homeTeam": "Antwerp Giants",
+    "awayTeam": "Okapi Aalst"
+  },
+  {
+    "matchId": "g_3_zRKw0Hoj",
+    "eventTime": "02.12. 20:30",
+    "homeTeam": "Belfius Mons",
+    "awayTeam": "Limburg"
+  },
+  {
+    "matchId": "g_3_EHJsay1d",
+    "eventTime": "02.12. 20:30",
+    "homeTeam": "Oostende",
+    "awayTeam": "Spirou Charleroi"
+  },
+  {
+    "matchId": "g_3_OhvS8CHg",
+    "eventTime": "06.12. 19:30",
+    "homeTeam": "Donar Groningen",
+    "awayTeam": "LWD Basket"
+  },
+  {
+    "matchId": "g_3_xdrW7WWa",
+    "eventTime": "09.12. 19:30",
+    "homeTeam": "Donar Groningen",
+    "awayTeam": "Den Helder"
+  },
+  {
+    "matchId": "g_3_WIsz7jn6",
+    "eventTime": "09.12. 19:45",
+    "homeTeam": "Feyenoord",
+    "awayTeam": "LWD Basket"
+  },
+  {
+    "matchId": "g_3_A9tv6A1C",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Den Bosch",
+    "awayTeam": "Zwolle"
+  },
+  {
+    "matchId": "g_3_xWCz5UGI",
+    "eventTime": "10.12. 16:00",
+    "homeTeam": "Yoast Utd",
+    "awayTeam": "Leiden"
+  },
+  {
+    "matchId": "g_3_GMcQNKwc",
+    "eventTime": "15.12. 20:30",
+    "homeTeam": "Kortrijk",
+    "awayTeam": "Circus Brussels"
+  },
+  {
+    "matchId": "g_3_UP1UMvg3",
+    "eventTime": "15.12. 20:30",
+    "homeTeam": "Limburg",
+    "awayTeam": "Spirou Charleroi"
+  },
+  {
+    "matchId": "g_3_On1YLb89",
+    "eventTime": "16.12. 20:30",
+    "homeTeam": "Mechelen",
+    "awayTeam": "Leuven Bears"
+  },
+  {
+    "matchId": "g_3_2w0xLINF",
+    "eventTime": "16.12. 20:30",
+    "homeTeam": "Okapi Aalst",
+    "awayTeam": "Oostende"
+  },
+  {
+    "matchId": "g_3_KEfsKxwM",
+    "eventTime": "17.12. 15:00",
+    "homeTeam": "Antwerp Giants",
+    "awayTeam": "Belfius Mons"
+  },
+  {
+    "matchId": "g_3_lzYPBEp2",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Belfius Mons",
+    "awayTeam": "Mechelen"
+  },
+  {
+    "matchId": "g_3_b5goJdhS",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Circus Brussels",
+    "awayTeam": "Oostende"
+  },
+  {
+    "matchId": "g_3_SKqHDzGk",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Leuven Bears",
+    "awayTeam": "Antwerp Giants"
+  },
+  {
+    "matchId": "g_3_GptDEG0q",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Limburg",
+    "awayTeam": "Liege"
+  },
+  {
+    "matchId": "g_3_AqZLCfVe",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Spirou Charleroi",
+    "awayTeam": "Kortrijk"
+  },
+  {
+    "matchId": "g_3_GMBv4lWO",
+    "eventTime": "23.12. 16:00",
+    "homeTeam": "Zwolle",
+    "awayTeam": "Yoast Utd"
+  },
+  {
+    "matchId": "g_3_UPaMSX8P",
+    "eventTime": "23.12. 19:30",
+    "homeTeam": "Den Helder",
+    "awayTeam": "Feyenoord"
+  },
+  {
+    "matchId": "g_3_lAtgNBWn",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "BAL Weert",
+    "awayTeam": "Donar Groningen"
+  },
+  {
+    "matchId": "g_3_6oilOiHt",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Leiden",
+    "awayTeam": "Den Bosch"
+  },
+  {
+    "matchId": "g_3_GtQBZHx9",
+    "eventTime": "26.12. 20:30",
+    "homeTeam": "Circus Brussels",
+    "awayTeam": "Spirou Charleroi"
+  },
+  {
+    "matchId": "g_3_b5FGYyhF",
+    "eventTime": "26.12. 20:30",
+    "homeTeam": "Mechelen",
+    "awayTeam": "Limburg"
+  },
+  {
+    "matchId": "g_3_xjR7zbN2",
+    "eventTime": "26.12. 20:30",
+    "homeTeam": "Okapi Aalst",
+    "awayTeam": "Belfius Mons"
+  },
+  {
+    "matchId": "g_3_C8JKXe7L",
+    "eventTime": "26.12. 20:30",
+    "homeTeam": "Oostende",
+    "awayTeam": "Antwerp Giants"
+  },
+  {
+    "matchId": "g_3_6VIOWFMR",
+    "eventTime": "05.01. 20:00",
+    "homeTeam": "Liege",
+    "awayTeam": "Okapi Aalst"
+  },
+  {
+    "matchId": "g_3_8v5jSZUr",
+    "eventTime": "05.01. 20:30",
+    "homeTeam": "Limburg",
+    "awayTeam": "Belfius Mons"
+  },
+  {
+    "matchId": "g_3_z1ymRgpk",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "Antwerp Giants",
+    "awayTeam": "Circus Brussels"
+  },
+  {
+    "matchId": "g_3_IkY9JTVB",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "Den Bosch",
+    "awayTeam": "Den Helder"
+  },
+  {
+    "matchId": "g_3_zRr5K9G5",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "Leiden",
+    "awayTeam": "Feyenoord"
+  },
+  {
+    "matchId": "g_3_dzp1Lk1a",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "LWD Basket",
+    "awayTeam": "BAL Weert"
+  },
+  {
+    "matchId": "g_3_S0ucMVog",
+    "eventTime": "06.01. 20:00",
+    "homeTeam": "Yoast Utd",
+    "awayTeam": "Donar Groningen"
+  },
+  {
+    "matchId": "g_3_8EZfPXE1",
+    "eventTime": "06.01. 20:30",
+    "homeTeam": "Leuven Bears",
+    "awayTeam": "Kortrijk"
+  },
+  {
+    "matchId": "g_3_EiziQDae",
+    "eventTime": "06.01. 20:30",
+    "homeTeam": "Mechelen",
+    "awayTeam": "Spirou Charleroi"
+  },
+  {
+    "matchId": "g_3_MHwaOiU7",
+    "eventTime": "10.01. 20:00",
+    "homeTeam": "Liege",
+    "awayTeam": "Leuven Bears"
+  },
+  {
+    "matchId": "g_3_2DGoneME",
+    "eventTime": "12.01. 20:30",
+    "homeTeam": "Circus Brussels",
+    "awayTeam": "Liege"
+  },
+  {
+    "matchId": "g_3_ULqFUSjs",
+    "eventTime": "12.01. 20:30",
+    "homeTeam": "Kortrijk",
+    "awayTeam": "Limburg"
+  },
+  {
+    "matchId": "g_3_OMHsmy78",
+    "eventTime": "12.01. 20:30",
+    "homeTeam": "Spirou Charleroi",
+    "awayTeam": "Antwerp Giants"
+  },
+  {
+    "matchId": "g_3_UPyEImoI",
+    "eventTime": "13.01. 19:30",
+    "homeTeam": "Den Helder",
+    "awayTeam": "LWD Basket"
+  },
+  {
+    "matchId": "g_3_OnyIH70O",
+    "eventTime": "13.01. 19:45",
+    "homeTeam": "Feyenoord",
+    "awayTeam": "Yoast Utd"
+  },
+  {
+    "matchId": "g_3_2wzMGRFU",
+    "eventTime": "13.01. 20:00",
+    "homeTeam": "BAL Weert",
+    "awayTeam": "Den Bosch"
+  },
+  {
+    "matchId": "g_3_jyYNS6Lg",
+    "eventTime": "13.01. 20:30",
+    "homeTeam": "Belfius Mons",
+    "awayTeam": "Oostende"
+  },
+  {
+    "matchId": "g_3_8CrJTn6m",
+    "eventTime": "13.01. 20:30",
+    "homeTeam": "Okapi Aalst",
+    "awayTeam": "Mechelen"
+  },
+  {
+    "matchId": "g_3_2D6SyBot",
+    "eventTime": "14.01. 14:00",
+    "homeTeam": "Zwolle",
+    "awayTeam": "Leiden"
+  },
+  {
+    "matchId": "g_3_dYzWQpj6",
+    "eventTime": "26.01. 20:30",
+    "homeTeam": "Liege",
+    "awayTeam": "Spirou Charleroi"
+  },
+  {
+    "matchId": "g_3_2BySRQz0",
+    "eventTime": "26.01. 20:30",
+    "homeTeam": "Limburg",
+    "awayTeam": "Okapi Aalst"
+  },
+  {
+    "matchId": "g_3_zR4zzkGh",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Den Bosch",
+    "awayTeam": "Feyenoord"
+  },
+  {
+    "matchId": "g_3_t45WzV0n",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Leiden",
+    "awayTeam": "BAL Weert"
+  },
+  {
+    "matchId": "g_3_h0UvPOKI",
+    "eventTime": "27.01. 20:30",
+    "homeTeam": "Leuven Bears",
+    "awayTeam": "Belfius Mons"
+  },
+  {
+    "matchId": "g_3_zPZZP45C",
+    "eventTime": "27.01. 20:30",
+    "homeTeam": "Mechelen",
+    "awayTeam": "Circus Brussels"
+  },
+  {
+    "matchId": "g_3_lU8vZ8Vb",
+    "eventTime": "28.01. 14:00",
+    "homeTeam": "Zwolle",
+    "awayTeam": "Donar Groningen"
+  },
+  {
+    "matchId": "g_3_WjTrOrzP",
+    "eventTime": "28.01. 15:00",
+    "homeTeam": "Oostende",
+    "awayTeam": "Kortrijk"
+  },
+  {
+    "matchId": "g_3_WhbqYSp5",
+    "eventTime": "28.01. 16:00",
+    "homeTeam": "Yoast Utd",
+    "awayTeam": "LWD Basket"
+  },
+  {
+    "matchId": "g_3_MF8hrnLt",
+    "eventTime": "02.02. 20:30",
+    "homeTeam": "Antwerp Giants",
+    "awayTeam": "Limburg"
+  },
+  {
+    "matchId": "g_3_pfHQnSCP",
+    "eventTime": "02.02. 20:30",
+    "homeTeam": "Kortrijk",
+    "awayTeam": "Liege"
+  },
+  {
+    "matchId": "g_3_4vbcs6zm",
+    "eventTime": "02.02. 20:30",
+    "homeTeam": "Spirou Charleroi",
+    "awayTeam": "Leuven Bears"
+  },
+  {
+    "matchId": "g_3_I9diW6FH",
+    "eventTime": "03.02. 19:30",
+    "homeTeam": "Den Helder",
+    "awayTeam": "Zwolle"
+  },
+  {
+    "matchId": "g_3_AqcmXn0B",
+    "eventTime": "03.02. 19:30",
+    "homeTeam": "Donar Groningen",
+    "awayTeam": "Leiden"
+  },
+  {
+    "matchId": "g_3_vPp0UppU",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "BAL Weert",
+    "awayTeam": "Yoast Utd"
+  },
+  {
+    "matchId": "g_3_d0eeVQUN",
+    "eventTime": "03.02. 20:00",
+    "homeTeam": "LWD Basket",
+    "awayTeam": "Den Bosch"
+  },
+  {
+    "matchId": "g_3_rVd1tQkg",
+    "eventTime": "03.02. 20:30",
+    "homeTeam": "Oostende",
+    "awayTeam": "Mechelen"
+  },
+  {
+    "matchId": "g_3_jed5up5a",
+    "eventTime": "04.02. 15:00",
+    "homeTeam": "Circus Brussels",
+    "awayTeam": "Okapi Aalst"
+  },
+  {
+    "matchId": "g_3_GpxSP4ho",
+    "eventTime": "09.02. 19:45",
+    "homeTeam": "Feyenoord",
+    "awayTeam": "BAL Weert"
+  },
+  {
+    "matchId": "g_3_Uoe9v4K5",
+    "eventTime": "09.02. 20:00",
+    "homeTeam": "Liege",
+    "awayTeam": "Antwerp Giants"
+  },
+  {
+    "matchId": "g_3_CApEwOZB",
+    "eventTime": "09.02. 20:30",
+    "homeTeam": "Limburg",
+    "awayTeam": "Circus Brussels"
+  },
+  {
+    "matchId": "g_3_UmQ9llVo",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Den Bosch",
+    "awayTeam": "Donar Groningen"
+  },
+  {
+    "matchId": "g_3_8vPDm8ph",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Leiden",
+    "awayTeam": "Den Helder"
+  },
+  {
+    "matchId": "g_3_bRnQzMJU",
+    "eventTime": "10.02. 20:30",
+    "homeTeam": "Belfius Mons",
+    "awayTeam": "Spirou Charleroi"
+  },
+  {
+    "matchId": "g_3_KzlMy24O",
+    "eventTime": "10.02. 20:30",
+    "homeTeam": "Leuven Bears",
+    "awayTeam": "Oostende"
+  },
+  {
+    "matchId": "g_3_QDlIxrkI",
+    "eventTime": "10.02. 20:30",
+    "homeTeam": "Okapi Aalst",
+    "awayTeam": "Kortrijk"
+  },
+  {
+    "matchId": "g_3_QFJInSab",
+    "eventTime": "11.02. 14:00",
+    "homeTeam": "Zwolle",
+    "awayTeam": "LWD Basket"
+  },
+  {
+    "matchId": "g_3_0U5UuEGu",
+    "eventTime": "14.02. 20:00",
+    "homeTeam": "Antwerp Giants",
+    "awayTeam": "Mechelen"
+  },
+  {
+    "matchId": "g_3_vL4YvYVo",
+    "eventTime": "14.02. 20:30",
+    "homeTeam": "Kortrijk",
+    "awayTeam": "Belfius Mons"
+  },
+  {
+    "matchId": "g_3_Ys4xvhoh",
+    "eventTime": "14.02. 20:30",
+    "homeTeam": "Leuven Bears",
+    "awayTeam": "Limburg"
+  },
+  {
+    "matchId": "g_3_WSMuwC0b",
+    "eventTime": "14.02. 20:30",
+    "homeTeam": "Oostende",
+    "awayTeam": "Liege"
+  },
+  {
+    "matchId": "g_3_EiCpxWF4",
+    "eventTime": "14.02. 20:30",
+    "homeTeam": "Spirou Charleroi",
+    "awayTeam": "Okapi Aalst"
+  },
+  {
+    "matchId": "g_3_xClbScEq",
+    "eventTime": "17.02. 20:00",
+    "homeTeam": "BAL Weert",
+    "awayTeam": "Zwolle"
+  },
+  {
+    "matchId": "g_3_dEzUqQqH",
+    "eventTime": "17.02. 20:00",
+    "homeTeam": "Den Helder",
+    "awayTeam": "Yoast Utd"
+  },
+  {
+    "matchId": "g_3_bTHQp6UA",
+    "eventTime": "17.02. 20:00",
+    "homeTeam": "Donar Groningen",
+    "awayTeam": "Feyenoord"
+  },
+  {
+    "matchId": "g_3_46IMonF4",
+    "eventTime": "17.02. 20:00",
+    "homeTeam": "LWD Basket",
+    "awayTeam": "Leiden"
+  },
+  {
+    "matchId": "g_3_08EdZTaN",
+    "eventTime": "17.02. 20:30",
+    "homeTeam": "Antwerp Giants",
+    "awayTeam": "Kortrijk"
+  },
+  {
+    "matchId": "g_3_MHFhzApH",
+    "eventTime": "17.02. 20:30",
+    "homeTeam": "Belfius Mons",
+    "awayTeam": "Circus Brussels"
+  },
+  {
+    "matchId": "g_3_hrBlyjVA",
+    "eventTime": "17.02. 20:30",
+    "homeTeam": "Liege",
+    "awayTeam": "Mechelen"
+  },
+  {
+    "matchId": "g_3_rX31YmFT",
+    "eventTime": "17.02. 20:30",
+    "homeTeam": "Limburg",
+    "awayTeam": "Oostende"
+  },
+  {
+    "matchId": "g_3_KheTT7Np",
+    "eventTime": "17.02. 20:30",
+    "homeTeam": "Okapi Aalst",
+    "awayTeam": "Leuven Bears"
+  }
+]

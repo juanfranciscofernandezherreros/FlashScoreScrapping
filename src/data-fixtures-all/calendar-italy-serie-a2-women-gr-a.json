@@ -1,0 +1,848 @@
+[
+  {
+    "matchId": "g_3_CzQK51YR",
+    "eventTime": "19.11. 16:00",
+    "homeTeam": "Basket Roma W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_reY39qZ2",
+    "eventTime": "19.11. 16:00",
+    "homeTeam": "Giussano W",
+    "awayTeam": "Roma-Nord W"
+  },
+  {
+    "matchId": "g_3_jLyC7N3F",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Costa Masnaga W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_M9Bj0udk",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Empoli W",
+    "awayTeam": "Mantova W"
+  },
+  {
+    "matchId": "g_3_YqRG6sJL",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "Broni W"
+  },
+  {
+    "matchId": "g_3_xIX783l9",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Torino Teen W",
+    "awayTeam": "Scrivia W"
+  },
+  {
+    "matchId": "g_3_rJCn1Ltq",
+    "eventTime": "19.11. 18:00",
+    "homeTeam": "Valdarno W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_4Y0eaaBe",
+    "eventTime": "25.11. 18:00",
+    "homeTeam": "San Salvatore Selargius W",
+    "awayTeam": "Torino Teen W"
+  },
+  {
+    "matchId": "g_3_Iy5abJQ1",
+    "eventTime": "25.11. 20:00",
+    "homeTeam": "Roma-Nord W",
+    "awayTeam": "Empoli W"
+  },
+  {
+    "matchId": "g_3_S6njLtYE",
+    "eventTime": "25.11. 20:30",
+    "homeTeam": "Carugate W",
+    "awayTeam": "Valdarno W"
+  },
+  {
+    "matchId": "g_3_AVioMMI8",
+    "eventTime": "25.11. 20:30",
+    "homeTeam": "Libertas Moncalieri W",
+    "awayTeam": "Spezia W"
+  },
+  {
+    "matchId": "g_3_WvgsN232",
+    "eventTime": "25.11. 20:30",
+    "homeTeam": "Mantova W",
+    "awayTeam": "Scrivia W"
+  },
+  {
+    "matchId": "g_3_6cofK0mL",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Broni W",
+    "awayTeam": "Basket Roma W"
+  },
+  {
+    "matchId": "g_3_0KpbJK2R",
+    "eventTime": "26.11. 18:00",
+    "homeTeam": "Costa Masnaga W",
+    "awayTeam": "Giussano W"
+  },
+  {
+    "matchId": "g_3_zDyQEvBr",
+    "eventTime": "02.12. 16:00",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "Roma-Nord W"
+  },
+  {
+    "matchId": "g_3_IyRUDbQl",
+    "eventTime": "02.12. 20:30",
+    "homeTeam": "Giussano W",
+    "awayTeam": "Mantova W"
+  },
+  {
+    "matchId": "g_3_dSPYCIue",
+    "eventTime": "03.12. 16:00",
+    "homeTeam": "Basket Roma W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_K0BTYa2E",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Empoli W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_6c7PZum8",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_Q1UxCxe1",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Torino Teen W",
+    "awayTeam": "Broni W"
+  },
+  {
+    "matchId": "g_3_4hTtBdA7",
+    "eventTime": "03.12. 18:00",
+    "homeTeam": "Valdarno W",
+    "awayTeam": "Costa Masnaga W"
+  },
+  {
+    "matchId": "g_3_zXZZMsn5",
+    "eventTime": "06.12. 20:30",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "Spezia W"
+  },
+  {
+    "matchId": "g_3_ENAXXJHK",
+    "eventTime": "09.12. 20:00",
+    "homeTeam": "Roma-Nord W",
+    "awayTeam": "Spezia W"
+  },
+  {
+    "matchId": "g_3_hE9yXwXQ",
+    "eventTime": "09.12. 20:30",
+    "homeTeam": "Giussano W",
+    "awayTeam": "Valdarno W"
+  },
+  {
+    "matchId": "g_3_MqSaRHfl",
+    "eventTime": "09.12. 20:30",
+    "homeTeam": "Libertas Moncalieri W",
+    "awayTeam": "Scrivia W"
+  },
+  {
+    "matchId": "g_3_rgTeScur",
+    "eventTime": "09.12. 20:30",
+    "homeTeam": "Mantova W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_CYKCOFv7",
+    "eventTime": "10.12. 16:00",
+    "homeTeam": "Costa Masnaga W",
+    "awayTeam": "Basket Roma W"
+  },
+  {
+    "matchId": "g_3_U9V7PeP0",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Broni W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_G6R3QyAf",
+    "eventTime": "10.12. 18:00",
+    "homeTeam": "Empoli W",
+    "awayTeam": "Torino Teen W"
+  },
+  {
+    "matchId": "g_3_80jsvevf",
+    "eventTime": "16.12. 16:00",
+    "homeTeam": "Basket Roma W",
+    "awayTeam": "Mantova W"
+  },
+  {
+    "matchId": "g_3_IVB2ownK",
+    "eventTime": "16.12. 20:30",
+    "homeTeam": "Carugate W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_vuDbnJWD",
+    "eventTime": "16.12. 20:30",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "Giussano W"
+  },
+  {
+    "matchId": "g_3_jPJGNZgD",
+    "eventTime": "17.12. 16:30",
+    "homeTeam": "San Salvatore Selargius W",
+    "awayTeam": "Costa Masnaga W"
+  },
+  {
+    "matchId": "g_3_U9iwuyPm",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Broni W",
+    "awayTeam": "Empoli W"
+  },
+  {
+    "matchId": "g_3_0f17pc1Q",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "Torino Teen W"
+  },
+  {
+    "matchId": "g_3_zmhZuH9s",
+    "eventTime": "17.12. 18:00",
+    "homeTeam": "Valdarno W",
+    "awayTeam": "Roma-Nord W"
+  },
+  {
+    "matchId": "g_3_bmlEtl0h",
+    "eventTime": "22.12. 18:00",
+    "homeTeam": "Valdarno W",
+    "awayTeam": "Basket Roma W"
+  },
+  {
+    "matchId": "g_3_jNlAsUpn",
+    "eventTime": "22.12. 20:30",
+    "homeTeam": "Empoli W",
+    "awayTeam": "Scrivia W"
+  },
+  {
+    "matchId": "g_3_CWk6rAVu",
+    "eventTime": "22.12. 21:00",
+    "homeTeam": "Costa Masnaga W",
+    "awayTeam": "Broni W"
+  },
+  {
+    "matchId": "g_3_ChmbzDwJ",
+    "eventTime": "23.12. 18:00",
+    "homeTeam": "Torino Teen W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_QyonwFg0",
+    "eventTime": "23.12. 20:00",
+    "homeTeam": "Roma-Nord W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_4SqjxZ86",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "Giussano W",
+    "awayTeam": "Spezia W"
+  },
+  {
+    "matchId": "g_3_bkqfygOC",
+    "eventTime": "23.12. 20:30",
+    "homeTeam": "Libertas Moncalieri W",
+    "awayTeam": "Mantova W"
+  },
+  {
+    "matchId": "g_3_6JvZyQEN",
+    "eventTime": "06.01. 18:00",
+    "homeTeam": "Basket Roma W",
+    "awayTeam": "Empoli W"
+  },
+  {
+    "matchId": "g_3_xvmIu8Fb",
+    "eventTime": "06.01. 18:00",
+    "homeTeam": "Carugate W",
+    "awayTeam": "Roma-Nord W"
+  },
+  {
+    "matchId": "g_3_Y5tRwnpB",
+    "eventTime": "06.01. 18:00",
+    "homeTeam": "Mantova W",
+    "awayTeam": "Torino Teen W"
+  },
+  {
+    "matchId": "g_3_K2xNvSU4",
+    "eventTime": "06.01. 18:00",
+    "homeTeam": "San Salvatore Selargius W",
+    "awayTeam": "Giussano W"
+  },
+  {
+    "matchId": "g_3_SSuVx6aH",
+    "eventTime": "06.01. 18:00",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "Costa Masnaga W"
+  },
+  {
+    "matchId": "g_3_OfZwypUT",
+    "eventTime": "07.01. 18:00",
+    "homeTeam": "Broni W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_Q3L5W3xo",
+    "eventTime": "07.01. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "Valdarno W"
+  },
+  {
+    "matchId": "g_3_KGHegRqb",
+    "eventTime": "13.01. 16:00",
+    "homeTeam": "Roma-Nord W",
+    "awayTeam": "Costa Masnaga W"
+  },
+  {
+    "matchId": "g_3_v79memFo",
+    "eventTime": "13.01. 16:00",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_xhSjf7Ui",
+    "eventTime": "13.01. 20:30",
+    "homeTeam": "Giussano W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_b7Gahoa4",
+    "eventTime": "14.01. 16:00",
+    "homeTeam": "Torino Teen W",
+    "awayTeam": "Basket Roma W"
+  },
+  {
+    "matchId": "g_3_6XJ7jPTG",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Empoli W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_StL3i5EA",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "Mantova W"
+  },
+  {
+    "matchId": "g_3_ld9CkqqN",
+    "eventTime": "14.01. 18:00",
+    "homeTeam": "Valdarno W",
+    "awayTeam": "Broni W"
+  },
+  {
+    "matchId": "g_3_bVbnqsMj",
+    "eventTime": "20.01. 16:00",
+    "homeTeam": "Mantova W",
+    "awayTeam": "Roma-Nord W"
+  },
+  {
+    "matchId": "g_3_2aDGl3bT",
+    "eventTime": "20.01. 19:00",
+    "homeTeam": "San Salvatore Selargius W",
+    "awayTeam": "Valdarno W"
+  },
+  {
+    "matchId": "g_3_Kv0rpN6p",
+    "eventTime": "20.01. 20:30",
+    "homeTeam": "Carugate W",
+    "awayTeam": "Spezia W"
+  },
+  {
+    "matchId": "g_3_bN4N7Qbi",
+    "eventTime": "20.01. 20:30",
+    "homeTeam": "Libertas Moncalieri W",
+    "awayTeam": "Torino Teen W"
+  },
+  {
+    "matchId": "g_3_pv7Z4OrA",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Basket Roma W",
+    "awayTeam": "Giussano W"
+  },
+  {
+    "matchId": "g_3_Wz3V54T3",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Broni W",
+    "awayTeam": "Scrivia W"
+  },
+  {
+    "matchId": "g_3_xE3R6pEc",
+    "eventTime": "21.01. 18:00",
+    "homeTeam": "Costa Masnaga W",
+    "awayTeam": "Empoli W"
+  },
+  {
+    "matchId": "g_3_S2dv4rbG",
+    "eventTime": "27.01. 18:00",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_zTan2MSS",
+    "eventTime": "27.01. 20:00",
+    "homeTeam": "Roma-Nord W",
+    "awayTeam": "Broni W"
+  },
+  {
+    "matchId": "g_3_K0yJd0jj",
+    "eventTime": "27.01. 20:30",
+    "homeTeam": "Empoli W",
+    "awayTeam": "Valdarno W"
+  },
+  {
+    "matchId": "g_3_6ger32DM",
+    "eventTime": "27.01. 20:30",
+    "homeTeam": "Giussano W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_xxnEctyp",
+    "eventTime": "28.01. 16:00",
+    "homeTeam": "Mantova W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_pvT4K3rc",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "Basket Roma W"
+  },
+  {
+    "matchId": "g_3_WzuNeK5d",
+    "eventTime": "28.01. 18:00",
+    "homeTeam": "Torino Teen W",
+    "awayTeam": "Costa Masnaga W"
+  },
+  {
+    "matchId": "g_3_OUR8JNc3",
+    "eventTime": "03.02. 16:00",
+    "homeTeam": "Carugate W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_t6MDIsD9",
+    "eventTime": "03.02. 20:30",
+    "homeTeam": "Libertas Moncalieri W",
+    "awayTeam": "Roma-Nord W"
+  },
+  {
+    "matchId": "g_3_KdLHH1SF",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Basket Roma W",
+    "awayTeam": "Scrivia W"
+  },
+  {
+    "matchId": "g_3_Y31hBa5q",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Broni W",
+    "awayTeam": "Mantova W"
+  },
+  {
+    "matchId": "g_3_Cf0dAJKk",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Costa Masnaga W",
+    "awayTeam": "Spezia W"
+  },
+  {
+    "matchId": "g_3_EJKLGLsM",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Empoli W",
+    "awayTeam": "Giussano W"
+  },
+  {
+    "matchId": "g_3_SMOPFucS",
+    "eventTime": "04.02. 18:00",
+    "homeTeam": "Valdarno W",
+    "awayTeam": "Torino Teen W"
+  },
+  {
+    "matchId": "g_3_6VEa9wzd",
+    "eventTime": "10.02. 18:00",
+    "homeTeam": "San Salvatore Selargius W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_pMD38ck2",
+    "eventTime": "10.02. 18:00",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "Valdarno W"
+  },
+  {
+    "matchId": "g_3_nRinXtS2",
+    "eventTime": "10.02. 20:00",
+    "homeTeam": "Roma-Nord W",
+    "awayTeam": "Basket Roma W"
+  },
+  {
+    "matchId": "g_3_0UejW0s9",
+    "eventTime": "10.02. 20:30",
+    "homeTeam": "Giussano W",
+    "awayTeam": "Torino Teen W"
+  },
+  {
+    "matchId": "g_3_fiefVKdF",
+    "eventTime": "10.02. 20:30",
+    "homeTeam": "Mantova W",
+    "awayTeam": "Costa Masnaga W"
+  },
+  {
+    "matchId": "g_3_lhDSCCtl",
+    "eventTime": "11.02. 18:00",
+    "homeTeam": "Broni W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_WGINDhRs",
+    "eventTime": "11.02. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "Empoli W"
+  },
+  {
+    "matchId": "g_3_SrCWBWef",
+    "eventTime": "17.02. 20:30",
+    "homeTeam": "Giussano W",
+    "awayTeam": "Broni W"
+  },
+  {
+    "matchId": "g_3_rBdVWXXJ",
+    "eventTime": "18.02. 16:00",
+    "homeTeam": "Basket Roma W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_M1eZVimQ",
+    "eventTime": "18.02. 16:00",
+    "homeTeam": "Torino Teen W",
+    "awayTeam": "Roma-Nord W"
+  },
+  {
+    "matchId": "g_3_M5BzBjB0",
+    "eventTime": "18.02. 18:00",
+    "homeTeam": "Costa Masnaga W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_YuFvAAQ6",
+    "eventTime": "18.02. 18:00",
+    "homeTeam": "Empoli W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_G44q9UuD",
+    "eventTime": "18.02. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "Scrivia W"
+  },
+  {
+    "matchId": "g_3_fe3m8leJ",
+    "eventTime": "18.02. 18:00",
+    "homeTeam": "Valdarno W",
+    "awayTeam": "Mantova W"
+  },
+  {
+    "matchId": "g_3_EazEO9u0",
+    "eventTime": "23.02. 21:00",
+    "homeTeam": "Carugate W",
+    "awayTeam": "Costa Masnaga W"
+  },
+  {
+    "matchId": "g_3_tnx6QVAm",
+    "eventTime": "24.02. 16:00",
+    "homeTeam": "San Salvatore Selargius W",
+    "awayTeam": "Basket Roma W"
+  },
+  {
+    "matchId": "g_3_SrY1RBes",
+    "eventTime": "24.02. 18:00",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "Torino Teen W"
+  },
+  {
+    "matchId": "g_3_z9yAPkQg",
+    "eventTime": "24.02. 20:00",
+    "homeTeam": "Roma-Nord W",
+    "awayTeam": "Giussano W"
+  },
+  {
+    "matchId": "g_3_Y1jFMmAC",
+    "eventTime": "24.02. 20:30",
+    "homeTeam": "Libertas Moncalieri W",
+    "awayTeam": "Valdarno W"
+  },
+  {
+    "matchId": "g_3_fBiBNTf6",
+    "eventTime": "24.02. 20:30",
+    "homeTeam": "Mantova W",
+    "awayTeam": "Empoli W"
+  },
+  {
+    "matchId": "g_3_SOkJL7PI",
+    "eventTime": "25.02. 18:00",
+    "homeTeam": "Broni W",
+    "awayTeam": "Spezia W"
+  },
+  {
+    "matchId": "g_3_tSgNKRvP",
+    "eventTime": "02.03. 18:00",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "Mantova W"
+  },
+  {
+    "matchId": "g_3_p0K3TJrP",
+    "eventTime": "02.03. 20:30",
+    "homeTeam": "Giussano W",
+    "awayTeam": "Costa Masnaga W"
+  },
+  {
+    "matchId": "g_3_n96VOwit",
+    "eventTime": "03.03. 18:00",
+    "homeTeam": "Basket Roma W",
+    "awayTeam": "Broni W"
+  },
+  {
+    "matchId": "g_3_xbarMyya",
+    "eventTime": "03.03. 18:00",
+    "homeTeam": "Empoli W",
+    "awayTeam": "Roma-Nord W"
+  },
+  {
+    "matchId": "g_3_GrBZNc6n",
+    "eventTime": "03.03. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_fZ9wNHLh",
+    "eventTime": "03.03. 18:00",
+    "homeTeam": "Torino Teen W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_zqIoLej5",
+    "eventTime": "03.03. 18:00",
+    "homeTeam": "Valdarno W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_tpo8xcLu",
+    "eventTime": "16.03. 16:30",
+    "homeTeam": "Libertas Moncalieri W",
+    "awayTeam": "Basket Roma W"
+  },
+  {
+    "matchId": "g_3_U5HkKF5B",
+    "eventTime": "16.03. 18:00",
+    "homeTeam": "San Salvatore Selargius W",
+    "awayTeam": "Spezia W"
+  },
+  {
+    "matchId": "g_3_8dGgJZKH",
+    "eventTime": "16.03. 20:00",
+    "homeTeam": "Roma-Nord W",
+    "awayTeam": "Scrivia W"
+  },
+  {
+    "matchId": "g_3_QXAbIgzO",
+    "eventTime": "16.03. 20:30",
+    "homeTeam": "Carugate W",
+    "awayTeam": "Empoli W"
+  },
+  {
+    "matchId": "g_3_4O92HDkU",
+    "eventTime": "16.03. 20:30",
+    "homeTeam": "Mantova W",
+    "awayTeam": "Giussano W"
+  },
+  {
+    "matchId": "g_3_xCvHzyjh",
+    "eventTime": "17.03. 18:00",
+    "homeTeam": "Broni W",
+    "awayTeam": "Torino Teen W"
+  },
+  {
+    "matchId": "g_3_fmkCyHzn",
+    "eventTime": "17.03. 18:00",
+    "homeTeam": "Costa Masnaga W",
+    "awayTeam": "Valdarno W"
+  },
+  {
+    "matchId": "g_3_G2wLZf5b",
+    "eventTime": "23.03. 18:00",
+    "homeTeam": "San Salvatore Selargius W",
+    "awayTeam": "Broni W"
+  },
+  {
+    "matchId": "g_3_OSxPYEK4",
+    "eventTime": "23.03. 18:00",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_2JyTXYZA",
+    "eventTime": "23.03. 20:30",
+    "homeTeam": "Carugate W",
+    "awayTeam": "Mantova W"
+  },
+  {
+    "matchId": "g_3_fHG7QjSp",
+    "eventTime": "24.03. 16:00",
+    "homeTeam": "Basket Roma W",
+    "awayTeam": "Costa Masnaga W"
+  },
+  {
+    "matchId": "g_3_prRXWhkH",
+    "eventTime": "24.03. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "Roma-Nord W"
+  },
+  {
+    "matchId": "g_3_h8UuVWJT",
+    "eventTime": "24.03. 18:00",
+    "homeTeam": "Torino Teen W",
+    "awayTeam": "Empoli W"
+  },
+  {
+    "matchId": "g_3_boVyWC4N",
+    "eventTime": "24.03. 18:00",
+    "homeTeam": "Valdarno W",
+    "awayTeam": "Giussano W"
+  },
+  {
+    "matchId": "g_3_GM12nYl4",
+    "eventTime": "06.04. 18:30",
+    "homeTeam": "Mantova W",
+    "awayTeam": "Basket Roma W"
+  },
+  {
+    "matchId": "g_3_WYajkz5o",
+    "eventTime": "06.04. 20:00",
+    "homeTeam": "Roma-Nord W",
+    "awayTeam": "Valdarno W"
+  },
+  {
+    "matchId": "g_3_APbflfKi",
+    "eventTime": "06.04. 20:30",
+    "homeTeam": "Giussano W",
+    "awayTeam": "Scrivia W"
+  },
+  {
+    "matchId": "g_3_4nbbmEZc",
+    "eventTime": "06.04. 20:30",
+    "homeTeam": "Libertas Moncalieri W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_4pJvTqlq",
+    "eventTime": "07.04. 18:00",
+    "homeTeam": "Costa Masnaga W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_boi7oh4A",
+    "eventTime": "07.04. 18:00",
+    "homeTeam": "Empoli W",
+    "awayTeam": "Broni W"
+  },
+  {
+    "matchId": "g_3_xxjBpCJG",
+    "eventTime": "07.04. 18:00",
+    "homeTeam": "Torino Teen W",
+    "awayTeam": "Spezia W"
+  },
+  {
+    "matchId": "g_3_Qa7mRNIe",
+    "eventTime": "13.04. 17:00",
+    "homeTeam": "San Salvatore Selargius W",
+    "awayTeam": "Roma-Nord W"
+  },
+  {
+    "matchId": "g_3_ryIrS33k",
+    "eventTime": "13.04. 18:00",
+    "homeTeam": "Scrivia W",
+    "awayTeam": "Empoli W"
+  },
+  {
+    "matchId": "g_3_h6aZlRA2",
+    "eventTime": "13.04. 20:30",
+    "homeTeam": "Carugate W",
+    "awayTeam": "Torino Teen W"
+  },
+  {
+    "matchId": "g_3_v3BiQsY1",
+    "eventTime": "13.04. 20:30",
+    "homeTeam": "Mantova W",
+    "awayTeam": "Libertas Moncalieri W"
+  },
+  {
+    "matchId": "g_3_bJUZn5uF",
+    "eventTime": "14.04. 18:00",
+    "homeTeam": "Basket Roma W",
+    "awayTeam": "Valdarno W"
+  },
+  {
+    "matchId": "g_3_xATwnPfL",
+    "eventTime": "14.04. 18:00",
+    "homeTeam": "Broni W",
+    "awayTeam": "Costa Masnaga W"
+  },
+  {
+    "matchId": "g_3_WdbwloQ8",
+    "eventTime": "14.04. 18:00",
+    "homeTeam": "Spezia W",
+    "awayTeam": "Giussano W"
+  },
+  {
+    "matchId": "g_3_jH9EuNXl",
+    "eventTime": "21.04. 18:00",
+    "homeTeam": "Costa Masnaga W",
+    "awayTeam": "Scrivia W"
+  },
+  {
+    "matchId": "g_3_xYBQxLH7",
+    "eventTime": "21.04. 18:00",
+    "homeTeam": "Empoli W",
+    "awayTeam": "Basket Roma W"
+  },
+  {
+    "matchId": "g_3_U78Ivsme",
+    "eventTime": "21.04. 18:00",
+    "homeTeam": "Giussano W",
+    "awayTeam": "San Salvatore Selargius W"
+  },
+  {
+    "matchId": "g_3_vwj914f8",
+    "eventTime": "21.04. 18:00",
+    "homeTeam": "Libertas Moncalieri W",
+    "awayTeam": "Broni W"
+  },
+  {
+    "matchId": "g_3_bsDMw121",
+    "eventTime": "21.04. 18:00",
+    "homeTeam": "Roma-Nord W",
+    "awayTeam": "Carugate W"
+  },
+  {
+    "matchId": "g_3_WWSsoqAR",
+    "eventTime": "21.04. 18:00",
+    "homeTeam": "Torino Teen W",
+    "awayTeam": "Mantova W"
+  },
+  {
+    "matchId": "g_3_8hK9t3Ir",
+    "eventTime": "21.04. 18:00",
+    "homeTeam": "Valdarno W",
+    "awayTeam": "Spezia W"
+  }
+]

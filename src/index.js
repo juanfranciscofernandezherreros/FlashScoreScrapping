@@ -7,6 +7,7 @@ import { getUrls } from './urls.js';
 (async () => {
   let country = null;
   let league = null;
+  let url = null; // New optional argument
   let headless = false;
   let path = "./src/data";
   let pathfixtures = "./src/data-fixtures";
@@ -16,6 +17,8 @@ import { getUrls } from './urls.js';
       country = arg.split("country=")?.[1] ?? country;
     if (arg.includes("league="))
       league = arg.split("league=")?.[1] ?? league;
+	if (arg.includes("url=")) // New condition for the "url" argument
+      getUrls()
     if (arg.includes("headless"))
       headless = "new";
     if (arg.includes("path="))
