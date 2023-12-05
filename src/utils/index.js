@@ -6,8 +6,8 @@ import { match } from "assert";
 
 export const getMatchIdList = async (browser, country, league) => {
   const page = await browser.newPage();
-
   const url = `${BASE_URL}/basketball/${country}/${league}/results/`;
+  console.log("Navigating to URL:", url); // Agregar esta línea para imprimir la URL
   await page.goto(url);
 
   while (true) {
@@ -36,6 +36,7 @@ export const getFixtures = async (browser, country, league) => {
   const page = await browser.newPage();
 
   const url = `${BASE_URL}/basketball/${country}/${league}/fixtures/`;
+  console.log("Navigating to URL:", url); // Agregar esta línea para imprimir la URL
   await page.goto(url);
 
   while (true) {
@@ -95,8 +96,10 @@ export const getMatchData = async (browser, matchId) => {
   const prefix = "g_3_";
   const startIndex = matchId.indexOf(prefix) + prefix.length;
   const match = matchId.substring(startIndex);
+  console.log(match);
   const url = `${BASE_URL}/match/${match}/#/match-summary/match-summary`;
   await page.goto(url);
+  console.log("Navigating to URL:", url); // Agregar esta línea para imprimir la URL
   await new Promise(resolve => setTimeout(resolve, 1500));
 
   const data = await page.evaluate(async _ => ({
@@ -136,6 +139,7 @@ export const getStatsPlayer = async (browser, matchId) => {
   const startIndex = matchId.indexOf(prefix) + prefix.length;
   const match = matchId.substring(startIndex);
   const url = `${BASE_URL}/match/${match}/#/match-summary/player-statistics/0`;
+  console.log("Navigating to URL:", url); // Agregar esta línea para imprimir la URL
   await page.goto(url);
   await new Promise((resolve) => setTimeout(resolve, 1500));
   const playerData = await page.evaluate(() => {
@@ -183,6 +187,7 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
   const match = matchId.substring(startIndex);
   const url = `${BASE_URL}/match/${match}/#/match-summary/match-statistics/${playerIndex}`;
   await page.goto(url);
+  console.log("Navigating to URL:", url); // Agregar esta línea para imprimir la URL
   await new Promise(resolve => setTimeout(resolve, 1500));
   const data = await page.evaluate(async _ => {
     const elements = document.querySelectorAll("div[data-testid='wcl-statistics']");
@@ -215,11 +220,10 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
 
 export const getPointByPoint = async (browser, matchId,playerIndex) => {
   const page = await browser.newPage();
-  const prefix = "g_3_";
-  const startIndex = matchId.indexOf(prefix) + prefix.length;
-  const match = matchId.substring(startIndex);
-  const url = `${BASE_URL}/match/${match}/#/match-summary/point-by-point/${playerIndex}`;
+  console.log(matchId);
+  const url = `${BASE_URL}/match/${matchId}/#/match-summary/point-by-point/${playerIndex}`;
   await page.goto(url);
+  console.log("Navigating to URL:", url); // Agregar esta línea para imprimir la URL
   await new Promise(resolve => setTimeout(resolve, 1500));
   // Use page.evaluate to interact with the page and extract data.
    const matchHistoryRows = await page.evaluate(() => {

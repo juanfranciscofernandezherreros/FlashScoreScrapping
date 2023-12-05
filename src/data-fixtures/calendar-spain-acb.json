@@ -1,221 +1,5 @@
 [
   {
-    "matchId": "g_3_vLdz73QA",
-    "eventTime": "11.11. 18:00",
-    "homeTeam": "Breogan",
-    "awayTeam": "Joventut Badalona"
-  },
-  {
-    "matchId": "g_3_IBev6NuH",
-    "eventTime": "11.11. 18:00",
-    "homeTeam": "MoraBanc Andorra",
-    "awayTeam": "Manresa"
-  },
-  {
-    "matchId": "g_3_Qyan41AT",
-    "eventTime": "11.11. 20:45",
-    "homeTeam": "Basquet Girona",
-    "awayTeam": "Unicaja"
-  },
-  {
-    "matchId": "g_3_no0r5seN",
-    "eventTime": "11.11. 20:45",
-    "homeTeam": "Palencia",
-    "awayTeam": "Murcia"
-  },
-  {
-    "matchId": "g_3_WIyFaLIp",
-    "eventTime": "12.11. 12:30",
-    "homeTeam": "Obradoiro CAB",
-    "awayTeam": "Baskonia"
-  },
-  {
-    "matchId": "g_3_pMuJbuYj",
-    "eventTime": "12.11. 13:00",
-    "homeTeam": "Gran Canaria",
-    "awayTeam": "Granada"
-  },
-  {
-    "matchId": "g_3_bPT0NOAi",
-    "eventTime": "12.11. 17:00",
-    "homeTeam": "Bilbao",
-    "awayTeam": "Real Madrid"
-  },
-  {
-    "matchId": "g_3_xGS4MrQc",
-    "eventTime": "12.11. 17:00",
-    "homeTeam": "Valencia",
-    "awayTeam": "Basket Zaragoza"
-  },
-  {
-    "matchId": "g_3_ImuA3qx9",
-    "eventTime": "12.11. 18:30",
-    "homeTeam": "Barcelona",
-    "awayTeam": "Tenerife"
-  },
-  {
-    "matchId": "g_3_IRq2L2u4",
-    "eventTime": "18.11. 18:00",
-    "homeTeam": "Basket Zaragoza",
-    "awayTeam": "Gran Canaria"
-  },
-  {
-    "matchId": "g_3_jurAJtAG",
-    "eventTime": "18.11. 20:45",
-    "homeTeam": "Basquet Girona",
-    "awayTeam": "Breogan"
-  },
-  {
-    "matchId": "g_3_4rnEI0PM",
-    "eventTime": "18.11. 20:45",
-    "homeTeam": "Tenerife",
-    "awayTeam": "Palencia"
-  },
-  {
-    "matchId": "g_3_lGNpDvmp",
-    "eventTime": "19.11. 12:30",
-    "homeTeam": "Granada",
-    "awayTeam": "MoraBanc Andorra"
-  },
-  {
-    "matchId": "g_3_n7yJHKvT",
-    "eventTime": "19.11. 12:30",
-    "homeTeam": "Manresa",
-    "awayTeam": "Obradoiro CAB"
-  },
-  {
-    "matchId": "g_3_IkSlCb2j",
-    "eventTime": "19.11. 12:30",
-    "homeTeam": "Real Madrid",
-    "awayTeam": "Unicaja"
-  },
-  {
-    "matchId": "g_3_CAvE23iF",
-    "eventTime": "19.11. 17:00",
-    "homeTeam": "Baskonia",
-    "awayTeam": "Valencia"
-  },
-  {
-    "matchId": "g_3_dIr6KMfA",
-    "eventTime": "19.11. 17:00",
-    "homeTeam": "Joventut Badalona",
-    "awayTeam": "Bilbao"
-  },
-  {
-    "matchId": "g_3_j1wI1N6L",
-    "eventTime": "19.11. 18:30",
-    "homeTeam": "Murcia",
-    "awayTeam": "Barcelona"
-  },
-  {
-    "matchId": "g_3_dtRhBIHd",
-    "eventTime": "25.11. 18:00",
-    "homeTeam": "Obradoiro CAB",
-    "awayTeam": "Granada"
-  },
-  {
-    "matchId": "g_3_IN9E0sMR",
-    "eventTime": "25.11. 18:00",
-    "homeTeam": "Palencia",
-    "awayTeam": "Valencia"
-  },
-  {
-    "matchId": "g_3_0EiZJALd",
-    "eventTime": "25.11. 20:45",
-    "homeTeam": "Bilbao",
-    "awayTeam": "Unicaja"
-  },
-  {
-    "matchId": "g_3_ClewJUz3",
-    "eventTime": "25.11. 20:45",
-    "homeTeam": "Murcia",
-    "awayTeam": "Joventut Badalona"
-  },
-  {
-    "matchId": "g_3_6BfsIlj9",
-    "eventTime": "26.11. 12:30",
-    "homeTeam": "Breogan",
-    "awayTeam": "Basket Zaragoza"
-  },
-  {
-    "matchId": "g_3_p2goH85F",
-    "eventTime": "26.11. 12:30",
-    "homeTeam": "MoraBanc Andorra",
-    "awayTeam": "Real Madrid"
-  },
-  {
-    "matchId": "g_3_2wljGSKL",
-    "eventTime": "26.11. 17:00",
-    "homeTeam": "Barcelona",
-    "awayTeam": "Basquet Girona"
-  },
-  {
-    "matchId": "g_3_KWetd1Ur",
-    "eventTime": "26.11. 17:00",
-    "homeTeam": "Baskonia",
-    "awayTeam": "Manresa"
-  },
-  {
-    "matchId": "g_3_tUnfFnzS",
-    "eventTime": "26.11. 18:30",
-    "homeTeam": "Gran Canaria",
-    "awayTeam": "Tenerife"
-  },
-  {
-    "matchId": "g_3_CCwQ9Qck",
-    "eventTime": "02.12. 18:00",
-    "homeTeam": "Basket Zaragoza",
-    "awayTeam": "Murcia"
-  },
-  {
-    "matchId": "g_3_b9ZLA6rq",
-    "eventTime": "02.12. 18:00",
-    "homeTeam": "Unicaja",
-    "awayTeam": "Manresa"
-  },
-  {
-    "matchId": "g_3_YRRY74S1",
-    "eventTime": "02.12. 20:45",
-    "homeTeam": "Basquet Girona",
-    "awayTeam": "MoraBanc Andorra"
-  },
-  {
-    "matchId": "g_3_fyTU8pDe",
-    "eventTime": "02.12. 20:45",
-    "homeTeam": "Tenerife",
-    "awayTeam": "Obradoiro CAB"
-  },
-  {
-    "matchId": "g_3_nqVFWm52",
-    "eventTime": "03.12. 12:30",
-    "homeTeam": "Real Madrid",
-    "awayTeam": "Breogan"
-  },
-  {
-    "matchId": "g_3_QZTJV7K8",
-    "eventTime": "03.12. 13:00",
-    "homeTeam": "Gran Canaria",
-    "awayTeam": "Palencia"
-  },
-  {
-    "matchId": "g_3_Sdalfuae",
-    "eventTime": "03.12. 17:00",
-    "homeTeam": "Barcelona",
-    "awayTeam": "Granada"
-  },
-  {
-    "matchId": "g_3_EgepeLqk",
-    "eventTime": "03.12. 17:00",
-    "homeTeam": "Valencia",
-    "awayTeam": "Bilbao"
-  },
-  {
-    "matchId": "g_3_ALlggaE1",
-    "eventTime": "03.12. 18:30",
-    "homeTeam": "Joventut Badalona",
-    "awayTeam": "Baskonia"
-  },
-  {
     "matchId": "g_3_8bJOURZE",
     "eventTime": "09.12. 18:00",
     "homeTeam": "Bilbao",
@@ -331,7 +115,7 @@
   },
   {
     "matchId": "g_3_SdLJ9Kbr",
-    "eventTime": "17.12. 18:30",
+    "eventTime": "17.12. 18:00",
     "homeTeam": "Barcelona",
     "awayTeam": "Baskonia"
   },
@@ -360,12 +144,6 @@
     "awayTeam": "Unicaja"
   },
   {
-    "matchId": "g_3_GrJmLE2I",
-    "eventTime": "23.12. 18:00",
-    "homeTeam": "Breogan",
-    "awayTeam": "Obradoiro CAB"
-  },
-  {
     "matchId": "g_3_2FDW6Ir1",
     "eventTime": "23.12. 18:00",
     "homeTeam": "Valencia",
@@ -373,9 +151,15 @@
   },
   {
     "matchId": "g_3_dxDz6xb7",
-    "eventTime": "23.12. 20:45",
+    "eventTime": "23.12. 18:30",
     "homeTeam": "Joventut Badalona",
     "awayTeam": "Real Madrid"
+  },
+  {
+    "matchId": "g_3_GrJmLE2I",
+    "eventTime": "23.12. 20:45",
+    "homeTeam": "Breogan",
+    "awayTeam": "Obradoiro CAB"
   },
   {
     "matchId": "g_3_AuHv5dDD",
@@ -788,8 +572,8 @@
   {
     "matchId": "g_3_pxUsNkjd",
     "eventTime": "03.03. 12:30",
-    "homeTeam": "Real Madrid",
-    "awayTeam": "MoraBanc Andorra"
+    "homeTeam": "MoraBanc Andorra",
+    "awayTeam": "Real Madrid"
   },
   {
     "matchId": "g_3_CbtmadR5",
