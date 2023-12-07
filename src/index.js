@@ -16,7 +16,10 @@ import {
   let action = "results";
   let ids = null;
   let includeMatchData = true; // Default value is true
-
+  let includeStatsPlayer = true; // Default value is true
+  let includeStatsMatch = true; // Default value is true
+  let includePointByPoint = true; // Default value is true
+  
   process.argv?.slice(2)?.map(arg => {
     if (arg.includes("country="))
       country = arg.split("country=")?.[1] ?? country;
@@ -32,6 +35,12 @@ import {
       ids = arg.split("ids=")?.[1]?.split(",") ?? ids;
     if (arg.includes("includeMatchData="))
       includeMatchData = arg.split("includeMatchData=")?.[1]?.toLowerCase() === "true";
+    if (arg.includes("includeStatsPlayer="))
+      includeStatsPlayer = arg.split("includeStatsPlayer=")?.[1]?.toLowerCase() === "true";
+    if (arg.includes("includeStatsMatch="))
+      includeStatsMatch = arg.split("includeStatsMatch=")?.[1]?.toLowerCase() === "true";
+    if (arg.includes("includePointByPoint="))
+      includePointByPoint = arg.split("includePointByPoint=")?.[1]?.toLowerCase() === "true";
   });
 
   let allMatchIdLists = [];
@@ -56,12 +65,18 @@ import {
           const matchData = await getMatchData(browser, id);
           console.log("Match Data:", matchData);
         }
-        const statsPlayer = await getStatsPlayer(browser, id);
-        console.log("Stats Player:", statsPlayer);
-        const statsMatch = await getStatsMatch(browser, id, 0);
-        console.log("StatsMatch:", statsMatch);
-        const pointByPoint = await getPointByPoint(browser, id, 0);
-        console.log("PointByPoint:", pointByPoint);
+        if (includeStatsPlayer) {
+          const statsPlayer = await getStatsPlayer(browser, id);
+          console.log("Stats Player:", statsPlayer);
+        }
+        if (includeStatsMatch) {
+          const statsMatch = await getStatsMatch(browser, id, 0);
+          console.log("StatsMatch:", statsMatch);
+        }
+        if (includePointByPoint) {
+          const pointByPoint = await getPointByPoint(browser, id, 0);
+          console.log("PointByPoint:", pointByPoint);
+        }
       }
     } else {
       allMatchIdLists = await getMatchIdList(browser, country, league);
