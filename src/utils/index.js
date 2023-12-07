@@ -183,40 +183,56 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
   const startIndex = matchId.indexOf(prefix) + prefix.length;
   const match = matchId.substring(startIndex);
   const url = `${BASE_URL}/match/${match}/#/match-summary/match-statistics/${playerIndex}`;
+  console.log(url);
   await page.goto(url);
-  await new Promise(resolve => setTimeout(resolve, 1500));
-  const data = await page.evaluate(async _ => {
-    const elements = document.querySelectorAll("div[data-testid='wcl-statistics']");
-    const result = [];
-  
-    elements.forEach(element => {
-      const category = element.querySelector("div[data-testid='wcl-statistics-category']");
-      const homeValue = element.querySelector("div[data-testid='wcl-statistics-value']._homeValue_v26p1_10");
-      const awayValue = element.querySelector("div[data-testid='wcl-statistics-value']._awayValue_v26p1_14");
-  
-      const homeChart = element.querySelector("div[data-testid='wcl-statistics-chart-home']");
-      const awayChart = element.querySelector("div[data-testid='wcl-statistics-chart-away']");
-  
-      if (category && homeValue && awayValue && homeChart && awayChart) {
-        result.push({
-          category: category.textContent,
-          homeValue: homeValue.textContent,
-          awayValue: awayValue.textContent,
-          homeChartWidth: homeChart.style.width,
-          awayChartWidth: awayChart.style.width,
-        });
-      }
-    });
-  
-    return result;
-  });
+
+  // Esperar a que los elementos estén disponibles
+  await page.waitForSelector('div._category_rbkfg_5, div._value_1efsh_5._homeValue_1efsh_10, div._value_1efsh_5._awayValue_1efsh_14');
+
+  // Obtener todos los elementos que coinciden con los selectores
+  const categoryElements = await page.$$('div._category_rbkfg_5');
+  const homeValueElements = await page.$$('div._value_1efsh_5._homeValue_1efsh_10');
+  const awayValueElements = await page.$$('div._value_1efsh_5._awayValue_1efsh_14');
+
+  // Extraer datos de los elementos
+  const categories = await Promise.all(categoryElements.map(async (element) => {
+    const text = await element.evaluate(node => node.innerText);
+    return text;
+  }));
+
+  const homeValues = await Promise.all(homeValueElements.map(async (element) => {
+    const text = await element.evaluate(node => node.innerText);
+    return text;
+  }));
+
+  const awayValues = await Promise.all(awayValueElements.map(async (element) => {
+    const text = await element.evaluate(node => node.innerText);
+    return text;
+  }));
+
+  // Cerrar la página después de obtener los datos
   await page.close();
+
+  // Combina la información en un objeto antes de devolverlo
+  const data = categories.map((category, index) => ({
+    category,
+    homeValue: homeValues[index],
+    awayValue: awayValues[index],
+  }));
+
   return data;
-}
+};
+
+
+
 
 export const getPointByPoint = async (browser, matchId,playerIndex) => {
   const page = await browser.newPage();
-  const url = `${BASE_URL}/match/${matchId}/#/match-summary/point-by-point/${playerIndex}`;
+  const prefix = "g_3_";
+  const startIndex = matchId.indexOf(prefix) + prefix.length;
+  const match = matchId.substring(startIndex);
+  const url = `${BASE_URL}/match/${match}/#/match-summary/point-by-point/${playerIndex}`;
+  console.log(url);
   await page.goto(url);
   await new Promise(resolve => setTimeout(resolve, 1500));
   // Use page.evaluate to interact with the page and extract data.
@@ -233,4 +249,5 @@ export const getPointByPoint = async (browser, matchId,playerIndex) => {
   });
   return matchHistoryRows;
 };
+
 

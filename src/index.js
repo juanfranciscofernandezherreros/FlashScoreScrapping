@@ -4,20 +4,16 @@ import {
   getMatchIdList,
   getFixtures,
   getMatchData,
-  writeMatchData,
   getStatsPlayer,
   getStatsMatch,
-  getPointByPoint} from "./utils/index.js";
-
-import { getUrls } from './urls.js';
+  getPointByPoint
+} from "./utils/index.js";
 
 (async () => {
   let country = null;
   let league = null;
   let ids = null;
   let headless = false;
-  let path = "./src/data";
-  let pathfixtures = "./src/data-fixtures";
   let action = "results";
   process.argv?.slice(2)?.map(arg => {
     if (arg.includes("country="))
@@ -32,12 +28,7 @@ import { getUrls } from './urls.js';
       action = arg.split("action=")?.[1] ?? action;
     if (arg.includes("ids="))
       ids = arg.split("ids=")?.[1] ?? ids;
-  })
-
-  if (country === null && league === null && action === "urls") {
-    getUrls()
-    return;
-  }
+  });
 
   let allMatchIdLists = [];
 
@@ -54,19 +45,39 @@ import { getUrls } from './urls.js';
     return combinedData;
   } else if (action === "results") {
     const browser = await puppeteer.launch({ headless });
-
     if (ids !== null) {
-      allMatchIdLists.push(ids);
+      console.log("ID", ids);
+      let thirdParameter = 0;
+      let pointByPointResult;
+      let statsMatchResult;
+      let iterations = 0;
+      
+      // Llama a getMatchData con el ID proporcionado
+      const matchData = await getMatchData(browser, ids);
+      console.log("Match Data:", matchData);
+      const statsPlayer = await getStatsPlayer(browser, ids);
+      console.log("Stats Player:", statsPlayer);
+      
+
+      do {
+        // Llama a getPointByPoint con el ID y tercer parámetro proporcionados
+        pointByPointResult = await getPointByPoint(browser, ids, thirdParameter);
+        console.log("PointByPoint:", pointByPointResult);
+
+        // Llama a getStatsMatch con el ID y tercer parámetro proporcionados
+        statsMatchResult = await getStatsMatch(browser, ids, thirdParameter);
+        console.log("StatsMatch:", statsMatchResult);
+
+        // Incrementa el tercer parámetro para la próxima iteración
+        thirdParameter++;
+        iterations++;
+      } while ((pointByPointResult && statsMatchResult) && iterations < 5);
     } else {
       allMatchIdLists = await getMatchIdList(browser, country, league);
+      for (const matchIdListObject of allMatchIdLists.matchIdList) {
+        console.log(matchIdListObject);
+      }
     }
-    console.log("[");
-    console.log(allMatchIdLists.additionalContent);
-    for (const matchIdListObject of allMatchIdLists.matchIdList) {
-      console.log(matchIdListObject);
-    }
-    console.log("]");
     await browser.close();
-
   }
 })();
