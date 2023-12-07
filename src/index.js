@@ -12,9 +12,11 @@ import {
 (async () => {
   let country = null;
   let league = null;
-  let ids = null;
   let headless = false;
   let action = "results";
+  let ids = null;
+  let includeMatchData = true; // Default value is true
+
   process.argv?.slice(2)?.map(arg => {
     if (arg.includes("country="))
       country = arg.split("country=")?.[1] ?? country;
@@ -27,7 +29,9 @@ import {
     if (arg.includes("action="))
       action = arg.split("action=")?.[1] ?? action;
     if (arg.includes("ids="))
-      ids = arg.split("ids=")?.[1] ?? ids;
+      ids = arg.split("ids=")?.[1]?.split(",") ?? ids;
+    if (arg.includes("includeMatchData="))
+      includeMatchData = arg.split("includeMatchData=")?.[1]?.toLowerCase() === "true";
   });
 
   let allMatchIdLists = [];
@@ -46,32 +50,19 @@ import {
   } else if (action === "results") {
     const browser = await puppeteer.launch({ headless });
     if (ids !== null) {
-      console.log("ID", ids);
-      let thirdParameter = 0;
-      let pointByPointResult;
-      let statsMatchResult;
-      let iterations = 0;
-      
-      // Llama a getMatchData con el ID proporcionado
-      const matchData = await getMatchData(browser, ids);
-      console.log("Match Data:", matchData);
-      const statsPlayer = await getStatsPlayer(browser, ids);
-      console.log("Stats Player:", statsPlayer);
-      
-
-      do {
-        // Llama a getPointByPoint con el ID y tercer parámetro proporcionados
-        pointByPointResult = await getPointByPoint(browser, ids, thirdParameter);
-        console.log("PointByPoint:", pointByPointResult);
-
-        // Llama a getStatsMatch con el ID y tercer parámetro proporcionados
-        statsMatchResult = await getStatsMatch(browser, ids, thirdParameter);
-        console.log("StatsMatch:", statsMatchResult);
-
-        // Incrementa el tercer parámetro para la próxima iteración
-        thirdParameter++;
-        iterations++;
-      } while ((pointByPointResult && statsMatchResult) && iterations < 5);
+      for (const id of ids) {
+        console.log("ID", id);
+        if (includeMatchData) {
+          const matchData = await getMatchData(browser, id);
+          console.log("Match Data:", matchData);
+        }
+        const statsPlayer = await getStatsPlayer(browser, id);
+        console.log("Stats Player:", statsPlayer);
+        const statsMatch = await getStatsMatch(browser, id, 0);
+        console.log("StatsMatch:", statsMatch);
+        const pointByPoint = await getPointByPoint(browser, id, 0);
+        console.log("PointByPoint:", pointByPoint);
+      }
     } else {
       allMatchIdLists = await getMatchIdList(browser, country, league);
       for (const matchIdListObject of allMatchIdLists.matchIdList) {
