@@ -65,18 +65,20 @@ import {
           const matchData = await getMatchData(browser, id);
           console.log("Match Data:", matchData);
         }
-        if (includeStatsPlayer) {
-          const statsPlayer = await getStatsPlayer(browser, id);
-          console.log("Stats Player:", statsPlayer);
+        const numberOfMatches = 4; // Puedes cambiar este valor según tus necesidades
+
+        for (let i = 1; i <= numberOfMatches; i++) {
+          if (includeStatsMatch) {
+            const statsMatch = await getStatsMatch(browser, id, i);
+            console.log(`StatsMatch ${i}:`, statsMatch);
+          }
+
+          if (includePointByPoint) {
+            const pointByPoint = await getPointByPoint(browser, id, i);
+            console.log(`PointByPoint ${i}:`, pointByPoint);
+          }
         }
-        if (includeStatsMatch) {
-          const statsMatch = await getStatsMatch(browser, id, 0);
-          console.log("StatsMatch:", statsMatch);
-        }
-        if (includePointByPoint) {
-          const pointByPoint = await getPointByPoint(browser, id, 0);
-          console.log("PointByPoint:", pointByPoint);
-        }
+
       }
     } else {
       allMatchIdLists = await getMatchIdList(browser, country, league);
