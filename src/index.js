@@ -7,9 +7,7 @@ import {
   writeMatchData,
   getStatsPlayer,
   getStatsMatch,
-  getPointByPoint,
-  existData
-} from "./utils/index.js";
+  getPointByPoint} from "./utils/index.js";
 
 import { getUrls } from './urls.js';
 
@@ -46,7 +44,6 @@ import { getUrls } from './urls.js';
   if (action === "fixtures") {
     const browser = await puppeteer.launch({ headless });
     const combinedData = await getFixtures(browser, country, league);
-    writeMatchData(combinedData, pathfixtures, `calendar-${country}-${league}`);
     await browser.close();
     console.log("[");
     console.log(allMatchIdLists.additionalContent);

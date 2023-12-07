@@ -234,35 +234,3 @@ export const getPointByPoint = async (browser, matchId,playerIndex) => {
   return matchHistoryRows;
 };
 
-export const writeMatchData = (data, pathW, name) => {
-  const jsonData = JSON.stringify(data, null, 2);
-  const filePath = path.join(pathW, `${name}.json`);
-
-  fs.mkdir(path.dirname(filePath), { recursive: true }, (err) => {
-    if (err) {
-      console.error("Error creating directories:", err);
-    } else {
-      fs.writeFile(filePath, jsonData, (err) => {
-        if (err) {
-          console.error("Error writing to JSON file:", err);
-        }
-      });
-    }
-  });
-}
-
-export const existData = (matchIdLists, pathW, league) => {
-  const missingData = [];
-
-  for (const matchId of matchIdLists) {
-    const jsonFileName = `${matchId}-${league}.json`;
-    const jsonFilePath = path.join(pathW, jsonFileName);
-
-    if (!fs.existsSync(jsonFilePath)) {
-      missingData.push(matchId);
-    }
-  }
-
-  return missingData;
-}
-
