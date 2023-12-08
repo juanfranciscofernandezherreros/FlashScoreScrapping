@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "start-urls": "node src/urls.js"
+    "start-urls": "node src/urls.js",
+    "start-results":"node runScript.cjs"
   },
   "dependencies": {
     "puppeteer": "^20.8.3"
