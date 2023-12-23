@@ -36,10 +36,8 @@ export const getMatchIdList = async (browser, country, league) => {
 
 export const getFixtures = async (browser, country, league) => {
   const page = await browser.newPage();
-
   const url = `${BASE_URL}/basketball/${country}/${league}/fixtures/`;
-  await page.goto(url);
-
+  await page.goto(url);  
   while (true) {
     try {
       await page.evaluate(async () => {
@@ -221,6 +219,28 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
   }));
 
   return data;
+};
+
+export const getDateMatch = async (browser, matchId) => {
+  const match = matchId.split('_')[2]
+  const page = await browser.newPage();
+  const url = `${BASE_URL}/match/${match}/#/match-summary`;
+  console.log(url);
+  await page.goto(url);
+  await new Promise(resolve => setTimeout(resolve, 1500));  
+
+  const matchHistoryRows = await page.evaluate(() => {
+    const rows = document.querySelectorAll('.duelParticipant__startTime');
+    const dates = [];
+
+    rows.forEach(row => {
+      const dateText = row.textContent.trim();
+      dates.push(dateText);
+    });
+
+    return dates;
+  });
+  return matchHistoryRows;
 };
 
 

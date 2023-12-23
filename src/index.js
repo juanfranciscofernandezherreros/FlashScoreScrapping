@@ -6,7 +6,8 @@ import {
   getMatchData,
   getStatsPlayer,
   getStatsMatch,
-  getPointByPoint
+  getPointByPoint,
+  getDateMatch
 } from "./utils/index.js";
 
 (async () => {
@@ -45,7 +46,14 @@ import {
 
   let allMatchIdLists = [];
 
-  if (action === "fixtures") {
+  if (action==="fixtures" && ids!==null) {
+    const browser = await puppeteer.launch({ headless });
+    const fecha = await getDateMatch(browser,ids.toString());
+    console.log("[fechasPartidos - ",fecha + "]");
+    await browser.close();
+  } 
+
+  if (action === "fixtures" && ids ===null) {
     const browser = await puppeteer.launch({ headless });
     const combinedData = await getFixtures(browser, country, league);
     await browser.close();
@@ -56,7 +64,9 @@ import {
     }
     console.log("]");
     return combinedData;
-  } else if (action === "results") {
+  }
+  
+  if (action === "results") {
     const browser = await puppeteer.launch({ headless });
     if (ids !== null) {
       for (const id of ids) {
