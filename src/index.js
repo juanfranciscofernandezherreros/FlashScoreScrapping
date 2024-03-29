@@ -50,7 +50,7 @@ import {
 
   // Función para generar el archivo CSV
   // Función para generar el archivo CSV con encabezados
-	function generateCSVFileMatch(data) {
+	function generateCSVFileMatch(data,country,league) {
 	  // Define los encabezados del CSV
 	  const headers = Object.keys(data);
 	  // Crea una cadena con los encabezados separados por comas y agrega una nueva línea
@@ -66,7 +66,7 @@ import {
 	  });
 	}
 	
-	function generateCSVResultsMatchs(data) {
+	function generateCSVResultsMatchs(data,nombreArchivo) {
   // Verificar si hay datos
   if (!data || data.length === 0) {
     console.log("No hay datos para generar el archivo CSV.");
@@ -89,7 +89,7 @@ import {
   const csvData = headerRow + csvContent;
 
   // Escribir en el archivo CSV
-  fs.writeFile('results.csv', csvData, (err) => {
+  fs.writeFile(`${nombreArchivo}.csv`, csvData, (err) => {
     if (err) throw err;
     console.log('Los datos se han exportado correctamente a results.csv');
   });
@@ -113,6 +113,18 @@ function generateCSVFile(data, filename) {
   });
 }
 
+function generateCsvMatchData(matchData, nombreArchivo) {
+    const csvData = [
+        ["nombreArchivo", "date", "homeName", "imageHome", "awayName", "imageAway", "resultsHome", "resultsAway", "totalLocal", "firstLocal", "secondLocal", "thirstLocal", "fourthLocal", "extraLocal", "totalAway", "firstAway", "secondAway", "thirstAway", "fourthAway", "extraAway"],
+        [nombreArchivo, matchData["date"], matchData["home"]["name"], matchData["home"]["image"], matchData["away"]["name"], matchData["away"]["image"], matchData["result"]["home"], matchData["result"]["away"], matchData["totalLocal"], matchData["firstLocal"], matchData["secondLocal"], matchData["thirstLocal"], matchData["fourthLocal"], matchData["extraLocal"], matchData["totalAway"], matchData["firstAway"], matchData["secondAway"], matchData["thirstAway"], matchData["fourthAway"], matchData["extraAway"]]
+    ];
+
+    // Convertir los datos CSV en texto
+    const csvText = csvData.map(row => row.join(',')).join('\n');
+
+    // Escribir los datos en un archivo CSV
+    fs.writeFileSync(nombreArchivo + ".csv", csvText);
+}
 
 
   let allMatchIdLists = [];
@@ -126,11 +138,10 @@ function generateCSVFile(data, filename) {
     console.log("teamLinkLocal - ",fecha.teamLinkLocal + "");
     console.log("teamLinkAway - ",fecha.teamLinkAway + "");
 	console.log("generateCSV" , generateCSV);
-	// Generar CSV si generateCSV es verdadero
     if (generateCSV) {
       // Lógica para generar el CSV
-      console.log("Generando archivo CSV...");
-      generateCSVFileMatch(fecha); // Llama a la función para generar el archivo CSV con los datos de 'fecha'
+      console.log("Generando archivo CSV FIXTURES1...");
+      generateCSVFileMatch(fecha,country,league); // Llama a la función para generar el archivo CSV con los datos de 'fecha'
     }
 	
     await browser.close();
@@ -143,8 +154,13 @@ function generateCSVFile(data, filename) {
 
     if (generateCSV) {
         // Lógica para generar el CSV
-        console.log("Generando archivo CSV...");
-        generateCSVFile(combinedData, "fixtures");
+        console.log("Generando archivo CSV FIXTURES2...");
+		// Lógica para generar el CSV
+		console.log("Generando archivo CSV FIXTURES...");
+		const fechaActual = new Date(); // Obtiene la fecha actual
+		const formattedFecha = formatFecha(fechaActual);
+		const nombreArchivo = `FIXTURES_${formattedFecha}_${country}_${league}`;
+        generateCSVFile(combinedData, nombreArchivo);
     } else {
         console.log("[");
         console.log(allMatchIdLists.additionalContent);
@@ -161,11 +177,20 @@ function generateCSVFile(data, filename) {
   if (action === "results") {
     const browser = await puppeteer.launch({ headless });
     if (ids !== null) {
+		
       for (const id of ids) {
         console.log("ID", id);
+		// Lógica para generar el CSV
+		  const fechaActual = new Date(); // Obtiene la fecha actual
+		const formattedFecha = formatFecha(fechaActual);
+		const nombreArchivo = `RESULTS_${formattedFecha}_${country}_${league}_${id}`;
         if (includeMatchData) {
-          const matchData = await getMatchData(browser, id);
-          console.log("Match Data:", matchData);
+			const matchData = await getMatchData(browser, id);
+			
+			if(generateCSV==true){	
+			console.log("Generando archivo CSV...");			
+			generateCsvMatchData(matchData,nombreArchivo+'_MATCH_DATA');		  
+			}
         }
         const numberOfMatches = 4; // Puedes cambiar este valor según tus necesidades
 
@@ -181,7 +206,7 @@ function generateCSVFile(data, filename) {
           }
         }
 
-      }
+      }	  
     } else {
       allMatchIdLists = await getMatchIdList(browser, country, league);
       // Iterate over the eventDataList array and log each 
@@ -195,7 +220,10 @@ function generateCSVFile(data, filename) {
 		if (generateCSV) {
 		  // Lógica para generar el CSV
 		  console.log("Generando archivo CSV...");
-		  generateCSVResultsMatchs(allMatchIdLists.eventDataList);
+		  const fechaActual = new Date(); // Obtiene la fecha actual
+		const formattedFecha = formatFecha(fechaActual);
+		const nombreArchivo = `RESULTS_${formattedFecha}_${country}_${league}`;
+		  generateCSVResultsMatchs(allMatchIdLists.eventDataList,nombreArchivo);
 		}
     }
 	
@@ -203,4 +231,15 @@ function generateCSVFile(data, filename) {
 	
     await browser.close();
   }
+  
+  // Función para formatear la fecha en formato YYYYMMDDHHMMSS
+function formatFecha(fecha) {
+  const year = fecha.getFullYear();
+  const month = String(fecha.getMonth() + 1).padStart(2, '0');
+  const day = String(fecha.getDate()).padStart(2, '0');
+  const hours = String(fecha.getHours()).padStart(2, '0');
+  const minutes = String(fecha.getMinutes()).padStart(2, '0');
+  const seconds = String(fecha.getSeconds()).padStart(2, '0');
+  return `${year}${month}${day}${hours}${minutes}${seconds}`;
+}
 })();
