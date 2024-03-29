@@ -18,6 +18,15 @@ npm run start-results spain acb results headless
 
 npm install
 
+npm run start country=spain league=acb action=fixtures generateCSV=true
+
+npm run start country=spain league=acb action=fixtures ids=g_3_2wljGSKL generateCSV=true headless
+
+npm run start country=spain league=acb action=results generateCSV=true
+
+npm run start country=spain league=acb action=fixtures generateCSV=true
+
+
 ---
 
 docker build -t flashscore-scraping:1.0.0 .

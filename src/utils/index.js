@@ -9,15 +9,15 @@ export const getMatchIdList = async (browser, country, league) => {
   const url = `${BASE_URL}/basketball/${country}/${league}/results/`;
   await page.goto(url);
 
-   // Extrayendo el contenido específico por su clase
-   const additionalContent = await page.$eval('.heading__info', element => {
+  // Extrayendo el contenido específico por su clase
+  const additionalContent = await page.$eval('.heading__info', (element) => {
     return element ? element.textContent.trim() : null;
   });
 
   while (true) {
     try {
-      await page.evaluate(async _ => {
-        await new Promise(resolve => setTimeout(resolve, 1500));
+      await page.evaluate(async (_) => {
+        await new Promise((resolve) => setTimeout(resolve, 1500));
         const element = document.querySelector('a.event__more.event__more--static');
         element.scrollIntoView();
         element.click();
@@ -27,12 +27,20 @@ export const getMatchIdList = async (browser, country, league) => {
     }
   }
 
-  const matchIdList = await page.evaluate(_ => {
-    return Array.from(document.querySelectorAll(".event__match.event__match--static.event__match--twoLine"))
-      .map(element => element?.id?.replace("g_1_", ""));
+  const eventDataList = await page.evaluate((_) => {
+    return Array.from(document.querySelectorAll('.event__match.event__match--static.event__match--twoLine')).map(
+      (element) => {
+        const matchId = element?.id?.replace('g_1_', '');
+        const eventTime = element.querySelector('.event__time').textContent.trim();
+        return { matchId, eventTime };
+      }
+    );
   });
+
   await page.close();
- return { matchIdList, additionalContent };}
+  return { eventDataList, additionalContent };
+};
+
 
 export const getFixtures = async (browser, country, league) => {
   const page = await browser.newPage();
@@ -222,14 +230,17 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
 };
 
 export const getDateMatch = async (browser, matchId) => {
-  const match = matchId.split('_')[2]
+  const match = matchId.split('_')[2];
   const page = await browser.newPage();
   const url = `${BASE_URL}/match/${match}/#/match-summary`;
   console.log(url);
   await page.goto(url);
-  await new Promise(resolve => setTimeout(resolve, 1500));  
+  
+  // Espera a que los elementos estén presentes en el DOM y sean visibles
+  await page.waitForSelector('.duelParticipant__startTime');
+  await page.waitForSelector('.duelParticipant__home .participant__participantName a');
 
-  const matchHistoryRows = await page.evaluate(() => {
+  const data = await page.evaluate(() => {
     const rows = document.querySelectorAll('.duelParticipant__startTime');
     const dates = [];
 
@@ -238,9 +249,25 @@ export const getDateMatch = async (browser, matchId) => {
       dates.push(dateText);
     });
 
-    return dates;
-  });
-  return matchHistoryRows;
+    const teamInfo = document.querySelector('.duelParticipant__home');
+    const teamLinkLocal = teamInfo.querySelector('.participant__participantName a').getAttribute('href');
+    const teamNameLocal = teamInfo.querySelector('.participant__participantName a').innerText.trim();
+
+    const teamAway = document.querySelector('.duelParticipant__away');
+    const teamLinkAway = teamAway.querySelector('.participant__participantName a').getAttribute('href');
+    const teamNameAway = teamAway.querySelector('.participant__participantName a').innerText.trim();
+
+    return { dates, teamNameLocal, teamLinkLocal, teamNameAway, teamLinkAway };
+});
+
+const matchHistoryRows = data.dates;
+const teamNameLocal = data.teamNameLocal;
+const teamLinkLocal = data.teamLinkLocal;
+const teamNameAway = data.teamNameAway;
+const teamLinkAway = data.teamLinkAway;
+
+
+  return { matchHistoryRows, teamNameLocal, teamNameAway,teamLinkLocal,teamLinkAway };
 };
 
 
