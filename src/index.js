@@ -43,9 +43,9 @@ import {
     if (arg.includes("includeStatsMatch="))
       includeStatsMatch = arg.split("includeStatsMatch=")?.[1]?.toLowerCase() === "true";
     if (arg.includes("includePointByPoint="))
-      includePointByPoint = arg.split("includePointByPoint=")?.[1]?.toLowerCase() === "true"
-	if (arg.includes("generateCSV="))
-      generateCSV = arg.split("generateCSV=")?.[1]?.toLowerCase() === "true";
+      includePointByPoint = arg.split("includePointByPoint=")?.[1]?.toLowerCase() === "true"    
+    if (arg.includes("generateCSV="))
+        generateCSV = arg.split("generateCSV=")?.[1]?.toLowerCase() === "true";
   });
 
   // Función para generar el archivo CSV
@@ -152,9 +152,7 @@ function generateCsvMatchData(matchData, nombreArchivo) {
     const combinedData = await getFixtures(browser, country, league);
     await browser.close();
 
-    if (generateCSV) {
-        // Lógica para generar el CSV
-        console.log("Generando archivo CSV FIXTURES2...");
+    if (generateCSV) {        
 		// Lógica para generar el CSV
 		console.log("Generando archivo CSV FIXTURES...");
 		const fechaActual = new Date(); // Obtiene la fecha actual
@@ -198,6 +196,10 @@ function generateCsvMatchData(matchData, nombreArchivo) {
           if (includeStatsMatch) {
             const statsMatch = await getStatsMatch(browser, id, i);
             console.log(`StatsMatch ${i}:`, statsMatch);
+			if(generateCSV==true){	
+			console.log("Generando archivo CSV STATS_MATCH...");			
+			generateCsvMatchData(matchData,nombreArchivo+'_STATS_MATCH_' + i);		  
+			}
           }
 
           if (includePointByPoint) {
@@ -210,14 +212,10 @@ function generateCsvMatchData(matchData, nombreArchivo) {
     } else {
       allMatchIdLists = await getMatchIdList(browser, country, league);
       // Iterate over the eventDataList array and log each 
-      console.log("[season : " + allMatchIdLists.additionalContent + "]");
-      allMatchIdLists.eventDataList.forEach((eventData) => {
-        console.log("matchId - " + eventData["matchId"]);
-        console.log("matchEvent - " + eventData["eventTime"]);
-      });
+    console.log("[season : " + allMatchIdLists.additionalContent + "]");    
 	  console.log("generateCSV" , generateCSV);
 		// Generar CSV si generateCSV es verdadero
-		if (generateCSV) {
+		if (generateCSV==true) {
 		  // Lógica para generar el CSV
 		  console.log("Generando archivo CSV...");
 		  const fechaActual = new Date(); // Obtiene la fecha actual

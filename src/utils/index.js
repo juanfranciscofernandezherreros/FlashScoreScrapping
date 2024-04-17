@@ -8,7 +8,7 @@ export const getMatchIdList = async (browser, country, league) => {
   const page = await browser.newPage();
   const url = `${BASE_URL}/basketball/${country}/${league}/results/`;
   await page.goto(url);
-
+  console.log(url);
   // Extrayendo el contenido específico por su clase
   const additionalContent = await page.$eval('.heading__info', (element) => {
     return element ? element.textContent.trim() : null;
@@ -32,10 +32,42 @@ export const getMatchIdList = async (browser, country, league) => {
       (element) => {
         const matchId = element?.id?.replace('g_1_', '');
         const eventTime = element.querySelector('.event__time').textContent.trim();
-        return { matchId, eventTime };
+        const homeTeamElement = element.querySelector('.event__participant.event__participant--away');
+        const awayTeamElement = element.querySelector('.event__participant.event__participant--home');
+        const homeScoreElement = element.querySelector('.event__score.event__score--home');
+        const awayScoreElement = element.querySelector('.event__score.event__score--away');
+        const homeScore1Element = element.querySelector('.event__part.event__part--home.event__part--1');
+        const homeScore2Element = element.querySelector('.event__part.event__part--home.event__part--2');
+        const homeScore3Element = element.querySelector('.event__part.event__part--home.event__part--3');
+        const homeScore4Element = element.querySelector('.event__part.event__part--home.event__part--4');
+        const homeScore5Element = element.querySelector('.event__part.event__part--home.event__part--5');
+        const awayScore1Element = element.querySelector('.event__part.event__part--away.event__part--1');
+        const awayScore2Element = element.querySelector('.event__part.event__part--away.event__part--2');
+        const awayScore3Element = element.querySelector('.event__part.event__part--away.event__part--3');
+        const awayScore4Element = element.querySelector('.event__part.event__part--away.event__part--4');
+        const awayScore5Element = element.querySelector('.event__part.event__part--away.event__part--5');
+  
+        const homeTeam = homeTeamElement ? homeTeamElement.textContent.trim() : null;
+        const awayTeam = awayTeamElement ? awayTeamElement.textContent.trim() : null;
+        const homeScore = homeScoreElement ? homeScoreElement.textContent.trim() : null;
+        const awayScore = awayScoreElement ? awayScoreElement.textContent.trim() : null;
+        const homeScore1 = homeScore1Element ? homeScore1Element.textContent.trim() : null;
+        const homeScore2 = homeScore2Element ? homeScore2Element.textContent.trim() : null;
+        const homeScore3 = homeScore3Element ? homeScore3Element.textContent.trim() : null;
+        const homeScore4 = homeScore4Element ? homeScore4Element.textContent.trim() : null;
+        const homeScore5 = homeScore5Element ? homeScore5Element.textContent.trim() : null;
+        const awayScore1 = awayScore1Element ? awayScore1Element.textContent.trim() : null;
+        const awayScore2 = awayScore2Element ? awayScore2Element.textContent.trim() : null;
+        const awayScore3 = awayScore3Element ? awayScore3Element.textContent.trim() : null;
+        const awayScore4 = awayScore4Element ? awayScore4Element.textContent.trim() : null;
+        const awayScore5 = awayScore5Element ? awayScore5Element.textContent.trim() : null;
+  
+        return { matchId, eventTime, homeTeam, awayTeam, homeScore, awayScore, homeScore1, homeScore2, homeScore3, homeScore4, homeScore5, awayScore1, awayScore2, awayScore3, awayScore4, awayScore5 };
       }
     );
   });
+  
+
 
   await page.close();
   return { eventDataList, additionalContent };
