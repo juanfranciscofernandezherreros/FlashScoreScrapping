@@ -8,12 +8,7 @@ export const getMatchIdList = async (browser, country, league) => {
   const page = await browser.newPage();
   const url = `${BASE_URL}/basketball/${country}/${league}/results/`;
   await page.goto(url);
-  console.log(url);
-  // Extrayendo el contenido específico por su clase
-  const additionalContent = await page.$eval('.heading__info', (element) => {
-    return element ? element.textContent.trim() : null;
-  });
-
+  console.log(url);  
   while (true) {
     try {
       await page.evaluate(async (_) => {
@@ -70,7 +65,7 @@ export const getMatchIdList = async (browser, country, league) => {
 
 
   await page.close();
-  return { eventDataList, additionalContent };
+  return { eventDataList };
 };
 
 
