@@ -69,7 +69,7 @@ import { url } from "inspector";
     console.log("Generando archivo CSV...");
     const fechaActual = new Date();
     const formattedFecha = formatFecha(fechaActual);
-    const nombreArchivo = `RESULTS_${formattedFecha}_${country}_${league}`;
+    const nombreArchivo = `src/csv/RESULTS_${formattedFecha}_${country}_${league}`;
     generateCSVData(allMatchIdLists.eventDataList, nombreArchivo);
   } else {
     console.log("New URL is provided:", newUrl);

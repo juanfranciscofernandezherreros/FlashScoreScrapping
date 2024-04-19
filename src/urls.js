@@ -17,7 +17,7 @@ async function main(url) {
 
   const fechaActual = new Date();
   const formattedFecha = formatFecha(fechaActual);
-  const nombreArchivo = `src/csv/URLS_${formattedFecha}`;
+  const nombreArchivo = `src/csv/URLS_${formattedFecha}.csv`;
   generateCSVDataList(basketballHrefs, nombreArchivo);
   return basketballHrefs; 
 }
