@@ -1,5 +1,6 @@
 import puppeteer from "puppeteer";
-import fs from "fs";
+import { generateCSVResultsMatchs } from "./csvGenerator.js";
+import {formatFecha } from "./fecha.js";
 
 import {
   getMatchIdList,
@@ -86,32 +87,3 @@ import { url } from "inspector";
     generateCSVResultsMatchs(allMatchIdLists.eventDataList, nombreArchivo);
   }
 })();
-
-function formatFecha(fecha) {
-  const year = fecha.getFullYear();
-  const month = String(fecha.getMonth() + 1).padStart(2, '0');
-  const day = String(fecha.getDate()).padStart(2, '0');
-  const hours = String(fecha.getHours()).padStart(2, '0');
-  const minutes = String(fecha.getMinutes()).padStart(2, '0');
-  const seconds = String(fecha.getSeconds()).padStart(2, '0');
-  return `${year}${month}${day}${hours}${minutes}${seconds}`;
-}
-
-function generateCSVResultsMatchs(data,nombreArchivo) {
-  if (!data || data.length === 0) {
-    console.log("No hay datos para generar el archivo CSV.");
-    return;
-  }
-
-  const headers = Object.keys(data[0]);
-  const csvContent = data.map(obj =>
-    headers.map(key => obj[key]).join(",")
-  ).join("\n");
-  const headerRow = headers.join(",") + "\n";
-  const csvData = headerRow + csvContent;
-  fs.writeFile(`${nombreArchivo}.csv`, csvData, (err) => {
-    if (err) throw err;
-    console.log('Los datos se han exportado correctamente a results.csv');
-    process.exit(0); // Termina el proceso con código de salida 0 (éxito)
-  });
-}
