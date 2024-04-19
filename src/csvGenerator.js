@@ -18,3 +18,21 @@ export function generateCSVData(data,nombreArchivo) {
       process.exit(0); // Termina el proceso con código de salida 0 (éxito)
     });
   }
+
+  export function generateCSVDataList(data, fileName) {
+    if (!data || data.length === 0) {
+      console.log("No hay datos para generar el archivo CSV.");
+      return;
+    }
+  
+    // Convertir la lista de datos en un string CSV
+    const csvContent = data.join("\n");
+  
+    fs.writeFile(fileName, csvContent, (err) => {
+      if (err) {
+        console.error('Error al escribir el archivo CSV:', err);
+        return;
+      }
+      console.log(`Los datos se han exportado correctamente a ${fileName}`);
+    });
+  }

@@ -1,4 +1,6 @@
 import puppeteer from 'puppeteer';
+import { generateCSVDataList } from "./csvGenerator.js";
+import {formatFecha } from "./fecha.js";
 
 async function main(url) {
   if (!url) {
@@ -9,11 +11,15 @@ async function main(url) {
   console.log(`La URL proporcionada es ${url}.`);
 
   const basketballHrefs = await extractBasketballHrefs(url);
-  
-  // Print all extracted basketball hrefs
   for (const href of basketballHrefs) {
-    console.log(`Enlace extraído que cumple con los criterios: ${href}`);
+    console.log(` ${href}`);
   }
+
+  const fechaActual = new Date();
+  const formattedFecha = formatFecha(fechaActual);
+  const nombreArchivo = `URLS_${formattedFecha}`;
+  generateCSVDataList(basketballHrefs, nombreArchivo);
+  return basketballHrefs; 
 }
 
 async function extractBasketballHrefs(url) {
@@ -37,16 +43,13 @@ async function extractBasketballHrefs(url) {
   }
 }
 
-// Check if a URL argument is provided
+// Verificar si se proporciona un argumento de URL
 const urlArgIndex = process.argv.indexOf('--url');
 const urlToScrape = urlArgIndex !== -1 ? process.argv[urlArgIndex + 1] : null;
 
 if (!urlToScrape) {
-  console.error('Error: No URL provided. Please use --url argument.');
+  console.error('Error: No se proporcionó ninguna URL. Por favor, use el argumento --url.');
 } else {
-  getUrls(urlToScrape);
-}
-
-async function getUrls(url) {
-  await main(url);
+  const basketballUrls = await main(urlToScrape); // Obtener las URLs utilizando la función main
+  console.log("Basketball URLs:", basketballUrls); // Imprimir la lista de URLs
 }
