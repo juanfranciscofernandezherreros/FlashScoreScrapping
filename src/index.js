@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer";
-import { generateCSVResultsMatchs } from "./csvGenerator.js";
+import { generateCSVData } from "./csvGenerator.js";
 import {formatFecha } from "./fecha.js";
 
 import {
@@ -26,6 +26,7 @@ import { url } from "inspector";
   let includePointByPoint = true; 
   let generateCSV = false;
   let allMatchIdLists = [];
+  let allFixturesLists = [];
 
   process.argv?.slice(2)?.map(arg => {
     if (arg.includes("country="))
@@ -64,26 +65,40 @@ import { url } from "inspector";
     console.log("Argument country ", country);
     console.log("Argument league ", league);
     allMatchIdLists = await getMatchIdList(browser, country, league);
-    console.log("generateCSV", generateCSV);
+    console.log("generateCSV", generateCSVData);
     console.log("Generando archivo CSV...");
     const fechaActual = new Date();
     const formattedFecha = formatFecha(fechaActual);
     const nombreArchivo = `RESULTS_${formattedFecha}_${country}_${league}`;
-    generateCSVResultsMatchs(allMatchIdLists.eventDataList, nombreArchivo);
+    generateCSVData(allMatchIdLists.eventDataList, nombreArchivo);
   } else {
     console.log("New URL is provided:", newUrl);
     const browser = await puppeteer.launch({ headless });
     console.log("----");
-    const urlParts = newUrl.split("/"); // Divide la URL en partes usando "/"
-    // El país estará en la posición 4 y la liga en la posición 5, si la URL sigue un formato específico
-    const country = urlParts[4];
-    const league = urlParts[5];
-    allMatchIdLists = await getMatchIdList(browser, country, league);
-    console.log("generateCSV", generateCSV);
-    console.log("Generando archivo CSV...");
-    const fechaActual = new Date();
-    const formattedFecha = formatFecha(fechaActual);
-    const nombreArchivo = `RESULTS_${formattedFecha}_${country}_${league}`;
-    generateCSVResultsMatchs(allMatchIdLists.eventDataList, nombreArchivo);
+    if (newUrl.includes("results")) {
+      const urlParts = newUrl.split("/"); 
+      const country = urlParts[4];
+      const league = urlParts[5];
+      allMatchIdLists = await getMatchIdList(browser, country, league);
+      console.log("generateCSV", generateCSVData);
+      console.log("Generando archivo CSV...");
+      const fechaActual = new Date();
+      const formattedFecha = formatFecha(fechaActual);
+      const nombreArchivo = `RESULTS_${formattedFecha}_${country}_${league}`;
+      generateCSVData(allMatchIdLists.eventDataList, nombreArchivo);
+    }
+    if (newUrl.includes("fixtures")) {
+      console.log("FIXTURES");
+      const urlParts = newUrl.split("/"); 
+      const country = urlParts[4];
+      const league = urlParts[5];
+      allFixturesLists = await getFixtures(browser, country, league);
+      console.log("generateCSV", generateCSVData);
+      console.log("Generando archivo CSV...");
+      const fechaActual = new Date();
+      const formattedFecha = formatFecha(fechaActual);
+      const nombreArchivo = `FIXTURES_${formattedFecha}_${country}_${league}`;
+      generateCSVData(allFixturesLists, nombreArchivo);
+    }
   }
 })();

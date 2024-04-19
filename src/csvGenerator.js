@@ -1,6 +1,6 @@
-import fs from "fs";
+import fs from "fs"; 
 
-export function generateCSVResultsMatchs(data,nombreArchivo) {
+export function generateCSVData(data,nombreArchivo) {
     if (!data || data.length === 0) {
       console.log("No hay datos para generar el archivo CSV.");
       return;
