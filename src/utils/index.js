@@ -126,13 +126,10 @@ export const getFixtures = async (browser, country, league) => {
 
 export const getMatchData = async (browser, matchId) => {
   const page = await browser.newPage();  
-  const prefix = "g_3_";
-  const startIndex = matchId.indexOf(prefix) + prefix.length;
-  const match = matchId.substring(startIndex);
-  const url = `${BASE_URL}/match/${match}/#/match-summary/match-summary`;
+  const url = `${BASE_URL}/match/${matchId}/#/match-summary/match-summary`;
+  console.log(url);
   await page.goto(url);
   await new Promise(resolve => setTimeout(resolve, 1500));
-
   const data = await page.evaluate(async _ => ({
     date: document.querySelector(".duelParticipant__startTime")?.outerText,
     home: {

@@ -36,3 +36,61 @@ export function generateCSVData(data,nombreArchivo) {
       console.log(`Los datos se han exportado correctamente a ${fileName}`);
     });
   }
+
+  export function generateCSVSummary(data, fileName) {
+    if (!data || !data.home || !data.away) {
+      console.log("Los datos del partido son inválidos.");
+      return;
+    }
+  
+    const csvHeaders = [
+      "Date",
+      "HomTeam",
+      "AwayTeam",
+      "TotalLocal",
+      "1stQuarterScoreHome",
+      "2ndQuarterScoreHome",
+      "3rdQuarterScoreHome",
+      "4thQuarterScoreHome",
+      "ExtraQuarterScoreHome",
+      "TotalAway",
+      "1stQuarterScoreAway",
+      "2ndQuarterScoreAway",
+      "3rdQuarterScoreAway",
+      "4thQuarterScoreAway",
+      "ExtraQuarterScoreAway",
+    ];    
+  
+    const csvRows = [
+      [
+        data.date,
+        data.home.name,
+        data.away.name,        
+        data.result.home,
+        data.firstLocal,
+        data.secondLocal,
+        data.thirstLocal,
+        data.fourthLocal,
+        data.extraLocal,
+        data.result.away,
+        data.firstAway,
+        data.secondAway,
+        data.thirstAway,
+        data.fourthAway,
+        data.extraAway,
+      ]
+    ];
+  
+    // Convert data to CSV format
+    const csvContent = [csvHeaders.join(",")].concat(
+      csvRows.map(row => row.join(","))
+    ).join("\n");
+  
+    // Output CSV content to console (for now)
+    console.log(csvContent);
+    fs.writeFile(`${fileName}.csv`, csvContent, (err) => {
+      if (err) throw err;
+      console.log(`Los datos se han exportado correctamente a ${fileName}.csv`);
+      process.exit(0); // Termina el proceso con código de salida 0 (éxito)
+    });
+}

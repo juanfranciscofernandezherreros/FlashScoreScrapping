@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer";
-import { generateCSVData } from "./csvGenerator.js";
+import { generateCSVData , generateCSVSummary} from "./csvGenerator.js";
 import {formatFecha } from "./fecha.js";
 
 import {
@@ -27,6 +27,7 @@ import { url } from "inspector";
   let generateCSV = false;
   let allMatchIdLists = [];
   let allFixturesLists = [];
+  let allMatchData = [];
 
   process.argv?.slice(2)?.map(arg => {
     if (arg.includes("country="))
@@ -46,22 +47,27 @@ import { url } from "inspector";
     if (arg.includes("action="))
       action = arg.split("action=")?.[1] ?? action;
     if (arg.includes("ids="))
-      ids = arg.split("ids=")?.[1]?.split(",") ?? ids;
-    if (arg.includes("includeMatchData="))
-      includeMatchData = arg.split("includeMatchData=")?.[1]?.toLowerCase() === "true";
-    if (arg.includes("includeStatsPlayer="))
-      includeStatsPlayer = arg.split("includeStatsPlayer=")?.[1]?.toLowerCase() === "true";
-    if (arg.includes("includeStatsMatch="))
-      includeStatsMatch = arg.split("includeStatsMatch=")?.[1]?.toLowerCase() === "true";
-    if (arg.includes("includePointByPoint="))
-      includePointByPoint = arg.split("includePointByPoint=")?.[1]?.toLowerCase() === "true"    
+      ids = arg.split("ids=")?.[1]?.split(",") ?? ids;      
     if (arg.includes("generateCSV="))
         generateCSV = arg.split("generateCSV=")?.[1]?.toLowerCase() === "true";
   });
   
+  if(ids!=null) {
+    if (includeMatchData) {
+      console.log("INCLUDE MATCH DATA", includeMatchData);
+      const browser = await puppeteer.launch({ headless });   
+      const modifiedIds = ids.map(id => {
+        const parts = id.split("_");
+        return parts[2];
+      });    
+      allMatchData = await getMatchData(browser, modifiedIds);  
+      const nombreArchivo = `src/csv/MATCH_SUMMARY_${ids}`;
+      generateCSVSummary(allMatchData, nombreArchivo);
+    }
+  }
   if (newUrl === null || newUrl === "") {
     console.log("New URL is not provided. It's null or empty.");  
-    const browser = await puppeteer.launch({ headless });
+    const browser = await puppeteer.launch({ headless });    
     console.log("Argument country ", country);
     console.log("Argument league ", league);
     allMatchIdLists = await getMatchIdList(browser, country, league);
