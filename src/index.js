@@ -7,6 +7,7 @@ import {
   getFixtures,
   getMatchData,
   getStatsPlayer,
+  getStatsMatch,
 } from "./utils/index.js";
 
 (async () => {
@@ -16,6 +17,7 @@ import {
   let ids = null;
   let includeMatchData = false;
   let includeStatsPlayer = false;
+  let includeStatsMatch = false;
 
   process.argv.slice(2).forEach(arg => {
     if (arg.includes("country="))
@@ -34,6 +36,8 @@ import {
       includeMatchData = true;
     if (arg.includes("includeStatsPlayer=true"))
       includeStatsPlayer = true;
+    if (arg.includes("includeStatsMatch=true"))
+      includeStatsMatch = true;
   });
 
   const browser = await puppeteer.launch({ headless: true }); // Cambio aquí
@@ -51,6 +55,9 @@ import {
       const allStatsPlayer = await getStatsPlayer(browser, modifiedIds);
       const nombreArchivo = `src/csv/STATS_PLAYER_${ids}`;
       generateCSVPlayerStats(allStatsPlayer, nombreArchivo);
+    }
+    if (includeStatsMatch) {
+      console.log("INCLUDE STATS MATCH", includeStatsMatch);
     }
   } else if (newUrl) {
     console.log("New URL is provided:", newUrl);
