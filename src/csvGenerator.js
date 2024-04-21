@@ -95,9 +95,6 @@ export function generateCSVData(data,nombreArchivo) {
 
 export function generateCSVPlayerStats(data, fileName) {
   console.log("generateCSVPlayerStats");
-  console.log(data[0].name);
-  console.log(data[0].stats);
-
   // Encabezados de las columnas
   const headers = ['Name', ...Object.keys(data[0].stats)]; // Añadir 'Name' como primer encabezado
   const headerRow = headers.join(",") + "\n";
