@@ -200,50 +200,50 @@ export const getStatsPlayer = async (browser, matchId) => {
 
 
 export const getStatsMatch = async (browser, matchId, playerIndex) => {
-  const page = await browser.newPage();  
-  const prefix = "g_3_";
-  const startIndex = matchId.indexOf(prefix) + prefix.length;
-  const match = matchId.substring(startIndex);
-  const url = `${BASE_URL}/match/${match}/#/match-summary/match-statistics/${playerIndex}`;
+  const page = await browser.newPage();    
+  const url = `${BASE_URL}/match/${matchId}/#/match-summary/match-statistics/${playerIndex}`;
   console.log(url);
   await page.goto(url);
 
-  // Esperar a que los elementos estén disponibles
-  await page.waitForSelector('div._category_rbkfg_5, div._value_1efsh_5._homeValue_1efsh_10, div._value_1efsh_5._awayValue_1efsh_14');
+  try {
+    // Espera a que se carguen los elementos de interés
+    await page.waitForSelector('div.sectionHeader');
 
-  // Obtener todos los elementos que coinciden con los selectores
-  const categoryElements = await page.$$('div._category_rbkfg_5');
-  const homeValueElements = await page.$$('div._value_1efsh_5._homeValue_1efsh_10');
-  const awayValueElements = await page.$$('div._value_1efsh_5._awayValue_1efsh_14');
+    // Obtiene el contenido HTML de la sección de estadísticas
+    const content = await page.$eval('div.section', section => {
+      // Obtén todos los elementos de fila dentro de la sección de estadísticas
+      const rows = section.querySelectorAll('div._row_n1rcj_9');
 
-  // Extraer datos de los elementos
-  const categories = await Promise.all(categoryElements.map(async (element) => {
-    const text = await element.evaluate(node => node.innerText);
-    return text;
-  }));
+      // Crea un array para almacenar los datos de cada fila
+      const rowData = [];
 
-  const homeValues = await Promise.all(homeValueElements.map(async (element) => {
-    const text = await element.evaluate(node => node.innerText);
-    return text;
-  }));
+      // Itera sobre cada fila
+      rows.forEach(row => {
+        // Obtiene el texto de la categoría y los valores local y visitante
+        const categoryName = row.querySelector('div._category_1vze3_5 strong').textContent.trim();
+        const homeValue = row.querySelector('div._homeValue_bwnrp_10 strong').textContent.trim();
+        const awayValue = row.querySelector('div._awayValue_bwnrp_14 strong').textContent.trim();
 
-  const awayValues = await Promise.all(awayValueElements.map(async (element) => {
-    const text = await element.evaluate(node => node.innerText);
-    return text;
-  }));
+        // Agrega los datos de la fila al array
+        rowData.push({ categoryName, homeValue, awayValue });
+      });
 
-  // Cerrar la página después de obtener los datos
-  await page.close();
+      // Devuelve los datos de todas las filas
+      return rowData;
+    });
 
-  // Combina la información en un objeto antes de devolverlo
-  const data = categories.map((category, index) => ({
-    category,
-    homeValue: homeValues[index],
-    awayValue: awayValues[index],
-  }));
-
-  return data;
+    // Devuelve los datos de la sección de estadísticas
+    return content;
+  } catch (error) {
+    console.error("Error al obtener las estadísticas del partido:", error);
+    return null; // Devuelve null en caso de error
+  } finally {
+    // Cierra la página después de obtener el contenido
+    await page.close();
+  }
 };
+
+
 
 export const getDateMatch = async (browser, matchId) => {
   const match = matchId.split('_')[2];

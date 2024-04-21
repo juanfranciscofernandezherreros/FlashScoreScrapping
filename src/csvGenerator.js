@@ -111,3 +111,31 @@ export function generateCSVPlayerStats(data, fileName) {
   // Escribir en el archivo
   fs.writeFileSync(fileName, csvContent);
 }
+
+export function generateCSVStatsMatch(data, fileName) {
+  console.log("generateCSVStatsMatch");
+
+  if (!data || data.length === 0) {
+    console.log("No hay datos para generar el archivo CSV.");
+    return;
+  }
+
+  // Encabezados de las columnas
+  const headers = ['Category Name', 'Home Value', 'Away Value'];
+  const rows = data.map(item => {
+    const values = [item.categoryName, item.homeValue, item.awayValue];
+    return values.join(",");
+  });
+
+  // Contenido completo del CSV
+  const csvContent = [headers.join(","), ...rows].join("\n");
+
+  // Escribir en el archivo
+  fs.writeFile(`${fileName}.csv`, csvContent, (err) => {
+    if (err) {
+      console.error('Error al escribir el archivo CSV:', err);
+      return;
+    }
+    console.log(`Los datos se han exportado correctamente a ${fileName}.csv`);
+  });
+}

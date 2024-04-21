@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer";
-import { generateCSVData, generateCSVSummary, generateCSVPlayerStats } from "./csvGenerator.js";
+import { generateCSVData, generateCSVSummary, generateCSVPlayerStats, generateCSVStatsMatch } from "./csvGenerator.js";
 import { formatFecha } from "./fecha.js";
 
 import {
@@ -58,6 +58,9 @@ import {
     }
     if (includeStatsMatch) {
       console.log("INCLUDE STATS MATCH", includeStatsMatch);
+      const allStatsMatch = await getStatsMatch(browser, modifiedIds,0);
+      const nombreArchivo = `src/csv/STATS_MATCH_${ids}`;
+      generateCSVStatsMatch(allStatsMatch,nombreArchivo);
     }
   } else if (newUrl) {
     console.log("New URL is provided:", newUrl);
