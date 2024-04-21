@@ -198,7 +198,6 @@ export const getStatsPlayer = async (browser, matchId) => {
   return playerData;
 };
 
-
 export const getStatsMatch = async (browser, matchId, playerIndex) => {
   const page = await browser.newPage();    
   const url = `${BASE_URL}/match/${matchId}/#/match-summary/match-statistics/${playerIndex}`;
@@ -210,26 +209,30 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
     await page.waitForSelector('div.sectionHeader');
 
     // Obtiene el contenido HTML de la sección de estadísticas
-    const content = await page.$eval('div.section', section => {
-      // Obtén todos los elementos de fila dentro de la sección de estadísticas
-      const rows = section.querySelectorAll('div._row_n1rcj_9');
-
-      // Crea un array para almacenar los datos de cada fila
-      const rowData = [];
+    const content = await page.$$eval('div._row_n1rcj_9', rows => {
+      // Crea un mapa para almacenar los datos de todas las filas
+      const rowDataMap = new Map();
 
       // Itera sobre cada fila
       rows.forEach(row => {
+        // Encuentra todos los elementos hijos que tengan el atributo data-testid
+        const testIds = Array.from(row.querySelectorAll('[data-testid]'))
+          .map(element => element.getAttribute('data-testid'));
+
         // Obtiene el texto de la categoría y los valores local y visitante
         const categoryName = row.querySelector('div._category_1vze3_5 strong').textContent.trim();
         const homeValue = row.querySelector('div._homeValue_bwnrp_10 strong').textContent.trim();
         const awayValue = row.querySelector('div._awayValue_bwnrp_14 strong').textContent.trim();
 
-        // Agrega los datos de la fila al array
-        rowData.push({ categoryName, homeValue, awayValue });
+        // Verifica si ya existe un objeto con el mismo testIds
+        if (!rowDataMap.has(testIds)) {
+          // Agrega los datos de la fila al mapa
+          rowDataMap.set(testIds, { testIds, categoryName, homeValue, awayValue });
+        }
       });
 
-      // Devuelve los datos de todas las filas
-      return rowData;
+      // Devuelve los valores del mapa como un array
+      return Array.from(rowDataMap.values());
     });
 
     // Devuelve los datos de la sección de estadísticas
@@ -242,6 +245,8 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
     await page.close();
   }
 };
+
+
 
 
 
