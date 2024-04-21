@@ -10,3 +10,7 @@ npm run start ids=g_3_IHW1gRfp includeMatchData=true headless
 npm run start ids=g_3_IHW1gRfp includeMatchData=true includeStatsPlayer=true headless
 
 npm run start ids=g_3_IHW1gRfp includeStatsMatch=true headless
+
+npm run start ids=g_3_IHW1gRfp includeStatsMatch=true headless
+
+npm run start ids=g_3_IHW1gRfp includePointByPoint=true headless

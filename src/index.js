@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer";
-import { generateCSVData, generateCSVSummary, generateCSVPlayerStats, generateCSVStatsMatch } from "./csvGenerator.js";
+import { generateCSVData, generateCSVSummary, generateCSVPlayerStats, generateCSVStatsMatch , generateCSVPointByPoint } from "./csvGenerator.js";
 import { formatFecha } from "./fecha.js";
 
 import {
@@ -8,6 +8,7 @@ import {
   getMatchData,
   getStatsPlayer,
   getStatsMatch,
+  getPointByPoint,
 } from "./utils/index.js";
 
 (async () => {
@@ -18,6 +19,7 @@ import {
   let includeMatchData = false;
   let includeStatsPlayer = false;
   let includeStatsMatch = false;
+  let includePointByPoint = false;
 
   process.argv.slice(2).forEach(arg => {
     if (arg.includes("country="))
@@ -38,6 +40,8 @@ import {
       includeStatsPlayer = true;
     if (arg.includes("includeStatsMatch=true"))
       includeStatsMatch = true;
+      if (arg.includes("includePointByPoint=true"))
+      includePointByPoint = true;
   });
 
   const browser = await puppeteer.launch({ headless: true }); // Cambio aquí
@@ -63,6 +67,15 @@ import {
           const nombreArchivo = `src/csv/STATS_MATCH_${ids}_${i}`;
           generateCSVStatsMatch(allStatsMatch, nombreArchivo);
       }
+    }
+
+    if (includePointByPoint) {
+      console.log("INCLUDE PONT BY POINT", includePointByPoint);
+      for (let i = 0; i <= 4; i++) {
+          const allPointByPoint = await getPointByPoint(browser, modifiedIds, i);
+          const nombreArchivo = `src/csv/POINT_BY_POINT_${ids}_${i}`;
+          generateCSVPointByPoint(allPointByPoint,nombreArchivo);
+        }
     }
   
   } else if (newUrl) {

@@ -139,3 +139,18 @@ export function generateCSVStatsMatch(data, fileName) {
     console.log(`Los datos se han exportado correctamente a ${fileName}.csv`);
   });
 }
+
+// Función para generar el archivo CSV.
+export function generateCSVPointByPoint(data, fileName) {
+  console.log("generateCSVPointByPoint");
+  // Formatea los datos en formato CSV.
+  const csvData = data.map(item => item.score).join('\n');
+  // Escribe los datos en un archivo CSV.
+  fs.writeFile(fileName + '.csv', csvData, (err) => {
+      if (err) {
+          console.error('Error al escribir el archivo CSV:', err);
+      } else {
+          console.log('Archivo CSV generado exitosamente:', fileName + '.csv');
+      }
+  });
+}

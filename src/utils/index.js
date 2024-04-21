@@ -286,20 +286,12 @@ const teamNameLocal = data.teamNameLocal;
 const teamLinkLocal = data.teamLinkLocal;
 const teamNameAway = data.teamNameAway;
 const teamLinkAway = data.teamLinkAway;
-
-
   return { matchHistoryRows, teamNameLocal, teamNameAway,teamLinkLocal,teamLinkAway };
 };
 
-
-
-
 export const getPointByPoint = async (browser, matchId,playerIndex) => {
-  const page = await browser.newPage();
-  const prefix = "g_3_";
-  const startIndex = matchId.indexOf(prefix) + prefix.length;
-  const match = matchId.substring(startIndex);
-  const url = `${BASE_URL}/match/${match}/#/match-summary/point-by-point/${playerIndex}`;
+  const page = await browser.newPage();  
+  const url = `${BASE_URL}/match/${matchId}/#/match-summary/point-by-point/${playerIndex}`;
   console.log(url);
   await page.goto(url);
   await new Promise(resolve => setTimeout(resolve, 1500));
