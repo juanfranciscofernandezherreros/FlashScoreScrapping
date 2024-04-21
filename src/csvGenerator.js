@@ -15,7 +15,6 @@ export function generateCSVData(data,nombreArchivo) {
     fs.writeFile(`${nombreArchivo}.csv`, csvData, (err) => {
       if (err) throw err;
       console.log('Los datos se han exportado correctamente a results.csv');
-      process.exit(0); // Termina el proceso con código de salida 0 (éxito)
     });
   }
 
@@ -91,6 +90,27 @@ export function generateCSVData(data,nombreArchivo) {
     fs.writeFile(`${fileName}.csv`, csvContent, (err) => {
       if (err) throw err;
       console.log(`Los datos se han exportado correctamente a ${fileName}.csv`);
-      process.exit(0); // Termina el proceso con código de salida 0 (éxito)
     });
+}
+
+export function generateCSVPlayerStats(data, fileName) {
+  console.log("generateCSVPlayerStats");
+  console.log(data[0].name);
+  console.log(data[0].stats);
+
+  // Encabezados de las columnas
+  const headers = ['Name', ...Object.keys(data[0].stats)]; // Añadir 'Name' como primer encabezado
+  const headerRow = headers.join(",") + "\n";
+
+  // Filas de datos
+  const rows = data.map(player => {
+    const values = [player.name, ...headers.slice(1).map(header => player.stats[header])]; // Añadir el nombre del jugador como primer valor
+    return values.join(",");
+  }).join("\n");
+
+  // Contenido completo del CSV
+  const csvContent = headerRow + rows;
+
+  // Escribir en el archivo
+  fs.writeFileSync(fileName, csvContent);
 }

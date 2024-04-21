@@ -162,20 +162,15 @@ export const getMatchData = async (browser, matchId) => {
 }
 
 export const getStatsPlayer = async (browser, matchId) => {
-  const page = await browser.newPage();
-  const prefix = "g_3_";
-  const startIndex = matchId.indexOf(prefix) + prefix.length;
-  const match = matchId.substring(startIndex);
-  const url = `${BASE_URL}/match/${match}/#/match-summary/player-statistics/0`;
+  const page = await browser.newPage();  
+  const url = `${BASE_URL}/match/${matchId}/#/match-summary/player-statistics/0`;
   await page.goto(url);
   await new Promise((resolve) => setTimeout(resolve, 1500));
   const playerData = await page.evaluate(() => {
     const playerRows = document.querySelectorAll("div.playerStatsTable__row");
     const playerData = [];
-
     const headerCells = document.querySelectorAll(".playerStatsTable__headerCell");
     const statHeaders = [];
-
     statHeaders.push("TEAM");
     headerCells.forEach((cell) => {      
       statHeaders.push(cell.textContent.trim());
@@ -186,26 +181,23 @@ export const getStatsPlayer = async (browser, matchId) => {
       const playerStats = Array.from(row.querySelectorAll("div.playerStatsTable__cell")).map((element) =>
         element.textContent.trim()
       );
-      // Crear un objeto con todas las estadísticas del jugador
+      // Create an object with all the player statistics
       const playerStatsObject = {};
 
-      // Recorrer todas las estadísticas y agregarlas al objeto
+      // Iterate through all the statistics and add them to the object
       statHeaders.forEach((header, index) => {
         playerStatsObject[header] = playerStats[index];
       });
-
-
       playerData.push({
         name: playerName,
         stats: playerStatsObject,
       });
     });
-
-    return playerData;
+    return playerData; // Return the playerData object
   });
-
   return playerData;
 };
+
 
 export const getStatsMatch = async (browser, matchId, playerIndex) => {
   const page = await browser.newPage();  

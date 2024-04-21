@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer";
-import { generateCSVData , generateCSVSummary} from "./csvGenerator.js";
+import { generateCSVData ,generateCSVDataList , generateCSVSummary, generateCSVPlayerStats} from "./csvGenerator.js";
 import {formatFecha } from "./fecha.js";
 
 import {
@@ -28,6 +28,7 @@ import { url } from "inspector";
   let allMatchIdLists = [];
   let allFixturesLists = [];
   let allMatchData = [];
+  let allStatsPlayer = [];
 
   process.argv?.slice(2)?.map(arg => {
     if (arg.includes("country="))
@@ -53,16 +54,23 @@ import { url } from "inspector";
   });
   
   if(ids!=null) {
+    const modifiedIds = ids.map(id => {
+      const parts = id.split("_");
+      return parts[2];
+    });
     if (includeMatchData) {
       console.log("INCLUDE MATCH DATA", includeMatchData);
-      const browser = await puppeteer.launch({ headless });   
-      const modifiedIds = ids.map(id => {
-        const parts = id.split("_");
-        return parts[2];
-      });    
+      const browser = await puppeteer.launch({ headless });             
       allMatchData = await getMatchData(browser, modifiedIds);  
       const nombreArchivo = `src/csv/MATCH_SUMMARY_${ids}`;
       generateCSVSummary(allMatchData, nombreArchivo);
+    }
+    if(includeStatsPlayer){
+      console.log("INCLUDE STATS PLAYER", includeStatsPlayer);
+      const browser = await puppeteer.launch({ headless });             
+      allStatsPlayer = await getStatsPlayer(browser, modifiedIds);
+      const nombreArchivo = `src/csv/STATS_PLAYER${ids}`; 
+      generateCSVPlayerStats(allStatsPlayer,nombreArchivo);
     }
   }
   if (newUrl === null || newUrl === "") {
