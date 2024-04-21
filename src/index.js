@@ -58,10 +58,13 @@ import {
     }
     if (includeStatsMatch) {
       console.log("INCLUDE STATS MATCH", includeStatsMatch);
-      const allStatsMatch = await getStatsMatch(browser, modifiedIds,0);
-      const nombreArchivo = `src/csv/STATS_MATCH_${ids}`;
-      generateCSVStatsMatch(allStatsMatch,nombreArchivo);
+      for (let i = 0; i <= 5; i++) {
+          const allStatsMatch = await getStatsMatch(browser, modifiedIds, i);
+          const nombreArchivo = `src/csv/STATS_MATCH_${ids}_${i}`;
+          generateCSVStatsMatch(allStatsMatch, nombreArchivo);
+      }
     }
+  
   } else if (newUrl) {
     console.log("New URL is provided:", newUrl);
     if (newUrl.includes("results")) {
