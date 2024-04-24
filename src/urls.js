@@ -1,8 +1,8 @@
 import puppeteer from 'puppeteer';
 import { generateCSVDataList } from "./csvGenerator.js";
-import {formatFecha } from "./fecha.js";
+import { formatFecha } from "./fecha.js";
 
-async function main(url) {
+export const getUrls = async function main(url) { // Marcamos main como async
   if (!url) {
     console.log("No se proporcionó ninguna URL.");
     return;
@@ -22,7 +22,7 @@ async function main(url) {
   return basketballHrefs; 
 }
 
-async function extractBasketballHrefs(url) {
+async function extractBasketballHrefs(url) { // Marcamos extractBasketballHrefs como async
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   try {
@@ -50,6 +50,6 @@ const urlToScrape = urlArgIndex !== -1 ? process.argv[urlArgIndex + 1] : null;
 if (!urlToScrape) {
   console.error('Error: No se proporcionó ninguna URL. Por favor, use el argumento --url.');
 } else {
-  const basketballUrls = await main(urlToScrape); // Obtener las URLs utilizando la función main
+  const basketballUrls = await getUrls(urlToScrape); // Llamamos a getUrls en lugar de main
   console.log("Basketball URLs:", basketballUrls); // Imprimir la lista de URLs
 }

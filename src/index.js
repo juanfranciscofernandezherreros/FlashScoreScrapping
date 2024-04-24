@@ -16,6 +16,7 @@ import {
   let league = null;
   let newUrl = null;
   let ids = null;
+  let action = null;
   let includeMatchData = false;
   let includeStatsPlayer = false;
   let includeStatsMatch = false;
@@ -24,6 +25,8 @@ import {
   process.argv.slice(2).forEach(arg => {
     if (arg.includes("country="))
       country = arg.split("country=")?.[1] ?? country;
+      if (arg.includes("action="))
+      action = arg.split("action=")?.[1] ?? action;
     if (arg.includes("newUrl=")) {
       const newUrlArg = arg.split("newUrl=")?.[1];
       if (newUrlArg) {
@@ -104,14 +107,27 @@ import {
     }
   } else {
     console.log("New URL is not provided. It's null or empty.");
-    console.log("Argument country ", country);
-    console.log("Argument league ", league);
-    const allMatchIdLists = await getMatchIdList(browser, country, league);
-    console.log("Generando archivo CSV...");
-    const fechaActual = new Date();
-    const formattedFecha = formatFecha(fechaActual);
-    const nombreArchivo = `src/csv/RESULTS_${formattedFecha}_${country}_${league}`;
-    generateCSVData(allMatchIdLists.eventDataList, nombreArchivo);
+    if(action=="results"){
+      console.log("Argument country ", country);
+      console.log("Argument league ", league);
+      const allMatchIdLists = await getMatchIdList(browser, country, league);
+      console.log("Generando archivo CSV...");
+      const fechaActual = new Date();
+      const formattedFecha = formatFecha(fechaActual);
+      const nombreArchivo = `src/csv/RESULTS_${formattedFecha}_${country}_${league}`;
+      generateCSVData(allMatchIdLists.eventDataList, nombreArchivo);
+    }
+    if(action=="fixtures"){
+      console.log("Fixtures");
+      console.log("Argument country ", country);
+      console.log("Argument league ", league);
+      const allFixturesLists = await getFixtures(browser, country, league);
+      const fechaActual = new Date();
+      const formattedFecha = formatFecha(fechaActual);
+      const nombreArchivo = `src/csv/FIXTURES_${formattedFecha}_${country}_${league}`;
+      generateCSVData(allFixturesLists, nombreArchivo);
+    }
+    
   }
 
   await browser.close();

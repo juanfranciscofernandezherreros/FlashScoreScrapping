@@ -14,3 +14,10 @@ npm run start ids=g_3_IHW1gRfp includeStatsMatch=true headless
 npm run start ids=g_3_IHW1gRfp includeStatsMatch=true headless
 
 npm run start ids=g_3_IHW1gRfp includePointByPoint=true headless
+
+docker build -t nombre_imagen .
+
+docker run --rm docker-ppt npm run start-urls -- --url https://www.flashscore.com/basketball/spain/acb
+
+docker run --rm docker-ppt npm run start-urls -- --url https://www.flashscore.com/basketball/spain/acb
+

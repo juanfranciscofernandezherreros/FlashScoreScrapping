@@ -27,8 +27,8 @@ export const getMatchIdList = async (browser, country, league) => {
       (element) => {
         const matchId = element?.id?.replace('g_1_', '');
         const eventTime = element.querySelector('.event__time').textContent.trim();
-        const homeTeamElement = element.querySelector('.event__participant.event__participant--away');
-        const awayTeamElement = element.querySelector('.event__participant.event__participant--home');
+        const homeTeamElement = element.querySelector('.event__participant.event__participant--home');
+        const awayTeamElement = element.querySelector('.event__participant.event__participant--away');
         const homeScoreElement = element.querySelector('.event__score.event__score--home');
         const awayScoreElement = element.querySelector('.event__score.event__score--away');
         const homeScore1Element = element.querySelector('.event__part.event__part--home.event__part--1');

@@ -1,16 +1,22 @@
 {
-  "name": "flashscore-scraping",
+  "name": "docker-ppt",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple project for testing how to run puppeteer in a docker container",
+  "main": "puppeteer-script.js",
   "type": "module",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "start-urls": "node src/urls.js",
-    "start-results":"node runScript.cjs"
+    "start-urls": "node src/urls.js"
   },
+  "keywords": [
+    "puppeteer",
+    "docker",
+    "container"
+  ],
+  "author": "Apify",
+  "license": "ISC",
   "dependencies": {
-    "puppeteer": "^20.8.3"
-  },
-  "author": "",
-  "license": "MIT"
+    "puppeteer": "^22.6.5"
+  }
 }
