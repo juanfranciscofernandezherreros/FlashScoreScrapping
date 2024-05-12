@@ -1,7 +1,7 @@
 import puppeteer from "puppeteer";
 import { generateCSVData, generateCSVSummary, generateCSVPlayerStats, generateCSVStatsMatch , generateCSVPointByPoint } from "./csvGenerator.js";
 import { formatFecha } from "./fecha.js";
-
+import {readAllCsv} from "./readAllCsv.js";
 import {
   getMatchIdList,
   getFixtures,
@@ -65,10 +65,10 @@ import {
     }
     if (includeStatsMatch) {
       console.log("INCLUDE STATS MATCH", includeStatsMatch);
-      for (let i = 0; i <= 5; i++) {
+      for (let i = 0; i <= 4; i++) {
           const allStatsMatch = await getStatsMatch(browser, modifiedIds, i);
           const nombreArchivo = `src/csv/STATS_MATCH_${ids}_${i}`;
-          generateCSVStatsMatch(allStatsMatch, nombreArchivo);
+          generateCSVStatsMatch(allStatsMatch,nombreArchivo,ids);
       }
     }
 
@@ -77,7 +77,7 @@ import {
       for (let i = 0; i <= 4; i++) {
           const allPointByPoint = await getPointByPoint(browser, modifiedIds, i);
           const nombreArchivo = `src/csv/POINT_BY_POINT_${ids}_${i}`;
-          generateCSVPointByPoint(allPointByPoint,nombreArchivo);
+          generateCSVPointByPoint(allPointByPoint,nombreArchivo,ids);
         }
     }
   
@@ -131,4 +131,5 @@ import {
   }
 
   await browser.close();
+
 })();

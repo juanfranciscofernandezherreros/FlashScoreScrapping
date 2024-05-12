@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "start-urls": "node src/urls.js"
+    "start-urls": "node src/urls.js",
+    "read-csv": "node src/readAllCsv.js"
   },
   "keywords": [
     "puppeteer",
@@ -17,6 +18,7 @@
   "author": "Apify",
   "license": "ISC",
   "dependencies": {
+    "csv-parser": "^3.0.0",
     "puppeteer": "^22.6.5"
   }
 }

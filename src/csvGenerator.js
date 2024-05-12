@@ -113,38 +113,29 @@ export function generateCSVPlayerStats(data, fileName) {
 }
 
 export function generateCSVStatsMatch(data, fileName) {
-  console.log("generateCSVStatsMatch");
+  // Agregar títulos a las columnas
+  const columnTitles = 'Home Score,Category,Away Score\n';
+  const csvData = columnTitles + data;
 
-  if (!data || data.length === 0) {
-    console.log("No hay datos para generar el archivo CSV.");
-    return;
-  }
-
-  // Encabezados de las columnas
-  const headers = ['Category Name', 'Home Value', 'Away Value'];
-  const rows = data.map(item => {
-    const values = [item.categoryName, item.homeValue, item.awayValue];
-    return values.join(",");
-  });
-
-  // Contenido completo del CSV
-  const csvContent = [headers.join(","), ...rows].join("\n");
-
-  // Escribir en el archivo
-  fs.writeFile(`${fileName}.csv`, csvContent, (err) => {
+  fs.writeFile(fileName + '.csv', csvData, (err) => {
     if (err) {
       console.error('Error al escribir el archivo CSV:', err);
-      return;
+    } else {
+      console.log('Archivo CSV generado exitosamente:', fileName + '.csv');
     }
-    console.log(`Los datos se han exportado correctamente a ${fileName}.csv`);
   });
 }
 
 // Función para generar el archivo CSV.
-export function generateCSVPointByPoint(data, fileName) {
-  console.log("generateCSVPointByPoint");
-  // Formatea los datos en formato CSV.
-  const csvData = data.map(item => item.score).join('\n');
+export function generateCSVPointByPoint(data, fileName, ids) {
+  console.log("generateCSVPointByPoint", ids);
+  
+  // Formatea los datos en formato CSV con el ID añadido a cada línea sin los números secuenciales.
+  const csvData = data.map((item, index) => `${ids},${item.score}`).join('\n');
+  
+  // Imprime el ID antes de escribir los datos en el archivo CSV.
+  console.log('ID:', ids);
+  
   // Escribe los datos en un archivo CSV.
   fs.writeFile(fileName + '.csv', csvData, (err) => {
       if (err) {

@@ -3,6 +3,7 @@ import path from "path";
 
 import { BASE_URL } from "../constants/index.js";
 import { match } from "assert";
+import { clearScreenDown } from "readline";
 
 export const getMatchIdList = async (browser, country, league) => {
   const page = await browser.newPage();
@@ -29,7 +30,7 @@ export const getMatchIdList = async (browser, country, league) => {
         const eventTime = element.querySelector('.event__time').textContent.trim();
         const homeTeamElement = element.querySelector('.event__participant.event__participant--home');
         const awayTeamElement = element.querySelector('.event__participant.event__participant--away');
-        const homeScoreElement = element.querySelector('.event__score.event__score--home');
+        const homeScoreElement = element.querySelector('.event__score.event__score--home');clearScreenDown
         const awayScoreElement = element.querySelector('.event__score.event__score--away');
         const homeScore1Element = element.querySelector('.event__part.event__part--home.event__part--1');
         const homeScore2Element = element.querySelector('.event__part.event__part--home.event__part--2');
@@ -203,51 +204,38 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
   const url = `${BASE_URL}/match/${matchId}/#/match-summary/match-statistics/${playerIndex}`;
   console.log(url);
   await page.goto(url);
+  
+  await page.waitForSelector('._homeValue_1yjv7_9');
+  await page.waitForSelector('._awayValue_1yjv7_13');
+  await page.waitForSelector('._category_s50mx_4');
 
-  try {
-    // Espera a que se carguen los elementos de interés
-    await page.waitForSelector('div.sectionHeader');
+  const matchData = await page.evaluate(() => {
+    const homeRows = document.querySelectorAll('._homeValue_1yjv7_9');
+    const awayRows = document.querySelectorAll('._awayValue_1yjv7_13');
+    const categoryElements = document.querySelectorAll('._category_s50mx_4');
 
-    // Obtiene el contenido HTML de la sección de estadísticas
-    const content = await page.$$eval('div._row_n1rcj_9', rows => {
-      // Crea un mapa para almacenar los datos de todas las filas
-      const rowDataMap = new Map();
+    const csvRows = [];
 
-      // Itera sobre cada fila
-      rows.forEach(row => {
-        // Encuentra todos los elementos hijos que tengan el atributo data-testid
-        const testIds = Array.from(row.querySelectorAll('[data-testid]'))
-          .map(element => element.getAttribute('data-testid'));
-
-        // Obtiene el texto de la categoría y los valores local y visitante
-        const categoryName = row.querySelector('div._category_1vze3_5 strong').textContent.trim();
-        const homeValue = row.querySelector('div._homeValue_bwnrp_10 strong').textContent.trim();
-        const awayValue = row.querySelector('div._awayValue_bwnrp_14 strong').textContent.trim();
-
-        // Verifica si ya existe un objeto con el mismo testIds
-        if (!rowDataMap.has(testIds)) {
-          // Agrega los datos de la fila al mapa
-          rowDataMap.set(testIds, { testIds, categoryName, homeValue, awayValue });
-        }
-      });
-
-      // Devuelve los valores del mapa como un array
-      return Array.from(rowDataMap.values());
+    homeRows.forEach((homeRow, index) => {
+      const homeScore = homeRow.textContent.trim();
+      const awayScore = awayRows[index].textContent.trim();
+      const category = categoryElements[index].textContent.trim();
+      const csvRow = `${homeScore},${category},${awayScore}`;
+      csvRows.push(csvRow);
     });
 
-    // Devuelve los datos de la sección de estadísticas
-    return content;
-  } catch (error) {
-    console.error("Error al obtener las estadísticas del partido:", error);
-    return null; // Devuelve null en caso de error
-  } finally {
-    // Cierra la página después de obtener el contenido
-    await page.close();
-  }
+    return csvRows.join('\n');
+  });
+
+  // Cerrar la página después de haber recopilado los datos
+  await page.close();
+  
+  // Cerrar el navegador después de cerrar la página
+  await browser.close();
+  
+  // Devolver los datos serializados como CSV
+  return matchData;
 };
-
-
-
 
 
 export const getDateMatch = async (browser, matchId) => {
