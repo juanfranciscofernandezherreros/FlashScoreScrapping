@@ -9,29 +9,49 @@ export const getMatchIdList = async (browser, country, league) => {
   const page = await browser.newPage();
   const url = `${BASE_URL}/basketball/${country}/${league}/results/`;
   await page.goto(url);
-  console.log(url);  
-  while (true) {
-    try {
-      await page.evaluate(async (_) => {
-        await new Promise((resolve) => setTimeout(resolve, 1500));
-        const element = document.querySelector('a.event__more.event__more--static');
-        element.scrollIntoView();
-        element.click();
-      });
-    } catch (error) {
-      break;
-    }
+
+  try {
+    await autoScroll(page);
+  } catch (error) {
+    console.error("Error while scrolling:", error);
   }
 
-  const eventDataList = await page.evaluate((_) => {
-    return Array.from(document.querySelectorAll('.event__match.event__match--static.event__match--twoLine')).map(
-      (element) => {
+  const eventDataList = await extractEventData(page);
+
+  await page.close();
+  return { eventDataList };
+};
+
+async function autoScroll(page) {
+  await page.evaluate(async () => {
+    await new Promise((resolve) => {
+      let totalHeight = 0;
+      const distance = 100;
+      const scrollInterval = setInterval(() => {
+        const scrollHeight = document.body.scrollHeight;
+        window.scrollBy(0, distance);
+        totalHeight += distance;
+
+        if (totalHeight >= scrollHeight) {
+          clearInterval(scrollInterval);
+          resolve();
+        }
+      }, 100);
+    });
+  });
+}
+
+async function extractEventData(page) {
+  return await page.evaluate(() => {
+    const eventDataList = [];
+    const eventElements = document.querySelectorAll('.event__match.event__match--static.event__match--twoLine');
+    eventElements.forEach((element) => {
         const matchId = element?.id?.replace('g_1_', '');
         const eventTime = element.querySelector('.event__time').textContent.trim();
-        const homeTeamElement = element.querySelector('.event__participant.event__participant--home');
-        const awayTeamElement = element.querySelector('.event__participant.event__participant--away');
-        const homeScoreElement = element.querySelector('.event__score.event__score--home');clearScreenDown
-        const awayScoreElement = element.querySelector('.event__score.event__score--away');
+        const homeTeam = element.querySelector('.event__participant.event__participant--home')?.textContent.trim() || null;
+        const awayTeam = element.querySelector('.event__participant.event__participant--away')?.textContent.trim() || null;
+        const homeScore = element.querySelector('.event__score.event__score--home')?.textContent.trim() || null;
+        const awayScore = element.querySelector('.event__score.event__score--away')?.textContent.trim() || null;        
         const homeScore1Element = element.querySelector('.event__part.event__part--home.event__part--1');
         const homeScore2Element = element.querySelector('.event__part.event__part--home.event__part--2');
         const homeScore3Element = element.querySelector('.event__part.event__part--home.event__part--3');
@@ -42,11 +62,6 @@ export const getMatchIdList = async (browser, country, league) => {
         const awayScore3Element = element.querySelector('.event__part.event__part--away.event__part--3');
         const awayScore4Element = element.querySelector('.event__part.event__part--away.event__part--4');
         const awayScore5Element = element.querySelector('.event__part.event__part--away.event__part--5');
-  
-        const homeTeam = homeTeamElement ? homeTeamElement.textContent.trim() : null;
-        const awayTeam = awayTeamElement ? awayTeamElement.textContent.trim() : null;
-        const homeScore = homeScoreElement ? homeScoreElement.textContent.trim() : null;
-        const awayScore = awayScoreElement ? awayScoreElement.textContent.trim() : null;
         const homeScore1 = homeScore1Element ? homeScore1Element.textContent.trim() : null;
         const homeScore2 = homeScore2Element ? homeScore2Element.textContent.trim() : null;
         const homeScore3 = homeScore3Element ? homeScore3Element.textContent.trim() : null;
@@ -57,17 +72,12 @@ export const getMatchIdList = async (browser, country, league) => {
         const awayScore3 = awayScore3Element ? awayScore3Element.textContent.trim() : null;
         const awayScore4 = awayScore4Element ? awayScore4Element.textContent.trim() : null;
         const awayScore5 = awayScore5Element ? awayScore5Element.textContent.trim() : null;
-  
-        return { matchId, eventTime, homeTeam, awayTeam, homeScore, awayScore, homeScore1, homeScore2, homeScore3, homeScore4, homeScore5, awayScore1, awayScore2, awayScore3, awayScore4, awayScore5 };
-      }
-    );
+      eventDataList.push({ matchId, eventTime, homeTeam, awayTeam, homeScore, awayScore,homeScore1 , homeScore2 , homeScore3 , homeScore4 , homeScore5 ,awayScore1,awayScore2,awayScore3,awayScore4,awayScore5 });
+    });
+
+    return eventDataList;
   });
-  
-
-
-  await page.close();
-  return { eventDataList };
-};
+}
 
 
 export const getFixtures = async (browser, country, league) => {
