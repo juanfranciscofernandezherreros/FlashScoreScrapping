@@ -116,13 +116,29 @@ export function generateCSVStatsMatch(data, fileName) {
   // Agregar títulos a las columnas
   const columnTitles = 'Home Score,Category,Away Score\n';
   const csvData = columnTitles + data;
-
   fs.writeFile(fileName + '.csv', csvData, (err) => {
     if (err) {
       console.error('Error al escribir el archivo CSV:', err);
     } else {
       console.log('Archivo CSV generado exitosamente:', fileName + '.csv');
     }
+  });
+}
+export function generateCSVDataResults(data, nombreArchivo) {
+  if (!data || data.length === 0) {
+    console.log("No hay datos para generar el archivo CSV.");
+    return;
+  }
+
+  const headers = Object.keys(data[0]);
+  const csvContent = data.map(obj =>
+    headers.map(key => obj[key]).join(",")
+  ).join("\n");
+  const headerRow = headers.join(",") + "\n";
+  const csvData = headerRow + csvContent;
+  fs.writeFile(`${nombreArchivo}.csv`, csvData, (err) => {
+    if (err) throw err;
+    console.log('Los datos se han exportado correctamente a results.csv');
   });
 }
 

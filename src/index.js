@@ -1,5 +1,5 @@
 import puppeteer from "puppeteer";
-import { generateCSVData, generateCSVSummary, generateCSVPlayerStats, generateCSVStatsMatch , generateCSVPointByPoint } from "./csvGenerator.js";
+import { generateCSVData, generateCSVDataResults, generateCSVSummary, generateCSVPlayerStats, generateCSVStatsMatch , generateCSVPointByPoint } from "./csvGenerator.js";
 import { formatFecha } from "./fecha.js";
 import {readAllCsv} from "./readAllCsv.js";
 import {
@@ -91,8 +91,8 @@ import {
       console.log("Generando archivo CSV...");
       const fechaActual = new Date();
       const formattedFecha = formatFecha(fechaActual);
-      const nombreArchivo = `src/csv/RESULTS_${formattedFecha}_${country}_${league}`;
-      generateCSVData(allMatchIdLists.eventDataList, nombreArchivo);
+      const nombreArchivo = `src/csv/results/RESULTS_${formattedFecha}_${country}_${league}`;
+      generateCSVDataResults(allMatchIdLists.eventDataList, nombreArchivo);
     } else if (newUrl.includes("fixtures")) {
       console.log("FIXTURES");
       const urlParts = newUrl.split("/");
@@ -114,8 +114,8 @@ import {
       console.log("Generando archivo CSV...");
       const fechaActual = new Date();
       const formattedFecha = formatFecha(fechaActual);
-      const nombreArchivo = `src/csv/RESULTS_${formattedFecha}_${country}_${league}`;
-      generateCSVData(allMatchIdLists.eventDataList, nombreArchivo);
+      const nombreArchivo = `src/csv/results/RESULTS_${formattedFecha}_${country}_${league}`;
+      generateCSVDataResults(allMatchIdLists.eventDataList, nombreArchivo);
     }
     if(action=="fixtures"){
       console.log("Fixtures");
