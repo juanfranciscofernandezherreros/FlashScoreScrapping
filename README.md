@@ -7,7 +7,7 @@ npm run start country=spain league=acb action=results generateCSV=true headless
 
 npm run start ids=g_3_Uix0vJJK includeMatchData=true headless
 
-npm run start ids=g_3_Uix0vJJK includeStatsPlayer=true headless OK
+npm run start ids=g_3_0A5LCOZF includeStatsPlayer=true headless
  
 npm run start ids=g_3_Uix0vJJK includeStatsMatch=true headless NO
 

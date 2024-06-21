@@ -60,7 +60,7 @@ import {
     if (includeStatsPlayer) {
       console.log("INCLUDE STATS PLAYER", includeStatsPlayer);
       const allStatsPlayer = await getStatsPlayer(browser, modifiedIds);
-      const nombreArchivo = `src/csv/STATS_PLAYER_${ids}`;
+      const nombreArchivo = `src/csv/STATS_PLAYER_${ids}.csv`;
       generateCSVPlayerStats(allStatsPlayer, nombreArchivo);
     }
     if (includeStatsMatch) {
