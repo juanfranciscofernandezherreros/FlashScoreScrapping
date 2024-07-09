@@ -17,9 +17,8 @@ export const getMatchIdList = async (browser, country, league) => {
   }
 
   const eventDataList = await extractEventData(page);
-
   await page.close();
-  return { eventDataList };
+  return { eventDataList};
 };
 
 async function autoScroll(page) {
@@ -212,17 +211,16 @@ export const getStatsPlayer = async (browser, matchId) => {
 export const getStatsMatch = async (browser, matchId, playerIndex) => {
   const page = await browser.newPage();    
   const url = `${BASE_URL}/match/${matchId}/#/match-summary/match-statistics/${playerIndex}`;
-  console.log(url);
-  await page.goto(url);
   
-  await page.waitForSelector('._homeValue_1yjv7_9');
-  await page.waitForSelector('._awayValue_1yjv7_13');
-  await page.waitForSelector('._category_s50mx_4');
+  await page.goto(url, { waitUntil: 'networkidle2' });
+  await page.waitForSelector('._value_1jbkc_4._homeValue_1jbkc_9', { timeout: 5000 });
+  await page.waitForSelector('._value_1jbkc_4._awayValue_1jbkc_13', { timeout: 5000 });
+  await page.waitForSelector('._category_1ague_4', { timeout: 5000 });
 
   const matchData = await page.evaluate(() => {
-    const homeRows = document.querySelectorAll('._homeValue_1yjv7_9');
-    const awayRows = document.querySelectorAll('._awayValue_1yjv7_13');
-    const categoryElements = document.querySelectorAll('._category_s50mx_4');
+    const homeRows = document.querySelectorAll('._value_1jbkc_4._homeValue_1jbkc_9');
+    const awayRows = document.querySelectorAll('._value_1jbkc_4._awayValue_1jbkc_13');
+    const categoryElements = document.querySelectorAll('._category_1ague_4');
 
     const csvRows = [];
 
@@ -237,13 +235,7 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
     return csvRows.join('\n');
   });
 
-  // Cerrar la página después de haber recopilado los datos
   await page.close();
-  
-  // Cerrar el navegador después de cerrar la página
-  await browser.close();
-  
-  // Devolver los datos serializados como CSV
   return matchData;
 };
 
@@ -252,7 +244,6 @@ export const getDateMatch = async (browser, matchId) => {
   const match = matchId.split('_')[2];
   const page = await browser.newPage();
   const url = `${BASE_URL}/match/${match}/#/match-summary`;
-  console.log(url);
   await page.goto(url);
   
   // Espera a que los elementos estén presentes en el DOM y sean visibles
@@ -279,7 +270,7 @@ export const getDateMatch = async (browser, matchId) => {
     return { dates, teamNameLocal, teamLinkLocal, teamNameAway, teamLinkAway };
 });
 
-const matchHistoryRows = data.dates;
+const matchHistoryRows = data.dates; 
 const teamNameLocal = data.teamNameLocal;
 const teamLinkLocal = data.teamLinkLocal;
 const teamNameAway = data.teamNameAway;
@@ -290,7 +281,6 @@ const teamLinkAway = data.teamLinkAway;
 export const getPointByPoint = async (browser, matchId,playerIndex) => {
   const page = await browser.newPage();  
   const url = `${BASE_URL}/match/${matchId}/#/match-summary/point-by-point/${playerIndex}`;
-  console.log(url);
   await page.goto(url);
   await new Promise(resolve => setTimeout(resolve, 1500));
   // Use page.evaluate to interact with the page and extract data.

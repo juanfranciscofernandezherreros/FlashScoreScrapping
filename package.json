@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
     "start-urls": "node src/urls.js",
-    "read-csv": "node src/readAllCsv.js"
+    "read-csv": "node src/readAllCsv.js",
+    "results": "node src/competitionResults.cjs",
+    "fixtures": "node src/competitionFixtures.cjs"
   },
   "keywords": [
     "puppeteer",
