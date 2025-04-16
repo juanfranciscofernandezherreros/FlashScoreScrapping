@@ -64,9 +64,9 @@ const createFolderIfNotExist = (folderPath) => {
   }
 };
 
-const generateMatchCSVs = async (browser, match, folderPath, includeOptions) => {
+const generateMatchCSVs = async (browser, match, competitionFolderPath, includeOptions) => {
   const matchId = match.matchId.replace('g_3_', '');
-  const matchFolderPath = path.join(folderPath, match.matchId);
+  const matchFolderPath = path.join(competitionFolderPath, match.matchId);
   const matchUrl = `https://example.com/match/${matchId}`; // Replace with actual URL pattern
 
   createFolderIfNotExist(matchFolderPath);
@@ -125,6 +125,7 @@ const generateMatchCSVs = async (browser, match, folderPath, includeOptions) => 
     country: null,
     ids: null,
     league: null,
+    competition: null, // <-- Added to capture the competition name
     action: null,
     includeMatchData: false,
     includeStatsPlayer: false,
@@ -137,6 +138,7 @@ const generateMatchCSVs = async (browser, match, folderPath, includeOptions) => 
     if (arg.startsWith("country=")) args.country = arg.split("country=")[1];
     if (arg.startsWith("ids=")) args.ids = arg.split("ids=")[1];
     if (arg.startsWith("league=")) args.league = arg.split("league=")[1];
+    if (arg.startsWith("competition=")) args.competition = arg.split("competition=")[1]; // <-- Capturing the competition name
     if (arg.startsWith("action=")) args.action = arg.split("action=")[1];
     if (arg === "includeMatchData=true") args.includeMatchData = true;
     if (arg === "includeStatsPlayer=true") args.includeStatsPlayer = true;
@@ -147,6 +149,7 @@ const generateMatchCSVs = async (browser, match, folderPath, includeOptions) => 
   // Log all values to verify they are being captured correctly
   logInfo(`Country: ${args.country}`);
   logInfo(`League: ${args.league}`);
+  logInfo(`Competition: ${args.competition}`); // <-- Logging the competition name
   logInfo(`Action: ${args.action}`);
   logInfo(`Ids: ${args.ids}`);
   logInfo(`Include Match Data: ${args.includeMatchData}`);
@@ -156,11 +159,11 @@ const generateMatchCSVs = async (browser, match, folderPath, includeOptions) => 
 
   // Base folder path is always './src/csv'
   const baseFolderPath = path.join(process.cwd(), 'src', 'csv');
-  const folderName = args.country && args.league ? `${args.country}_${args.league}` : '';
-  const folderPath = path.join(baseFolderPath, folderName);
+  const folderName = args.competition ? args.competition : `${args.country}_${args.league}`;
+  const competitionFolderPath = path.join(baseFolderPath, 'results', folderName);
   const resultsFolderPath = path.join(baseFolderPath, 'results');
   const fixturesFolderPath = path.join(baseFolderPath, 'fixtures');
-  createFolderIfNotExist(folderPath);
+  createFolderIfNotExist(competitionFolderPath);
   createFolderIfNotExist(resultsFolderPath);
   createFolderIfNotExist(fixturesFolderPath);
 
@@ -180,7 +183,7 @@ const generateMatchCSVs = async (browser, match, folderPath, includeOptions) => 
         logInfo(`Processing match by ID: ${matchId}`);
         try {
           const match = { matchId: `${matchId}` }; // Modify as needed to match your match object structure
-          await generateMatchCSVs(browser, match, folderPath, includeOptions);
+          await generateMatchCSVs(browser, match, competitionFolderPath, includeOptions);
         } catch (error) {
           logError(matchId, args, `Error processing match ${matchId}: ${error.message}`);
         }
@@ -192,15 +195,14 @@ const generateMatchCSVs = async (browser, match, folderPath, includeOptions) => 
       logInfo(`Total matches found: ${allMatchIdLists.eventDataList.length}`);
       const fechaActual = new Date();
       const formattedFecha = formatFecha(fechaActual);
-      const nombreArchivo = path.join(resultsFolderPath, `RESULTS_${formattedFecha}_${args.country}_${args.league}.csv`);
+      const nombreArchivo = path.join(competitionFolderPath, `RESULTS_${formattedFecha}_${args.country}_${args.league}.csv`);
       generateCSVDataResults(allMatchIdLists.eventDataList, nombreArchivo.replace('.csv', ''));
       logInfo("Results CSV file generated.");
-
       for (const match of allMatchIdLists.eventDataList) {
         const matchId = match.matchId.replace('g_3_', '');
         logInfo(`Processing match: ${match.matchId} URL: https://example.com/match/${matchId}`);
         try {
-          await generateMatchCSVs(browser, match, folderPath, includeOptions);
+          await generateMatchCSVs(browser, match, competitionFolderPath, includeOptions);
         } catch (error) {
           logError(matchId, args, `Error processing match ${match.matchId} URL: https://example.com/match/${matchId}: ${error.message}`);
         }

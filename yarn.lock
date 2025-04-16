@@ -249,6 +249,14 @@ devtools-protocol@*, devtools-protocol@0.0.1262051:
   resolved "https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1262051.tgz"
   integrity sha512-YJe4CT5SA8on3Spa+UDtNhEqtuV6Epwz3OZ4HQVLhlRccpZ9/PAYk0/cy/oKxFKRrZPBUPyxympQci4yWNWZ9g==
 
+"docker-ppt@file:":
+  version "1.0.0"
+  resolved "file:"
+  dependencies:
+    csv-parser "^3.0.0"
+    docker-ppt "file:"
+    puppeteer "^22.6.5"
+
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"

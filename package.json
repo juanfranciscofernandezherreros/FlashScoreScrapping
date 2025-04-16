@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
+    "competitions": "node src/scrapeCountries.js",
     "read-csv": "node src/readAllCsv.js",
     "results": "node src/competitionResults.cjs",
     "fixtures": "node src/competitionFixtures.cjs"
@@ -20,6 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "csv-parser": "^3.0.0",
+    "docker-ppt": "file:",
     "puppeteer": "^22.6.5"
   }
 }
