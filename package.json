@@ -22,6 +22,6 @@
   "dependencies": {
     "csv-parser": "^3.0.0",
     "docker-ppt": "file:",
-    "puppeteer": "^22.6.5"
+    "puppeteer": "^21.3.8"
   }
 }
