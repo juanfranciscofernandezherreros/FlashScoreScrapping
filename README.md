@@ -13,4 +13,11 @@ npm run results -- spain acb-2005-2006 true false false false
 
 npm run fixtures -- world olympic-games
 
+docker build -t flashscore-ppt:v1 .
 
+docker run --rm ^
+  -v C:\output:/app/src/csv ^
+  flashscore-ppt:v1 start country=europe league=eurobasket-u20 action=results headless=true
+
+
+npm run start country=europe league=eurobasket-u20 action=fixtures headless
