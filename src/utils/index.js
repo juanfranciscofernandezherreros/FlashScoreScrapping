@@ -212,33 +212,46 @@ export const getStatsMatch = async (browser, matchId, playerIndex) => {
   const page = await browser.newPage();    
   const url = `${BASE_URL}/match/${matchId}/#/match-summary/match-statistics/${playerIndex}`;
   
-  await page.goto(url, { waitUntil: 'networkidle2' });
-  await page.waitForSelector('._value_1jbkc_4._homeValue_1jbkc_9', { timeout: 5000 });
-  await page.waitForSelector('._value_1jbkc_4._awayValue_1jbkc_13', { timeout: 5000 });
-  await page.waitForSelector('._category_1ague_4', { timeout: 5000 });
+  console.log(`➡️ Abriendo página de estadísticas de partido: ${url}`);
 
-  const matchData = await page.evaluate(() => {
-    const homeRows = document.querySelectorAll('._value_1jbkc_4._homeValue_1jbkc_9');
-    const awayRows = document.querySelectorAll('._value_1jbkc_4._awayValue_1jbkc_13');
-    const categoryElements = document.querySelectorAll('._category_1ague_4');
+  try {
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: 20000 });
+    console.log(`✅ Página cargada correctamente para matchId=${matchId}, playerIndex=${playerIndex}`);
 
-    const csvRows = [];
+    await page.waitForSelector('.wcl-homeValue_-iJBW strong[data-testid="wcl-scores-simpleText-01"]', { timeout: 8000 });
+    await page.waitForSelector('.wcl-awayValue_rQvxs strong[data-testid="wcl-scores-simpleText-01"]', { timeout: 8000 });
+    await page.waitForSelector('.wcl-category_7qsgP strong[data-testid="wcl-scores-simpleText-01"]', { timeout: 8000 });
+    console.log(`✅ Selectores encontrados correctamente para matchId=${matchId}, playerIndex=${playerIndex}`);
 
-    homeRows.forEach((homeRow, index) => {
-      const homeScore = homeRow.textContent.trim();
-      const awayScore = awayRows[index].textContent.trim();
-      const category = categoryElements[index].textContent.trim();
-      const csvRow = `${homeScore},${category},${awayScore}`;
-      csvRows.push(csvRow);
+    const matchData = await page.evaluate(() => {
+      const homeRows = document.querySelectorAll('.wcl-homeValue_-iJBW strong[data-testid="wcl-scores-simpleText-01"]');
+      const awayRows = document.querySelectorAll('.wcl-awayValue_rQvxs strong[data-testid="wcl-scores-simpleText-01"]');
+      const categoryElements = document.querySelectorAll('.wcl-category_7qsgP strong[data-testid="wcl-scores-simpleText-01"]');
+
+      const csvRows = [];
+
+      homeRows.forEach((homeRow, index) => {
+        const homeScore = homeRow?.textContent?.trim() ?? '';
+        const awayScore = awayRows[index]?.textContent?.trim() ?? '';
+        const category = categoryElements[index]?.textContent?.trim() ?? '';
+        const csvRow = `${homeScore},${category},${awayScore}`;
+        csvRows.push(csvRow);
+      });
+
+      return csvRows.join('\n');
     });
 
-    return csvRows.join('\n');
-  });
+    console.log(`✅ Datos de estadísticas del partido extraídos correctamente para matchId=${matchId}, playerIndex=${playerIndex}`);
+    return matchData;
 
-  await page.close();
-  return matchData;
+  } catch (error) {
+    console.error(`❌ Error al procesar las estadísticas del partido matchId=${matchId}, playerIndex=${playerIndex}: ${error.message}`);
+    return '';
+  } finally {
+    await page.close();
+    console.log(`📄 Página cerrada para matchId=${matchId}, playerIndex=${playerIndex}`);
+  }
 };
-
 
 export const getDateMatch = async (browser, matchId) => {
   const match = matchId.split('_')[2];
