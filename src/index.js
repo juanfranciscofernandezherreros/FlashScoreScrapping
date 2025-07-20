@@ -135,12 +135,15 @@ const generateMatchCSVs = async (browser, match, competitionFolderPath, includeO
   createFolderIfNotExist(resultsFolderPath);
   createFolderIfNotExist(fixturesFolderPath);
   createFolderIfNotExist(competitionFolderPath);
-
-  const browser = await puppeteer.launch({
-  headless: true,
+  
+const browser = await puppeteer.launch({
   executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
-  args: ['--no-sandbox', '--disable-setuid-sandbox']
-  });
+  headless: true,
+  args: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox'
+  ]
+});
 
   try {
     const includeOptions = {

@@ -8,37 +8,80 @@ import { clearScreenDown } from "readline";
 export const getMatchIdList = async (browser, country, league) => {
   const page = await browser.newPage();
   const url = `${BASE_URL}/basketball/${country}/${league}/results/`;
-  await page.goto(url);
+  await page.goto(url, { waitUntil: 'networkidle2' });
 
+  // 1. Aceptar cookies
+  const cookieButtonSelector = 'button#onetrust-accept-btn-handler';
+  try {
+    await page.waitForSelector(cookieButtonSelector, { timeout: 3000 });
+    await page.click(cookieButtonSelector);
+    console.log("[INFO] Cookies aceptadas");
+    await new Promise(resolve => setTimeout(resolve, 1000));
+  } catch {
+    console.log("[INFO] No se mostró el banner de cookies");
+  }
+
+  // 2. Hacer clic repetidamente en "Show more matches"
+  const showMoreSelector = 'a[data-testid="wcl-buttonLink"] span';
+
+  let keepClicking = true;
+  let clickCount = 0;
+
+  while (keepClicking) {
+    try {
+      const isVisible = await page.$eval(showMoreSelector, el =>
+        el.offsetParent !== null && el.textContent.includes("Show more matches")
+      ).catch(() => false);
+
+      if (!isVisible) {
+        keepClicking = false;
+        console.log("[INFO] No hay más partidos que mostrar");
+        break;
+      }
+
+      await page.click(showMoreSelector);
+      clickCount++;
+      console.log(`[INFO] Click número ${clickCount} en "Show more matches"`);
+
+      await new Promise(resolve => setTimeout(resolve, 1500));
+    } catch (error) {
+      console.warn("[WARN] Error al hacer clic en 'Show more matches':", error.message);
+      break;
+    }
+  }
+
+  // 3. Scroll automático
   try {
     await autoScroll(page);
   } catch (error) {
     console.error("Error while scrolling:", error);
   }
 
+  // 4. Extraer datos
   const eventDataList = await extractEventData(page);
   await page.close();
-  return { eventDataList};
+  return { eventDataList };
 };
 
-async function autoScroll(page) {
+export async function autoScroll(page) {
   await page.evaluate(async () => {
     await new Promise((resolve) => {
       let totalHeight = 0;
       const distance = 100;
-      const scrollInterval = setInterval(() => {
+      const timer = setInterval(() => {
         const scrollHeight = document.body.scrollHeight;
         window.scrollBy(0, distance);
         totalHeight += distance;
 
         if (totalHeight >= scrollHeight) {
-          clearInterval(scrollInterval);
+          clearInterval(timer);
           resolve();
         }
-      }, 100);
+      }, 200);
     });
   });
 }
+
 
 async function extractEventData(page) {
   return await page.evaluate(() => {
