@@ -7,7 +7,8 @@ import {
   generateCSVPlayerStats,
   generateCSVStatsMatch,
   generateCSVData,
-  generateCSVPointByPoint
+  generateCSVPointByPoint,
+  getCountriesMenu
 } from "./csvGenerator.js";
 import { formatFecha } from "./fecha.js";
 import {
@@ -43,7 +44,6 @@ const createFolderIfNotExist = (folderPath) => {
 const generateMatchCSVs = async (browser, match, competitionFolderPath, includeOptions) => {
   const matchId = match.matchId.replace('g_3_', '');
   const matchFolderPath = competitionFolderPath;
-  const matchUrl = `https://example.com/match/${matchId}`;
 
   createFolderIfNotExist(matchFolderPath);
 
@@ -135,15 +135,15 @@ const generateMatchCSVs = async (browser, match, competitionFolderPath, includeO
   createFolderIfNotExist(resultsFolderPath);
   createFolderIfNotExist(fixturesFolderPath);
   createFolderIfNotExist(competitionFolderPath);
-  
-const browser = await puppeteer.launch({
-  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
-  headless: true,
-  args: [
-    '--no-sandbox',
-    '--disable-setuid-sandbox'
-  ]
-});
+
+  const browser = await puppeteer.launch({
+    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
+    headless: true,
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox'
+    ]
+  });
 
   try {
     const includeOptions = {
@@ -186,6 +186,11 @@ const browser = await puppeteer.launch({
       const filePath = path.join(fixturesFolderPath, `FIXTURES_${args.country}_${args.league}.csv`);
       generateCSVData(fixtures, filePath.replace('.csv', ''));
       logInfo("Generated FIXTURES file.");
+    } else if (args.action === "menu") {
+      const countries = await getCountriesMenu(browser);
+      const filePath = path.join(baseFolderPath, `MENU_${getFormattedDate()}.csv`);
+      generateCSVFromObject(countries, filePath.replace('.csv', ''));
+      logInfo(`Generated MENU file with ${countries.length} entries`);
     }
   } catch (error) {
     logError('N/A', args, error.message);

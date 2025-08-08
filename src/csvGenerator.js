@@ -1,5 +1,7 @@
 import fs from "fs";
 
+const BASE_URL = "https://www.flashscore.com";
+
 export function generateCSVData(data, nombreArchivo) {
   if (!data || data.length === 0) {
     console.log("No data to generate CSV file.");
@@ -99,3 +101,69 @@ export const generateCSVFromObject = (data, filePath) => {
   fs.writeFileSync(`${filePath}.csv`, csvContent, 'utf8');
   console.log(`CSV file created at ${filePath}.csv`);
 };
+
+export const getCountriesMenu = async (browser) => {
+  const page = await browser.newPage();
+  const url = `${BASE_URL}/basketball/`;
+  await page.goto(url, { waitUntil: "domcontentloaded" });
+
+  try {
+    await page.waitForSelector("div.lmc__block a.lmc__element");
+
+    const showMoreSelector = "span.lmc__itemMore";
+    while (true) {
+      const showMoreButton = await page.$(showMoreSelector);
+      if (!showMoreButton) break;
+
+      const visible = await page.evaluate(el =>
+        el.offsetParent !== null && el.textContent.includes("Show more"),
+        showMoreButton
+      ).catch(() => false);
+      if (!visible) break;
+
+      const prevCount = await page.$$eval("div.lmc__block a.lmc__element", els => els.length);
+      await showMoreButton.click();
+
+      await page.waitForFunction(
+        prev => document.querySelectorAll("div.lmc__block a.lmc__element").length > prev,
+        {}, prevCount
+      ).catch(() => {});
+    }
+
+    const result = await page.evaluate(() => {
+      const BASE = "https://www.flashscore.com";
+      const blocks = document.querySelectorAll("div.lmc__block");
+
+      return Array.from(blocks).flatMap(block => {
+        const links = block.querySelectorAll("a.lmc__element");
+        if (links.length === 0) return [];
+
+        const countryLink = links[0];
+        const countryName = countryLink.querySelector(".lmc__elementName")?.textContent?.trim() || "";
+
+        return Array.from(links)
+          .slice(1) // Ignorar el primer enlace (el país)
+          .map(link => {
+            const leagueName = link.querySelector(".lmc__elementName")?.textContent?.trim() || "";
+            const href = link.getAttribute("href");
+            const fullUrl = BASE + (href.startsWith("/") ? href : `/basketball${href}`);
+            return {
+              country: countryName,
+              league: leagueName,
+              url: fullUrl
+            };
+          });
+      });
+    });
+
+    console.log(`[INFO] Se extrajeron ${result.length} ligas con URL /basketball/...`);
+    return result;
+  } catch (error) {
+    console.error("[ERROR] getCountriesAndLeaguesMenu:", error.message);
+    return [];
+  } finally {
+    await page.close();
+  }
+};
+
+
