@@ -1,15 +1,3 @@
-// index.js
-
-import { getUrls } from '../script';
-
-async function runScript() {
-  try {
-    const browser = await puppeteer.launch();
-    await getUrls(browser);
-    await browser.close();
-  } catch (error) {
-    console.error('Error running script:', error);
-  }
-}
-
-runScript();
+// Placeholder for future tests.
+// To add tests, install a test framework (e.g. jest or mocha) and update
+// the "test" script in package.json accordingly.

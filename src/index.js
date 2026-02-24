@@ -3,10 +3,10 @@ import path from 'path';
 import puppeteer from "puppeteer";
 import {
   generateCSVDataResults,
+  generateCSVData,
   generateCSVFromObject,
   generateCSVPlayerStats,
   generateCSVStatsMatch,
-  generateCSVData,
   generateCSVPointByPoint,
   getCountriesMenu
 } from "./csvGenerator.js";
@@ -189,7 +189,7 @@ const generateMatchCSVs = async (browser, match, competitionFolderPath, includeO
     } else if (args.action === "menu") {
       const countries = await getCountriesMenu(browser);
       const filePath = path.join(baseFolderPath, `MENU_${getFormattedDate()}.csv`);
-      generateCSVFromObject(countries, filePath.replace('.csv', ''));
+      generateCSVData(countries, filePath.replace('.csv', ''));
       logInfo(`Generated MENU file with ${countries.length} entries`);
     }
   } catch (error) {

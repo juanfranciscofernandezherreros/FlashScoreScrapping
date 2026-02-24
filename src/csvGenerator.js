@@ -1,7 +1,5 @@
 import fs from "fs";
 
-const BASE_URL = "https://www.flashscore.com";
-
 export function generateCSVData(data, nombreArchivo) {
   if (!data || data.length === 0) {
     console.log("No data to generate CSV file.");
@@ -23,6 +21,10 @@ export function generateCSVData(data, nombreArchivo) {
 
 export function generateCSVPlayerStats(data, fileName) {
   console.log("generateCSVPlayerStats");
+  if (!data || data.length === 0 || !data[0].stats) {
+    console.log("No player stats data to generate CSV file.");
+    return;
+  }
   const headers = ['Name', ...Object.keys(data[0].stats)];
   const headerRow = headers.join(",") + "\n";
 

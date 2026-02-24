@@ -1,17 +1,16 @@
+import fs from 'fs';
+import csv from 'csv-parser';
+import path from 'path';
+
+const CSV_RESULTS_DIR = path.join(process.cwd(), 'src', 'csv', 'results');
+
 export const readAllCsv = async function readCSVFiles() {
-    const fs = require('fs');
-    const csv = require('csv-parser');
-    const path = require('path');
-
-    // Directorio donde se encuentran los archivos CSV
-    const directoryPath = './csv/s'; // Puedes ajustar esta ruta según la ubicación real de tus archivos CSV
-
     try {
-        const files = await fs.promises.readdir(directoryPath);
+        const files = await fs.promises.readdir(CSV_RESULTS_DIR);
 
         for (const file of files) {
             if (file.endsWith('.csv')) {
-                const fileStream = fs.createReadStream(path.join(directoryPath, file));
+                const fileStream = fs.createReadStream(path.join(CSV_RESULTS_DIR, file));
 
                 fileStream
                     .pipe(csv())
@@ -35,3 +34,5 @@ export const readAllCsv = async function readCSVFiles() {
         console.error('Error al leer los archivos CSV:', error);
     }
 };
+
+readAllCsv();
