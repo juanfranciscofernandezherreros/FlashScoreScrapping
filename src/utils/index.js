@@ -1,9 +1,4 @@
-import fs from "fs";
-import path from "path";
-
 import { BASE_URL } from "../constants/index.js";
-import { match } from "assert";
-import { clearScreenDown } from "readline";
 
 export const getMatchIdList = async (browser, country, league) => {
   const page = await browser.newPage();
