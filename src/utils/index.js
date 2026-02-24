@@ -81,9 +81,11 @@ export async function autoScroll(page) {
 async function extractEventData(page) {
   return await page.evaluate(() => {
     const eventDataList = [];
-    const eventElements = document.querySelectorAll('.event__match.event__match--static.event__match--twoLine');
+    const eventElements = document.querySelectorAll(
+      '.event__match.event__match--static.event__match--twoLine, .event__match.event__match--withRowLink.event__match--twoLine'
+    );
     eventElements.forEach((element) => {
-        const matchId = element?.id?.replace('g_1_', '');
+        const matchId = element?.id ? element.id.replace(/^g_\d+_/, '') : null;
         const eventTime = element.querySelector('.event__time').textContent.trim();
         const homeTeam = element.querySelector('.event__participant.event__participant--home')?.textContent.trim() || null;
         const awayTeam = element.querySelector('.event__participant.event__participant--away')?.textContent.trim() || null;
