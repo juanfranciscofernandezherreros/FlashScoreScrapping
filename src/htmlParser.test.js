@@ -94,6 +94,20 @@ assert(emptyCSV === "", "toCSV with empty array returns empty string");
 const nullCSV = toCSV(null);
 assert(nullCSV === "", "toCSV with null returns empty string");
 
+console.log("\nTest: toCSV escapes newlines in values");
+
+const dataWithNewlines = [{
+  País: "USA",
+  Liga: "NBA\nBasketball",
+  "Link Liga": "",
+  Partido: "Team A\r\nvs Team B",
+  Resultado: "VS",
+  Estado: "Scheduled",
+  "Link Partido": "",
+}];
+const csvNewlines = toCSV(dataWithNewlines);
+assert(!csvNewlines.includes("NBA\n"), "newlines in values are replaced");
+
 console.log("\nTest: extraerFlashscore with empty HTML");
 
 const emptyResults = extraerFlashscore("<html><body></body></html>");

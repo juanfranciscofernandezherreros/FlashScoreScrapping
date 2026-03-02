@@ -85,7 +85,9 @@ export function toCSV(data) {
   const rows = data.map((obj) =>
     headers
       .map((key) => {
-        const value = String(obj[key] ?? "").replace(/"/g, '""');
+        const value = String(obj[key] ?? "")
+          .replace(/"/g, '""')
+          .replace(/\r?\n/g, " ");
         return `"${value}"`;
       })
       .join(",")
