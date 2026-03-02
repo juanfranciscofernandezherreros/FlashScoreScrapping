@@ -5,9 +5,10 @@
   "main": "puppeteer-script.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node src/htmlParser.test.js",
     "start": "node src/index.js",
-    "read-csv": "node src/readAllCsv.js"
+    "read-csv": "node src/readAllCsv.js",
+    "parse-html": "node src/htmlParser.js"
   },
   "keywords": [
     "puppeteer",
@@ -17,6 +18,7 @@
   "author": "Apify",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.2.0",
     "csv-parser": "^3.0.0",
     "fs": "^0.0.1-security",
     "puppeteer": "^22.8.2"
